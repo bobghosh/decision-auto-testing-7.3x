@@ -114,8 +114,8 @@
 													<testItem name="Login_2" key="{CD7DD9A6-B49A-4527-A980-80D274B847DC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="URL" type="1" localVarName="Environment_URL" localVarLevel="1" value="" />
-															<param1 name="UserName" type="1" localVarName="" value="automation1" />
-															<param2 name="Password" type="1" localVarName="" value="Decision1" />
+															<param1 name="UserName" type="1" localVarName="UserName" localVarLevel="1" value="" />
+															<param2 name="Password" type="1" localVarName="Password" localVarLevel="1" value="" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
@@ -8046,7 +8046,7 @@
 					</DefValue>
 				</Variable>
 				<Variable Name="Environment_URL" Type="String" Local="False">
-					<DefValue StrValue="http://bdmsnlb:1989/dm/login.jsp" />
+					<DefValue StrValue="${Environment_URL}" />
 				</Variable>
 				<Variable Name="Additional_Info_Task_with_assets" Type="String" Local="True">
 					<DefValue />
