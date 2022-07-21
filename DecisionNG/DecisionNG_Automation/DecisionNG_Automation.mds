@@ -752,7 +752,7 @@
 															</testItem>
 														</children>
 													</testItem>
-													<testItem name="Test ID 6365_RFV Update Operand Formula &apos;Absolute&apos; with Numeric Value" key="{1FD3AD98-F112-4FA0-9130-678FD0C7A61D}" group="False" parallel="False" enabled="False" testMoniker="KDT\{215F0805-41E8-4BB6-AAD3-F35DFBACD143}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6365_RFV Update Operand Formula &apos;Absolute&apos; with Numeric Value" key="{1FD3AD98-F112-4FA0-9130-678FD0C7A61D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{215F0805-41E8-4BB6-AAD3-F35DFBACD143}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -766,7 +766,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6366_RFV Update Operand Formula &apos;Absolute&apos; with Fact Type" key="{52BEF2EA-58A2-4248-B452-03F50C251402}" group="False" parallel="False" enabled="False" testMoniker="KDT\{50137B90-0083-4CB5-A47B-3023876F461A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6366_RFV Update Operand Formula &apos;Absolute&apos; with Fact Type" key="{52BEF2EA-58A2-4248-B452-03F50C251402}" group="False" parallel="False" enabled="True" testMoniker="KDT\{50137B90-0083-4CB5-A47B-3023876F461A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -779,7 +779,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6368_RFV Update Operand Formula &apos;Average&apos; with Numeric Value" key="{30ACAF7A-DD94-4160-885D-90249270D237}" group="False" parallel="False" enabled="False" testMoniker="KDT\{88145699-3E37-4D0E-B53C-1B0F7F33198A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6368_RFV Update Operand Formula &apos;Average&apos; with Numeric Value" key="{30ACAF7A-DD94-4160-885D-90249270D237}" group="False" parallel="False" enabled="True" testMoniker="KDT\{88145699-3E37-4D0E-B53C-1B0F7F33198A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -792,7 +792,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6369_RFV Update Operand Formula &apos;Average&apos; with Fact Type" key="{DDE3B0CE-F285-4ACD-9291-05C4DD139515}" group="False" parallel="False" enabled="False" testMoniker="KDT\{877AE6B2-B4A2-47F7-984B-396BA083EA4E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6369_RFV Update Operand Formula &apos;Average&apos; with Fact Type" key="{DDE3B0CE-F285-4ACD-9291-05C4DD139515}" group="False" parallel="False" enabled="True" testMoniker="KDT\{877AE6B2-B4A2-47F7-984B-396BA083EA4E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -806,7 +806,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6372_Update Operand Formula &apos;CONCATENATE&apos; with Text" key="{31FE3716-8084-4078-8BE7-3A5B60DA9F6B}" group="False" parallel="False" enabled="False" testMoniker="KDT\{197BD0F8-8BFC-4726-8BE4-5350826D2F86}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6372_Update Operand Formula &apos;CONCATENATE&apos; with Text" key="{31FE3716-8084-4078-8BE7-3A5B60DA9F6B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{197BD0F8-8BFC-4726-8BE4-5350826D2F86}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -820,7 +820,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6374_RFV Update Operand Formula &apos;CONCATENATE&apos; with Fact Type" key="{B22C468F-45FE-48F8-88FA-E221E8082526}" group="False" parallel="False" enabled="False" testMoniker="KDT\{197BD0F8-8BFC-4726-8BE4-5350826D2F86}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6374_RFV Update Operand Formula &apos;CONCATENATE&apos; with Fact Type" key="{B22C468F-45FE-48F8-88FA-E221E8082526}" group="False" parallel="False" enabled="True" testMoniker="KDT\{197BD0F8-8BFC-4726-8BE4-5350826D2F86}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -834,7 +834,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6376_RFV Update Operand Formula &apos;DAY_ADD&apos; with Fact Type" key="{9F10A850-83D6-42E8-B24D-7C21CC318768}" group="False" parallel="False" enabled="False" testMoniker="KDT\{CF10584E-ED96-4B95-AF40-FA8681A26CE2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6376_RFV Update Operand Formula &apos;DAY_ADD&apos; with Fact Type" key="{9F10A850-83D6-42E8-B24D-7C21CC318768}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CF10584E-ED96-4B95-AF40-FA8681A26CE2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -848,7 +848,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6398_RFV Update Operand Formula &apos;INT&apos; with Numeric Value" key="{5D5CBE1B-E0B8-4D20-8CC9-8F021F8CA099}" group="False" parallel="False" enabled="False" testMoniker="KDT\{A9FE9941-8579-4411-A3A0-8677C717BBA2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6398_RFV Update Operand Formula &apos;INT&apos; with Numeric Value" key="{5D5CBE1B-E0B8-4D20-8CC9-8F021F8CA099}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A9FE9941-8579-4411-A3A0-8677C717BBA2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -862,7 +862,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6399_RFV Update Operand Formula &apos;INT&apos; with Fact Type" key="{C699E0F0-EC8F-4149-91CF-69446BB3A406}" group="False" parallel="False" enabled="False" testMoniker="KDT\{A9FE9941-8579-4411-A3A0-8677C717BBA2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6399_RFV Update Operand Formula &apos;INT&apos; with Fact Type" key="{C699E0F0-EC8F-4149-91CF-69446BB3A406}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A9FE9941-8579-4411-A3A0-8677C717BBA2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -876,7 +876,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6385_RFV Update Operand Formula &apos;DAY_ADD&apos; with Date and Numeric Values" key="{1768CA3B-FA88-4936-BEAE-D745CEABF2B2}" group="False" parallel="False" enabled="False" testMoniker="KDT\{CF10584E-ED96-4B95-AF40-FA8681A26CE2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6385_RFV Update Operand Formula &apos;DAY_ADD&apos; with Date and Numeric Values" key="{1768CA3B-FA88-4936-BEAE-D745CEABF2B2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CF10584E-ED96-4B95-AF40-FA8681A26CE2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -890,7 +890,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6388_RFV Update Operand Formula &apos;DAY&apos; with Date Value" key="{C4649D11-EBF0-4B09-A68B-3F5C8D752415}" group="False" parallel="False" enabled="False" testMoniker="KDT\{E8D2D832-3CC3-4C30-A6ED-D942C5D3EDE1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6388_RFV Update Operand Formula &apos;DAY&apos; with Date Value" key="{C4649D11-EBF0-4B09-A68B-3F5C8D752415}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E8D2D832-3CC3-4C30-A6ED-D942C5D3EDE1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -906,7 +906,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6389_RFV Update Operand Formula &apos;DAY&apos; with Fact Type " key="{00D5DAC6-9238-4191-AC2F-E8C02520C2AC}" group="False" parallel="False" enabled="False" testMoniker="KDT\{E8D2D832-3CC3-4C30-A6ED-D942C5D3EDE1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6389_RFV Update Operand Formula &apos;DAY&apos; with Fact Type " key="{00D5DAC6-9238-4191-AC2F-E8C02520C2AC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E8D2D832-3CC3-4C30-A6ED-D942C5D3EDE1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -922,7 +922,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6391_RFV Update Operand Formula &apos;DAY_DIFF&apos; with Date Value" key="{5412C410-ACD9-4771-A419-B663071BBCCD}" group="False" parallel="False" enabled="False" testMoniker="KDT\{3D39BCA8-7CB7-4EC7-8588-EB411327475E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6391_RFV Update Operand Formula &apos;DAY_DIFF&apos; with Date Value" key="{5412C410-ACD9-4771-A419-B663071BBCCD}" group="False" parallel="False" enabled="True" testMoniker="KDT\{3D39BCA8-7CB7-4EC7-8588-EB411327475E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -939,7 +939,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6392_RFV Update Operand Formula &apos;DAY_DIFF&apos; with Fact Type" key="{86F01E8E-B462-4384-A4B9-A306ECF65504}" group="False" parallel="False" enabled="False" testMoniker="KDT\{3D39BCA8-7CB7-4EC7-8588-EB411327475E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6392_RFV Update Operand Formula &apos;DAY_DIFF&apos; with Fact Type" key="{86F01E8E-B462-4384-A4B9-A306ECF65504}" group="False" parallel="False" enabled="True" testMoniker="KDT\{3D39BCA8-7CB7-4EC7-8588-EB411327475E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -956,7 +956,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6404_RFV Update Operand Formula &apos;IS_ALPHA&apos; with Text Value" key="{079067EF-055E-4741-9970-7FF90020F606}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8307FC66-41E2-4980-AACC-112499F2BBC6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6404_RFV Update Operand Formula &apos;IS_ALPHA&apos; with Text Value" key="{079067EF-055E-4741-9970-7FF90020F606}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8307FC66-41E2-4980-AACC-112499F2BBC6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -973,7 +973,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6405_RFV Update Operand Formula &apos;IS_ALPHA&apos; with Fact Type" key="{052D5010-2BFC-4668-93DE-7644E5417F34}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8307FC66-41E2-4980-AACC-112499F2BBC6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6405_RFV Update Operand Formula &apos;IS_ALPHA&apos; with Fact Type" key="{052D5010-2BFC-4668-93DE-7644E5417F34}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8307FC66-41E2-4980-AACC-112499F2BBC6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -990,7 +990,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6378_RFV Update Operand Formula &apos;COUNT&apos; with list Fact Type" key="{FCABA9FB-E7C9-4813-868E-A1B04F49BABB}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B781FB3E-851C-49DA-AEEC-44078CFE048E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6378_RFV Update Operand Formula &apos;COUNT&apos; with list Fact Type" key="{FCABA9FB-E7C9-4813-868E-A1B04F49BABB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B781FB3E-851C-49DA-AEEC-44078CFE048E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1007,7 +1007,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6384_RFV Update Operand Formula &apos;COUNT&apos; with Numeric Value" key="{36A32320-9055-429A-BAF2-389DD3E8BFF0}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B781FB3E-851C-49DA-AEEC-44078CFE048E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6384_RFV Update Operand Formula &apos;COUNT&apos; with Numeric Value" key="{36A32320-9055-429A-BAF2-389DD3E8BFF0}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B781FB3E-851C-49DA-AEEC-44078CFE048E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1024,7 +1024,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6397_RFV Update Operand Formula &apos;HOUR_DIFF&apos; with Fact Type" key="{E65E19C4-7E3D-4C90-8421-036A51171AB8}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B781FB3E-851C-49DA-AEEC-44078CFE048E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6397_RFV Update Operand Formula &apos;HOUR_DIFF&apos; with Fact Type" key="{E65E19C4-7E3D-4C90-8421-036A51171AB8}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B781FB3E-851C-49DA-AEEC-44078CFE048E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1041,7 +1041,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6396_RFV Update Operand Formula &apos;HOUR&apos; with Fact Type" key="{5EBB7052-6AC3-4A1E-80F2-A768CB227ECA}" group="False" parallel="False" enabled="False" testMoniker="KDT\{EF002457-2A20-4806-8E93-CDAC78791B98}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6396_RFV Update Operand Formula &apos;HOUR&apos; with Fact Type" key="{5EBB7052-6AC3-4A1E-80F2-A768CB227ECA}" group="False" parallel="False" enabled="True" testMoniker="KDT\{EF002457-2A20-4806-8E93-CDAC78791B98}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1058,7 +1058,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6407_RFV Update Operand Formula &apos;IS_ALPHANUMERIC&apos; with Text Value" key="{DF7AC2D4-AB3E-466B-8FE4-9C70F3097B49}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8307FC66-41E2-4980-AACC-112499F2BBC6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6407_RFV Update Operand Formula &apos;IS_ALPHANUMERIC&apos; with Text Value" key="{DF7AC2D4-AB3E-466B-8FE4-9C70F3097B49}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8307FC66-41E2-4980-AACC-112499F2BBC6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1075,7 +1075,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6408_RFV Update Operand Formula &apos;IS_ALPHANUMERIC&apos; with Fact Type" key="{D7396C01-AC36-4186-8308-18717E760340}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8307FC66-41E2-4980-AACC-112499F2BBC6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6408_RFV Update Operand Formula &apos;IS_ALPHANUMERIC&apos; with Fact Type" key="{D7396C01-AC36-4186-8308-18717E760340}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8307FC66-41E2-4980-AACC-112499F2BBC6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1092,7 +1092,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6410_RFV Update Operand Formula &apos;IS_NUMERIC&apos; with Text Value" key="{6E346CC3-E236-4822-9BF8-3C744A01C8F7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8307FC66-41E2-4980-AACC-112499F2BBC6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6410_RFV Update Operand Formula &apos;IS_NUMERIC&apos; with Text Value" key="{6E346CC3-E236-4822-9BF8-3C744A01C8F7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8307FC66-41E2-4980-AACC-112499F2BBC6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1109,7 +1109,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6411_RFV Update Operand Formula &apos;IS_NUMERIC&apos; with Fact Type" key="{3EA9ADB1-EC20-4207-88CE-554BBE9064A7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8307FC66-41E2-4980-AACC-112499F2BBC6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6411_RFV Update Operand Formula &apos;IS_NUMERIC&apos; with Fact Type" key="{3EA9ADB1-EC20-4207-88CE-554BBE9064A7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8307FC66-41E2-4980-AACC-112499F2BBC6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1126,7 +1126,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6413_RFV Update Operand Formula &apos;IS_SPACES&apos; with Text Value " key="{5DE5CECE-8A42-4610-935C-FE4925FA8672}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8307FC66-41E2-4980-AACC-112499F2BBC6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6413_RFV Update Operand Formula &apos;IS_SPACES&apos; with Text Value " key="{5DE5CECE-8A42-4610-935C-FE4925FA8672}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8307FC66-41E2-4980-AACC-112499F2BBC6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1143,7 +1143,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6414_RFV Update Operand Formula &apos;IS_SPACES&apos; with Fact Type" key="{90620574-04AF-4FA3-90E8-A2360AE10B37}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8307FC66-41E2-4980-AACC-112499F2BBC6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6414_RFV Update Operand Formula &apos;IS_SPACES&apos; with Fact Type" key="{90620574-04AF-4FA3-90E8-A2360AE10B37}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8307FC66-41E2-4980-AACC-112499F2BBC6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1160,7 +1160,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6416_RFV Update Operand Formula &apos;IS_ZEROES&apos; with Text Value" key="{D031834A-F067-4660-B7DF-3570B73F9775}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8307FC66-41E2-4980-AACC-112499F2BBC6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6416_RFV Update Operand Formula &apos;IS_ZEROES&apos; with Text Value" key="{D031834A-F067-4660-B7DF-3570B73F9775}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8307FC66-41E2-4980-AACC-112499F2BBC6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1177,7 +1177,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6417_RFV Update Operand Formula &apos;IS_ZEROES&apos; with Fact Type" key="{E5D2CB86-C95E-4DD9-A2BA-7AD0E0FC9F23}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8307FC66-41E2-4980-AACC-112499F2BBC6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6417_RFV Update Operand Formula &apos;IS_ZEROES&apos; with Fact Type" key="{E5D2CB86-C95E-4DD9-A2BA-7AD0E0FC9F23}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8307FC66-41E2-4980-AACC-112499F2BBC6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1194,7 +1194,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6419_RFV Update Operand Formula &apos;LEFT&apos; with Text and Numeric Value" key="{D1243721-4399-4785-839C-608E1AF105B1}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6419_RFV Update Operand Formula &apos;LEFT&apos; with Text and Numeric Value" key="{D1243721-4399-4785-839C-608E1AF105B1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1211,7 +1211,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6420_RFV Update Operand Formula &apos;LEFT&apos; with Fact Type" key="{BA42A98B-6316-41BA-80AA-471EC01385A7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6420_RFV Update Operand Formula &apos;LEFT&apos; with Fact Type" key="{BA42A98B-6316-41BA-80AA-471EC01385A7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1228,7 +1228,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6422_RFV Update Operand Formula &apos;LEN&apos; with Text Value" key="{133136B5-1895-4011-B923-F4FE2AC34C80}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6422_RFV Update Operand Formula &apos;LEN&apos; with Text Value" key="{133136B5-1895-4011-B923-F4FE2AC34C80}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1245,7 +1245,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6423_RFV Update Operand Formula &apos;LEN&apos; with Fact Type" key="{4961E333-AA27-4FF4-B1F8-428978BC3E11}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6423_RFV Update Operand Formula &apos;LEN&apos; with Fact Type" key="{4961E333-AA27-4FF4-B1F8-428978BC3E11}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1262,7 +1262,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6425_RFV Update Operand Formula &apos;LOWER&apos; with Text Value" key="{A5E24967-7615-4373-8D92-AD2F27083C29}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6425_RFV Update Operand Formula &apos;LOWER&apos; with Text Value" key="{A5E24967-7615-4373-8D92-AD2F27083C29}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1279,7 +1279,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6426_RFV Update Operand Formula &apos;LOWER&apos; with Fact Type" key="{F0A8ADD7-3DC4-4F44-ABFD-9371BE778802}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6426_RFV Update Operand Formula &apos;LOWER&apos; with Fact Type" key="{F0A8ADD7-3DC4-4F44-ABFD-9371BE778802}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1296,7 +1296,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6428_RFV Update Operand Formula &apos;MAX&apos; with Numeric Value" key="{2DBA4E3B-86D1-4411-9946-CD1D3FD5FCF7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6428_RFV Update Operand Formula &apos;MAX&apos; with Numeric Value" key="{2DBA4E3B-86D1-4411-9946-CD1D3FD5FCF7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1313,7 +1313,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6429_RFV Update Operand Formula &apos;MAX&apos; with Fact Type" key="{C918E157-E9DF-4874-B9C6-A5B366AAFF6F}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6429_RFV Update Operand Formula &apos;MAX&apos; with Fact Type" key="{C918E157-E9DF-4874-B9C6-A5B366AAFF6F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1330,7 +1330,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6431_RFV Update Operand Formula &apos;MEDIAN&apos; with Numeric Value" key="{72A7A597-6192-4C15-B2E2-AD9CEFEA6868}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6431_RFV Update Operand Formula &apos;MEDIAN&apos; with Numeric Value" key="{72A7A597-6192-4C15-B2E2-AD9CEFEA6868}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1347,7 +1347,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6432_RFV Update Operand Formula &apos;MEDIAN&apos; with Fact Type" key="{82498EE2-CEB3-4C1D-B32E-8BB550A8127A}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6432_RFV Update Operand Formula &apos;MEDIAN&apos; with Fact Type" key="{82498EE2-CEB3-4C1D-B32E-8BB550A8127A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1364,7 +1364,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6434_RFV Update Operand Formula &apos;MID&apos; with Text and Numeric Value" key="{16156405-C7EA-4072-B7B4-9E8970DF018E}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6434_RFV Update Operand Formula &apos;MID&apos; with Text and Numeric Value" key="{16156405-C7EA-4072-B7B4-9E8970DF018E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1381,7 +1381,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6435_RFV Update Operand Formula &apos;MID&apos; with Fact Type" key="{F6BB6E95-EC2F-4BA0-B80E-39473577CB49}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6435_RFV Update Operand Formula &apos;MID&apos; with Fact Type" key="{F6BB6E95-EC2F-4BA0-B80E-39473577CB49}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1398,7 +1398,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6437_RFV Update Operand Formula &apos;MIN&apos; with Numeric Value" key="{88B2A257-37AF-4249-AAED-5A11F9137205}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6437_RFV Update Operand Formula &apos;MIN&apos; with Numeric Value" key="{88B2A257-37AF-4249-AAED-5A11F9137205}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1415,7 +1415,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6438_RFV Update Operand Formula &apos;MIN&apos; with Fact Type" key="{AD6E3C18-2835-4BFF-A1A4-467096F637BD}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6438_RFV Update Operand Formula &apos;MIN&apos; with Fact Type" key="{AD6E3C18-2835-4BFF-A1A4-467096F637BD}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1432,7 +1432,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6440_RFV Update Operand Formula &apos;MODE&apos; with Numeric Value" key="{464143C3-2E95-4316-A6E9-569473C58ADF}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6440_RFV Update Operand Formula &apos;MODE&apos; with Numeric Value" key="{464143C3-2E95-4316-A6E9-569473C58ADF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1449,7 +1449,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6441_RFV Update Operand Formula &apos;MODE&apos; with Fact Type" key="{19407FCB-7C45-4AA6-8754-156B7413E0D1}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6441_RFV Update Operand Formula &apos;MODE&apos; with Fact Type" key="{19407FCB-7C45-4AA6-8754-156B7413E0D1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1466,7 +1466,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6443_RFV Update Operand Formula &apos;MODULO&apos; with Numeric Value" key="{BA9899F5-C035-4956-97AB-A1F1EB486FE2}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6443_RFV Update Operand Formula &apos;MODULO&apos; with Numeric Value" key="{BA9899F5-C035-4956-97AB-A1F1EB486FE2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1483,7 +1483,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6444_RFV Update Operand Formula &apos;MODULO&apos; with Fact Type" key="{D28F71F8-4895-41F5-A105-A2115B04C917}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6444_RFV Update Operand Formula &apos;MODULO&apos; with Fact Type" key="{D28F71F8-4895-41F5-A105-A2115B04C917}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1500,7 +1500,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6448_RFV Update Operand Formula &apos;MONTH&apos; with Date Value" key="{33B3CEAF-162F-48BD-8F13-583288D7E84E}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6448_RFV Update Operand Formula &apos;MONTH&apos; with Date Value" key="{33B3CEAF-162F-48BD-8F13-583288D7E84E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1517,7 +1517,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6449_RFV Update Operand Formula &apos;MONTH&apos; with Fact Type" key="{651ADAD9-70F7-474C-8E07-D0C6DE021C49}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6449_RFV Update Operand Formula &apos;MONTH&apos; with Fact Type" key="{651ADAD9-70F7-474C-8E07-D0C6DE021C49}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1534,7 +1534,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6461_RFV Update Operand Formula &apos;MONTH_ADD&apos; with Date and Numeric Value" key="{9A68989C-969B-465F-8CA2-E7406E67D21D}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6461_RFV Update Operand Formula &apos;MONTH_ADD&apos; with Date and Numeric Value" key="{9A68989C-969B-465F-8CA2-E7406E67D21D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1551,7 +1551,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6462_RFV Update Operand Formula &apos;MONTH_ADD&apos; with Fact Type" key="{E2A6F673-204F-4579-B807-037C9F9E9294}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6462_RFV Update Operand Formula &apos;MONTH_ADD&apos; with Fact Type" key="{E2A6F673-204F-4579-B807-037C9F9E9294}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1568,7 +1568,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6466_RFV Update Operand Formula &apos;MONTH_DIFF&apos; with Date Value" key="{A5B19F54-E33B-45E8-9EC3-9595C77FD576}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6466_RFV Update Operand Formula &apos;MONTH_DIFF&apos; with Date Value" key="{A5B19F54-E33B-45E8-9EC3-9595C77FD576}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1585,7 +1585,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6467_RFV Update Operand Formula &apos;MONTH_DIFF&apos; with Fact Type" key="{42B12EEE-D74A-43DE-AB96-E40115C55B4D}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6467_RFV Update Operand Formula &apos;MONTH_DIFF&apos; with Fact Type" key="{42B12EEE-D74A-43DE-AB96-E40115C55B4D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1602,7 +1602,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6475_RFV Update Operand Formula &apos;NO_VALUE&apos;" key="{D035DB0E-0A33-4CE7-AD6B-79A35EDDAB0B}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6475_RFV Update Operand Formula &apos;NO_VALUE&apos;" key="{D035DB0E-0A33-4CE7-AD6B-79A35EDDAB0B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1619,7 +1619,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6476_RFV Update Operand Formula &apos;NOW&apos; with Date_Time Values" key="{03951ABC-AE4A-40B7-9FAF-5806418E0E42}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6476_RFV Update Operand Formula &apos;NOW&apos; with Date_Time Values" key="{03951ABC-AE4A-40B7-9FAF-5806418E0E42}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1636,7 +1636,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6477_RFV Update Operand Formula &apos;PERCENT&apos; with Numeric Value" key="{15D23815-99EB-4784-A295-D02BE7EDE8BA}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6477_RFV Update Operand Formula &apos;PERCENT&apos; with Numeric Value" key="{15D23815-99EB-4784-A295-D02BE7EDE8BA}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1653,7 +1653,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6478_RFV Update Operand Formula &apos;PERCENT&apos; with Fact Type" key="{74AFAB65-CFC0-4893-82F7-E27CD5CEFBB6}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6478_RFV Update Operand Formula &apos;PERCENT&apos; with Fact Type" key="{74AFAB65-CFC0-4893-82F7-E27CD5CEFBB6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1670,7 +1670,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6481_RFV Update Operand Formula &apos;POWER&apos; with Numeric Value " key="{03E5C2EB-D7A8-4C05-9924-5612CEC6BA1C}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6481_RFV Update Operand Formula &apos;POWER&apos; with Numeric Value " key="{03E5C2EB-D7A8-4C05-9924-5612CEC6BA1C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1687,7 +1687,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6482_RFV Update Operand Formula &apos;POWER&apos; with Fact Type" key="{87D715F1-9025-4179-A27D-ED0373C62977}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6482_RFV Update Operand Formula &apos;POWER&apos; with Fact Type" key="{87D715F1-9025-4179-A27D-ED0373C62977}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1704,7 +1704,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6491_RFV Update Operand Formula &apos;PRODUCT&apos; with Numeric Value" key="{7950969B-3503-445B-BE7E-F483C6DD26F0}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6491_RFV Update Operand Formula &apos;PRODUCT&apos; with Numeric Value" key="{7950969B-3503-445B-BE7E-F483C6DD26F0}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1721,7 +1721,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6492_RFV Update Operand Formula &apos;PRODUCT&apos; with Fact Type" key="{43CDB63F-5255-4845-B419-3CB1484F7D25}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6492_RFV Update Operand Formula &apos;PRODUCT&apos; with Fact Type" key="{43CDB63F-5255-4845-B419-3CB1484F7D25}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1738,7 +1738,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6498_RFV Update Operand Formula &apos;RIGHT&apos; with Text and Numeric Value" key="{1C866FC2-09D3-4FD1-B938-161A2DB01CA1}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6498_RFV Update Operand Formula &apos;RIGHT&apos; with Text and Numeric Value" key="{1C866FC2-09D3-4FD1-B938-161A2DB01CA1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1755,7 +1755,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6499_RFV Update Operand Formula &apos;RIGHT&apos; with Fact Type" key="{9F48BD4F-CBAF-4ADA-A456-624DEF6F00F3}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6499_RFV Update Operand Formula &apos;RIGHT&apos; with Fact Type" key="{9F48BD4F-CBAF-4ADA-A456-624DEF6F00F3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1772,7 +1772,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6501_RFV Update Operand Formula &apos;ROUND&apos; with Numeric Value" key="{F4257B05-1409-44A1-A96E-43E129648485}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6501_RFV Update Operand Formula &apos;ROUND&apos; with Numeric Value" key="{F4257B05-1409-44A1-A96E-43E129648485}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1789,7 +1789,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6502_RFV Update Operand Formula &apos;ROUND&apos; with Fact Type" key="{BB7FE67C-56A8-4242-BADA-F1D7021D63FB}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6502_RFV Update Operand Formula &apos;ROUND&apos; with Fact Type" key="{BB7FE67C-56A8-4242-BADA-F1D7021D63FB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1806,7 +1806,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6504_RFV Update Operand Formula &apos;ROUNDDOWN&apos; with Numeric Value" key="{0A239716-D2C5-4582-8E99-553AC7DB53A9}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6504_RFV Update Operand Formula &apos;ROUNDDOWN&apos; with Numeric Value" key="{0A239716-D2C5-4582-8E99-553AC7DB53A9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1823,7 +1823,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6505_RFV Update Operand Formula &apos;ROUNDDOWN&apos; with Fact Type" key="{BB6842CA-0DA7-4622-83F5-2F7FD38FA1AF}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6505_RFV Update Operand Formula &apos;ROUNDDOWN&apos; with Fact Type" key="{BB6842CA-0DA7-4622-83F5-2F7FD38FA1AF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1840,7 +1840,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6507_RFV Update Operand Formula &apos;ROUNDUP&apos; with Numeric Value" key="{7891DBF1-40A2-4295-92A3-163D2F069027}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6507_RFV Update Operand Formula &apos;ROUNDUP&apos; with Numeric Value" key="{7891DBF1-40A2-4295-92A3-163D2F069027}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1857,7 +1857,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6508_RFV Update Operand Formula &apos;ROUNDUP&apos; with Fact Type" key="{BF6472AE-F1FB-4DE6-830C-A27337913D92}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6508_RFV Update Operand Formula &apos;ROUNDUP&apos; with Fact Type" key="{BF6472AE-F1FB-4DE6-830C-A27337913D92}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1874,7 +1874,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6510_RFV Update Operand Formula &apos;SUM&apos; with Numeric Value" key="{F5E9D6B4-DC98-4193-B778-A9482AC5F256}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6510_RFV Update Operand Formula &apos;SUM&apos; with Numeric Value" key="{F5E9D6B4-DC98-4193-B778-A9482AC5F256}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1891,7 +1891,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6511_RFV Update Operand Formula &apos;SUM&apos; with Fact Type" key="{81AE468B-5E0B-4DD2-8990-A9C42400B4B5}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6511_RFV Update Operand Formula &apos;SUM&apos; with Fact Type" key="{81AE468B-5E0B-4DD2-8990-A9C42400B4B5}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1908,7 +1908,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6513_RFV Update Operand Formula &apos;TEXT&apos; with Numeric and Text Value" key="{42FC6BA2-28F5-409D-B5C9-4F36F31C27F2}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6513_RFV Update Operand Formula &apos;TEXT&apos; with Numeric and Text Value" key="{42FC6BA2-28F5-409D-B5C9-4F36F31C27F2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1925,7 +1925,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6514_RFV Update Operand Formula &apos;TEXT&apos; with Fact Type" key="{962A7968-622C-46EE-B44C-71C859B7122B}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6514_RFV Update Operand Formula &apos;TEXT&apos; with Fact Type" key="{962A7968-622C-46EE-B44C-71C859B7122B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1942,7 +1942,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6516_RFV Update Operand Formula &apos;TEXT_OCCURRENCES&apos; with Text Value" key="{4E940754-0605-48A0-B0C3-7C3208D7A9AF}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6516_RFV Update Operand Formula &apos;TEXT_OCCURRENCES&apos; with Text Value" key="{4E940754-0605-48A0-B0C3-7C3208D7A9AF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1959,7 +1959,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6517_RFV Update Operand Formula &apos;TEXT_OCCURRENCES&apos; with Fact Type" key="{5BA2A40D-DB33-4250-9C64-8B8F00631A36}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6517_RFV Update Operand Formula &apos;TEXT_OCCURRENCES&apos; with Fact Type" key="{5BA2A40D-DB33-4250-9C64-8B8F00631A36}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1976,7 +1976,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6519_RFV Update Operand Formula &apos;TODAY&apos;" key="{5A9F2BFE-221F-419D-8592-9C9B63229ABE}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6519_RFV Update Operand Formula &apos;TODAY&apos;" key="{5A9F2BFE-221F-419D-8592-9C9B63229ABE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -1993,7 +1993,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6520_RFV Update Operand Formula &apos;TRIM&apos; with Text Value" key="{CE7DB1CD-B7D1-4930-B888-62D9B03B9391}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6520_RFV Update Operand Formula &apos;TRIM&apos; with Text Value" key="{CE7DB1CD-B7D1-4930-B888-62D9B03B9391}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -2010,7 +2010,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6521_RFV Update Operand Formula &apos;TRIM&apos; with Fact Type" key="{22AA57D7-166F-4C16-A114-13AA8CE932D5}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6521_RFV Update Operand Formula &apos;TRIM&apos; with Fact Type" key="{22AA57D7-166F-4C16-A114-13AA8CE932D5}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -2027,7 +2027,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6523_RFV Update Operand Formula &apos;UPPER&apos; with Text Value" key="{B772B9C0-297D-4D4F-82E2-F7977F2A7E32}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6523_RFV Update Operand Formula &apos;UPPER&apos; with Text Value" key="{B772B9C0-297D-4D4F-82E2-F7977F2A7E32}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -2044,7 +2044,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6524_RFV Update Operand Formula &apos;UPPER&apos; with Fact Type" key="{1B3D57AF-EF98-4776-A3E4-E8150FDE78CC}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6524_RFV Update Operand Formula &apos;UPPER&apos; with Fact Type" key="{1B3D57AF-EF98-4776-A3E4-E8150FDE78CC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -2061,7 +2061,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6526_RFV Update Operand Formula &apos;VALUE&apos; with Text Value" key="{7F989D60-6669-4ADB-B034-0B8C656BA855}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6526_RFV Update Operand Formula &apos;VALUE&apos; with Text Value" key="{7F989D60-6669-4ADB-B034-0B8C656BA855}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -2078,7 +2078,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6527_RFV Update Operand Formula &apos;VALUE&apos; with Fact Type" key="{76F8594A-378D-448B-B7BE-8C1D0C444811}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6527_RFV Update Operand Formula &apos;VALUE&apos; with Fact Type" key="{76F8594A-378D-448B-B7BE-8C1D0C444811}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -2095,7 +2095,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6529_RFV Update Operand Formula &apos;WEEKDAY&apos; with Date Value" key="{806638A5-1919-49F1-AFB8-C39D769463CE}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6529_RFV Update Operand Formula &apos;WEEKDAY&apos; with Date Value" key="{806638A5-1919-49F1-AFB8-C39D769463CE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -2112,7 +2112,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6530_RFV Update Operand Formula &apos;WEEKDAY&apos; with Fact Type" key="{33FBC6AA-1FE5-4591-9E77-79C1EC8A3AC6}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6530_RFV Update Operand Formula &apos;WEEKDAY&apos; with Fact Type" key="{33FBC6AA-1FE5-4591-9E77-79C1EC8A3AC6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -2129,7 +2129,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6532_RFV Update Operand Formula &apos;YEAR&apos; with Date Value" key="{2420D0F5-EF24-4F81-8F0E-B03316102AFF}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6532_RFV Update Operand Formula &apos;YEAR&apos; with Date Value" key="{2420D0F5-EF24-4F81-8F0E-B03316102AFF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -2146,7 +2146,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6533_RFV Update Operand Formula &apos;YEAR&apos; with Fact Type" key="{29223B12-5FDD-46C3-80CD-C49A1378A9EE}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6533_RFV Update Operand Formula &apos;YEAR&apos; with Fact Type" key="{29223B12-5FDD-46C3-80CD-C49A1378A9EE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -2163,7 +2163,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6535_RFV Update Operand Formula &apos;YEAR_ADD&apos; with Date and Numeric Value" key="{98ED7DFB-00CC-4E7E-9B8E-DBF478B10772}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6535_RFV Update Operand Formula &apos;YEAR_ADD&apos; with Date and Numeric Value" key="{98ED7DFB-00CC-4E7E-9B8E-DBF478B10772}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -2180,7 +2180,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6536_RFV Update Operand Formula &apos;YEAR_ADD&apos; with Fact Type" key="{E1E135F2-C86D-49E2-B6AB-84E396EE0867}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6536_RFV Update Operand Formula &apos;YEAR_ADD&apos; with Fact Type" key="{E1E135F2-C86D-49E2-B6AB-84E396EE0867}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -2197,7 +2197,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6538_RFV Update Operand Formula &apos;YEAR_DIFF&apos; with Date Value" key="{8F0642B5-451E-4AB1-9548-592184A6E025}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6538_RFV Update Operand Formula &apos;YEAR_DIFF&apos; with Date Value" key="{8F0642B5-451E-4AB1-9548-592184A6E025}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
@@ -2214,7 +2214,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 6539_RFV Update Operand Formula &apos;YEAR_DIFF&apos; with Fact Type" key="{ACD35D83-DB45-446F-82D6-C70176E4A00A}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 6539_RFV Update Operand Formula &apos;YEAR_DIFF&apos; with Fact Type" key="{ACD35D83-DB45-446F-82D6-C70176E4A00A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1E0FE939-A10A-4688-BB2D-C8E14E2DACD7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 															<param1 name="OpenDecision" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
