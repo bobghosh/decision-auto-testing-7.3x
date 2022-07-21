@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{B9E5DA6F-03E1-41A9-AB74-ED6D684EA39A}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Draft_FactTypes_Send_to_Glossary" Unit="Task_Draft_FactTypes_Send_to_Glossary" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{D7FA2C80-3D74-4216-9694-A577B2BBDD84}" />
+</Root>

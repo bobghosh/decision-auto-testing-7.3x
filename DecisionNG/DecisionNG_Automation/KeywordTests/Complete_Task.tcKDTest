@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{87FB8042-D3CA-4584-828D-175FBCD8B2FF}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Complete_Task" Unit="Approval_Process_buttons" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{10BA29E7-14BB-4E4B-89E4-6660CC7884FF}" />
+</Root>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{97E4CC27-E7FE-49C1-9721-750DC2F4F3EA}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Add_New_Permission_Click_Ok">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="PermissionGrpName" DefVarType="8" DefValueType="6" DefValueValue="PermissionGroup" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="PermissionGrpName" />
+						<Parameter Name="Permissions" DefVarType="8" DefValueType="6" DefValueValue="DF_READ,FT_CUSTOM_PROPERTY_WRITE" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Permissions" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Edit_Existing_PG_Permissions">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="PermissionGroupName" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Permissions" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Add_New_Permissions" />
+						<Parameter Name="AddPermissions" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Yes" />
+						<Parameter Name="RemovePermissions" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="permissions_ToVerify" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Add_New_Permissions" />
+						<Parameter Name="PermissionGrpName_Edit" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="waitElement" DefVarType="8" DefValueType="6" DefValueValue="//tbody//tr" VarType="8" ValueType="6" ValueValue="//tbody//tr" />
+						<Parameter Name="PermissionGRP_Add_RandomNum" DefVarType="8" DefValueType="6" DefValueValue="Yes" VarType="257" ValueType="0" ValueValue="0" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{82648543-E9AC-48C2-8780-FBEA67956FBC}">
+		<Parameter0 Name="PermissionGrpName" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter1 Name="Permissions" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter2 Name="Add_New_Permissions" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter3 Name="Open_PermissionGrp" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+	</Parameters>
+</Root>

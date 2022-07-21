@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{A904AB91-6ECC-4520-AA2C-321DA01F2F82}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Login">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="http://bdmsuat8:8854/login.jsp" VarType="8" ValueType="6" ValueValue="http://bdmsuat8:8854/login.jsp" />
+						<Parameter Name="UserName" DefVarType="8" DefValueType="6" DefValueValue="sgp" VarType="8" ValueType="6" ValueValue="sgp" />
+						<Parameter Name="Password" DefVarType="8" DefValueType="6" DefValueValue="Decision1" VarType="8" ValueType="6" ValueValue="Decision1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Navigate_To_Repository" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Import_Glossary_Verification" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Logout" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{04653B91-D2DF-4D05-AC39-7306509D5D89}" />
+</Root>

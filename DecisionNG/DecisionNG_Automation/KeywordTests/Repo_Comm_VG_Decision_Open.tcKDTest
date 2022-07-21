@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{594AB824-ECD9-4929-A8B0-694CA99DEE79}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Nav_Repo_Community_VG_Select">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="CommunityName" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Community_to_Expand" />
+						<Parameter Name="SelectOption_Community_VG" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="SelectOption_Community_VG" />
+						<Parameter Name="Community_VG_Foldername" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Community_VG_Foldername" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Repository_SubTab_Select_Verify" Unit="Repository_Select_SubTabs">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="selectSubTab" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Select_Tab_Decision" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Open_Decision" Unit="Decision_Open_Verify">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Item" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Decision_Name" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{EA79DE44-74E1-47C9-8842-E4B1AA06263F}">
+		<Parameter0 Name="Community_to_Expand" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="WORLD,Insurance,P&amp;C Underwriting Community" Description="" />
+		<Parameter1 Name="SelectOption_Community_VG" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="VG" Description="" />
+		<Parameter2 Name="Community_VG_Foldername" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="P&amp;C Underwriting ViewGroup" Description="" />
+		<Parameter3 Name="Select_Tab_Decision" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Decisions" Description="" />
+		<Parameter4 Name="Decision_Name" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+	</Parameters>
+</Root>

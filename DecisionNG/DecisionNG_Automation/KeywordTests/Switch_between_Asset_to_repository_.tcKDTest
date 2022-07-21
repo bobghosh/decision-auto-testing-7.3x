@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{5453376E-16D0-48D9-BDBC-2C297E66F281}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Nav_MyTasks_SpecificTask">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="TabName" DefVarType="8" DefValueType="6" DefValueValue="My Tasks" VarType="8" ValueType="6" ValueValue="My Tasks" />
+						<Parameter Name="Subtab_Name" DefVarType="8" DefValueType="6" DefValueValue="Tasks" VarType="8" ValueType="6" ValueValue="Tasks" />
+						<Parameter Name="TaskName" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="TaskName" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Tab_Navigations_AllInOne_Click_verify" Unit="Tab_Navigations_All_Click_verify">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="tabName" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="SelectTab" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="verify_Add_Info_Enabled_Disabled" Unit="AI_Click_Verify_Title">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="verify_Enabled_Disabled" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Verify_Enabled_Disabled_before" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="AdditionalInfo_Click_Verify_Title" Unit="AI_Click_Verify_Title">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="asset" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Asset_type" />
+						<Parameter Name="assetName" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Asset_name" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="AI_Verify_MainTab_Selected" Unit="AI_Verify_Tab_Selected">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="selectMainTab" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Verify_DefaultTab_Select_main" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="AI_Verify_SubTab_Selected" Unit="AI_Verify_Tab_Selected">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="selectSubTab" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Verify_Default_SubTab_Select" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Navigate_To_Repository" />
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="verify_Add_Info_Enabled_Disabled" Unit="AI_Click_Verify_Title">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="verify_Enabled_Disabled" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Verify_Enabled_Disabled_after" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{0A85E414-BBD1-45AC-BCA1-4B9A3CEC564F}">
+		<Parameter0 Name="TaskName" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Additional Info Task" Description="" />
+		<Parameter1 Name="SelectTab" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Decisions" Description="" />
+		<Parameter2 Name="Verify_Enabled_Disabled_before" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Enabled" Description="" />
+		<Parameter3 Name="Asset_type" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Decision" Description="" />
+		<Parameter4 Name="Asset_name" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Policy Renewal Method (View: Base) [V1.3]" Description="" />
+		<Parameter5 Name="Verify_DefaultTab_Select_main" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="ASSOCIATIONS" Description="" />
+		<Parameter6 Name="Verify_Default_SubTab_Select" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Versions" Description="" />
+		<Parameter7 Name="Verify_Enabled_Disabled_after" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Disabled" Description="" />
+	</Parameters>
+</Root>

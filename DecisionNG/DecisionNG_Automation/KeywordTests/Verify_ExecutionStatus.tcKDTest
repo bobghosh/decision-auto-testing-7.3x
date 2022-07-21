@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{37CED4BD-6A08-410C-B670-313B5649FF36}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="NotLatest_Icon_Available_TestCase_Execution_Status" Unit="ExecutionStatus_NotLatest_Indicator" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Execute_Test_Group" Unit="Execute_Test_Group" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="NotLatest_Icon_Not_Available_TestCase_Execution_Status" Unit="ExecutionStatus_NotLatest_Indicator" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{582F0F69-8D1E-4254-944E-31BAB7C236D1}" />
+</Root>

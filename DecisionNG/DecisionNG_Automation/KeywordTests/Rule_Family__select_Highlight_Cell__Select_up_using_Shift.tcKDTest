@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{11A09BFF-2B40-452E-9A6B-89CB81136DF3}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="RuleFamily_HighlightCells_UsingKeys" Unit="RF_HighlightCells">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ColumnName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Study Scope Code" />
+						<Parameter Name="RowNumber" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="3" ValueType="1" ValueValue="2" />
+						<Parameter Name="NumberOfCellsToBeSelected" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="3" ValueType="1" ValueValue="2" />
+						<Parameter Name="KeysToBePressed" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="shift up" />
+						<Parameter Name="AdditionalKeyToBePressed" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="257" ValueType="0" ValueValue="0" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{DB7A8D24-176E-417B-9D83-8A829277C79C}" />
+</Root>

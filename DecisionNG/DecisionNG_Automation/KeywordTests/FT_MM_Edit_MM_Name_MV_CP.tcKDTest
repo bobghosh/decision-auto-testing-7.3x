@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{5168911D-1C61-4A6B-9E55-C0AFD54E6F46}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="SelectModelDefinition" Unit="FTSummary_MMTab_MD_Select">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ModelDefinition" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="ModelDefinition" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="SelectModelDefinitionVersion" Unit="FTSummary_MMTab_MDVersion_Select">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ModelDefinitionVersion" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="ModelDefinition_Version" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="FactTypeSummary_MlM_Tab_FTMappedName" Unit="FactTypeSummary_MlM_Tab_FTMappedName">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MappedName" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Mapped_Name" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="EditMappedValues" Unit="FTSummary_MMTab_Edit_Mappedvalues">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="AllowedValueinput" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Mapped_Values" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Enter_Custom_Property" Unit="FTSummary_MMTab_Edit_CustomProp">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="CP_name_DT_AV_InputValue" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Custom_properties" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="VerifyModelDefinitionVersionStatus" Unit="FTSummary_MMTab_MDVersion_Verify_Status">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ModelDefinitionVersion" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="ModelDefinition_Version" />
+						<Parameter Name="Verify_Status" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="MD_Version_status" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="PictureToLog" Unit="Picture_To_Log" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{01CCAB0E-ECDC-4BC3-88E9-945912C83517}">
+		<Parameter0 Name="ModelDefinition" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Not Approved" Description="" />
+		<Parameter1 Name="ModelDefinition_Version" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="1.0.0" Description="" />
+		<Parameter2 Name="Mapped_Name" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Mapped_Name1" Description="" />
+		<Parameter3 Name="Mapped_Values" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="1-Hundred,2-twohundred" Description="" />
+		<Parameter4 Name="Custom_properties" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Numeric-Numeric-Any Value-2000,Text-Text-Any Value-Changed" Description="" />
+		<Parameter5 Name="MD_Version_status" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Draft" Description="" />
+	</Parameters>
+</Root>

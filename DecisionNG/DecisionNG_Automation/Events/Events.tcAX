@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" version="1400" key="{D7D5605F-EBD7-4135-91C8-BA6B7A736BE7}" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}">
+	<config nodeName="Events" tlbHistory="&quot;TestComplete general events&quot;" />
+	<testData />
+	<data />
+	<children>
+		<child key="{D62E78AE-7CF6-48C2-9D97-38A8C3055942}">
+			<config nodeName="EventControl1" lastOpenedTLB="" generatedCLSID="{85C731BA-E469-4D46-8F29-B56ED6FC9545}" generatedTLBKey="{3172C476-7860-4E9E-A4B3-728080BC7E50}" generatedEventsKey="{790A1787-12B1-4CB1-9F1E-798BD03C8767}" generatedTLBDesc="TestComplete EventControl1 Control - 22-04-2021 12:15:32">
+				<eventInfo infoTLBVer="version.dll" infoGUID="{9F037A78-98DE-4B7D-834A-8ACC7B42EC3F}" infoID="1610678272" infoControlName="Flash Events" infoEventName="OnActionScriptException" infoEventRealName="OnActionScriptException" infoDescription="Occurs after the ActionScript exception is raised." />
+				<handlerInfo handlerName="EventControl1_OnActionScriptException" handlerMoniker="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}EventControl1_OnActionScriptException" handlerEventName="OnActionScriptException" handlerRealIID="{9F037A78-98DE-4B7D-834A-8ACC7B42EC3F}" handlerRealDispID="1610678272" />
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{931F05B7-37B5-4571-948F-DEBE52617EC8}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Navigate_To_Repository" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Community_VG_Folder_Select" Unit="Community_VG_Folder_Select">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="SelectOption" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="SelectOption_Community_OR_VG" />
+						<Parameter Name="Community_VG_Folder_Name" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Community_To_Select" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="AdditionalInfo_MainTabs_Select_Verify" Unit="AI_MainTabs_Select_verify">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="selectMainTab" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="MainTab" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Repository_SubTab_Select_Verify" Unit="Repository_Select_SubTabs">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="selectSubTab" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Select_SubTab" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Create_Modeling_Project" Unit="Modeling_Projects">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ModelingProjectName" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Modeling_Project_Name" />
+						<Parameter Name="AssetApprovalProcess" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Asset_Approval_Process" />
+						<Parameter Name="FactTypeApprovalProcess" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="FactType_Approval_Process" />
+						<Parameter Name="OkorCancel" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="OkorCancel" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{4DA60325-5A0C-4338-87E7-0DE67BFBAD33}">
+		<Parameter0 Name="MainTab" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Modeling Projects" Description="" />
+		<Parameter1 Name="Select_SubTab" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Projects" Description="" />
+		<Parameter2 Name="Community_To_Select" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="WORLD" Description="" />
+		<Parameter3 Name="SelectOption_Community_OR_VG" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Community" Description="" />
+		<Parameter4 Name="Modeling_Project_Name" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Auto_Modeling_Project" Description="" />
+		<Parameter5 Name="Asset_Approval_Process" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Gil&apos;s Demo_Asset Flow" Description="" />
+		<Parameter6 Name="FactType_Approval_Process" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Gil&apos;s Demo FT Flow" Description="" />
+		<Parameter7 Name="OkorCancel" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="OK" Description="" />
+	</Parameters>
+</Root>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{E3487EE6-A4FB-4399-B65E-D40EAE6C5D1A}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="DF_Open_Repository">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Communities_To_Expand" DefVarType="8" DefValueType="6" DefValueValue="WORLD" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Communities_To_Expand" />
+						<Parameter Name="Community_To_Select" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Community_To_Select" />
+						<Parameter Name="Select_SubTab" DefVarType="8" DefValueType="6" DefValueValue="Decision Flows" VarType="8" ValueType="6" ValueValue="Decision Flows" />
+						<Parameter Name="Flow" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Flow" />
+						<Parameter Name="SelectOption_Community_OR_VG" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="SelectOption_Community_OR_VG" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Edit_Decision_and_Flow" Unit="Edit_Decision_Flow_Cancel">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Task" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="TaskName" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{0A0E968E-56FB-41C7-8012-F9CA326B1761}">
+		<Parameter0 Name="Communities_To_Expand" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="WORLD" Description="" />
+		<Parameter1 Name="Community_To_Select" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter2 Name="Select_SubTab" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Decision Flows" Description="" />
+		<Parameter3 Name="Flow" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter4 Name="SelectOption_Community_OR_VG" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter5 Name="TaskName" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+	</Parameters>
+</Root>

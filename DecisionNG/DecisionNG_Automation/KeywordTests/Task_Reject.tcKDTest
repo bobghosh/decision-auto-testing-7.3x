@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{5FD37000-0CA2-488B-9D90-752FA8E51ECF}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Discard_or_Reject_button" Unit="Approval_Process_buttons" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{2EB3F7AC-42B7-4A6B-9882-308F442D486F}" />
+</Root>

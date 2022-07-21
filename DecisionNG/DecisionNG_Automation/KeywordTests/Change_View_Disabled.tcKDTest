@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{576DCCD7-8813-4DD3-BAC3-A7C38CF83F92}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Repo_Comm_VG_Decision_Open">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Community_to_Expand" DefVarType="8" DefValueType="6" DefValueValue="WORLD,Insurance,P&amp;C Underwriting Community" VarType="8" ValueType="6" ValueValue="WORLD,Automation Testing,Automation_Assets" />
+						<Parameter Name="SelectOption_Community_VG" DefVarType="8" DefValueType="6" DefValueValue="VG" VarType="8" ValueType="6" ValueValue="VG" />
+						<Parameter Name="Community_VG_Foldername" DefVarType="8" DefValueType="6" DefValueValue="P&amp;C Underwriting ViewGroup" VarType="8" ValueType="6" ValueValue="Auto_VG_Assets" />
+						<Parameter Name="Select_Tab_Decision" DefVarType="8" DefValueType="6" DefValueValue="Decisions" VarType="8" ValueType="6" ValueValue="Decisions" />
+						<Parameter Name="Decision_Name" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Maintenance Loan Eligibility (View: Auto_Add_Info) [V1.0]" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="DRF_Perform_RightClick" Unit="DRF_Perform_Actions">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Name" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Maintenance Loan Eligibility" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Decision_Screen_ContextMenu_Enabled_Disbled" Unit="ContextMenu_Verify_Enabled_Disabled">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="verify_Enabled_Disabled" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Disabled" />
+						<Parameter Name="contextMenuItem" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Change View" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{D86C1B13-B659-462F-A0C7-748EA27F6756}" />
+</Root>

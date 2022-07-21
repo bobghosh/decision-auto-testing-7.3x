@@ -1,0 +1,21 @@
+# Use glob syntax
+syntax: glob
+
+# Ignore logs
+Log/
+
+# Ignore local settings files
+*.tcLS
+*.tcCfgExtender
+
+# Ignore backup files
+*.bak
+
+#ignore visualizer folder
+Visualizer/
+
+#ignore events tlb files
+*.tlb
+
+#ignore namemapping images folder
+Images/

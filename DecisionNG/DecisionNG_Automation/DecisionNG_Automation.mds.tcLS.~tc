@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="logs">
+				<Prp name="key" type="S" value="{8EBB3AD9-F6B8-47DD-8E26-A97CF43115EC}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables">
+				<Node name="datav4">
+					<Node name="var0">
+						<Prp name="name" type="S" value="URL_UAT"/>
+					</Node>
+					<Node name="var1">
+						<Prp name="name" type="S" value="UserName"/>
+					</Node>
+					<Node name="var10">
+						<Prp name="name" type="S" value="Details_testValues_Dayoftheweeklong"/>
+					</Node>
+					<Node name="var11">
+						<Prp name="name" type="S" value="Details_testValues_MonthLong"/>
+					</Node>
+					<Node name="var12">
+						<Prp name="name" type="S" value="Details_testValues_Time"/>
+					</Node>
+					<Node name="var13">
+						<Prp name="name" type="S" value="Details_TestValues_DayOfWeekShort"/>
+					</Node>
+					<Node name="var14">
+						<Prp name="name" type="S" value="Permission_Matrix"/>
+					</Node>
+					<Node name="var15">
+						<Prp name="name" type="S" value="Roles"/>
+					</Node>
+					<Node name="var16">
+						<Prp name="name" type="S" value="PermissionGroupsColumnNames"/>
+					</Node>
+					<Node name="var17">
+						<Prp name="name" type="S" value="Create_NewUser_Details"/>
+					</Node>
+					<Node name="var18">
+						<Prp name="name" type="S" value="ImportGlossary"/>
+					</Node>
+					<Node name="var19">
+						<Prp name="name" type="S" value="MD_CustomProperty"/>
+					</Node>
+					<Node name="var2">
+						<Prp name="name" type="S" value="Password"/>
+					</Node>
+					<Node name="var20">
+						<Node name="value">
+
+							<Prp name="strvalue" type="H" value="41007000700072006F007600650043006800650063006B002C0043006800650063006B0065006400"/>
+						</Node>
+						<Prp name="name" type="S" value="MM_AllowedValues"/>
+					</Node>
+					<Node name="var21">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="3100300030002C00320030003000"/>
+						</Node>
+						<Prp name="name" type="S" value="MM_AllowedValues_AfterEdit"/>
+					</Node>
+					<Node name="var22">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="240031002C0073006400"/>
+						</Node>
+						<Prp name="name" type="S" value="MM_CustomProperty_BeforeEdit"/>
+					</Node>
+					<Node name="var23">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="240031002C00730064002C0024003200300030002C004300680061006E00670065006400"/>
+						</Node>
+						<Prp name="name" type="S" value="MM_CustomProperty_AfterEdit"/>
+
+							<Prp name="strvalue" type="H" value="4D0044003400310033003100360032003300330033003300350033003200340031003300"/>
+						</Node>
+						<Prp name="name" type="S" value="CommonModelDefinitionName"/>
+					</Node>
+					<Node name="var21">
+						<Node name="value">
+							<Prp name="intvalue" type="I" value="2"/>
+						</Node>
+						<Prp name="name" type="S" value="CommonTotalCount"/>
+					</Node>
+					<Node name="var3">
+						<Prp name="name" type="S" value="Password1"/>
+					</Node>
+					<Node name="var4">
+						<Prp name="name" type="S" value="Create_New_FactType"/>
+					</Node>
+					<Node name="var5">
+						<Prp name="name" type="S" value="TaskName"/>
+					</Node>
+					<Node name="var6">
+						<Prp name="name" type="S" value="Var1"/>
+					</Node>
+					<Node name="var7">
+						<Prp name="name" type="S" value="Details_TestValues_StringValues"/>
+					</Node>
+					<Node name="var8">
+						<Prp name="name" type="S" value="Details_TestValues_NumericValues"/>
+					</Node>
+					<Node name="var9">
+						<Prp name="name" type="S" value="Details_TestValues_DropDown_Numbers"/>
+					</Node>
+				</Node>
+				<Prp name="version" type="I" value="4"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{49FC0C30-9EF7-4DBD-97A8-B7A00E79A2AF}"/>
+	</Node>
+</Nodes>

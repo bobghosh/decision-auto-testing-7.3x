@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{295E92D6-35BF-4715-B24A-D489416AF259}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="SelectModelDefinition" Unit="FTSummary_MMTab_MD_Select">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ModelDefinition" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="ModelDefinition" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="SelectModelDefinitionVersion" Unit="FTSummary_MMTab_MDVersion_Select">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ModelDefinitionVersion" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="ModelDefinition_Version" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Custom_Property_Enabled" Unit="FactType_MMTab_Custom_Prop_Enabled">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="CustomProperty_Enabled_Disabled" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Verify_NoValues" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Verify_NoValues" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="PictureToLog" Unit="Picture_To_Log" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{CDE0DE16-F3FC-4C1F-901D-132EC2EFADD3}">
+		<Parameter0 Name="ModelDefinition" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="No MV_CP" Description="" />
+		<Parameter1 Name="ModelDefinition_Version" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="1.0.0" Description="" />
+		<Parameter2 Name="Verify_NoValues" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Yes" Description="" />
+	</Parameters>
+</Root>

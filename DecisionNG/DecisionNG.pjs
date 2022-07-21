@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{68021FBD-7742-4973-8B7B-479ED50B29D3}">
+	<children>
+		<child name="DecisionNG_Automation" key="{BDEA6E49-A750-4D1A-BE09-F83F37B4624B}" path="DecisionNG_Automation\DecisionNG_Automation.mds" />
+	</children>
+	<testItems key="{7CBBBBCB-A495-4024-A0EE-63FAFB65AE2C}">
+		<children>
+			<testItem key="{BDEA6E49-A750-4D1A-BE09-F83F37B4624B}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{91C7EFCA-D263-4C1F-85D7-6BAC09C419BB}" />
+	<analysis key="{D4764874-164E-495E-864A-C3505E1BC03A}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

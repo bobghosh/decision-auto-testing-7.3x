@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{35FC91D1-1455-419C-9B23-9A1569DF95D3}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Navigate_Administration_PermissionGroup" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Security_Global_Filter_EnterText_Verify" Unit="Global_Filter_EnterText_Verify">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="filterText" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="permissionGrpName" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Verify_Created_PermissionGroups_and_Permissions" Unit="Verify_PermissionGrp_and_Permissions">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="permissionGrp" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="permissionGrpName" />
+						<Parameter Name="permissions" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="permissions" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{701BC4BF-292E-4618-9268-C5B15F12968A}">
+		<Parameter0 Name="permissionGrpName" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="All_Search" Description="" />
+		<Parameter1 Name="permissions" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="ADVANCED_SEARCH_WRITE,ALLOW_RUN_REPORTS" Description="" />
+	</Parameters>
+</Root>
