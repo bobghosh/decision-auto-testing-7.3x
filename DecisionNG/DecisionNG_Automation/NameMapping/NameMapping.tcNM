@@ -31,8 +31,26 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="http://bdms*" />
+										<Value Value="https://dev-app-ext.dm*" />
 									</Property>
+									<FilterCriteria>
+										<Root Group="AND">
+											<Item Operation="stdopequal">
+												<Left Value="DispValue:ObjectType" />
+												<Right Value="ConstStr:Page" />
+											</Item>
+											<Item Group="OR">
+												<Item Operation="stdopequal">
+													<Left Value="DispValue:URL" />
+													<Right Value="ConstStr:https://dev-app-ext.dm*" />
+												</Item>
+												<Item Operation="stdopequal">
+													<Left Value="DispValue:URL" />
+													<Right Value="ConstStr:http://bdms*" />
+												</Item>
+											</Item>
+										</Root>
+									</FilterCriteria>
 								</Properties>
 								<Children>
 									<Child Name="panel" Key="{6986D6FE-C55C-412D-A184-1FAA790DD79A}">
@@ -2017,8 +2035,26 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="http://bdms*" />
+										<Value Value="https://dev-app-ext.dm*" />
 									</Property>
+									<FilterCriteria>
+										<Root Group="AND">
+											<Item Operation="stdopequal">
+												<Left Value="DispValue:ObjectType" />
+												<Right Value="ConstStr:Page" />
+											</Item>
+											<Item Group="OR">
+												<Item Operation="stdopequal">
+													<Left Value="DispValue:URL" />
+													<Right Value="ConstStr:https://dev-app-ext.dm*" />
+												</Item>
+												<Item Operation="stdopequal">
+													<Left Value="DispValue:URL" />
+													<Right Value="ConstStr:http://bdms*" />
+												</Item>
+											</Item>
+										</Root>
+									</FilterCriteria>
 								</Properties>
 								<Children>
 									<Child Name="formF" Key="{16505975-0C54-4FBF-AAC0-3C9612799758}">

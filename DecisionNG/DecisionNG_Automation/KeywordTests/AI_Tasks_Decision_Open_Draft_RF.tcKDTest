@@ -37,7 +37,7 @@
 						</Data>
 					</Operation>
 					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-						<Data Description="Runs a script routine." TestName="Select_Single_Row" Unit="SelectRow_SingleItem_MultipleRows">
+						<Data Description="Runs a script routine." TestName="Select_Single_Row_from_Decision_And_Decisoin_FlowTab" Unit="SelectRow_SingleItem_MultipleRows">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="Item" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="2" VariableName="TestData_Additional_Info" ColumnName="Name of the Asset (Source Asset)" />
 							</Parameters>
@@ -83,6 +83,13 @@
 						<Data Description="Runs a script routine." TestName="AdditionalInfo_SubTab_Select_Verify" Unit="AI_SubTabs_Select_verify">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="selectSubTab" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Rule Families" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+						<Data Description="Runs a script routine." TestName="Wait_Until_Element_ispresent" Unit="WaitElement_ispresent">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Element" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="//dcn-expandable-selectable-list-item" />
 							</Parameters>
 						</Data>
 					</Operation>

@@ -91,55 +91,51 @@ function Versions_Assets_withClassname(Asset_Type,compared_assets,context_of_ass
       if(iconclass.includes(classname))
             {
               
-              Log.Checkpoint(Asset_Type+" icon is Present");
+
+              var expander= page.FindElements("("+source_assets_array_xpath+")["+k+"]"+"//parent::div//preceding-sibling::div")
               
-              Log.Message("this is length of expander icon"+expander_icon_assets.length)
-              
-              
-              if(expander_icon_assets.length>0)
+              if(expander.length>0)
               {
-                Log.Message("Expander")
- 
-              let expander_icon=expander_icon_assets[j].lastChild; //to check plus expander icon exists
-              Log.Message(expander_icon)
- 
-              //to Check Expander icon
-                if((expander_icon_assets)[j].lastChild=="[HTMLElement]")
-                    {
-                        Log.Message("lastchild")
-                        if(expander_icon.getAttribute('class').includes('expander-icon icon-link_plus'))
-                        {
-                          Log.Message("Expander pluss")
-                         expander_icon.click();
+                        expander[0].click()
+                          
                          let context_Elements=page.FindElements("//div[contains(@class,'sub-tab__list')]/dcn-link-label/parent::div//i[contains(@class,'context icon')]//following-sibling::div/a");
-                         for(let index=0;index<context_Elements.length;index++)
+                        
+                         for(let m=0;m < context_Elements.length;m++)
                          {
-                           context_element_text=context_Elements[index].TextContent.trim();
-                           Log.Message(context_element_text)
-                           
-                           if(context_element_text==context_of_asset.trim())
+                           context_element_text=context_Elements[m].textContent.trim()
+                          
+                           var contextTxt = context_of_asset
+                        
+                           var contextflag = "false"
+                           if(context_of_asset== context_element_text)
                            {
-                            context_Elements[index].click();
+                             
+                             Log.Message("if loop    "+ m);
+                             context_Elements[m].click();
+                             contextflag = "true"
                              break;
                            }
-                           else{
-                             expander_icon.click();
-                             continue loop;
-                           }
+//                    
                          }
+                         if(contextflag == "true")
+                         {
+                           Log.checkpoint("Asset was opened with required context path")
+                         }
+                          else{
+                             expander[0].click();
+                             continue loop;
+                          }
+                         
                         }
-
-                    } else
+//
+                    else
                     {
                       source_assets_array[j].click();
                       Log.Message("No context1")
                     }
                   }
-                else{
-              source_assets_array[j].click();
-              Log.Message("No context")
-              }           
-            }
+                 
+            
        else
        {
          Log.Error(Asset_Type+" icon is not Present");
@@ -151,7 +147,7 @@ function Versions_Assets_withClassname(Asset_Type,compared_assets,context_of_ass
      
   break;
   }
-}
+ }
 
 if((Flag=="true")&&((Asset_Type=="Decision Flow")||(Asset_Type=="Decision View")||(Asset_Type=="Rule Family")))
 {
@@ -185,7 +181,6 @@ else{
 
 
 function AI_Subtab_Open_Asset(Asset_Type,Open_Asset,context_of_asset){
-  let classname;
  
 switch(Asset_Type)
 {

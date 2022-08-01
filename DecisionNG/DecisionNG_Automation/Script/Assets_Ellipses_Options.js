@@ -1,14 +1,10 @@
 ﻿function Assets_Ellipses_Options(SelectOption)
 {  
-  //let SelectOption = "Test Groups";
-  
+
   //Click on Ellipses
   Aliases.browser.pageSapiensDecision2.linkVersions.panel11.Click();
   
-  //Aliases.browser.pageSapiensDecision2.FindElements("//*[contains(@class,'ui-tieredmenu')]").length();
-  
- // Log.Message(Aliases.browser.pageSapiensDecision2.FindElements("//*[contains(@class,'ui-tieredmenu')]").length);
-  
+ //if(Aliases.browser.pageSapiensDecision2.FindElements("//p-tieredmenusub//ul//li").length > 0 )
   if(Aliases.browser.pageSapiensDecision2.FindElements("//p-tieredmenusub//*[contains(@class,'p-menuitem-link')]").length > 0 )
   {  
      if (SelectOption == "Test Groups")
@@ -58,7 +54,7 @@
      
      else if (SelectOption == "Knowledge Source")
      {
-       Aliases.browser.pageSapiensDecision2.FindElement("//*[(text() = 'Knowledge Source')]").click();       
+       Aliases.browser.pageSapiensDecision2.FindElement("//p-tieredmenusub//*[(text() = 'Knowledge Source')]").click();       
        aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.FindElement("//dcn-dialog//*[@class='knowledge-source__title']/span[1]"), "contentText", cmpContains, "Associated Knowledge Sources", false);
   
      

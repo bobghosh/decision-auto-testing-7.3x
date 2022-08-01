@@ -5,7 +5,7 @@
    if (RF != null)
   {
   let page=Aliases.browser.pageSapiensDecision2 
-  RF.ClickNextTo(toBottom, 2);
+  RF.ClickNextTo(toRight, 2);
   Delay(2000)
   }
 }

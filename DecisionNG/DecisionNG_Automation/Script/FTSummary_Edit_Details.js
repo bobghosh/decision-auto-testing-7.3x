@@ -11,7 +11,7 @@ function Tasks_Edit_FactType(Name,Description,ListIndicator,Datatype,DisplayForm
   var timestamp = new Date();
   var FactType_Name = timestamp.getMilliseconds().toString() + timestamp.getHours().toString() + timestamp.getMinutes().toString();
   
-  aqObject.CheckProperty(page.FindElement(ORGeneric.dcnLaundryLine+"/div/span"), "contentText", cmpEqual, Status);
+  aqObject.CheckProperty(page.FindElement("//fact-type-form"+ORGeneric.dcnLaundryLine+"/div/span"), "contentText", cmpEqual, Status);
 
   if(Name != null && Name != "")
   {

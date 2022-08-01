@@ -32,7 +32,7 @@
 				</Data>
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Select_Single_Row" Unit="SelectRow_SingleItem_MultipleRows">
+				<Data Description="Runs a script routine." TestName="Open_Decision_And_Flows_From_TaskPage_Decision_Flows_DecisionsTab" Unit="Open_SingleItem_MultipleRows">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Item" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Decision_Name" />
 					</Parameters>
@@ -41,7 +41,7 @@
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs a script routine." TestName="DRF_Perform_RightClick" Unit="DRF_Perform_Actions">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Name" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Decision_Name" />
+						<Parameter Name="Name" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Name_To_Perform_RightClick" />
 					</Parameters>
 				</Data>
 			</Operation>

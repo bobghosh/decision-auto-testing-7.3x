@@ -43,13 +43,13 @@ function Notifications_Select_SingleTask(taskName)
           
           if(Paginator == "Yes")
           {
-            if(Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'i-paginator-next')]").getAttribute("class").includes("ui-state-disabled"))
+            if(Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'paginator-next')]").getAttribute("class").includes("ui-state-disabled"))
             { 
               hasNext = "false";
             }
             else
             {
-              Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'i-paginator-next')]").click();         
+              Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'paginator-next')]").click();         
             }
           }
           else

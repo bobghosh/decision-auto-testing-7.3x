@@ -1,5 +1,5 @@
-﻿function AI_Expand_Icon_Click_Verify()
-{let AssetNames ="Policy Renewal Method (View: Base) [V1.5]|Approved,Policy Renewal Method (View: Base) [V1.3]|Draft"
+﻿function AI_Expand_Icon_Click_Verify(AssetNames)
+{//let AssetNames ="Policy Renewal Method (View: Base) [V1.5]|Approved,Policy Renewal Method (View: Base) [V1.3]|Draft"
     var page =  Aliases.browser.pageSapiensDecision2;
     AssetName = AssetNames.toString().split(",");
     

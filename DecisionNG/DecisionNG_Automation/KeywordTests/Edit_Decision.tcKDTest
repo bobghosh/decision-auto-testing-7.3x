@@ -1,95 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{D2E3530D-9F83-4DB2-B49A-6B3520BD0DA0}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{000CA4AB-7133-4CBD-BCE6-CBCC89748C40}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
 			</Extenders>
 		</Data>
 		<Children>
-			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="Nav_Repo_Community_VG_Select">
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Edit_Decision" Unit="Edit_Decision_SelectDV">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="CommunityName" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="WORLD,Automation Testing,Automation_Assets" />
-						<Parameter Name="SelectOption_Community_VG" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="VG" />
-						<Parameter Name="Community_VG_Foldername" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Auto_VG_Assets" />
+						<Parameter Name="performdoubleClickOn" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Condo Loan Documentation" />
+						<Parameter Name="enterDecisionName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Condo Loan FHA" />
+						<Parameter Name="decisionNameToSelect" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Condo Loan FHA Concentration Compliance (View: Base) [V1.1]" />
 					</Parameters>
 				</Data>
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Repository_SubTab_Select_Verify" Unit="Repository_Select_SubTabs">
+				<Data Description="Runs a script routine." TestName="FlowScreen_Decision_RClick_Open" Unit="Decision_RClick_Open">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="selectSubTab" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Decisions" />
+						<Parameter Name="Decision" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Condo Loan FHA" />
 					</Parameters>
 				</Data>
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Open_Decision" Unit="Decision_Open_Verify">
+				<Data Description="Runs a script routine." TestName="Breadcrumb_Verify_Navigation" Unit="BreadCrumb_IncludesText_Verify">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Item" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Decision" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Wait_Until_Element_ispresent" Unit="WaitElement_ispresent">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Element" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="//canvas" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Breadcrumb_Verify_Navigation" Unit="Breadcrumb_Verify_Navigation">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="breadcrumb_Toverify" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Decision" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Edit_Decision_and_CreateNewTask" Unit="Edit_Decision_and_Flow">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="TaskName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="TaskNew" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
-				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageSapiensDecision2.WaitElement(&quot;//div[.=&apos;DRAFT&apos;]&quot;, 5000)" />
-						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
-						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
-						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="DRAFT" />
-						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+						<Parameter Name="breadcrumb_Toverify" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Condo Loan FHA Concentration Compliance (View: Base) [V1.1]" />
 					</Parameters>
 				</Data>
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs a script routine." TestName="Breadcrumb" Unit="Breadcrumb_Navigations">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="BreadcrumbName" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="NewTaskName" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Perform_Click_On_Element" Unit="Perform_Click_On_Element">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Element" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="//button[contains(., &apos;Discard&apos;)]" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="okButtonClick" Unit="Buttons_Actions" />
-			</Operation>
-			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
-				<Data Description="Delays the test execution for the specified time period.">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="5000" />
-						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="BreadcrumbName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Condo Loan Eligibility [V1.4]" />
 					</Parameters>
 				</Data>
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{71398581-A7F9-4873-A720-521D111DFE59}">
-		<Parameter0 Name="Decision" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" Description="" />
-	</Parameters>
+	<Parameters Key="{CC924500-9452-44D1-ACDF-3A6EF9979750}" />
 </Root>

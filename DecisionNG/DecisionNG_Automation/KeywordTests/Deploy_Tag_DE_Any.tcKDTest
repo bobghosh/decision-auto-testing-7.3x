@@ -10,13 +10,20 @@
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="Nav_Comm_ReleaseProj_Proj_Branch">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="OpenProject" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Bhavya Project" />
+						<Parameter Name="OpenProject" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="open_Project" />
 						<Parameter Name="BranchName" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Main" />
 					</Parameters>
 				</Data>
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Tag_Deploy_Verify_Deployed_Tag_Status" Unit="Deploy_Tag">
+				<Data Description="Runs a script routine." TestName="Perform_Click_On_Element" Unit="Perform_Click_On_Element">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Element" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="//dcn-navigation-menu//span[text()=&apos;Assets&apos;]" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Deploy_Snapshot_Verify_Deployed_Status" Unit="Deploy_Snapshot">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="deployment_Environment" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="DeploymentEnvironment" />
 						<Parameter Name="ApprovalStrategy" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="ApprovalStrategy" />
@@ -24,135 +31,30 @@
 				</Data>
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="Navigate_To_TaskQueue" />
-			</Operation>
-			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Navigate_SubTabs" Unit="Navigate_Tasks_Subtab">
+				<Data Description="Runs a keyword test." TestName="Nav_MyTasks_SpecificTask">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="TabName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Group Tasks" />
+						<Parameter Name="TabName" DefVarType="8" DefValueType="6" DefValueValue="My Tasks" VarType="8" ValueType="6" ValueValue="Group Tasks" />
+						<Parameter Name="Subtab_Name" DefVarType="8" DefValueType="6" DefValueValue="Tasks" VarType="8" ValueType="6" ValueValue="Deployment Tasks" />
+						<Parameter Name="TaskName" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
 					</Parameters>
 				</Data>
 			</Operation>
-			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Navigate_SubTabs" Unit="Navigate_Tasks_Subtab">
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="TabName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Notifications" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Verify_Notifications_Deployment_Task_through_TaskName_Type_Status" Unit="SelectRow_SingleItem_MultipleRows">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="TaskName" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Tag_Name" />
-						<Parameter Name="Type" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Deployment" />
-						<Parameter Name="Status" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Requested" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Navigate_SubTabs" Unit="Navigate_Tasks_Subtab">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="TabName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Group Tasks" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Navigate_SubTabs" Unit="Navigate_Tasks_Subtab">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="TabName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Deployment Tasks" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Select_Single_Row_Deployment_Task_through_ProjectName_EnvironmentName_DeploymentName" Unit="SelectRow_SingleItem_MultipleRows">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="ProjectName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Bhavya Project" />
-						<Parameter Name="EnvironmentName" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="DeploymentEnvironment" />
-						<Parameter Name="DeploymentName" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Tag_Name" />
-						<Parameter Name="Claim" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Yes" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Navigate_SubTabs" Unit="Navigate_Tasks_Subtab">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="TabName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="My Tasks" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Navigate_SubTabs" Unit="Navigate_Tasks_Subtab">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="TabName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Deployment Tasks" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Open_Single_Row_Deployment_Task_through_ProjectName_EnvironmentName_DeploymentName" Unit="Open_SingleItem_MultipleRows">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="ProjectName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Bhavya Project" />
-						<Parameter Name="EnvironmentName" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="DeploymentEnvironment" />
-						<Parameter Name="DeploymentName" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Tag_Name" />
-						<Parameter Name="Open" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Yes" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Deployment_Approve_button" Unit="Deployment_Approve_Reject" />
-			</Operation>
-			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Navigate_SubTabs" Unit="Navigate_Tasks_Subtab">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="TabName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Notifications" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Verify_Notifications_Deployment_Task_through_TaskName_Type_Status" Unit="SelectRow_SingleItem_MultipleRows">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="TaskName" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Tag_Name" />
-						<Parameter Name="Type" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Deployment" />
-						<Parameter Name="Status" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Approved" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="Nav_Comm_ReleaseProj_Proj_Branch">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="OpenProject" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Bhavya Project" />
-						<Parameter Name="BranchName" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Main" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="Navigate_to_DeploymentHistory" />
-			</Operation>
-			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Verify_Deployment_History" Unit="Verify_Deployment_History" />
-			</Operation>
-			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="Navigate_To_TaskQueue" />
-			</Operation>
-			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Navigate_SubTabs" Unit="Navigate_Tasks_Subtab">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="TabName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Notifications" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="Verify_Notifications_Deployment_Task_through_TaskName_Type_Status" Unit="SelectRow_SingleItem_MultipleRows">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="TaskName" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Snapshot_Name" />
-						<Parameter Name="Type" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Deployment" />
-						<Parameter Name="Status" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Deployed" />
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageSapiensDecision2.WaitElement(&quot;//tbody//tr[1]/td[3]&quot;, 5000)" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="DeploymentEnvironment" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
 					</Parameters>
 				</Data>
 			</Operation>
 		</Children>
 	</TestData>
 	<Parameters Key="{606A6EBB-19FA-4ED4-A77A-8BE9EDCB5FDB}">
-		<Parameter0 Name="DeploymentEnvironment" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="DE_Prod_Approval_Strategy_Any" Description="" />
-		<Parameter1 Name="ApprovalStrategy" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Any" Description="" />
+		<Parameter0 Name="DeploymentEnvironment" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter1 Name="ApprovalStrategy" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter2 Name="open_Project" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
 	</Parameters>
 </Root>

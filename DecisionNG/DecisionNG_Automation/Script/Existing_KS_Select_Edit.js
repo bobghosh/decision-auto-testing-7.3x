@@ -21,7 +21,7 @@
       {
         Log.Checkpoint(AssetName+" fields are not editablei.e.Read only");
             
-        let element = page.FindElement("//*[contains(@class,'knowledge-source__details')]").Child(1);
+        let element = page.FindElement("//dcn-action-panel//ancestor::*[contains(@class,'knowledge-source__details')]").Child(0);
         
         
         if(element.getAttribute('class').includes('knowledge-source__dialog__error')){
@@ -31,8 +31,9 @@
         else{   
         //if fields are disabled and no warning then click on enable editing
         page.FindElement("//dcn-action-panel//span//a").click();
-       
-          Delay(2000);
+        Delay(2000)
+        page.FindElement("//button[contains(text(),'Version Change')]").Click()
+        Delay(2000)
         if((page.FindElement("//div//span//input[@name='ksName']").hasAttribute('readonly'))&& (page.FindElement("//div//span//input[@name='ksVersion']").hasAttribute('readonly')))
         {
           Log.Error(AssetName+" fields are not editable even after clicking on Enable Editing");
