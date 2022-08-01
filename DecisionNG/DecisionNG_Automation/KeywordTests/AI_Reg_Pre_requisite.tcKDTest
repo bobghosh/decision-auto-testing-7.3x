@@ -14,6 +14,7 @@
 				<Children>
 					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 						<Data Description="Runs a keyword test." TestName="Login">
+							<CommonData Disabled="True" />
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="URL" />
 								<Parameter Name="UserName" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="2" VariableName="Add_Info_Pre_Requisite" ColumnName="Username" />
@@ -23,6 +24,7 @@
 					</Operation>
 					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 						<Data Description="Runs a script routine." TestName="Create_A_New_Task_Generic_Functional" Unit="AI_Reg_Create_New_Task">
+							<CommonData Disabled="True" />
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="Community" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Automation_Assets" />
 								<Parameter Name="TaskName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Additional_Info_with_assets,Additional_Info_without_assets" />
@@ -35,6 +37,7 @@
 					</Operation>
 					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
 						<Data Description="Delays the test execution for the specified time period.">
+							<CommonData Disabled="True" />
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="1000" />
 								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
@@ -43,6 +46,7 @@
 					</Operation>
 					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 						<Data Description="Runs a keyword test." TestName="Claim_and_Open_Task">
+							<CommonData Disabled="True" />
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="TabName" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Group Tasks" />
 								<Parameter Name="SubTabName" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Tasks" />
@@ -52,6 +56,7 @@
 					</Operation>
 					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 						<Data Description="Runs a keyword test." TestName="Claim_and_Open_Task">
+							<CommonData Disabled="True" />
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="TabName" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Group Tasks" />
 								<Parameter Name="SubTabName" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Tasks" />
@@ -61,6 +66,7 @@
 					</Operation>
 					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 						<Data Description="Runs a keyword test." TestName="Repository_DV_Edit">
+							<CommonData Disabled="True" />
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="Communities_To_Expand" DefVarType="8" DefValueType="6" DefValueValue="WORLD" VarType="8" ValueType="6" ValueValue="WORLD,Automation Testing,Automation_Assets" />
 								<Parameter Name="Community_To_Select" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Auto_VG_Assets" />
@@ -73,6 +79,7 @@
 					</Operation>
 					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
 						<Data Description="Delays the test execution for the specified time period.">
+							<CommonData Disabled="True" />
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
 								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
@@ -81,33 +88,9 @@
 					</Operation>
 					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 						<Data Description="Runs a keyword test." TestName="RF_Enable_Editing">
+							<CommonData Disabled="True" />
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="RF_Name" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="2" VariableName="Add_Info_Pre_Requisite" ColumnName="Edit RF(Asset Name)" />
-							</Parameters>
-						</Data>
-					</Operation>
-					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-						<Data Description="Runs a script routine." TestName="Wait_Until_Element_ispresent" Unit="WaitElement_ispresent">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Element" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="//div[@role=&quot;alertdialog&quot;]" />
-							</Parameters>
-						</Data>
-					</Operation>
-					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
-						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageSapiensDecision.panel16" />
-								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
-								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
-								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Messages were migrated to Rule Family from all the Decision(s) with which it is associated." />
-								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
-							</Parameters>
-						</Data>
-					</Operation>
-					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-						<Data Description="Runs a script routine." TestName="Perform_Click_On_Element" Unit="Perform_Click_On_Element">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Element" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="//div[@role=&quot;alertdialog&quot;]" />
 							</Parameters>
 						</Data>
 					</Operation>
@@ -121,6 +104,7 @@
 					</Operation>
 					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 						<Data Description="Runs a script routine." TestName="FT_Enable_Editing" Unit="DecisionScreen_FT_Enable_Editing">
+							<CommonData Disabled="True" />
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="FT_to_Edit" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="2" VariableName="Add_Info_Pre_Requisite" ColumnName="Edit FT(Asset Name)" />
 							</Parameters>

@@ -106,11 +106,11 @@ function Edit_BIMChild(childName, newBimName)
 
 function Expand_BIM_Group(RG_Name)
 {
-  let plusIcon = Aliases.browser.pageSapiensDecision.FindElement(ORfloatingSidebar.dcnBimEditTree+"//*[text()='"+ RG_Name +"']//ancestor::div[@class='ui-treenode-content ui-treenode-selectable']/span[1]");
-  if(plusIcon.getAttribute("class").includes("pi-caret-right"))
+  let plusIcon = Aliases.browser.pageSapiensDecision.FindElement(ORfloatingSidebar.dcnBimEditTree+"//*[text()='"+ RG_Name +"']//ancestor::div[@class='p-treenode-content p-treenode-selectable']/button/span");
+  if(plusIcon.getAttribute("class").includes("right"))
   {
     plusIcon.click();
-    if(plusIcon.getAttribute("class").includes("pi-caret-right"))
+    if(plusIcon.getAttribute("class").includes("right"))
     {
       Log.Error("Still + is selected")
     }
@@ -125,7 +125,7 @@ function Verify_FactType_PresentIn_Root(FactTypeName){
   
   let page = Aliases.browser.pageSapiensDecision2;
   var count = 0
-  let option = page.FindElements(ORfloatingSidebar.dcnBimTreePanel+"//ul//li[contains(@class, 'ui-treenode-leaf')]");
+  let option = page.FindElements(ORfloatingSidebar.dcnBimTreePanel+"//ul//li[contains(@class, 'treenode-leaf')]");
   
   for(let i=0;i<option.length;i++){
     

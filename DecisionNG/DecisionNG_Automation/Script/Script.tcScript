@@ -36,7 +36,6 @@
 			<child name="SelectingOptionfromDropDown_MultipleSelection" key="{A77A674D-A158-43DF-BAF0-76F053F45942}" path="SelectingOptionfromDropDown_MultipleSelection.js" />
 			<child name="GenerateRandomNumber" key="{21BC5768-6BA3-4941-8760-BD3A002D03FE}" path="GenerateRandomNumber.js" />
 			<child name="CloseBrowsers" key="{692B8A8A-B7CC-4300-8417-1FD34A1D6535}" path="CloseBrowsers.js" />
-			<child name="Event_RefreshPage_OnError" key="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}" path="Event_RefreshPage_OnError.js" />
 			<child name="BrowserBack_Action" key="{37C7687E-C7F8-4EC4-961F-F9F28A50965B}" path="BrowserBack_Action.js" />
 			<child name="Verify_DialogueBox_Open_Closed" key="{996CCC48-6D36-4937-8585-38D10B3EA771}" path="Verify_DialogueBox_Open_Closed.js" />
 			<child name="Perform_Click_On_Element" key="{5B7CA46D-0BA7-4BF4-A052-8B48E42CE277}" path="Perform_Click_On_Element.js" />
@@ -45,6 +44,8 @@
 			<child name="Check_Window_Availability" key="{3A3AD548-79EB-440A-8015-35CDAAD6DDED}" path="Check_Window_Availability.js" />
 			<child name="WaitUntilElementIsEnabled" key="{07DBB2E1-C228-45F5-B3D7-83351E6C3AA5}" path="WaitUntilElementIsEnabled.js" />
 			<child name="Verify_Item_Is_Enabled_Disabled" key="{AD120136-1FAA-4066-B640-B17F510F9104}" path="Verify_Item_Is_Enabled_Disabled.js" />
+			<child name="Clipboard_Functions" key="{5FA6425D-EE87-4069-8AD1-E75118A428C1}" path="Clipboard_Functions.js" />
+			<child name="Event_Control" key="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}" path="Event_Control.js" />
 		</folder>
 		<folder name="Modelling">
 			<folder name="FactType">
@@ -169,6 +170,9 @@
 				<child name="Drag_Drop_From_Pleate" key="{8FDA29B7-E636-4DC0-ACA6-B5CAB369E03F}" path="Drag_Drop_From_Pleate.js" />
 				<child name="FlowScreen_Perform_Actions" key="{72E8C5B9-861E-4F92-A8F0-19BB923CA609}" path="FlowScreen_Perform_Actions.js" />
 				<child name="Rename_SubFlow" key="{6903DACB-12BA-4041-AEE0-1480D6FEC525}" path="Rename_SubFlow.js" />
+				<child name="Change_Decision_Version" key="{5753F036-EDA4-486F-9727-B81CBC98AA4E}" path="Change_Decision_Version.js" />
+				<child name="Add_Gateway_FT" key="{4D03F90C-F537-4FBF-AE25-9C9FCA0AD6FF}" path="Add_Gateway_FT.js" />
+				<child name="Edit_Decision_SelectDV" key="{898F8568-A3C8-4E19-A826-670915EB8C78}" path="Edit_Decision_SelectDV.js" />
 			</folder>
 		</folder>
 		<folder name="Tasks Queue">
@@ -323,55 +327,6 @@
 				<child name="QuickSearch_SearchAllVersions" key="{628539F2-E0B6-48B3-BB99-2CA682D8F052}" path="QuickSearch_SearchAllVersions.js" />
 			</folder>
 		</folder>
-		<folder name="Additional Information">
-			<folder name="Details">
-				<folder name="Notes">
-					<child name="Add_New_Note" key="{2F9D2342-9708-496A-B03A-CB8A84C14072}" path="Add_New_Note.js" />
-					<child name="Verify_If_Notes_Exists" key="{1479988B-8399-4FA6-829A-BAC56EB2BB3B}" path="Verify_If_Notes_Exists.js" />
-					<child name="Verify_Version_User_Date_Sub_Text" key="{277DCB9A-27A8-4D6D-B046-ABFE6CE9B82C}" path="Verify_Version_User_Date_Sub_Text.js" />
-					<child name="Remove_Note" key="{CBBB5420-4DEA-40B1-B15D-3EE9F6D0714B}" path="Remove_Note.js" />
-					<child name="Verify_Subject_Text" key="{7F122013-B55F-4E15-BC07-7D013106F7E1}" path="Verify_Subject_Text.js" />
-					<child name="Edit_Existing_Notes_Subject_Text" key="{6C275B73-5501-4E08-AFD3-FB5430C4D93C}" path="Edit_Existing_Notes_Subject_Text.js" />
-					<child name="RF_Notes_Header_Label" key="{74EDA48E-BCD2-481A-ADE3-A06CA6512CC7}" path="RF_Notes_Header_Label.js" />
-					<child name="RF_Notes_Icon_Verify_RF_Row_Column_Cell" key="{F9F547E7-7D9D-4E95-95D7-7147EDF6148F}" path="RF_Notes_Icon_Verify_RF_Row_Column_Cell.js" />
-				</folder>
-				<folder name="General">
-					<child name="Originating_Task_Open_OR_Verify" key="{7021F5D9-3AE1-4BF8-968B-1BA05311AE39}" path="Originating_Task_Open_OR_Verify.js" />
-					<child name="Location_in_Repo_Open_OR_Verify" key="{6564ABB1-099A-477B-9E63-81333E88AB45}" path="Location_in_Repo_Open_OR_Verify.js" />
-				</folder>
-				<folder name="Custom Properties">
-					<child name="AI_Enter_CustomProperties" key="{F8E720BA-329A-44CD-8656-5DB8A2E7A8CC}" path="AI_Enter_CustomProperties.js" />
-					<child name="Verify_If_Properties_Exists" key="{C8ACE3B9-90BA-4546-9518-5C8C18E3CD2D}" path="Verify_If_Properties_Exists.js" />
-				</folder>
-			</folder>
-			<folder name="Associations">
-				<child name="AI_Click_Open_Assets" key="{B32E72C5-AA8B-4771-BD29-6DF7D5A1A8AE}" path="AI_Click_Open_Assets.js" />
-				<child name="AI_Subtabs_details_Verify" key="{CC9B43A1-2E1D-4C38-9F7F-05101B386B55}" path="AI_Subtabs_details_Verify.js" />
-				<child name="AI_Subtabs_Open_Asset" key="{2F7EB6B6-F2BB-488B-BE9A-B5348B0E740C}" path="AI_Subtabs_Open_Asset.js" />
-				<child name="AI_Associations_Subtabs_Counter_Verify" key="{F926858A-C0A1-4AF2-8BCA-EF7CA16C7166}" path="AI_Associations_Subtabs_Counter_Verify.js" />
-				<child name="AI_No_Assets_Verify" key="{6B04C971-9F2D-49F1-85CF-99BA30F46085}" path="AI_No_Assets_Verify.js" />
-			</folder>
-			<folder name="Deployments">
-				<child name="AI_Latest_Revisions_Verify" key="{C1BD68D3-DFE2-46BF-9920-DD3DFC106D85}" path="AI_Latest_Revisions_Verify.js" />
-				<child name="AI_Tags_Verify" key="{C84B94E3-3151-4738-8302-E5268B8CF1CA}" path="AI_Tags_Verify.js" />
-				<child name="AI_LatestRevisions_Open" key="{8CF60B8B-9932-44FF-A82B-60B670961997}" path="AI_LatestRevisions_Open.js" />
-				<child name="AI_Tags_OpenTag" key="{F0363064-4D03-4A08-B794-8267D00BE76C}" path="AI_Tags_OpenTag.js" />
-			</folder>
-			<folder name="Generic">
-				<child name="AI_MainTabs_Select_verify" key="{0AAFB2F1-2B82-4DC8-ADEF-ACB17D5E2E55}" path="AI_MainTabs_Select_verify.js" />
-				<child name="AI_SubTabs_Select_verify" key="{D686EBD2-BB2A-4EFB-9D1D-8DF143CED213}" path="AI_SubTabs_Select_verify.js" />
-				<child name="AI_Click_Verify_Title" key="{EA6B97C1-2778-484D-9066-A871EB95D1AE}" path="AI_Click_Verify_Title.js" />
-				<child name="AI_Click_Close" key="{09AD2EE4-4592-42C5-8806-B53CE23D1BB3}" path="AI_Click_Close.js" />
-				<child name="AI_Verify_Tab_Selected" key="{82D6ADE3-2269-4299-B581-08D7AC104F21}" path="AI_Verify_Tab_Selected.js" />
-				<child name="AI_Verify_Icon_Title" key="{31873D81-1127-4CD8-9880-745367F43DA8}" path="AI_Verify_Icon_Title.js" />
-				<child name="AI_Click_Open" key="{CBA6E44A-4B30-4CBE-A9D0-5B63764EE1B2}" path="AI_Click_Open.js" />
-				<child name="AI_Reg_Create_New_Task" key="{E7FB7474-6268-4C56-86BE-324945C18C65}" path="AI_Reg_Create_New_Task.js" />
-				<child name="AI_Details_Subtabs_Counter_Verify" key="{AF5C9D20-8D5A-4945-AFCF-E98EF422DB9D}" path="AI_Details_Subtabs_Counter_Verify.js" />
-				<child name="AI_Expand_Icon_Click_Verify" key="{8742C331-AC45-40C2-BC6E-C6615E8D80B0}" path="AI_Expand_Icon_Click_Verify.js" />
-				<child name="AI_Collapse_Icon_Click_Verify" key="{280A5B08-35FE-4230-8053-C513BE009B21}" path="AI_Collapse_Icon_Click_Verify.js" />
-				<child name="AI_Cust_Properties_Edit" key="{84F1E012-15AB-4A64-BBBB-0DC45F5330EF}" path="AI_Cust_Properties_Edit.js" />
-			</folder>
-		</folder>
 		<folder name="Page Navigations">
 			<folder name="Task_Tab_Navigations">
 				<folder name="Details Tab Navigation">
@@ -473,6 +428,55 @@
 					<child name="Modeling_Projects_Navigation" key="{C4B0E045-83C8-4A28-BC40-CC1D2F290147}" path="Modeling_Projects_Navigation.js" />
 					<child name="ReAssignments" key="{EA8FF1FF-949D-46FF-A617-7E6767191A14}" path="ReAssignments.js" />
 					<child name="Tasks_Tab" key="{7B9657BE-FB9F-4739-8300-99179AC91A3B}" path="Tasks_Tab.js" />
+				</folder>
+			</folder>
+			<folder name="Additional Information">
+				<folder name="Details">
+					<folder name="Notes">
+						<child name="Add_New_Note" key="{2F9D2342-9708-496A-B03A-CB8A84C14072}" path="Add_New_Note.js" />
+						<child name="Verify_If_Notes_Exists" key="{1479988B-8399-4FA6-829A-BAC56EB2BB3B}" path="Verify_If_Notes_Exists.js" />
+						<child name="Verify_Version_User_Date_Sub_Text" key="{277DCB9A-27A8-4D6D-B046-ABFE6CE9B82C}" path="Verify_Version_User_Date_Sub_Text.js" />
+						<child name="Remove_Note" key="{CBBB5420-4DEA-40B1-B15D-3EE9F6D0714B}" path="Remove_Note.js" />
+						<child name="Verify_Subject_Text" key="{7F122013-B55F-4E15-BC07-7D013106F7E1}" path="Verify_Subject_Text.js" />
+						<child name="Edit_Existing_Notes_Subject_Text" key="{6C275B73-5501-4E08-AFD3-FB5430C4D93C}" path="Edit_Existing_Notes_Subject_Text.js" />
+						<child name="RF_Notes_Header_Label" key="{74EDA48E-BCD2-481A-ADE3-A06CA6512CC7}" path="RF_Notes_Header_Label.js" />
+						<child name="RF_Notes_Icon_Verify_RF_Row_Column_Cell" key="{F9F547E7-7D9D-4E95-95D7-7147EDF6148F}" path="RF_Notes_Icon_Verify_RF_Row_Column_Cell.js" />
+					</folder>
+					<folder name="General">
+						<child name="Originating_Task_Open_OR_Verify" key="{7021F5D9-3AE1-4BF8-968B-1BA05311AE39}" path="Originating_Task_Open_OR_Verify.js" />
+						<child name="Location_in_Repo_Open_OR_Verify" key="{6564ABB1-099A-477B-9E63-81333E88AB45}" path="Location_in_Repo_Open_OR_Verify.js" />
+					</folder>
+					<folder name="Custom Properties">
+						<child name="AI_Enter_CustomProperties" key="{F8E720BA-329A-44CD-8656-5DB8A2E7A8CC}" path="AI_Enter_CustomProperties.js" />
+						<child name="Verify_If_Properties_Exists" key="{C8ACE3B9-90BA-4546-9518-5C8C18E3CD2D}" path="Verify_If_Properties_Exists.js" />
+					</folder>
+				</folder>
+				<folder name="Associations">
+					<child name="AI_Click_Open_Assets" key="{B32E72C5-AA8B-4771-BD29-6DF7D5A1A8AE}" path="AI_Click_Open_Assets.js" />
+					<child name="AI_Subtabs_details_Verify" key="{CC9B43A1-2E1D-4C38-9F7F-05101B386B55}" path="AI_Subtabs_details_Verify.js" />
+					<child name="AI_Subtabs_Open_Asset" key="{2F7EB6B6-F2BB-488B-BE9A-B5348B0E740C}" path="AI_Subtabs_Open_Asset.js" />
+					<child name="AI_Associations_Subtabs_Counter_Verify" key="{F926858A-C0A1-4AF2-8BCA-EF7CA16C7166}" path="AI_Associations_Subtabs_Counter_Verify.js" />
+					<child name="AI_No_Assets_Verify" key="{6B04C971-9F2D-49F1-85CF-99BA30F46085}" path="AI_No_Assets_Verify.js" />
+				</folder>
+				<folder name="Deployments">
+					<child name="AI_Latest_Revisions_Verify" key="{C1BD68D3-DFE2-46BF-9920-DD3DFC106D85}" path="AI_Latest_Revisions_Verify.js" />
+					<child name="AI_Tags_Verify" key="{C84B94E3-3151-4738-8302-E5268B8CF1CA}" path="AI_Tags_Verify.js" />
+					<child name="AI_LatestRevisions_Open" key="{8CF60B8B-9932-44FF-A82B-60B670961997}" path="AI_LatestRevisions_Open.js" />
+					<child name="AI_Tags_OpenTag" key="{F0363064-4D03-4A08-B794-8267D00BE76C}" path="AI_Tags_OpenTag.js" />
+				</folder>
+				<folder name="Generic">
+					<child name="AI_MainTabs_Select_verify" key="{0AAFB2F1-2B82-4DC8-ADEF-ACB17D5E2E55}" path="AI_MainTabs_Select_verify.js" />
+					<child name="AI_SubTabs_Select_verify" key="{D686EBD2-BB2A-4EFB-9D1D-8DF143CED213}" path="AI_SubTabs_Select_verify.js" />
+					<child name="AI_Click_Verify_Title" key="{EA6B97C1-2778-484D-9066-A871EB95D1AE}" path="AI_Click_Verify_Title.js" />
+					<child name="AI_Click_Close" key="{09AD2EE4-4592-42C5-8806-B53CE23D1BB3}" path="AI_Click_Close.js" />
+					<child name="AI_Verify_Tab_Selected" key="{82D6ADE3-2269-4299-B581-08D7AC104F21}" path="AI_Verify_Tab_Selected.js" />
+					<child name="AI_Verify_Icon_Title" key="{31873D81-1127-4CD8-9880-745367F43DA8}" path="AI_Verify_Icon_Title.js" />
+					<child name="AI_Click_Open" key="{CBA6E44A-4B30-4CBE-A9D0-5B63764EE1B2}" path="AI_Click_Open.js" />
+					<child name="AI_Reg_Create_New_Task" key="{E7FB7474-6268-4C56-86BE-324945C18C65}" path="AI_Reg_Create_New_Task.js" />
+					<child name="AI_Details_Subtabs_Counter_Verify" key="{AF5C9D20-8D5A-4945-AFCF-E98EF422DB9D}" path="AI_Details_Subtabs_Counter_Verify.js" />
+					<child name="AI_Expand_Icon_Click_Verify" key="{8742C331-AC45-40C2-BC6E-C6615E8D80B0}" path="AI_Expand_Icon_Click_Verify.js" />
+					<child name="AI_Collapse_Icon_Click_Verify" key="{280A5B08-35FE-4230-8053-C513BE009B21}" path="AI_Collapse_Icon_Click_Verify.js" />
+					<child name="AI_Cust_Properties_Edit" key="{84F1E012-15AB-4A64-BBBB-0DC45F5330EF}" path="AI_Cust_Properties_Edit.js" />
 				</folder>
 			</folder>
 		</folder>

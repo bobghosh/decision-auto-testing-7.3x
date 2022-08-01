@@ -29,7 +29,8 @@
       let app_subarray =[];
       var HighlightedItemName = Aliases.browser.pageSapiensDecision.FindElement("//tbody/tr["+j+"]/td[1]//a");
       let ItemLinkName=HighlightedItemName.textContent.toString().trim();
-      
+      Log.Message(ItemLinkName)
+      Log.Message(Role)
       if(ItemLinkName == Role)
       {
         flag = "1";

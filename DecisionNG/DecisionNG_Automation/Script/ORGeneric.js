@@ -56,6 +56,6 @@ var nameValue = "//*[@name='value']"
 var btnAdd = "//button[contains(@class,'add-btn')]"
 
 //----------------------------------------------------------------
-var tblFrozenView = "//*[contains(@class,'i-table-frozen-view')]"
+var tblFrozenView = "//*[contains(@class,'table-frozen-view')]"
 var pTblFrozenView = "//*[contains(@class,'p-datatable-frozen-view')]"
 var tblUnfrozenView = "//*[contains(@class,'datatable-unfrozen-view')]"

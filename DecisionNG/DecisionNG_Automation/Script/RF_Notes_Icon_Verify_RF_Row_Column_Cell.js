@@ -95,7 +95,7 @@ case "Cell":
   for (let k=0;k<Cell_Elements.length;k++)
   {
     let Cell_Number=k+1;
-    if(Cell_Elements[k].getAttribute('aria-selected').includes('true'))
+    if(Cell_Elements[k].hasAttribute('aria-selected'))
   {
     
   

@@ -65,6 +65,73 @@
     }while(hasNext == "true")
     
 }
+function Select_Single_Row_from_Decision_And_Decisoin_FlowTab(Item)
+{
+  
+    let flag = 0;
+    let Paginator;
+  
+    if(Aliases.browser.pageSapiensDecision.FindElements("//p-paginator/div").length > 0)
+    {
+      Paginator = "Yes";
+    }
+    else
+    {
+      Paginator = "No";
+    }
+    
+//    Log.Message(Aliases.browser.pageSapiensDecision.FindElements("//dcn-paginator//p-paginator/div").length);
+//    Log.Message(Paginator);
+    
+    let hasNext = "true";
+    
+    do{
+  
+          ItemCount = Aliases.browser.pageSapiensDecision.FindElements("//tbody//tr");
+          Log.Message(ItemCount.length);
+          for(var j = 1; j <= ItemCount.length ; j++)
+          {
+                var HighlightedItemName = Aliases.browser.pageSapiensDecision.FindElement("//tbody/tr["+j+"]/td[2]//a");
+
+                //If the Item Name matches 
+                if(HighlightedItemName.textContent.trim() == Item )
+                {          
+                        //To select amy row click on any icon available on the row
+                        Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+j+"]//i").Click();
+                        flag =1;
+                        //class="ui-selectable-row ng-star-inserted ui-state-highlight"
+                        Log.Message("Item is Selected")  
+                 }
+                 if(flag == 1)
+                 {
+                    break;
+                 }
+            }
+            if(flag ==1)
+            {
+              break;
+            }
+          
+          if(Paginator == "Yes")
+          {
+            if(Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'i-paginator-next')]").getAttribute("class").includes("ui-state-disabled"))
+            { 
+              hasNext = "false";
+            }
+            else
+            {
+              Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'i-paginator-next')]").click();         
+            }
+          }
+          else
+          {
+            hasNext = "false";
+          }
+      
+
+    }while(hasNext == "true")
+    
+}
 
 function Select_Single_Row_FactType_Task_through_TaskName(Item)
 {
@@ -281,61 +348,3 @@ function Select_Single_Row_Deployment_Task_through_ProjectName_EnvironmentName_D
     }while(hasNext == "true")
     
 }
-
-function Select_Single_Row_from_Decision_And_Decisoin_FlowTab(Item)
-{
-    let flag = 0;
-    let Paginator;
-    if(Aliases.browser.pageSapiensDecision.FindElements("//p-paginator/div").length > 0)
-    {
-      Paginator = "Yes";
-    }
-    else
-    {
-      Paginator = "No";
-    }
-//    Log.Message(Aliases.browser.pageSapiensDecision.FindElements("//dcn-paginator//p-paginator/div").length);
-//    Log.Message(Paginator);
-    let hasNext = "true";
-    do{
-          ItemCount = Aliases.browser.pageSapiensDecision.FindElements("//tbody//tr");
-          Log.Message(ItemCount.length);
-          for(var j = 1; j <= ItemCount.length ; j++)
-          {
-                var HighlightedItemName = Aliases.browser.pageSapiensDecision.FindElement("//tbody/tr["+j+"]/td[2]//a");
-                //If the Item Name matches 
-                if(HighlightedItemName.textContent.trim() == Item )
-                {          
-                        //To select amy row click on any icon available on the row
-                        Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+j+"]//i").Click();
-                        flag =1;
-                        //class="ui-selectable-row ng-star-inserted ui-state-highlight"
-                        Log.Message("Item is Selected")  
-                 }
-                 if(flag == 1)
-                 {
-                    break;
-                 }
-            }
-            if(flag ==1)
-            {
-              break;
-            }
-          if(Paginator == "Yes")
-          {
-            if(Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'i-paginator-next')]").getAttribute("class").includes("ui-state-disabled"))
-            { 
-              hasNext = "false";
-            }
-            else
-            {
-              Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'i-paginator-next')]").click();         
-            }
-          }
-          else
-          {
-            hasNext = "false";
-          }
-    }while(hasNext == "true")
-}
-

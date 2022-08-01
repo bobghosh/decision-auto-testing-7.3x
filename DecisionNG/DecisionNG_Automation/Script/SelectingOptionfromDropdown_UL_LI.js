@@ -10,7 +10,7 @@
       for(let i=0;i<Option.length;i++)
       {
         var Optiontext=Option[i].textContent;
-        //Log.Message(Optiontext)
+        Log.Message("text present in the list "+Optiontext+ "and "+" testpresent in the input we provide "+option)
         if(Optiontext.trim() == option.trim())
           {
             Option[i].Click(2,2);
@@ -19,7 +19,7 @@
         
          if(i == (Option.length-1))
          {
-           Log.Warning("Option doesn't exists/Wrong Input Data"); 
+           Log.Error("Option doesn't exists/Wrong Input Data"); 
            Option[0].Click();
            break;
          }  

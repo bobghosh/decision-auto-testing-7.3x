@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{D7F44744-0AB0-40A5-819A-3F2E02E72848}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Add_Gateway_FT" Unit="Add_Gateway_FT">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="existingGateWayFT" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Tuition Fee Loan" />
+						<Parameter Name="searchFT" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="FactType Text" />
+						<Parameter Name="selectFT" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="FactType Text" />
+						<Parameter Name="newFT" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="257" ValueType="0" ValueValue="0" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{F5F88CF4-F0E6-442A-8510-DCDCEF2E77C4}" />
+</Root>

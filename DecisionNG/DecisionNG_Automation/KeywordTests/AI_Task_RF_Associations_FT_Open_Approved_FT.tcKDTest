@@ -99,7 +99,7 @@
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="Asset_Type" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Fact Types" />
 								<Parameter Name="Open_Asset" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="2" VariableName="TestData_Additional_Info" ColumnName="Open Asset_From Association tab" />
-								<Parameter Name="context_of_asset" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="2" VariableName="TestData_Additional_Info" ColumnName="Context of Asset opening from AI" />
+								<Parameter Name="context_of_asset" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="257" ValueType="6" ValueValue="" />
 							</Parameters>
 						</Data>
 					</Operation>

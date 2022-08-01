@@ -19,6 +19,7 @@ function Create_New_Tag(TagName)
   //Verify the Create New Tag pop up and enter the Tag Name
   //  aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpEqual, "Create New Tag");
   aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//h1"), "contentText", cmpEqual, "Create New Tag");
+  aqUtils.Delay(1000)
   let randomNumber = Generate_Random_Number.randomNumber()
   Aliases.browser.pageSapiensDecision.FindElement("//*[@name='tagName']").SetText(TagName+randomNumber);
   

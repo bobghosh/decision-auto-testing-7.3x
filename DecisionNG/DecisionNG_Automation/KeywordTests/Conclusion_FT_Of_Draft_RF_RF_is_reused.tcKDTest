@@ -131,7 +131,7 @@
 			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageSapiensDecision2.WaitElement(&quot;//span[.=&apos;DRAFT&apos;]&quot;, 5000)" />
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageSapiensDecision2.WaitElement(&quot;//*[@class=&apos;label--draft ng-star-inserted&apos;]&quot;, 15000)" />
 						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
 						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
 						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="DRAFT" />
@@ -199,7 +199,7 @@
 			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
 				<Data Description="Delays the test execution for the specified time period.">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="5000" />
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="3000" />
 						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
 					</Parameters>
 				</Data>
@@ -207,12 +207,12 @@
 		</Children>
 	</TestData>
 	<Parameters Key="{53FE0EDF-45C1-4454-8C03-BD467B67ED52}">
-		<Parameter0 Name="Communities_To_Expand" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="WORLD,Automation Testing,Automation_Assets" Description="" />
-		<Parameter1 Name="Community_To_Select" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Auto_VG_Assets" Description="" />
-		<Parameter2 Name="Select_SubTab" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Decisions" Description="" />
-		<Parameter3 Name="Decision" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Maintenance Loan Eligibility (View: Auto_Add_Info) [V1.0]" Description="" />
-		<Parameter4 Name="SelectOption_Community_OR_VG" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="VG" Description="" />
-		<Parameter5 Name="supportRF" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Nationality or Residency Status Eligibility" Description="" />
-		<Parameter6 Name="splitBtn" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="//button[@icon=&apos;pi pi-chevron-down&apos;]" Description="" />
+		<Parameter0 Name="Communities_To_Expand" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter1 Name="Community_To_Select" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter2 Name="Select_SubTab" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter3 Name="Decision" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter4 Name="SelectOption_Community_OR_VG" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter5 Name="supportRF" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter6 Name="splitBtn" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
 	</Parameters>
 </Root>

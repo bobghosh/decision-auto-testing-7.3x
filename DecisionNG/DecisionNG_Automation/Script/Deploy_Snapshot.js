@@ -79,7 +79,7 @@ function Deploy_Snapshot_Verify_Deployed_Status(deployment_Environment,ApprovalS
   
     let Status = Aliases.browser.pageSapiensDecision.FindElement(ORGeneric.tblFrozenView+"//tbody//tr[1]//td[2]");
   
-    if(Status == "REQUESTED")
+    if(Status.contentText == "REQUESTED")
     {
       Log.Checkpoint("Deployment status is requested")
     }
