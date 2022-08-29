@@ -25,7 +25,8 @@ function Create_New_Flow_Popup_EnterDetails(community,flowName,taskName,New_Or_E
 //  let New_Or_Existing_FlowName = "New"
   
   
-  let communityDropdownBtn = page.FindElement("//*[@name='community']//button")
+  let communityDropdownBtn = page.FindElement("//dcn-combo-box[@name='community']//button")
+      communityDropdownBtn.WaitProperty("enabled",true, 10000)
   let taskNameBtn = page.FindElement("//*[@name='task']//button")
   let flowNameTextBox =page.FindElement("//*[@name='flowName']")
   if(!community == "")

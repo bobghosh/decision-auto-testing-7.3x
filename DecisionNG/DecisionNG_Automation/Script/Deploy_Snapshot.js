@@ -59,7 +59,7 @@ function Deploy_Snapshot_Verify_Deployed_Status(deployment_Environment,ApprovalS
   Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'spec-confirmed')]").Clickbutton();
         
   //Deploy pop up should be closed  
-  Aliases.browser.pageSapiensDecision.panel16.WaitProperty("VisibleOnScreen",true, 100000);
+  page.FindElement("//*[@aria-live='polite']").WaitProperty("VisibleOnScreen",true, 100000);
   aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.panel16, "Exists", cmpEqual, true);
   aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.panel16, "contentText", cmpEqual, "Deployment task submission has started and may take a while to complete");  
   Aliases.browser.pageSapiensDecision.panel16.click();

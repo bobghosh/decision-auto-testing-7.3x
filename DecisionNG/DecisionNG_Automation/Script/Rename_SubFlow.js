@@ -5,7 +5,7 @@ function Rename_SubFlow(subFlowName,subFlowRename)
   FlowScreen_Perform_Actions.DFScreen_Select(subFlowName)
   FlowScreen_Perform_Actions.DFScreen_Select(subFlowName)
   //.Keys("^[Esc]");
-  page.FindElement("//*[@class='goTXarea']").Keys("^[A]");
+  page.FindElement("//*[@class='goTXarea']").Keys("^[a]");
   page.FindElement("//*[@class='goTXarea']").Keys("[Del]");
   
   page.FindElement("//*[@class='goTXarea']").Keys(subFlowRename)

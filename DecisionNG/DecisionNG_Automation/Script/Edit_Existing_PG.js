@@ -38,14 +38,14 @@ function Edit_Existing_Permission_ClickOK(permissionGroupName,addRandomNum,permi
   
       for(var i = 0; i < permissions_array.length; i++) 
       { 
-        let permission = page.FindElement("//ul//li[@aria-label= '"+permissions_array[i]+"']//*[@class='ui-chkbox ui-widget ng-star-inserted']")
+        let permission = page.FindElement("//ul//li[@aria-label= '"+permissions_array[i]+"']//*[@class='p-checkbox p-component ng-star-inserted']")
         let firstchild = permission.firstchild
         //Log.Message(firstchild.getAttribute('class'))
         let firstChildClass= firstchild.getAttribute('class')
         if(!addPermission == "")
         {
           
-          if(firstChildClass.includes('ui-state-active'))
+          if(firstChildClass.includes('p-highlight'))
           {
             Log.Checkpoint(permissions_array[i]+" : Permission is already checked")
           }
@@ -54,7 +54,7 @@ function Edit_Existing_Permission_ClickOK(permissionGroupName,addRandomNum,permi
             permission.Click();
             let afterCheckFirstchild = permission.firstchild
             let classAfterCheck= afterCheckFirstchild.getAttribute('class')
-            if(classAfterCheck.includes('ui-state-active'))
+            if(classAfterCheck.includes('p-highlight'))
             {
               Log.Checkpoint(permissions_array[i]+" : Permission Checked Successfully")
             }
@@ -68,12 +68,12 @@ function Edit_Existing_Permission_ClickOK(permissionGroupName,addRandomNum,permi
         }
         else if(!removePermission == "")
         {
-          if(firstChildClass.includes('ui-state-active'))
+          if(firstChildClass.includes('p-highlight'))
           {
             permission.Click();
             let afterUnCheckFirstchild = permission.firstchild
             let classAfterUnCheck= afterUnCheckFirstchild.getAttribute('class')
-            if(classAfterUnCheck.includes('ui-state-active'))
+            if(classAfterUnCheck.includes('p-highlight'))
             {
               Log.Error(permissions_array[i]+" : Permission not Unchecked")
             }

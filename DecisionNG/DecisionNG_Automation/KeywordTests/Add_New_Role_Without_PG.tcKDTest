@@ -44,7 +44,7 @@
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs a script routine." TestName="Open_SingleItem_MultipleRows" Unit="Open_SingleItem_MultipleRows">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Item" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Role_To_Verify" />
+						<Parameter Name="Item" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Security_New_Role_Added" />
 					</Parameters>
 				</Data>
 			</Operation>

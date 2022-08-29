@@ -1,4 +1,5 @@
-﻿var Generate_Random_Number = require("Generate_Random_Number");
+﻿var SelectingOptionfromDropdown_UL_LI = require("SelectingOptionfromDropdown_UL_LI");
+var Generate_Random_Number = require("Generate_Random_Number");
 function GetTextBlockCustom(anObject, aPattern)
 {
   
@@ -52,5 +53,24 @@ function DecisionScreen_ADD_FT(RFname,FacttypeName)
   
   }
   EnterTextInFacttypetextbox(FacttypeName);
+
+}
+
+function DecisionScreen_ADD_FT_Existing(RFname,FacttypeName){
+  
+  var obj = Aliases.browser.pageSapiensDecision2.canvas;
+
+  var b = GetTextBlockCustom(obj, RFname);
+  if (b != null)
+  {
+    
+    b.ClickNextTo(toRight, 2);
+  
+  }
+
+  let page= Aliases.browser.pageSapiensDecision
+  page.WaitElement("//p-autocomplete//input", 5000).SetText(FacttypeName);
+  Delay(4000)
+  SelectingOptionfromDropdown_UL_LI.SelectingOptionfromDropdown(FacttypeName,'No')
 
 }

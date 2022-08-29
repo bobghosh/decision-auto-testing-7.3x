@@ -86,7 +86,8 @@ function RuleFamily_Logic(string,rowNumbertoEnterData)
                     page.FindElement("//dcn-formula//dcn-codemirror").click();
                     page.FindElement("//dcn-formula//dcn-codemirror").Keys(['^a[BS]']);
                     page.FindElement("//dcn-formula//dcn-codemirror").Keys(logicValues[noOfValues - 1].substr(1));
-                    page.FindElement("//dcn-fact-type-status-view//span").click();
+                    //page.FindElement("//dcn-fact-type-status-view//span").click();
+                    page.FindElement("//dcn-table//*[@wj-part='tl']").click();
                     break;
                 }
                 default:{

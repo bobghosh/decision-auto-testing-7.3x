@@ -14,6 +14,11 @@
 					</Parameters>
 				</Data>
 			</Operation>
+			<Operation Type="{DCEB53DA-FEB9-4BC3-93B2-33BCD89569F5}">
+				<Data Description="Executes the specified code snippet." LangId="{90F89436-9452-4F95-9882-6B5210079F13}" CodeExpression="Aliases.browser.pageSapiensDecision2.FindElement(&quot;//*[@wj-part=&apos;root&apos;]&quot;).scrollLeft += 1000;">
+					<CommonData Disabled="True" />
+				</Data>
+			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs a script routine." TestName="Verify_Category_Exist_Not_Exists" Unit="Verify_Category_Exist_Not_Exists">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">

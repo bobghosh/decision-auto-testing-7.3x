@@ -9,7 +9,6 @@
 		<Children>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="DF_Open_Repository">
-					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Communities_To_Expand" DefVarType="8" DefValueType="6" DefValueValue="WORLD" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Communities_To_Expand" />
 						<Parameter Name="Community_To_Select" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Community_To_Select" />
@@ -21,7 +20,6 @@
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs a script routine." TestName="Edit_Decision_and_Flow" Unit="Edit_Decision_and_Flow">
-					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Task" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="TaskName" />
 					</Parameters>

@@ -19,7 +19,7 @@ function FactType_Approve()
           
     FactTypeName.HoverMouse();
         
-      if(Status.textContent == "CANDIDATE" && errorIcon.includes('icon-validation_success'))
+      if(Status.textContent.toLowerCase().includes("candidate") && errorIcon.includes('icon-validation_success'))
       {        
             Log.Message(FactTypeName.textContent)
                 

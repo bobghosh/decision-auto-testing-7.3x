@@ -41,13 +41,13 @@ function Permisssion_Group_Remove_Verify_Message(permissionGrp,usedPermissionGrp
           CheckProperty(Aliases.browser.pageSapiensDecision.FindElement("//div[2]/div[contains(@class, 'u-flex-container')]"),"contentText",cmpEqual,"Are you sure?")
           Buttons_Actions.okButtonClick();
           WaitElement_ispresent.Wait_Until_Element_ispresent("//div[@id='toast-container']/div/div[1]")
-          CheckProperty(page.FindElement("//div[@id='toast-container']/div/div[1]") ,"contentText",cmpEqual,"An error occurred: Please click this message to refresh")
+          CheckProperty(page.FindElement("//div[@id='toast-container']/div/div[1]") ,"contentText",cmpEqual,"An error occurred: Please click this message to navigate to the homepage. Use the Back button to navigate back.")
           CheckProperty(page.FindElement("//div[@id='toast-container']/div/div[2]") ,"contentText",cmpEqual,"The permission group is used by one or more roles")
           page.FindElement("//div[@id='toast-container']/div/div[1]").Click();
           page.Wait();
-          WaitElement_ispresent.Wait_Until_Element_ispresent("//tbody/tr") 
-          Delay(1000)
-          Verify_PermissionGrp_Exists_NotExists.Verify_Created_PermissionGroups_and_Permissions(permissionGrp,"Exists")
+//          WaitElement_ispresent.Wait_Until_Element_ispresent("//tbody/tr") 
+//          Delay(1000)
+//          Verify_PermissionGrp_Exists_NotExists.Verify_Created_PermissionGroups_and_Permissions(permissionGrp,"Exists")
           flag = "1";
         }
         else

@@ -27,55 +27,55 @@ function Add_New_User(Name,DisplayName,Roles)
   WaitElement_ispresent.Wait_Until_Element_ispresent("//table//tr");
   
   //Verify If user is Active (Round slider checked or not)
-    var element = Aliases.browser.pageSapiensDecision2.formF.label.panel10;  // Obtain the web element
-    var style = Aliases.browser.pageSapiensDecision.contentDocument.defaultView.getComputedStyle(element, "");
-    let backgroundcolor=style.background
-    let Active="rgb(74, 207, 246) none repeat scroll 0% 0% / auto padding-box border-box";
-    let Inactive="rgb(221, 221, 221) none repeat scroll 0% 0% / auto padding-box border-box";
+  var element = Aliases.browser.pageSapiensDecision2.formF.label.panel10;  // Obtain the web element
+  var style = Aliases.browser.pageSapiensDecision.contentDocument.defaultView.getComputedStyle(element, "");
+  let backgroundcolor=style.background
+  let Active="rgb(74, 207, 246) none repeat scroll 0% 0% / auto padding-box border-box";
+  let Inactive="rgb(221, 221, 221) none repeat scroll 0% 0% / auto padding-box border-box";
     
-    if(backgroundcolor == Active )
-    {
-      Log.CheckPoint("User is Active")
+  if(backgroundcolor == Active )
+  {
+    Log.CheckPoint("User is Active")
       
-      Picture_To_Log.PictureToLog();
+    Picture_To_Log.PictureToLog();
       
-    }
-    else if(backgroundcolor == Inactive)
-    {
-      Log.Error("User is not Active")
+  }
+  else if(backgroundcolor == Inactive)
+  {
+    Log.Error("User is not Active")
       
-      Picture_To_Log.PictureToLog();
-    }
-    else
-    {
-      Log.Error("Color of the toggle button might be changed");
+    Picture_To_Log.PictureToLog();
+  }
+  else
+  {
+    Log.Error("Color of the toggle button might be changed");
       
-      Picture_To_Log.PictureToLog();
-    }
+    Picture_To_Log.PictureToLog();
+  }
  
     
-    page.FindElement("//button[@class='add-btn-top-page']").ClickButton();
+  page.FindElement("//button[@class='add-btn-top-page']").ClickButton();
     
     
-    var role_array = Roles.split(',');
-   //Log.Message("Roles Length is "+str_array.length);
-    for(var i = 0; i < role_array.length; i++) 
-      { 
-        Aliases.browser.pageSapiensDecision.FindElement("//ul//li[@aria-label= '"+role_array[i]+"']//*[@class='ui-chkbox ui-widget ng-star-inserted']").click();           
-      }
+  var role_array = Roles.split(',');
+ //Log.Message("Roles Length is "+str_array.length);
+  for(var i = 0; i < role_array.length; i++) 
+    { 
+      Aliases.browser.pageSapiensDecision.WaitElement("//ul//li[@aria-label= '"+role_array[i]+"']//*[@class='p-checkbox p-component ng-star-inserted']",5000).click();           
+    }
       
-      Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
+    Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
       
-      //verifying the roles added
-      Delay(1000)
-      let rolesTable= page.FindElements("//tbody//tr//td[1]")
+    //verifying the roles added
+    Delay(1000)
+    let rolesTable= page.FindElements("//tbody//tr//td[1]")
       
-      for(let j=0; j< rolesTable.length;j++)
-      {
-       let roleadded =rolesTable[j].textContent.trim();
-        Log.Message(roleadded)
-        rolesadded.push(roleadded)
-      }
+    for(let j=0; j< rolesTable.length;j++)
+    {
+     let roleadded =rolesTable[j].textContent.trim();
+      Log.Message(roleadded)
+      rolesadded.push(roleadded)
+    }
 
-      Compare__Two_Arrays_Verify.compareArrays(role_array,rolesadded)     
+    Compare__Two_Arrays_Verify.compareArrays(role_array,rolesadded)     
 }

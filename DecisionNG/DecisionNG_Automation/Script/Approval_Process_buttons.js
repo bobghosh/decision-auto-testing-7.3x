@@ -57,10 +57,10 @@ function Start_and_Claim_button()
 }
 function Split_button()
 {
-  let SplitButtonAvailability =  Aliases.browser.pageSapiensDecision.FindElements("//button[contains(@class,'ui-splitbutton-menubutton')]");
+  let SplitButtonAvailability =  Aliases.browser.pageSapiensDecision.FindElements("//button[contains(@class,'splitbutton-menubutton')]");
   if(SplitButtonAvailability.length > 0)
   {
-    Aliases.browser.pageSapiensDecision.FindElement("//button[contains(@class,'ui-splitbutton-menubutton')]").Click();      
+    Aliases.browser.pageSapiensDecision.FindElement("//button[contains(@class,'splitbutton-menubutton')]").Click();      
   }
   else
   {
@@ -131,7 +131,7 @@ function Send_to_BOA()
 
 function Send_to_RM()
 {
-  Delay(5000);
+  Delay(3000);
 //  Aliases.browser.pageSapiensDecision.FindElement("//button[contains(@class,'ui-splitbutton-menubutton')]").Click();
   
   let RM_Button = Aliases.browser.pageSapiensDecision2.FindElements("//*[(text()='Release Management')]");
@@ -177,7 +177,7 @@ function Send_to_RM()
 function Complete_Task()
 {
 //  Aliases.browser.pageSapiensDecision.FindElement("//button[contains(@class,'ui-splitbutton-menubutton')]").Click();
-  Delay(5000);
+  Delay(3000);
   
   let Complete_Button = Aliases.browser.pageSapiensDecision2.FindElements("//*[(text()='COMPLETE')]");
   

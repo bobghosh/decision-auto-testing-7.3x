@@ -76,11 +76,11 @@
 		</Children>
 	</TestData>
 	<Parameters Key="{DB4F84FA-1966-48F9-A49B-89D53F694FCB}">
-		<Parameter0 Name="SelectOption_Community_OR_VG" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Community" Description="" />
-		<Parameter1 Name="Community_To_Select" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="WORLD" Description="" />
-		<Parameter2 Name="MainTab" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Modeling Projects" Description="" />
-		<Parameter3 Name="Select_SubTab" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Projects" Description="" />
-		<Parameter4 Name="MP_name" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Auto_Modeling_Project" Description="" />
-		<Parameter5 Name="AssigneNasme" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Modeling Project Manager" Description="" />
+		<Parameter0 Name="SelectOption_Community_OR_VG" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter1 Name="Community_To_Select" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter2 Name="MainTab" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter3 Name="Select_SubTab" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter4 Name="MP_name" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter5 Name="AssigneNasme" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
 	</Parameters>
 </Root>

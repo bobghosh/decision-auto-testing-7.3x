@@ -122,7 +122,7 @@ function Edit_Custom_Property_All(CP_Name, CP_Edit_Attribute_Value)
   
   Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
   
-  Aliases.browser.pageSapiensDecision.FindElement("(//input[@placeholder='filter'])[2]").SetText(CustomPropertyName);
+  Aliases.browser.pageSapiensDecision.FindElement("(//input[@placeholder='filter'])[3]").SetText(CustomPropertyName);
         
   Delay(2000);
   

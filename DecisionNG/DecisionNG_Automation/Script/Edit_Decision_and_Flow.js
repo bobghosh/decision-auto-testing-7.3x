@@ -12,6 +12,7 @@ function Edit_Decision_and_Flow(Task)
   {
     Edit_Btn.Click();
     //aqObject.CheckProperty(page.FindElement("//h1[contains(text(), ' Choose task to edit Decision ')]"), "contentText", cmpEqual, "Choose task to edit Decision");   
+    aqUtils.Delay(2000)
     page.FindElement(ORGeneric.dcnAutoComplete+"[@name='task']//button").Click();
     DropDown_SelectOption.SelectingOptionfromDropdown(Task,'No');
     aqUtils.Delay(1000)

@@ -61,8 +61,8 @@
 		</Children>
 	</TestData>
 	<Parameters Key="{105BBD21-7A65-41DC-8425-6F74738BF9A4}">
-		<Parameter0 Name="element" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="//button[contains(text(), &apos;Add Modeling Project&apos;)]" Description="" />
-		<Parameter1 Name="dropdownbtn" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="//*[@name=&apos;factTypeApprovalProcess&apos;]//span[@wj-part]" Description="" />
-		<Parameter2 Name="AssetApproval" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Gil&apos;s Demo FT Flow" Description="" />
+		<Parameter0 Name="element" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter1 Name="dropdownbtn" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter2 Name="AssetApproval" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
 	</Parameters>
 </Root>

@@ -95,8 +95,16 @@
 				</folder>
 			</folder>
 			<folder name="Decision">
-				<folder name="Pre-requisite" />
-				<folder name="General" />
+				<folder name="General Test Case">
+					<child name="Decision_DraftDV_Decision_remove_conclusion_FT" key="{8AA0A185-BE84-44E4-ACA9-97AB37A638DD}" path="Decision_DraftDV_Decision_remove_conclusion_FT.tcKDTest" />
+					<child name="Decision_Draft_FT_used_operandFormulaFT_sameRF" key="{9678C3F3-C1E4-4486-B39E-69D7A1143A44}" path="Decision_Draft_FT_used_operandFormulaFT_sameRF.tcKDTest" />
+					<child name="Decision_DraftDV_SupportingRF_RemoveConditionFT" key="{A5A69E37-80B5-4F36-B397-B65327418E94}" path="Decision_DraftDV_SupportingRF_RemoveConditionFT.tcKDTest" />
+					<child name="Decision_DraftApproved_RF_ContextMenu_ChangeRuleFamilyversion" key="{24CD7F05-F30D-427D-B213-5EE5131EA89F}" path="Decision_DraftApproved_RF_ContextMenu_ChangeRuleFamilyversion.tcKDTest" />
+					<child name="Decision_Draft_RF_ContextMenu_Change_RF_NoPriorVersions" key="{D1A98266-94E5-425A-BE85-134BA6A9E56C}" path="Decision_Draft_RF_ContextMenu_Change_RF_NoPriorVersions.tcKDTest" />
+					<child name="Decision_Draft_RF_ContextMenu_Change_RF_Verify_PriorVersions" key="{D16F2012-404A-42D6-9485-B50565C429C4}" path="Decision_Draft_RF_ContextMenu_Change_RF_Verify_PriorVersions.tcKDTest" />
+					<child name="Decision_Draft_RF_with_Message_Categories" key="{2ACB6D85-A922-4694-A106-581E4F688A73}" path="Decision_Draft_RF_with_Message_Categories.tcKDTest" />
+					<child name="Decision_Draft_RF_exists_multipleDecision_sameTask" key="{704C057F-64DD-4337-8883-990FE8AB4F85}" path="Decision_Draft_RF_exists_multipleDecision_sameTask.tcKDTest" />
+				</folder>
 				<folder name="Test Case Specifics">
 					<child name="Decision_CandidateFT_not_available_on_Autocomplete_list" key="{1D2D0A82-0F20-43F2-BCB6-D53034945722}" path="Decision_CandidateFT_not_available_on_Autocomplete_list.tcKDTest" />
 					<child name="Decision_CandidateFT_Exists_TaskFT_not_available_Autocomplete" key="{1EF1ACBD-FB35-44AD-8F60-604F1CF129EB}" path="Decision_CandidateFT_Exists_TaskFT_not_available_Autocomplete.tcKDTest" />
@@ -118,6 +126,20 @@
 					<child name="Decision_Create_New_Decision_from_Home" key="{B162DF06-29D6-4798-AEBE-8081FD2BFC78}" path="Decision_Create_New_Decision_from_Home.tcKDTest" />
 					<child name="Verify_User_is_Not_able_to_reuse_DraftRf_as_DecisionName" key="{3764FDBF-414C-4BFB-8720-86D01DBBE35D}" path="Verify_User_is_Not_able_to_reuse_DraftRf_as_DecisionName.tcKDTest" />
 					<child name="RF_adding_FT_using_Replace_Action_on_conditionFT_in_anotherTask" key="{A9B8D3A4-F9FB-4460-84FA-D5CED532C75C}" path="RF_adding_FT_using_Replace_Action_on_conditionFT_in_anotherTask.tcKDTest" />
+					<child name="Decision_Create_New_Decision_from_Home_ExistingTask" key="{224507BA-8CFC-4FDA-BAF5-FCCCEA9B50D0}" path="Decision_Create_New_Decision_from_Home_ExistingTask.tcKDTest" />
+					<child name="Decision_Create_New_Decision_Home_NewTask" key="{747BCE83-9DC4-4ACE-B94B-D3B76030F419}" path="Decision_Create_New_Decision_Home_NewTask.tcKDTest" />
+					<child name="Decision_Create_New_Decision_DraftFtDecision_Same_task" key="{EF692D5E-9910-4A7C-8616-468CB1991BB0}" path="Decision_Create_New_Decision_DraftFtDecision_Same_task.tcKDTest" />
+					<child name="Decision_Create_New_Decision_DraftFT_otherTask_Decision_Name" key="{1948CA64-8C27-40D0-892E-3D43D8CC1FCD}" path="Decision_Create_New_Decision_DraftFT_otherTask_Decision_Name.tcKDTest" />
+					<child name="Decision_Create_New_Decision_ApprovedFT_Decision_NonConclusion" key="{79D23137-5F3B-4AE0-9D24-273FBC9E1D10}" path="Decision_Create_New_Decision_ApprovedFT_Decision_NonConclusion.tcKDTest" />
+					<child name="Decision_Create_New_Decision_ConclusionRFV_FT_SameTask" key="{9A1AE591-CC8D-48A3-97AA-12B6F8B35065}" path="Decision_Create_New_Decision_ConclusionRFV_FT_SameTask.tcKDTest" />
+					<child name="Decision_Create_New_Decision_ConclusionFT_SameTask_DifferentVG" key="{33D9BAF5-378D-4A6A-9DD7-E5E45BC1B9FA}" path="Decision_Create_New_Decision_ConclusionFT_SameTask_DifferentVG.tcKDTest" />
+					<child name="Decision_Create_New_Decision_ApprovedFT_Decision_ConclusionFT" key="{B3B9866F-66A4-4F1D-B06B-3992E36D03F9}" path="Decision_Create_New_Decision_ApprovedFT_Decision_ConclusionFT.tcKDTest" />
+					<child name="Decision_Create_New_Decision_ConclusionFT_SameTask_Decision_SameVG" key="{0DFB748F-4855-4B71-92F5-809EC230CF9A}" path="Decision_Create_New_Decision_ConclusionFT_SameTask_Decision_SameVG.tcKDTest" />
+					<child name="Decision_Create_New_Decision_ConclusionFT_RFV_Repository" key="{6C9444A1-C132-45E6-A672-6BB211457601}" path="Decision_Create_New_Decision_ConclusionFT_RFV_Repository.tcKDTest" />
+					<child name="Decision_DraftCandRF_ExistTask_NewDecision_UserNotAllowed" key="{10FFFF9C-3DA5-4E90-9153-D30CF6F59D3A}" path="Decision_DraftCandRF_ExistTask_NewDecision_UserNotAllowed.tcKDTest" />
+					<child name="Decision_Draft_Add_Existing_ConditionFT" key="{8524F108-7C36-4F97-A264-949D78164BFD}" path="Decision_Draft_Add_Existing_ConditionFT.tcKDTest" />
+					<child name="Decision_Diagram_Add_FactType_MonthYear_Range" key="{DBD51518-D8C8-4534-9CEA-BE9FF5785458}" path="Decision_Diagram_Add_FactType_MonthYear_Range.tcKDTest" />
+					<child name="Decision_Diagram_Approved_Fact_Type_Enable_Editing" key="{A56BC136-5832-48FE-9213-89ED4882F98B}" path="Decision_Diagram_Approved_Fact_Type_Enable_Editing.tcKDTest" />
 				</folder>
 			</folder>
 			<folder name="Decision Flow">
@@ -242,6 +264,7 @@
 						<child name="Change_View_Disabled" key="{AB9A0F7A-352A-4CBE-8652-10DD736C0880}" path="Change_View_Disabled.tcKDTest" />
 						<child name="Change_View_Create_New" key="{5F3581E1-369F-4658-BC4D-3316342237A3}" path="Change_View_Create_New.tcKDTest" />
 						<child name="Unused_View_Create_EmptyRF" key="{1B9C0CDF-3D78-41AB-8A0A-D903B927194D}" path="Unused_View_Create_EmptyRF.tcKDTest" />
+						<child name="Unused_View_CreateEmptyRF" key="{777A390A-D0E4-4C4B-9C88-05FB8EB4EB66}" path="Unused_View_CreateEmptyRF.tcKDTest" />
 					</folder>
 					<folder name="Context Menu RF">
 						<child name="DRF_Context_Candidate" key="{0FB3F2BF-D2AE-422E-B17C-ACEB6E04892F}" path="DRF_Context_Candidate.tcKDTest" />
@@ -437,6 +460,7 @@
 			<child name="SelectingItem_MatchSingleItem_MultipleRows_Pages" key="{2AD4F68C-7516-47CB-A441-956FC46F5D67}" path="SelectingItem_MatchSingleItem_MultipleRows_Pages.tcKDTest" />
 			<child name="Repo_Open_Decision_Verify" key="{1B0EE18C-CDEE-453A-9308-9C3F099AF6B1}" path="Repo_Open_Decision_Verify.tcKDTest" />
 			<child name="Repo_DF_CopyTo_WB" key="{440FC627-3A5A-4C3C-B1DF-B55555FEE16A}" path="Repo_DF_CopyTo_WB.tcKDTest" />
+			<child name="Delete_Task_Specific" key="{0ECC5690-0601-455B-A688-CBB67BFB6B3D}" path="Delete_Task_Specific.tcKDTest" />
 		</folder>
 		<folder name="End to End">
 			<folder name="Gil&apos;s Demo">

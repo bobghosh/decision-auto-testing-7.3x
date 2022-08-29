@@ -8,6 +8,25 @@
 		</Data>
 		<Children>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="HomeScreen_Create_New_task">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Community" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Automation_Assets" />
+						<Parameter Name="TaskName" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="TaskGateway" />
+						<Parameter Name="ModelingProjectName" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Gil&apos;s Demo" />
+						<Parameter Name="AssetApprovalProcess" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Gil&apos;s Demo_Asset Flow" />
+						<Parameter Name="FactTypeApprovalProcess" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Gil&apos;s Demo FT Flow" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="DF_Open_Repository">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Communities_To_Expand" DefVarType="8" DefValueType="6" DefValueValue="WORLD" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Communities_To_Expand" />
@@ -21,7 +40,7 @@
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs a script routine." TestName="Edit_Decision_and_Flow" Unit="Edit_Decision_and_Flow">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Task" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="TaskName" />
+						<Parameter Name="Task" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="NewTaskName" />
 					</Parameters>
 				</Data>
 			</Operation>

@@ -8,8 +8,8 @@
 			<config nodeName="EventControl" lastOpenedTLB="" generatedCLSID="{658DEA59-EBFA-45C4-BF58-B481B8873ADE}" generatedTLBKey="{4C7EA622-29BF-498E-92E1-7D4289E830F1}" generatedEventsKey="{088A4EA8-5B4F-49F3-897F-DED885CC7DDD}" generatedTLBDesc="TestComplete EventControl1 Control - 22-04-2021 12:15:32">
 				<eventInfo infoTLBVer="version.dll" infoGUID="{9F037A78-98DE-4B7D-834A-8ACC7B42EC3F}" infoID="1610678272" infoControlName="Flash Events" infoEventName="OnActionScriptException" infoEventRealName="OnActionScriptException" infoDescription="Occurs after the ActionScript exception is raised." />
 				<eventInfo infoTLBVer="version.dll" infoGUID="{F5856842-4323-49FD-B806-36E22179EF8A}" infoID="1610743809" infoControlName="Test Engine Events" infoEventName="OnStopTest" infoEventRealName="OnStopTest" infoDescription="Occurs when TestComplete stops running a test or when the execution of a test item is over." />
-				<handlerInfo handlerName="EventControl_OnActionScriptException" handlerMoniker="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}EventControl_OnActionScriptException" handlerEventName="OnActionScriptException" handlerRealIID="{9F037A78-98DE-4B7D-834A-8ACC7B42EC3F}" handlerRealDispID="1610678272" />
 				<handlerInfo handlerName="EventControl_OnStopTest" handlerMoniker="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}EventControl_OnStopTest" handlerEventName="OnStopTest" handlerRealIID="{F5856842-4323-49FD-B806-36E22179EF8A}" handlerRealDispID="1610743809" />
+				<handlerInfo handlerName="EventControl_OnActionScriptException" handlerMoniker="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}EventControl_OnActionScriptException" handlerEventName="OnActionScriptException" handlerRealIID="{9F037A78-98DE-4B7D-834A-8ACC7B42EC3F}" handlerRealDispID="1610678272" />
 			</config>
 			<testData />
 			<data />

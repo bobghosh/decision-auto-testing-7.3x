@@ -21,11 +21,11 @@
   
       for(var i = 1; i <=AssetList.length ;i++)
       {
-        let ConflictIcon = Aliases.browser.pageSapiensDecision.FindElements("//tbody//tr["+i+"]//td[6]//i");
+        let ConflictIcon = Aliases.browser.pageSapiensDecision.FindElements("//tbody//tr["+i+"]//td[7]//i");
       
         if(ConflictIcon.length > 0)
         {         
-          Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+i+"]//td[6]//dcn-asset-conflict-indicator//i").Click();  
+          Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+i+"]//td[7]//dcn-asset-conflict-indicator//i").Click();  
       
 //          aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpContains, "Conflicts");
   
@@ -33,16 +33,16 @@
           
           for(var j = 1; j <=Conflicted_AssetList.length ;j++)
           {
-            Asset_Checkbox = Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//tbody//tr["+j+"]//p-checkbox/div/div[2]");
+            Asset_Checkbox = Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//tbody//tr["+j+"]//p-checkbox/div");
           
-            if(Asset_Checkbox.getAttribute("class").includes("ui-state-active"))
+            if(Asset_Checkbox.getAttribute("class").includes("checkbox-checked"))
             {
               Log.Checkpoint("Checkbox is selected") 
             }
             else
             {
               Asset_Checkbox.click();
-              if(Asset_Checkbox.getAttribute("class").includes("ui-state-active"))
+              if(Asset_Checkbox.getAttribute("class").includes("checkbox-checked"))
               {
                 Log.Checkpoint("Checkbox is selected") 
               }
@@ -89,11 +89,11 @@ function Resolve_Conflicts_Decisions()
   
     for(var i = 1; i <=AssetList.length ;i++)
     {
-      let ConflictIcon = Aliases.browser.pageSapiensDecision.FindElements("//tbody//tr["+i+"]//td[6]//i");
+      let ConflictIcon = Aliases.browser.pageSapiensDecision.FindElements("//tbody//tr["+i+"]//td[7]//i");
       
       if(ConflictIcon.length > 0)
       {        
-          Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+i+"]//td[6]//dcn-asset-conflict-indicator//i").Click();  
+          Aliases.browser.pageSapiensDecision.FindElement("//tbody//tr["+i+"]//td[7]//dcn-asset-conflict-indicator//i").Click();  
       
 //          aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.form.textnodeFactTypeSummary, "contentText", cmpContains, "Conflicts");
   
@@ -101,16 +101,16 @@ function Resolve_Conflicts_Decisions()
           
           for(var j = 1; j <=Conflicted_AssetList.length ;j++)
           {
-            Asset_Checkbox = Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//tbody//tr["+j+"]//p-checkbox/div/div[2]");
+            Asset_Checkbox = Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//tbody//tr["+j+"]//p-checkbox/div");
           
-            if(Asset_Checkbox.getAttribute("class").includes("ui-state-active"))
+            if(Asset_Checkbox.getAttribute("class").includes("checkbox-checked"))
             {
               Log.Checkpoint("Checkbox is selected") 
             }
             else
             {
               Asset_Checkbox.click();
-              if(Asset_Checkbox.getAttribute("class").includes("ui-state-active"))
+              if(Asset_Checkbox.getAttribute("class").includes("checkbox-checked"))
               {
                 Log.Checkpoint("Checkbox is selected") 
               }
@@ -169,16 +169,16 @@ function Resolve_Conflicts_Rule_Families()
           
           for(var j = 1; j <=Conflicted_AssetList.length ;j++)
           {
-            Asset_Checkbox = Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//tbody//tr["+j+"]//p-checkbox/div/div[2]");
+            Asset_Checkbox = Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//tbody//tr["+j+"]//p-checkbox/div");
           
-            if(Asset_Checkbox.getAttribute("class").includes("ui-state-active"))
+            if(Asset_Checkbox.getAttribute("class").includes("checkbox-checked"))
             {
               Log.Checkpoint("Checkbox is selected") 
             }
             else
             {
               Asset_Checkbox.click();
-              if(Asset_Checkbox.getAttribute("class").includes("ui-state-active"))
+              if(Asset_Checkbox.getAttribute("class").includes("checkbox-checked"))
               {
                 Log.Checkpoint("Checkbox is selected") 
               }

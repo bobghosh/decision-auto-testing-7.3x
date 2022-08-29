@@ -16,7 +16,7 @@ function Add_New_Permission_ClickOK(permissionGroupName,permissions)
      
         for(var i = 0; i < permissions_array.length; i++) 
         { 
-          Aliases.browser.pageSapiensDecision.FindElement("//ul//li[@aria-label= '"+permissions_array[i]+"']//*[@class='ui-chkbox ui-widget ng-star-inserted']").click();           
+          Aliases.browser.pageSapiensDecision.FindElement("//ul//li[@aria-label= '"+permissions_array[i]+"']//*[@class='p-checkbox p-component ng-star-inserted']").click();           
         }
       }
       Aliases.browser.pageSapiensDecision.form.buttonOk.Click();
@@ -38,7 +38,7 @@ function Add_New_Permission_Click_Cancel(permissionGroupName,permissions)
   
       for(var i = 0; i < permissions_array.length; i++) 
       { 
-        Aliases.browser.pageSapiensDecision.FindElement("//ul//li[@aria-label= '"+permissions_array[i]+"']//*[@class='ui-chkbox ui-widget ng-star-inserted']").click();           
+        Aliases.browser.pageSapiensDecision.FindElement("//ul//li[@aria-label= '"+permissions_array[i]+"']//*[@class='p-checkbox p-component ng-star-inserted']").click();           
       }
       
       Aliases.browser.pageSapiensDecision.form.buttonCancel.ClickButton();

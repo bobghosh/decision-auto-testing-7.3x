@@ -96,10 +96,10 @@
 		</Children>
 	</TestData>
 	<Parameters Key="{2C93D34B-4078-4A47-A114-CC4077686A56}">
-		<Parameter0 Name="MainTab" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Modeling Projects" Description="" />
-		<Parameter1 Name="Select_SubTab" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Projects" Description="" />
-		<Parameter2 Name="Community_To_Select" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="WORLD" Description="" />
-		<Parameter3 Name="SelectOption_Community_OR_VG" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Community" Description="" />
-		<Parameter4 Name="element" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="//button[contains(text(), &apos;Add Modeling Project&apos;)]" Description="" />
+		<Parameter0 Name="MainTab" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter1 Name="Select_SubTab" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter2 Name="Community_To_Select" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter3 Name="SelectOption_Community_OR_VG" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter4 Name="element" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
 	</Parameters>
 </Root>

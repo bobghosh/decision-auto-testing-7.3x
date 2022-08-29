@@ -69,9 +69,21 @@ function Tasks_Edit_FactType(Name,Description,ListIndicator,Datatype,DisplayForm
   {
     page.FindElement("//label[contains(text(), 'Allowed Values')]").Click();
     //not implemented as there is an issue which blocks to create this scenario
-    if(Datatype =="Date")
+    if(Datatype == "Date" || Datatype == "Month & year")
     {
-      SelectingDateFromCalendar.CalendarSelection();
+      //Select From
+          page.FindElement(ORGeneric.PlaceholderFrom).HoverMouse()
+          const datePickFrom = ORGeneric.datePickFrom
+          page.FindElement(datePickFrom).Click()
+          SelectingDateFromCalendar.CalendarSelection('No', '2018', 'May', '29');
+            
+          //Select To
+          const datePickTo = ORGeneric.datePickTo
+          page.FindElement(datePickTo).Click()
+          SelectingDateFromCalendar.CalendarSelection('No', '2022', 'Dec', '6');
+            
+          page.FindElement("//*[@class='u-flex-container spec-add-button add-btn']").Click()
+          Delay(1000);
                                 
     }
     else if(Datatype.includes('Day')||Datatype.includes('Month'))

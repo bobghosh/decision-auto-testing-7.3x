@@ -46,6 +46,9 @@
 			<child name="Verify_Item_Is_Enabled_Disabled" key="{AD120136-1FAA-4066-B640-B17F510F9104}" path="Verify_Item_Is_Enabled_Disabled.js" />
 			<child name="Clipboard_Functions" key="{5FA6425D-EE87-4069-8AD1-E75118A428C1}" path="Clipboard_Functions.js" />
 			<child name="Event_Control" key="{2695074E-AC81-4D06-8D58-16AFCBD7D61D}" path="Event_Control.js" />
+			<child name="Verify_Element_Exists_Not_Exists" key="{FC0837BE-D8DD-4B18-B05D-C3F02450935E}" path="Verify_Element_Exists_Not_Exists.js" />
+			<child name="Breadcrumb_Arrows_Navigation" key="{4E744716-7129-4FCA-82FF-3AFDC27EC4D6}" path="Breadcrumb_Arrows_Navigation.js" />
+			<child name="Image_Comparison" key="{124BDDD0-391F-4BDB-B80E-ECEC734C0D0C}" path="Image_Comparison.js" />
 		</folder>
 		<folder name="Modelling">
 			<folder name="FactType">
@@ -122,10 +125,13 @@
 					<child name="RF_DeleteCells" key="{278C669A-09E3-4AB6-8DE3-3DA124AEA741}" path="RF_DeleteCells.js" />
 					<child name="RF_CellOperatorDisplay" key="{E84CCA8F-71C2-4B72-9E2C-01D5BA463137}" path="RF_CellOperatorDisplay.js" />
 					<child name="RF_Content_Padding" key="{D66FCC2B-EC63-4106-8A23-72E511801F6A}" path="RF_Content_Padding.js" />
+					<child name="ConditionColumnHeader_CreateNewFactType" key="{0EB2F2D1-DD66-4B9D-B839-C419E561B098}" path="ConditionColumnHeader_CreateNewFactType.js" />
 				</folder>
-				<child name="ContextMenu_Change_View" key="{81C23F3A-4F5B-4B04-83A4-83288E38723B}" path="ContextMenu_Change_View.js" />
-				<child name="SR_Context_Menu_Change_View" key="{3FE8119C-28B8-4ABC-9BD9-04DE3F51110D}" path="SR_Context_Menu_Change_View.js" />
-				<child name="SR_Verify_DraftAsset" key="{C5E979AC-26FA-4294-B708-9DFBD3755EE3}" path="SR_Verify_DraftAsset.js" />
+				<folder name="Context Menu">
+					<child name="ContextMenu_Change_View" key="{81C23F3A-4F5B-4B04-83A4-83288E38723B}" path="ContextMenu_Change_View.js" />
+					<child name="SR_Context_Menu_Change_View" key="{3FE8119C-28B8-4ABC-9BD9-04DE3F51110D}" path="SR_Context_Menu_Change_View.js" />
+					<child name="ContextMenu_Options" key="{C5E979AC-26FA-4294-B708-9DFBD3755EE3}" path="ContextMenu_Options.js" />
+				</folder>
 			</folder>
 			<folder name="Decision">
 				<child name="DRF_DBLClick_Open" key="{A8992DD3-ED1A-4E68-B880-4E8CDBFBC8CC}" path="DRF_DBLClick_Open.js" />

@@ -14,6 +14,7 @@ function Edit_Decision_and_Flow(Task)
     page.FindElement("//dcn-autocomplete[@name='task']//button").Click();
     DropDown_SelectOption.SelectingOptionfromDropdown(Task,'No');
     Buttons_Actions.cancelButtonClick()
+    aqUtils.Delay(1200)
     Verify_DialogueBox_Open_Closed.Verify_If_DialogueBox_Open_OR_Closed("Closed")
     aqObject.CheckProperty(Edit_Btn,"Exists",cmpEqual,true)
   }
