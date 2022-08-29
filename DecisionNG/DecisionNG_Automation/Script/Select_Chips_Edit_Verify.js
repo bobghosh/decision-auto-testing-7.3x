@@ -229,6 +229,7 @@ function EditChip_Verify(message,messageToAdd)
                      aqObject.CheckProperty(textBox,"value",cmpEqual,message)
                      textBox.dblclick()
                      textBox.keys("[Del]")
+                     textBox.keys("^a[BS]")
                      textBox.Keys(messageToAdd)
                      editOkBtn.click();
                      aqObject.CheckProperty(chips[j],"textContent",cmpEqual,'"'+messageToAdd+'"')

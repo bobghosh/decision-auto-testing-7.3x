@@ -18,11 +18,11 @@
       }
       if(!searchCheckBox_Check_Uncheck == "")
       {
-        var checkbox = page.FindElement("//dcn-multi-select//input[contains(@class,'ui-inputtext')]//parent::div//parent::div/div[1]/div//following-sibling::div")
+        var checkbox = page.FindElement("//dcn-multi-select//input[contains(@class,'inputtext')]//parent::div//parent::div/div[1]/div//following-sibling::div")
         var checkBoxClass= checkbox.getAttribute('class')
         if(searchCheckBox_Check_Uncheck == "Check")
         {
-          if(checkBoxClass.includes('ui-state-active'))
+          if(checkBoxClass.includes('highlight'))
           {
             Log.Checkpoint("Checkbox is already Checked")
           }
@@ -30,7 +30,7 @@
           {
             checkbox.Click();
             var checkBoxAfterCheck =checkbox.getAttribute('class')
-            if(checkBoxAfterCheck.includes('ui-state-active'))
+            if(checkBoxAfterCheck.includes('highlight'))
             {
               Log.Checkpoint("Checkbox is Checked Successfully")
             }
@@ -42,11 +42,11 @@
         }
         else
         {
-          if(checkBoxClass.includes('ui-state-active'))
+          if(checkBoxClass.includes('highlight'))
           {
             checkbox.Click();
             let checkBoxAfterCheck =checkbox.getAttribute('class')
-            if(checkBoxAfterCheck.includes('ui-state-active'))
+            if(checkBoxAfterCheck.includes('highlight'))
             {
               Log.Error("Checkbox is still Checked")
             }
@@ -67,18 +67,18 @@
         
       if(ElementsToVerify == "All")
       {
-        let elementsToVerifylist = page.FindElements("//ul//li//*[@class='ui-chkbox ui-widget ng-star-inserted']")
+        let elementsToVerifylist = page.FindElements("//ul//li//*[@class='p-checkbox p-component ng-star-inserted']")
         for(var j = 0; j < elementsToVerifylist.length; j++) 
         {
          
           let firstchild = elementsToVerifylist[j].firstchild
           //Log.Message(firstchild.getAttribute('class'))
           let firstChildClass= firstchild.getAttribute('class')
-          let textoftheCheckbox = page.FindElements("//ul//li//*[@class='ui-chkbox ui-widget ng-star-inserted']//following-sibling::span")
+          let textoftheCheckbox = page.FindElements("//ul//li//*[@class='p-checkbox p-component ng-star-inserted']//following-sibling::span")
           if(verify_All_Checked_Unchecked == "Checked")
           {
             
-            if(firstChildClass.includes('ui-state-active'))
+            if(firstChildClass.includes('highlight'))
             {
               Log.Checkpoint(textoftheCheckbox[j].textContent+" : Element is checked")
             }
@@ -89,7 +89,7 @@
           }
           else
           {
-            if(firstChildClass.includes('ui-state-active'))
+            if(firstChildClass.includes('highlight'))
             {
               Log.Error(textoftheCheckbox[j].textContent+" : Element is checked")
             }
@@ -106,13 +106,13 @@
   
       for(var i = 0; i < elementsToVerify_array.length; i++) 
       { 
-        let permission_group = page.FindElement("//ul//li[@aria-label= '"+elementsToVerify_array[i]+"']//*[@class='ui-chkbox ui-widget ng-star-inserted']")
+        let permission_group = page.FindElement("//ul//li[@aria-label= '"+elementsToVerify_array[i]+"']//*[@class='p-checkbox p-component ng-star-inserted']")
         let firstchild = permission_group.firstchild
         //Log.Message(firstchild.getAttribute('class'))
         let firstChildClass= firstchild.getAttribute('class')
 
           
-          if(firstChildClass.includes('ui-state-active'))
+          if(firstChildClass.includes('highlight'))
           {
             Log.Checkpoint(elementsToVerify_array[i]+" : Element is checked")
           }

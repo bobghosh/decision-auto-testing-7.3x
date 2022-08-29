@@ -39,7 +39,7 @@ function Edit_Existing_Roles_ClickOK(Role_Name,addRandomNum,permission_grp,remov
   
       for(var i = 0; i < permissions_grp_array.length; i++) 
       { 
-        let permission_group = page.FindElement("//ul//li[@aria-label= '"+permissions_grp_array[i]+"']//*[@class='ui-chkbox ui-widget ng-star-inserted']")
+        let permission_group = page.FindElement("//ul//li[@aria-label= '"+permissions_grp_array[i]+"']//*[@class='p-checkbox p-component ng-star-inserted']")
         let firstchild = permission_group.firstchild
         //Log.Message(firstchild.getAttribute('class'))
         let firstChildClass= firstchild.getAttribute('class')

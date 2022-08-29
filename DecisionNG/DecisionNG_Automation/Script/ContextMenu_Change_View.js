@@ -42,7 +42,7 @@ function Decision_Screen_ContextMenu_Select_Option(contextMenuItem,viewNametoSel
         let radiotext = radioBtnTextElements[i].textContent
         if(radiotext.includes(defaultSelectRadio))
         {
-         if(radioClass.includes('state-active') )
+         if(radioClass.includes('highlight') )
           {
             Log.Checkpoint(radiotext+" is selected by Default");
           }

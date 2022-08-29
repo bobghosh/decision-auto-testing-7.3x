@@ -68,7 +68,7 @@ function Verify_Created_Roles_and_PermissionGroups (Role,permissionGrps)
                       else if (!newarr.includes(permissionGrp))
                       {
                         
-                        Log.Error("The permission group"+str_array[n]+" Does not Exist");
+                        Log.Error("The permission group "+str_array[n]+" Does not Exist");
                         role_array.push(str_array[n]);
                         
                         break;

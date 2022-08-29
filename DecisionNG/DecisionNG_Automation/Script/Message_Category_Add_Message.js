@@ -6,6 +6,17 @@ function MessageCategory_Add_Messages(string,rowNumber)
   
     let page = Aliases.browser.pageSapiensDecision2;
   
+    let msgCell = page.FindElement("(//dcn-rule-message-cell)["+rowNumber+"]")
+    if (msgCell.Exists)
+    {
+      if (msgCell.VisibleOnScreen == false)
+      {
+        let root = page.FindElement("//*[@wj-part='root']")
+            root.scrollLeft += 1000;
+      }
+      else{}
+      
+    }
     page.FindElement("(//dcn-rule-message-cell)["+rowNumber+"]").DblClick();
     
     let category = string.split(";");

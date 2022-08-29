@@ -5,7 +5,7 @@ function Remove_Condition_Column_Header(ColumnText,SubOption)
 {
   let page = Aliases.browser.pageSapiensDecision2;
   RightClick_Condition_Conclusion_header("condition",ColumnText,SubOption)
-  page.FindElement("//button[contains(@class,'spec-confirmed')]").Click
+  page.WaitElement("//button[contains(@class,'spec-confirmed')]", 10000).Click();
   Log.Checkpoint("Condition Column is removed")
 }
 

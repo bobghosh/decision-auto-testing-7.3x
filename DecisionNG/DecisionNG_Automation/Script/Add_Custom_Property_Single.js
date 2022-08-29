@@ -19,7 +19,7 @@ function Add_Custom_Properties_Single(AllowedValue, DataType,DisplayFormat, set_
   //aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.form5.textnodeAdd, "contentText", cmpEqual, "Add");
   
   var timestamp = new Date();
-  var CustomProperty_Name = "CP " + timestamp.getMilliseconds().toString() + timestamp.getHours().toString() + timestamp.getMinutes().toString();
+  var CustomProperty_Name = "CP_" + timestamp.getMilliseconds().toString() + timestamp.getHours().toString() + timestamp.getMinutes().toString();
       
   //Name Field
       Aliases.browser.pageSapiensDecision.FindElement("//div[@class='spec-body mat-dialog-content']//*[@name='name']").SetText(CustomProperty_Name);

@@ -45,13 +45,13 @@
 		</Children>
 	</TestData>
 	<Parameters Key="{4DA60325-5A0C-4338-87E7-0DE67BFBAD33}">
-		<Parameter0 Name="MainTab" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Modeling Projects" Description="" />
-		<Parameter1 Name="Select_SubTab" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Projects" Description="" />
-		<Parameter2 Name="Community_To_Select" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="WORLD" Description="" />
-		<Parameter3 Name="SelectOption_Community_OR_VG" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Community" Description="" />
-		<Parameter4 Name="Modeling_Project_Name" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Auto_Modeling_Project" Description="" />
-		<Parameter5 Name="Asset_Approval_Process" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Gil&apos;s Demo_Asset Flow" Description="" />
-		<Parameter6 Name="FactType_Approval_Process" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Gil&apos;s Demo FT Flow" Description="" />
-		<Parameter7 Name="OkorCancel" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="OK" Description="" />
+		<Parameter0 Name="MainTab" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter1 Name="Select_SubTab" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter2 Name="Community_To_Select" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter3 Name="SelectOption_Community_OR_VG" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter4 Name="Modeling_Project_Name" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter5 Name="Asset_Approval_Process" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter6 Name="FactType_Approval_Process" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter7 Name="OkorCancel" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
 	</Parameters>
 </Root>

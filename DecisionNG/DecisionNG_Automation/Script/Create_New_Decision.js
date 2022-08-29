@@ -28,6 +28,7 @@ function Tasks_Create_New_Decision(taskNameToVerify,decisionConclusionName,newOr
   else{
     SelectingOptionfromDropdown_UL_LI.SelectingOptionfromDropdown(decisionConclusionName)
   }
+  aqUtils.Delay(1200)
   viewNameBtn.WaitProperty("Enabled", true, 30000)
   viewNameBtn.click();
   SelectingOptionfromDropdown_UL_LI.SelectingOptionfromDropdown(view)

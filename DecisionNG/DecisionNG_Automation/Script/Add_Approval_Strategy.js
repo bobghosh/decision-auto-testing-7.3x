@@ -23,20 +23,20 @@ function Add_Approval_Strategy(ApprovalStrategy, ImportApprovalStrategy, Distinc
     
   if((style.background).includes("rgb(74, 207, 246)"))
   {
-      Log.Message("It is Already checked");
-      if(DistinctUser == "No")
+    Log.Message("It is Already checked");
+    if(DistinctUser == "No")
+    {
+      element.Click();
+      //Don't Select Distinct User
+      if((style.background).includes("rgb(221, 221, 221)"))
       {
-        element.Click();
-        //Don't Select Distinct User
-        if((style.background).includes("rgb(221, 221, 221)"))
-        {
-          Log.Checkpoint("Distinct User is unchecked")
-        }
-        else
-        {
-          Log.Error("Distinct User is still checked")
-        }
+        Log.Checkpoint("Distinct User is unchecked")
       }
+      else
+      {
+        Log.Error("Distinct User is still checked")
+      }
+    }
   }
   else if((style.background).includes("rgb(221, 221, 221)"))
   {

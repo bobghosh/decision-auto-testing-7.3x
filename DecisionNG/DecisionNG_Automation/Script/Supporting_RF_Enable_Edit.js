@@ -9,10 +9,14 @@
     let page=Aliases.browser.pageSapiensDecision2
     RF.ClickNextTo(toRight, 4)
 //    OCR.Recognize(page.canvas).BlockByText('Enable Editing').ClickNextTo(toBottom, 2)
-//    Delay(10000);
+
     let EE = Enabled_Editing_SymbolVerify_and_Click(obj,'Enable Editing')
     EE.click()
-
+    
+    if(page.WaitElement("//*[@aria-label='Message Migration']").Exists == true)
+      page.WaitElement("//*[@aria-label='Message Migration']").Click();
+    
+    Delay(5000);
 }
 }
  

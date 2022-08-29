@@ -16,7 +16,7 @@ function Add_New_Role_ClickOK(RoleName,permissionGroups)
      
         for(var i = 0; i < permissions_Grp_array.length; i++) 
         { 
-          page.FindElement("//ul//li[@aria-label= '"+permissions_Grp_array[i]+"']//*[@class='ui-chkbox ui-widget ng-star-inserted']").click();           
+          page.FindElement("//ul//li[@aria-label= '"+permissions_Grp_array[i]+"']//*[@class='p-checkbox p-component ng-star-inserted']").click();           
         }
       }
       Aliases.browser.pageSapiensDecision.form.buttonOk.Click();
@@ -39,7 +39,7 @@ function Add_New_Role_Click_Cancel(RoleName,permissionGroups)
      
         for(var i = 0; i < permissions_Grp_array.length; i++) 
         { 
-          page.FindElement("//ul//li[@aria-label= '"+permissions_Grp_array[i]+"']//*[@class='ui-chkbox ui-widget ng-star-inserted']").click();           
+          page.FindElement("//ul//li[@aria-label= '"+permissions_Grp_array[i]+"']//*[@class='p-checkbox p-component ng-star-inserted']").click();           
         }
       }
       

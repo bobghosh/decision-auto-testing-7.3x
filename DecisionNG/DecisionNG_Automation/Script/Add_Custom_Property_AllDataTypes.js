@@ -28,7 +28,7 @@ function Add_Custom_Property()
       Log.Message(AllowedValue + DataType + DisplayFormat + set_values + Required);
       
       var timestamp = new Date();
-      var CustomProperty_Name = "CP " + timestamp.getMilliseconds().toString() + timestamp.getHours().toString() + timestamp.getMinutes().toString();
+      var CustomProperty_Name = "CP_" + timestamp.getMilliseconds().toString() + timestamp.getHours().toString() + timestamp.getMinutes().toString();
       
       //Click on Add button
       Aliases.browser.pageSapiensDecision2.FindElement("//*[@class='custom-properties-details--add-btn']").Click();
@@ -233,7 +233,7 @@ function Add_Custom_Property()
 
           //Clicking on + icon
 //          Aliases.browser.pageSapiensDecision.form.form2.form4.button5.ClickButton();
-          Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//button[@class='u-flex-container spec-add-button add-btn']").ClickButton();
+          Aliases.browser.pageSapiensDecision.FindElement("//dcn-dialog//button[contains(@class,'spec-add-button')]").ClickButton();
                   
         }
         else if((DataType =="Day")||(DataType =="Month"))

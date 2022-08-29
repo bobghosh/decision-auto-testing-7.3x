@@ -6,7 +6,7 @@
    if (RF != null)
   {
   let page=Aliases.browser.pageSapiensDecision2 
-  RF.ClickNextTo(toBottom, 3);
+  RF.ClickNextTo(toTop, 3);
   OCR.Recognize(page.canvas).BlockByText('Enable Editing').ClickNextTo(toBottom, 2)
   Delay(10000);
   }

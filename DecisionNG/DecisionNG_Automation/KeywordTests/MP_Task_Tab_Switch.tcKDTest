@@ -25,6 +25,6 @@
 		</Children>
 	</TestData>
 	<Parameters Key="{F797F492-5B44-4CBA-8D45-56B9273BBE2C}">
-		<Parameter0 Name="MP_Name" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Auto_Modeling_Project" Description="" />
+		<Parameter0 Name="MP_Name" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
 	</Parameters>
 </Root>

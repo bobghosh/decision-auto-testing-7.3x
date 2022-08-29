@@ -42,7 +42,7 @@ function Role_Remove_Verify_Message(Role,usedRole)
           CheckProperty(Aliases.browser.pageSapiensDecision.FindElement("//div[2]/div[contains(@class, 'u-flex-container')]"),"contentText",cmpEqual,"Are you sure?")
           Buttons_Actions.okButtonClick();
           WaitElement_ispresent.Wait_Until_Element_ispresent("//div[@id='toast-container']/div/div[1]")
-          CheckProperty(page.FindElement("//div[@id='toast-container']/div/div[1]") ,"contentText",cmpEqual,"An error occurred: Please click this message to refresh")
+          CheckProperty(page.FindElement("//div[@id='toast-container']/div/div[1]") ,"contentText",cmpEqual,"An error occurred: Please click this message to navigate to the homepage. Use the Back button to navigate back.")
           //CheckProperty(page.FindElement("//div[@id='toast-container']/div/div[2]") ,"contentText",cmpEqual,"The permission group is used by one or more roles")
           page.FindElement("//div[@id='toast-container']/div/div[1]").Click();
           page.Wait();

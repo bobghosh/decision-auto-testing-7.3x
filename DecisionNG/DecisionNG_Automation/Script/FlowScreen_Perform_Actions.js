@@ -66,7 +66,18 @@ function DFScreen_Perform_RightClick(Name)
   objToPerformAction.ClickR()
   }
 }
+
+function DFScreen_Perform_DBLClick(Name)
+{
+  OCR.Recognize(Aliases.browser.pageSapiensDecision2.canvas).BlockByText(Name).Click()
+  let x= Sys.Desktop.MouseX
+  let y = Sys.Desktop.MouseY-100
+  Log.Message(x)
+  Log.Message(y)
+  Aliases.browser.pageSapiensDecision2.DblClick(x,y);
+}
 module.exports.DFScreen_Open = DFScreen_Open;
 module.exports.DFScreen_Select = DFScreen_Select;
 module.exports.GetTextBlockCustom = GetTextBlockCustom;
 module.exports.DFScreen_Perform_RightClick = DFScreen_Perform_RightClick;
+module.exports.DFScreen_Perform_DBLClick = DFScreen_Perform_DBLClick;

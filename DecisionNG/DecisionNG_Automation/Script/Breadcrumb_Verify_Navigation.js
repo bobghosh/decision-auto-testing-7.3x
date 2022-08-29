@@ -12,7 +12,7 @@ function Breadcrumb_Verify_Navigation(breadcrumb_Toverify)
      let breadcrumb_Text = totalBreadcrumbs[i].textcontent
 
      //let breadcrumb_Toverify = "Non-Residential/Commercial Space Compliance"
-     if(breadcrumb_Text== breadcrumb_Toverify)
+     if(breadcrumb_Text.trim() == breadcrumb_Toverify.trim())
      {
        Log.Checkpoint("Navigated successfully using breadcrumb")
      }

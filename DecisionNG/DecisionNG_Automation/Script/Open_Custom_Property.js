@@ -1,13 +1,13 @@
 ﻿function Open_Custom_Property(CustomProperty_Name)
 {
-  let CustomPropertiesTab = Aliases.browser.pageSapiensDecision2.linkCustomProperties.textnode10;
+  let CustomPropertiesTab = Aliases.browser.pageSapiensDecision2.FindElement("//*[contains(text(), 'Custom Properties')]/../span[1]");
   if(CustomPropertiesTab.getAttribute("class").includes("pi-chevron-right"))
   {
       CustomPropertiesTab.click();
   }
   
-  Aliases.browser.pageSapiensDecision.FindElement("(//input[@placeholder='filter'])[2]").SetText(CustomProperty_Name);
-  //Delay(5000);
+  Aliases.browser.pageSapiensDecision.FindElement("(//input[@placeholder='filter'])[3]").SetText(CustomProperty_Name);
+  Delay(1000);
   CustomPropertiesCount = Aliases.browser.pageSapiensDecision.FindElements("//dcn-custom-properties-details//tbody//tr");
   Log.Message(CustomPropertiesCount.length);
   for(var k = 1; k <= CustomPropertiesCount.length ; k++)

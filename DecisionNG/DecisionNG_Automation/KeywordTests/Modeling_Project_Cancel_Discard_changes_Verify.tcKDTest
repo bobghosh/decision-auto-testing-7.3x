@@ -88,10 +88,10 @@
 		</Children>
 	</TestData>
 	<Parameters Key="{65C3B63F-A984-4B1B-B3B7-B2C924AB0CDC}">
-		<Parameter0 Name="element" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="//button[contains(text(), &apos;Add Modeling Project&apos;)]" Description="" />
-		<Parameter1 Name="Modeling_Project_Name" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Modelling_Project12" Description="" />
-		<Parameter2 Name="Asset_Approval_Process" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Gil&apos;s Demo_Asset Flow" Description="" />
-		<Parameter3 Name="FactType_Approval_Process" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Gil&apos;s Demo FT Flow" Description="" />
-		<Parameter4 Name="OkorCancel" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Cancel" Description="" />
+		<Parameter0 Name="element" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter1 Name="Modeling_Project_Name" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter2 Name="Asset_Approval_Process" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter3 Name="FactType_Approval_Process" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter4 Name="OkorCancel" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
 	</Parameters>
 </Root>
