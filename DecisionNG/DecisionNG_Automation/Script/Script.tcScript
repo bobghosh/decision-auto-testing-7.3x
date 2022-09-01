@@ -22,7 +22,7 @@
 			<child name="Picture_To_Log" key="{D348ABA5-7AE9-4B7A-9960-B765BA77904D}" path="Picture_To_Log.js" />
 			<child name="Repository_Total_FactTypes" key="{B784B666-199C-4349-950D-D20250C26AC5}" path="Repository_Total_FactTypes.js" />
 			<child name="Breadcrumb_Navigations" key="{701F37FC-84D3-4660-B6F9-5B40F2E6EA1D}" path="Breadcrumb_Navigations.js" />
-			<child name="Compare__Two_Arrays_Verify" key="{ECFDEF1E-513E-4A9A-84EF-D99A811FD74C}" path="Compare__Two_Arrays_Verify.js" />
+			<child name="Compare_Two_Arrays_Verify" key="{ECFDEF1E-513E-4A9A-84EF-D99A811FD74C}" path="Compare_Two_Arrays_Verify.js" />
 			<child name="Item_Availability" key="{F34E4C66-875E-4C80-B637-28634688662C}" path="Item_Availability.js" />
 			<child name="Count_Item" key="{12F0BAA6-8F47-4F66-B932-215034EECC80}" path="Count_Item.js" />
 			<child name="Open_SingleItem_MultipleRows" key="{7D848CE2-8823-4886-B966-AB04E54161C0}" path="Open_SingleItem_MultipleRows.js" />
@@ -148,6 +148,7 @@
 				<child name="Drag_Drop_FT" key="{4C272BD6-BEBA-46C2-B1BA-6EE80F8EF5E0}" path="Drag_Drop_FT.js" />
 				<child name="DRF_RightClick_SelectSubOption" key="{12019DCC-1860-433E-AE3E-6BFA338B80C3}" path="DRF_RightClick_SelectSubOption.js" />
 				<child name="Decision_Edit_From_Repository_Screen" key="{E91EAD22-8970-4787-921C-1DE465AFD335}" path="Decision_Edit_From_Repository_Screen.js" />
+				<child name="Export_Decision" key="{5F5E74CE-CDBE-41C9-BCED-F69E7C811481}" path="Export_Decision.js" />
 			</folder>
 			<folder name="Generic">
 				<child name="Edit_Decision_and_Flow" key="{1DE98919-BEDD-429E-A582-2B447EEAC6DC}" path="Edit_Decision_and_Flow.js" />
@@ -222,6 +223,7 @@
 			<folder name="User Tasks">
 				<child name="Tasks_TabNavigation" key="{5E2085FA-4F52-446E-9195-A0A6A381C3F6}" path="Tasks_TabNavigation.js" />
 				<child name="Create_New_Decision" key="{200ABD0A-8C12-470E-8B25-7F04628736CE}" path="Create_New_Decision.js" />
+				<child name="Import_Decision" key="{23931BB6-D929-4D86-9649-A0BC174725B2}" path="Import_Decision.js" />
 			</folder>
 			<folder name="Notifications">
 				<child name="Notifications_Dismiss_Single" key="{8186D87C-39AC-461B-B237-C1685C97DB58}" path="Notifications_Dismiss_Single.js" />

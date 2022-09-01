@@ -5893,6 +5893,21 @@
 											</Child>
 										</Children>
 									</Child>
+									<Child Name="btnOpen" Key="{988A9E8E-051F-4D7B-8759-F4E59304117E}">
+										<Image FileName="379187306" Left="427" Top="434" Right="515" Bottom="460" />
+										<TypeInfo Item0="{6DCB23CA-9A66-4FC5-B8AC-C67195C7BCC8}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;Open" />
+											</Property>
+											<Property Name="Name">
+												<Value Value="Window(&quot;Button&quot;, &quot;&amp;Open&quot;, 1)" />
+											</Property>
+										</Properties>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageAcademySmartbearSoftware" Key="{9FB2C176-3FE9-4D2A-B79D-629DDD42D4A7}">
@@ -7221,6 +7236,7 @@
 						<Child Name="Edit" Owner="{2FBC2EB6-7825-4BC8-9DEA-5E49209E0DC6}" />
 					</Child>
 				</Child>
+				<Child Name="btnOpen" Owner="{988A9E8E-051F-4D7B-8759-F4E59304117E}" />
 			</Child>
 			<Child Name="pageAcademySmartbearSoftware" Owner="{9FB2C176-3FE9-4D2A-B79D-629DDD42D4A7}">
 				<Child Name="form" Owner="{E1E05490-D0D5-4BDD-B4F0-848B7861BF1A}">
