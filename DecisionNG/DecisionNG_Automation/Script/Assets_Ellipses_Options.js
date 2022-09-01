@@ -41,7 +41,7 @@
      
      else if (SelectOption == "Export")
      {
-       Aliases.browser.pageSapiensDecision2.FindElement("//*[(text() = 'Export')]").click();
+       Aliases.browser.pageSapiensDecision2.FindElement("//*[(text() = 'export')]").click();
        
        aqObject.CheckProperty(page.panel21, "contentText", cmpEqual, "Export process has started and may take a while to complete");
        

@@ -104,6 +104,7 @@
 					<child name="Decision_Draft_RF_ContextMenu_Change_RF_Verify_PriorVersions" key="{D16F2012-404A-42D6-9485-B50565C429C4}" path="Decision_Draft_RF_ContextMenu_Change_RF_Verify_PriorVersions.tcKDTest" />
 					<child name="Decision_Draft_RF_with_Message_Categories" key="{2ACB6D85-A922-4694-A106-581E4F688A73}" path="Decision_Draft_RF_with_Message_Categories.tcKDTest" />
 					<child name="Decision_Draft_RF_exists_multipleDecision_sameTask" key="{704C057F-64DD-4337-8883-990FE8AB4F85}" path="Decision_Draft_RF_exists_multipleDecision_sameTask.tcKDTest" />
+					<child name="Test1" key="{733778C1-1111-439B-A77B-8759954C23BA}" path="Test1.tcKDTest" />
 				</folder>
 				<folder name="Test Case Specifics">
 					<child name="Decision_CandidateFT_not_available_on_Autocomplete_list" key="{1D2D0A82-0F20-43F2-BCB6-D53034945722}" path="Decision_CandidateFT_not_available_on_Autocomplete_list.tcKDTest" />
