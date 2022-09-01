@@ -99,16 +99,15 @@
 					<child name="Decision_DraftDV_Decision_remove_conclusion_FT" key="{8AA0A185-BE84-44E4-ACA9-97AB37A638DD}" path="Decision_DraftDV_Decision_remove_conclusion_FT.tcKDTest" />
 					<child name="Decision_Draft_FT_used_operandFormulaFT_sameRF" key="{9678C3F3-C1E4-4486-B39E-69D7A1143A44}" path="Decision_Draft_FT_used_operandFormulaFT_sameRF.tcKDTest" />
 					<child name="Decision_DraftDV_SupportingRF_RemoveConditionFT" key="{A5A69E37-80B5-4F36-B397-B65327418E94}" path="Decision_DraftDV_SupportingRF_RemoveConditionFT.tcKDTest" />
-					<child name="Decision_DraftApproved_RF_ContextMenu_ChangeRuleFamilyversion" key="{24CD7F05-F30D-427D-B213-5EE5131EA89F}" path="Decision_DraftApproved_RF_ContextMenu_ChangeRuleFamilyversion.tcKDTest" />
+					<child name="Decision_DraftApprRF_ContextMenu_ChangeRFversion" key="{24CD7F05-F30D-427D-B213-5EE5131EA89F}" path="Decision_DraftApprRF_ContextMenu_ChangeRFversion.tcKDTest" />
 					<child name="Decision_Draft_RF_ContextMenu_Change_RF_NoPriorVersions" key="{D1A98266-94E5-425A-BE85-134BA6A9E56C}" path="Decision_Draft_RF_ContextMenu_Change_RF_NoPriorVersions.tcKDTest" />
 					<child name="Decision_Draft_RF_ContextMenu_Change_RF_Verify_PriorVersions" key="{D16F2012-404A-42D6-9485-B50565C429C4}" path="Decision_Draft_RF_ContextMenu_Change_RF_Verify_PriorVersions.tcKDTest" />
 					<child name="Decision_Draft_RF_with_Message_Categories" key="{2ACB6D85-A922-4694-A106-581E4F688A73}" path="Decision_Draft_RF_with_Message_Categories.tcKDTest" />
 					<child name="Decision_Draft_RF_exists_multipleDecision_sameTask" key="{704C057F-64DD-4337-8883-990FE8AB4F85}" path="Decision_Draft_RF_exists_multipleDecision_sameTask.tcKDTest" />
-					<child name="Test1" key="{733778C1-1111-439B-A77B-8759954C23BA}" path="Test1.tcKDTest" />
 				</folder>
 				<folder name="Test Case Specifics">
 					<child name="Decision_CandidateFT_not_available_on_Autocomplete_list" key="{1D2D0A82-0F20-43F2-BCB6-D53034945722}" path="Decision_CandidateFT_not_available_on_Autocomplete_list.tcKDTest" />
-					<child name="Decision_CandidateFT_Exists_TaskFT_not_available_Autocomplete" key="{1EF1ACBD-FB35-44AD-8F60-604F1CF129EB}" path="Decision_CandidateFT_Exists_TaskFT_not_available_Autocomplete.tcKDTest" />
+					<child name="Decision_CandidateFT_Exists_TaskFT_not_Autocomplete" key="{1EF1ACBD-FB35-44AD-8F60-604F1CF129EB}" path="Decision_CandidateFT_Exists_TaskFT_not_Autocomplete.tcKDTest" />
 					<child name="RF_Candidate_FT_adding_as_Operand_in_another_Task" key="{EDD49216-0F2C-4075-AF97-34F4A38AD070}" path="RF_Candidate_FT_adding_as_Operand_in_another_Task.tcKDTest" />
 					<child name="RF_Candidate_FT_adding_as_Formula_FT_in_another_Task" key="{38878743-2827-4BE9-BAF1-C73383F749B9}" path="RF_Candidate_FT_adding_as_Formula_FT_in_another_Task.tcKDTest" />
 					<child name="RF_Candidate_FT_adding_FT_as_Message_FT_in_another_Task" key="{382A6B93-E002-41F7-8D91-157AEA686018}" path="RF_Candidate_FT_adding_FT_as_Message_FT_in_another_Task.tcKDTest" />
@@ -126,21 +125,24 @@
 					<child name="Decision__Prior_Version" key="{407C68E8-2E81-4CCA-9849-C030CA3DED10}" path="Decision__Prior_Version.tcKDTest" />
 					<child name="Decision_Create_New_Decision_from_Home" key="{B162DF06-29D6-4798-AEBE-8081FD2BFC78}" path="Decision_Create_New_Decision_from_Home.tcKDTest" />
 					<child name="Verify_User_is_Not_able_to_reuse_DraftRf_as_DecisionName" key="{3764FDBF-414C-4BFB-8720-86D01DBBE35D}" path="Verify_User_is_Not_able_to_reuse_DraftRf_as_DecisionName.tcKDTest" />
-					<child name="RF_adding_FT_using_Replace_Action_on_conditionFT_in_anotherTask" key="{A9B8D3A4-F9FB-4460-84FA-D5CED532C75C}" path="RF_adding_FT_using_Replace_Action_on_conditionFT_in_anotherTask.tcKDTest" />
+					<child name="RF_addingFT_ReplaceAction_conditionFT_anotherTask" key="{A9B8D3A4-F9FB-4460-84FA-D5CED532C75C}" path="RF_addingFT_ReplaceAction_conditionFT_anotherTask.tcKDTest" />
 					<child name="Decision_Create_New_Decision_from_Home_ExistingTask" key="{224507BA-8CFC-4FDA-BAF5-FCCCEA9B50D0}" path="Decision_Create_New_Decision_from_Home_ExistingTask.tcKDTest" />
 					<child name="Decision_Create_New_Decision_Home_NewTask" key="{747BCE83-9DC4-4ACE-B94B-D3B76030F419}" path="Decision_Create_New_Decision_Home_NewTask.tcKDTest" />
 					<child name="Decision_Create_New_Decision_DraftFtDecision_Same_task" key="{EF692D5E-9910-4A7C-8616-468CB1991BB0}" path="Decision_Create_New_Decision_DraftFtDecision_Same_task.tcKDTest" />
 					<child name="Decision_Create_New_Decision_DraftFT_otherTask_Decision_Name" key="{1948CA64-8C27-40D0-892E-3D43D8CC1FCD}" path="Decision_Create_New_Decision_DraftFT_otherTask_Decision_Name.tcKDTest" />
-					<child name="Decision_Create_New_Decision_ApprovedFT_Decision_NonConclusion" key="{79D23137-5F3B-4AE0-9D24-273FBC9E1D10}" path="Decision_Create_New_Decision_ApprovedFT_Decision_NonConclusion.tcKDTest" />
+					<child name="Decision_Create_New_Decision_ApprFT_NonConclusion" key="{79D23137-5F3B-4AE0-9D24-273FBC9E1D10}" path="Decision_Create_New_Decision_ApprFT_NonConclusion.tcKDTest" />
 					<child name="Decision_Create_New_Decision_ConclusionRFV_FT_SameTask" key="{9A1AE591-CC8D-48A3-97AA-12B6F8B35065}" path="Decision_Create_New_Decision_ConclusionRFV_FT_SameTask.tcKDTest" />
-					<child name="Decision_Create_New_Decision_ConclusionFT_SameTask_DifferentVG" key="{33D9BAF5-378D-4A6A-9DD7-E5E45BC1B9FA}" path="Decision_Create_New_Decision_ConclusionFT_SameTask_DifferentVG.tcKDTest" />
-					<child name="Decision_Create_New_Decision_ApprovedFT_Decision_ConclusionFT" key="{B3B9866F-66A4-4F1D-B06B-3992E36D03F9}" path="Decision_Create_New_Decision_ApprovedFT_Decision_ConclusionFT.tcKDTest" />
-					<child name="Decision_Create_New_Decision_ConclusionFT_SameTask_Decision_SameVG" key="{0DFB748F-4855-4B71-92F5-809EC230CF9A}" path="Decision_Create_New_Decision_ConclusionFT_SameTask_Decision_SameVG.tcKDTest" />
+					<child name="Decision_Create_ConclusionFT_SameTask_DifferentVG" key="{33D9BAF5-378D-4A6A-9DD7-E5E45BC1B9FA}" path="Decision_Create_ConclusionFT_SameTask_DifferentVG.tcKDTest" />
+					<child name="Decision_Create_New_Decision_ApprFT_ConclusionFT" key="{B3B9866F-66A4-4F1D-B06B-3992E36D03F9}" path="Decision_Create_New_Decision_ApprFT_ConclusionFT.tcKDTest" />
+					<child name="Decision_Create_Decision_ConclusionFT_SameTaskVG" key="{0DFB748F-4855-4B71-92F5-809EC230CF9A}" path="Decision_Create_Decision_ConclusionFT_SameTaskVG.tcKDTest" />
 					<child name="Decision_Create_New_Decision_ConclusionFT_RFV_Repository" key="{6C9444A1-C132-45E6-A672-6BB211457601}" path="Decision_Create_New_Decision_ConclusionFT_RFV_Repository.tcKDTest" />
 					<child name="Decision_DraftCandRF_ExistTask_NewDecision_UserNotAllowed" key="{10FFFF9C-3DA5-4E90-9153-D30CF6F59D3A}" path="Decision_DraftCandRF_ExistTask_NewDecision_UserNotAllowed.tcKDTest" />
 					<child name="Decision_Draft_Add_Existing_ConditionFT" key="{8524F108-7C36-4F97-A264-949D78164BFD}" path="Decision_Draft_Add_Existing_ConditionFT.tcKDTest" />
 					<child name="Decision_Diagram_Add_FactType_MonthYear_Range" key="{DBD51518-D8C8-4534-9CEA-BE9FF5785458}" path="Decision_Diagram_Add_FactType_MonthYear_Range.tcKDTest" />
 					<child name="Decision_Diagram_Approved_Fact_Type_Enable_Editing" key="{A56BC136-5832-48FE-9213-89ED4882F98B}" path="Decision_Diagram_Approved_Fact_Type_Enable_Editing.tcKDTest" />
+				</folder>
+				<folder name="Export Decision">
+					<child name="Decision_Export_Draft_Home_screen" key="{733778C1-1111-439B-A77B-8759954C23BA}" path="Decision_Export_Draft_Home_screen.tcKDTest" />
 				</folder>
 			</folder>
 			<folder name="Decision Flow">
@@ -249,8 +251,8 @@
 					</folder>
 					<folder name="Associated Assets">
 						<child name="RF_VerifyCurrentDecision_AutoSelected_Edit_ApprovedFT" key="{C7D90243-C505-4F84-9FF7-1DAB7DC07ECC}" path="RF_VerifyCurrentDecision_AutoSelected_Edit_ApprovedFT.tcKDTest" />
-						<child name="RFV_Approved_FT_used_moreThan_once_RF_Verify_Associated_assets_Pleat" key="{2951FAB4-184A-4748-AC59-36D5E98A0875}" path="RFV_Approved_FT_used_moreThan_once_RF_Verify_Associated_assets_Pleat.tcKDTest" />
-						<child name="RFV_Draft_FT_used_moreThan_once_in_RF_Verify_Associated_assets_Pleat" key="{3280B1A2-3FF8-4E8B-8C3C-6DCFF71197DA}" path="RFV_Draft_FT_used_moreThan_once_in_RF_Verify_Associated_assets_Pleat.tcKDTest" />
+						<child name="RFV_ApprFT_moreThanOnce_Verify_AssoAssets_Pleat" key="{2951FAB4-184A-4748-AC59-36D5E98A0875}" path="RFV_ApprFT_moreThanOnce_Verify_AssoAssets_Pleat.tcKDTest" />
+						<child name="RFV_DraftFT_moreThanOnce_Verify_AssoAssets_Pleat" key="{3280B1A2-3FF8-4E8B-8C3C-6DCFF71197DA}" path="RFV_DraftFT_moreThanOnce_Verify_AssoAssets_Pleat.tcKDTest" />
 						<child name="RFV_Approved_FT_Verify_Associated_assets_Pleat" key="{30ECB39C-AF90-4624-843B-B5C5EDEC6076}" path="RFV_Approved_FT_Verify_Associated_assets_Pleat.tcKDTest" />
 						<child name="RF_Draft_FT_Verify_Associated_assets_Pleat" key="{0054F634-4851-48E6-9B6B-FB1BF5558DF5}" path="RF_Draft_FT_Verify_Associated_assets_Pleat.tcKDTest" />
 					</folder>
@@ -332,8 +334,8 @@
 					<child name="Decision_DraftDV_Create_BIM_Layout_Usability" key="{1DD51587-16AC-49D1-B8D4-13BB99228A41}" path="Decision_DraftDV_Create_BIM_Layout_Usability.tcKDTest" />
 					<child name="Decision_DraftDV_Delete_BIM" key="{DB0D34EC-9A7E-472D-8A92-30ABA90CA600}" path="Decision_DraftDV_Delete_BIM.tcKDTest" />
 					<child name="Decision_DraftDV_Rename_BIM" key="{B25FE430-CF91-4928-B612-CD2DD6D7A3B9}" path="Decision_DraftDV_Rename_BIM.tcKDTest" />
-					<child name="RF_Create_supporting_RFV_Create_BIM_Edit_interim_FT_in_parent_RFV" key="{2536609B-8236-4594-8CD9-2EFCCAB0A49F}" path="RF_Create_supporting_RFV_Create_BIM_Edit_interim_FT_in_parent_RFV.tcKDTest" />
-					<child name="RF_Create_supporting_RFV_Create_BIM_Edit_interim_FT_supporting_RFV" key="{BBD9C6FE-EC19-429E-92A2-83A5441CE596}" path="RF_Create_supporting_RFV_Create_BIM_Edit_interim_FT_supporting_RFV.tcKDTest" />
+					<child name="RF_Create_supportRFV_BIMEdit_interimFT_parentRFV" key="{2536609B-8236-4594-8CD9-2EFCCAB0A49F}" path="RF_Create_supportRFV_BIMEdit_interimFT_parentRFV.tcKDTest" />
+					<child name="RF_Create_supportRFV_BIMEdit_interimFT_supportRFV" key="{BBD9C6FE-EC19-429E-92A2-83A5441CE596}" path="RF_Create_supportRFV_BIMEdit_interimFT_supportRFV.tcKDTest" />
 					<child name="RF_Create_two_supporting_RFV_conc_FT_in_second_is_Numeric_Create_BIM" key="{B5D5B1CD-9ABF-4A1F-9B3D-3DF801DF456B}" path="RF_Create_two_supporting_RFV_conc_FT_in_second_is_Numeric_Create_BIM.tcKDTest" />
 					<child name="RF_Draft_RF_BIM_remove_condition_FT" key="{5888E5C4-A986-4D8E-AFA6-F423552A9FB3}" path="RF_Draft_RF_BIM_remove_condition_FT.tcKDTest" />
 					<child name="RF_Draft_RF_supporting_remove_condition_FT_check_FT_in_BIM" key="{BF2B9767-C1F1-42A8-968C-F04AA1AC0074}" path="RF_Draft_RF_supporting_remove_condition_FT_check_FT_in_BIM.tcKDTest" />
@@ -706,8 +708,8 @@
 			<folder name="Analysis Project">
 				<child name="Analysis_Project_Upper_community_Open_Verify" key="{1776C31E-7CBF-4B87-A43A-40514D47567D}" path="Analysis_Project_Upper_community_Open_Verify.tcKDTest" />
 				<child name="Analysis_Project_other_communities_Not_Wolrd_Verify" key="{47E43B44-AAAD-4C35-9823-AED6F8AE3931}" path="Analysis_Project_other_communities_Not_Wolrd_Verify.tcKDTest" />
-				<child name="Projects_Details_General_Assignee_fields_of_General_tab_Verify" key="{746C8A5C-2B4D-40FF-94AF-DFE2324430B8}" path="Projects_Details_General_Assignee_fields_of_General_tab_Verify.tcKDTest" />
-				<child name="Projects_Details_General_Not_Assignee_Fields_of_General_tab_Verify" key="{5D9E4C9E-DDE2-465D-9ECC-17E79BEA74B8}" path="Projects_Details_General_Not_Assignee_Fields_of_General_tab_Verify.tcKDTest" />
+				<child name="Projects_Details_General_Assignee_GeneralTab_Verify" key="{746C8A5C-2B4D-40FF-94AF-DFE2324430B8}" path="Projects_Details_General_Assignee_GeneralTab_Verify.tcKDTest" />
+				<child name="Projects_Details_General_NotAssignee_GeneralTab_Verify" key="{5D9E4C9E-DDE2-465D-9ECC-17E79BEA74B8}" path="Projects_Details_General_NotAssignee_GeneralTab_Verify.tcKDTest" />
 			</folder>
 			<folder name="Approvals">
 				<child name="Modeling_Projects_Assets_Approval_Tab_User_is_the_owner" key="{F1EDBD44-2715-47F2-B6D7-020FCF62D6AF}" path="Modeling_Projects_Assets_Approval_Tab_User_is_the_owner.tcKDTest" />
