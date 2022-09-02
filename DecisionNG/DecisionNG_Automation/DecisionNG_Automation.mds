@@ -26,7 +26,7 @@
 											<testItem name="Tasks_FactTypeTab_Add_FactType_Verify" key="{FFA580BC-872D-421F-ADF3-0872F4328907}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<children>
-													<testItem name="Login" key="{CD7DD9A6-B49A-4527-A980-80D274B847DC}" group="False" parallel="False" enabled="False" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
+													<testItem name="Login" key="{CD7DD9A6-B49A-4527-A980-80D274B847DC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="URL" type="1" localVarName="Environment_URL" localVarLevel="1" value="" />
 															<param1 name="UserName" type="1" localVarName="UserName" localVarLevel="1" value="" />
@@ -3056,6 +3056,36 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
+													<testItem name="Test ID_11565,11566_Decision_Draft_RF_ContextMenu_Change_RF_NoPriorVersions" key="{F58210B2-1D37-4B0A-B586-9890F21F2A4F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D1A98266-94E5-425A-BE85-134BA6A9E56C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID_11567,11568_Decision, Draft, Rule Family, Context Menu, Change Rule Family version, Prior versions exist" key="{E83C5937-0151-4F9B-A911-A751FC3DA7A5}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D16F2012-404A-42D6-9485-B50565C429C4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID_11569_Decision, Draft, Rule Family with Message Categories &amp; Messages, Context Menu, Change" key="{6D934E47-CB12-49C2-98AA-B23AFFD6EB98}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2ACB6D85-A922-4694-A106-581E4F688A73}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID_11570_Decision, Draft, Draft Rule Family exists in multiple Decision in same task, Context Menu" key="{EA09989F-E00F-4227-895F-C7ED8535DD9D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{704C057F-64DD-4337-8883-990FE8AB4F85}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+												</children>
+											</testItem>
+											<testItem name="Export Decision" key="{C512E193-994A-42AF-933C-FCF521924767}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<children>
+													<testItem name="Test ID_6122_Decision, Export, Draft, Home screen" key="{CDB84714-AA3C-44E1-9D22-2FB1B5894A80}" group="False" parallel="False" enabled="True" testMoniker="KDT\{733778C1-1111-439B-A77B-8759954C23BA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
 												</children>
 											</testItem>
 										</children>
@@ -3063,7 +3093,7 @@
 									<testItem name="Flow" key="{60A0FB54-37E7-4A7C-BB27-AB5FD523F608}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters />
 										<children>
-											<testItem name="Edit Flow" key="{66A1D117-4119-459B-A6FE-7A447F8A6DF8}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="Edit Flow" key="{66A1D117-4119-459B-A6FE-7A447F8A6DF8}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<children>
 													<testItem name="HomeScreen_Create_NewTask_Flow_TestCases" key="{5FC4217A-4FC0-43D8-94D6-7BD5E03366F4}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F80B6045-49B0-440E-B555-47A7633F2594}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -3113,7 +3143,7 @@
 													</testItem>
 												</children>
 											</testItem>
-											<testItem name="Create Flow from Home screen and Task" key="{389D53FF-5648-44E1-84E4-84BC570BFFED}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="Create Flow from Home screen and Task" key="{389D53FF-5648-44E1-84E4-84BC570BFFED}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<children>
 													<testItem name="Test ID 7017,Test ID 7019_Modelling Decision Flow, Create New Flow, OK" key="{B0883C1B-413B-4DDD-8640-6C517EE23CB8}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4DFAAA83-3E53-4799-88D3-76FC6336D115}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -3160,7 +3190,7 @@
 													</testItem>
 												</children>
 											</testItem>
-											<testItem name="Gateway FactType" key="{30967969-3BC4-49DA-9C91-3041FB599F0F}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="Gateway FactType" key="{30967969-3BC4-49DA-9C91-3041FB599F0F}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<children>
 													<testItem name="Test ID 7208_Modelling Decision Flow, Approved Flow, Non-editable Gateway Component Operator Operand editor" key="{54AC382C-8443-4E6D-AA5D-5F031BA2191B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E6FF2E82-25A3-4DC7-97DD-15141FD8F6E2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -3208,7 +3238,7 @@
 													</testItem>
 												</children>
 											</testItem>
-											<testItem name="Breadcrumb" key="{EA6427DA-A980-4E7D-A9C8-45972B362CD2}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="Breadcrumb" key="{EA6427DA-A980-4E7D-A9C8-45972B362CD2}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<children>
 													<testItem name="Test ID 7023,7230 _Flow, Breadcrumb Dropdown holding DV&apos;s used in Flow,Verify" key="{1C1EDDF1-4DBE-4AB1-8C86-5C7A664E7A0D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6F4B146D-7D97-4165-BB11-E879CB0B5FA9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -3344,14 +3374,14 @@
 													</testItem>
 												</children>
 											</testItem>
-											<testItem name=" Test ID 7933_Flow, Edit, Unchanged Asset" key="{E61EAA79-3157-46F5-A800-214D53C3D3DB}" group="False" parallel="False" enabled="False" testMoniker="KDT\{142877C1-D95B-4D40-A8AA-044545CD1722}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name=" Test ID 7933_Flow, Edit, Unchanged Asset" key="{E61EAA79-3157-46F5-A800-214D53C3D3DB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{142877C1-D95B-4D40-A8AA-044545CD1722}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<environments activeCloud="CBT" />
 												<children />
 											</testItem>
 										</children>
 									</testItem>
-									<testItem name="Sumant Rule Family Folder" key="{D5A73C56-0AA9-49FE-AFA4-3AC4C9AA14B7}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+									<testItem name="Sumant Rule Family Folder" key="{D5A73C56-0AA9-49FE-AFA4-3AC4C9AA14B7}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters />
 										<children>
 											<testItem name="Message Category" key="{525636FC-CD34-441F-BBC0-BAE44410DEC2}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -3360,7 +3390,7 @@
 													<testItem name="Pre-Requisites" key="{CE8E3A79-3A98-401B-94CC-B4A0DC219043}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<children>
-															<testItem name="Login to NG as Decision Analyst" key="{0EFD9B6D-39CF-400B-BE06-8DBB65F1DACE}" group="False" parallel="False" enabled="False" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+															<testItem name="Login to NG as Decision Analyst" key="{0EFD9B6D-39CF-400B-BE06-8DBB65F1DACE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 																<testParameters>
 																	<param0 name="URL" type="1" localVarName="Regression_URL" localVarLevel="1" value="" />
 																	<param1 name="UserName" type="1" localVarName="" value="Automation2" />
@@ -3826,7 +3856,7 @@
 											</testItem>
 										</children>
 									</testItem>
-									<testItem name="BIM" key="{5F2AA306-5C28-4C52-98F1-8EB8B19F5748}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+									<testItem name="BIM" key="{5F2AA306-5C28-4C52-98F1-8EB8B19F5748}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters />
 										<children>
 											<testItem name="Login to NG as Automation1" key="{C097E5E6-572C-4191-BCA0-09516461B051}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -4036,7 +4066,7 @@
 									</testItem>
 								</children>
 							</testItem>
-							<testItem name="Permission_Matrix" key="{A2EA8183-33D0-4598-A164-7BB517B8041A}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Permission_Matrix" key="{A2EA8183-33D0-4598-A164-7BB517B8041A}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children>
 									<testItem name="Login" key="{FB77148E-F2AD-4CC8-AEE6-AFACBC5B1F73}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
@@ -4070,16 +4100,16 @@
 									</testItem>
 								</children>
 							</testItem>
-							<testItem name="Repository" key="{52724839-5CA1-45EF-97EC-3CAD243432EA}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="Repository" key="{52724839-5CA1-45EF-97EC-3CAD243432EA}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children>
-									<testItem name="Import Glossary" key="{274AADB2-E4B5-4448-8810-0930013D7CFA}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+									<testItem name="Import Glossary" key="{274AADB2-E4B5-4448-8810-0930013D7CFA}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters />
 										<children>
-											<testItem name="Import Glossary XML Verification" key="{878792FF-453F-456A-B6EA-90B5A1D99862}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="Import Glossary XML Verification" key="{878792FF-453F-456A-B6EA-90B5A1D99862}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<children>
-													<testItem name="Login" key="{8E399E04-E177-4088-9E66-70B456B89B3B}" group="False" parallel="False" enabled="False" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Login" key="{8E399E04-E177-4088-9E66-70B456B89B3B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="URL" type="1" localVarName="Regression_URL" localVarLevel="1" value="" />
 															<param1 name="UserName" type="1" localVarName="" value="automation1" />
@@ -4102,13 +4132,13 @@
 											</testItem>
 										</children>
 									</testItem>
-									<testItem name="Release Projets" key="{34D9318A-63F5-4737-8A8E-C9173679C5DA}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+									<testItem name="Release Projets" key="{34D9318A-63F5-4737-8A8E-C9173679C5DA}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters />
 										<children>
 											<testItem name="Deploy Assets" key="{FB5682F3-0A2C-47B8-8DA4-BB483222F4EA}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<children>
-													<testItem name="Login_Release Manager" key="{F06D6E74-4B23-4A05-A137-26964D1CF6EC}" group="False" parallel="False" enabled="False" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Login_Release Manager" key="{F06D6E74-4B23-4A05-A137-26964D1CF6EC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="URL" type="1" localVarName="Regression_URL" localVarLevel="1" value="" />
 															<param1 name="UserName" type="1" localVarName="" value="automation1" />
@@ -4841,7 +4871,7 @@
 													<testItem name="Pre-requisite" key="{0CA1E778-CE7F-4798-8764-A132F9A14469}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<children>
-															<testItem name="Login" key="{F24FCAA0-5A3A-4A12-83FD-2026212B521F}" group="False" parallel="False" enabled="False" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+															<testItem name="Login" key="{F24FCAA0-5A3A-4A12-83FD-2026212B521F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 																<testParameters>
 																	<param0 name="URL" type="1" localVarName="" value="http://bdmsuat75:5893/dm/login.jsp#/home" />
 																	<param1 name="UserName" type="1" localVarName="" value="automation1" />
@@ -5318,7 +5348,7 @@
 									<testItem name="Security" key="{2D400510-D5A0-4F88-BCA0-507CA575C9ED}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters />
 										<children>
-											<testItem name="Login_as_Administrator" key="{EBAB3DDA-4214-485D-B18D-18AE91250CAC}" group="False" parallel="False" enabled="False" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="Login_as_Administrator" key="{EBAB3DDA-4214-485D-B18D-18AE91250CAC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters>
 													<param0 name="URL" type="1" localVarName="Regression_URL" localVarLevel="1" value="" />
 													<param1 name="UserName" type="1" localVarName="" value="automation1" />
@@ -7314,7 +7344,7 @@
 										<environments activeCloud="CBT" />
 										<children />
 									</testItem>
-									<testItem name="Test_RuleFamily_Step" key="{969BC2E5-0692-4609-BBEC-5834044F2C71}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8F3DB16D-35F3-4480-9AB8-13416D4CD040}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+									<testItem name="Test_RuleFamily_Step" key="{969BC2E5-0692-4609-BBEC-5834044F2C71}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8F3DB16D-35F3-4480-9AB8-13416D4CD040}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
 											<param0 name="SelectOption_Ellipses" type="1" localVarName="" value="Test Groups" />
 											<param1 name="Regression_TestGroup" type="1" localVarName="" value="No" />
@@ -7340,7 +7370,7 @@
 										<environments activeCloud="CBT" />
 										<children />
 									</testItem>
-									<testItem name="Test_Decisions_Step" key="{97E3BF16-00EF-4E1C-BD87-EAC51AA77FB2}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8F3DB16D-35F3-4480-9AB8-13416D4CD040}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+									<testItem name="Test_Decisions_Step" key="{97E3BF16-00EF-4E1C-BD87-EAC51AA77FB2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8F3DB16D-35F3-4480-9AB8-13416D4CD040}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
 											<param0 name="SelectOption_Ellipses" type="1" localVarName="" value="Test Groups" />
 											<param1 name="Regression_TestGroup" type="1" localVarName="" value="No" />
@@ -7374,7 +7404,7 @@
 										<environments activeCloud="CBT" />
 										<children />
 									</testItem>
-									<testItem name="Test_Flow" key="{1BCC71DA-D2AD-4254-9F1D-3FCD28BE4C99}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8F3DB16D-35F3-4480-9AB8-13416D4CD040}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+									<testItem name="Test_Flow" key="{1BCC71DA-D2AD-4254-9F1D-3FCD28BE4C99}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8F3DB16D-35F3-4480-9AB8-13416D4CD040}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters>
 											<param0 name="SelectOption_Ellipses" type="1" localVarName="" value="Test Groups" />
 											<param1 name="Regression_TestGroup" type="1" localVarName="" value="No" />
