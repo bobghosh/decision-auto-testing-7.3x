@@ -3081,7 +3081,27 @@
 											<testItem name="Export Decision" key="{C512E193-994A-42AF-933C-FCF521924767}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<children>
+													<testItem name="Test ID_6123,6125_Decision, Export, Approved, Home screen" key="{A9A638AD-4057-475E-993B-A6C3BC54B526}" group="False" parallel="False" enabled="True" testMoniker="KDT\{AC59539C-DBB6-46BE-84BC-E6C01395D748}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
 													<testItem name="Test ID_6122_Decision, Export, Draft, Home screen" key="{CDB84714-AA3C-44E1-9D22-2FB1B5894A80}" group="False" parallel="False" enabled="True" testMoniker="KDT\{733778C1-1111-439B-A77B-8759954C23BA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID_6124_Decision, Export, Draft, Task screen" key="{836541C3-4450-4644-883B-BBFA704A8FCD}" group="False" parallel="False" enabled="True" testMoniker="KDT\{30C09C8D-9593-42E7-8DB2-A7EE60645E10}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID_6126_Decision, Export, Decision with Message category" key="{E705F42D-2333-4CCB-95BF-AE509D0F8E57}" group="False" parallel="False" enabled="True" testMoniker="KDT\{733778C1-1111-439B-A77B-8759954C23BA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID_6844_Decision_Export_BIM_with_Messages" key="{C54E9C10-37B2-4254-8BF8-72ED91AFB36F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{71FAB59C-EB36-4174-AD79-424B4FEF6696}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<environments activeCloud="CBT" />
 														<children />
