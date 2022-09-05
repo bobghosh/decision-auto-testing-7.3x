@@ -3106,6 +3106,30 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
+													<testItem name="Test ID_6848,6851_Decision, Export, BIM, without Messages" key="{272AF115-2CE3-4D26-9B67-7B3838730B20}" group="False" parallel="False" enabled="True" testMoniker="KDT\{54865722-80D5-4F04-9CD7-6A6762EE3EA3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID_6850_Decision, Export, BIM, with Formulas" key="{B2C279E9-18BA-4128-8CD5-0AD21148F5BF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{90832C7D-3B5F-46D1-9B40-4627A0919F86}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="DRF" type="1" localVarName="" value="Tuition Fee Loan Amount" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID_6862_Decision, Export, without BIM, with Formulas" key="{1E85A663-3429-4FF3-92D8-B58722BA55C7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6DE9336C-1EC6-43F5-A681-29FBD1620263}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="DRF" type="1" localVarName="" value="Tuition Fee Loan Eligibility__" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID_6863_Decision_Export_BIM_With_FormulasMessages" key="{E4DCEB45-A31E-4377-959A-42405573E0FE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BAB5E48E-2FD7-47D0-94D9-58BA1C64E705}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
 												</children>
 											</testItem>
 										</children>
