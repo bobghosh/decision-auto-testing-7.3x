@@ -146,6 +146,10 @@
 					<child name="Decision_Export_Appro_Home_screen" key="{AC59539C-DBB6-46BE-84BC-E6C01395D748}" path="Decision_Export_Appro_Home_screen.tcKDTest" />
 					<child name="Decision_Export_Draft_Task_screen" key="{30C09C8D-9593-42E7-8DB2-A7EE60645E10}" path="Decision_Export_Draft_Task_screen.tcKDTest" />
 					<child name="Decision_Export_BIM_with_Messages" key="{71FAB59C-EB36-4174-AD79-424B4FEF6696}" path="Decision_Export_BIM_with_Messages.tcKDTest" />
+					<child name="Decision_Export_BIM_without_Messages" key="{54865722-80D5-4F04-9CD7-6A6762EE3EA3}" path="Decision_Export_BIM_without_Messages.tcKDTest" />
+					<child name="Decision_Export_BIM_with_Formulas" key="{90832C7D-3B5F-46D1-9B40-4627A0919F86}" path="Decision_Export_BIM_with_Formulas.tcKDTest" />
+					<child name="Decision_Export_WO_BIM_with_Formulas" key="{6DE9336C-1EC6-43F5-A681-29FBD1620263}" path="Decision_Export_WO_BIM_with_Formulas.tcKDTest" />
+					<child name="Decision_Export_BIM_With_FormulasMessages" key="{BAB5E48E-2FD7-47D0-94D9-58BA1C64E705}" path="Decision_Export_BIM_With_FormulasMessages.tcKDTest" />
 				</folder>
 			</folder>
 			<folder name="Decision Flow">
