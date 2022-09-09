@@ -2683,9 +2683,9 @@
 												<children>
 													<testItem name="Login to NG as Automation1" key="{545A5DAF-4452-4EC7-A286-7D473FA7CE15}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="URL" type="1" localVarName="Regression_URL" localVarLevel="1" value="" />
-															<param1 name="UserName" type="1" localVarName="" value="Automation1" />
-															<param2 name="Password" type="1" localVarName="" value="Decision1" />
+															<param0 name="URL" type="1" localVarName="Environment_URL" localVarLevel="1" value="" />
+															<param1 name="UserName" type="1" localVarName="UserName" localVarLevel="1" value="" />
+															<param2 name="Password" type="1" localVarName="Password" localVarLevel="1" value="" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
