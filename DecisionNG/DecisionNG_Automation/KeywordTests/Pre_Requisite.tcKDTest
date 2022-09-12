@@ -56,7 +56,7 @@
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs a script routine." TestName="DF_Screen_Change_Decision_Version" Unit="Change_Decision_Version">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="DecisionNameversion" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue=" Condo Loan Documentation Requirements Compliance (View: Base) [V1.4] " />
+						<Parameter Name="DecisionNameversion" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue=" Condo Loan Documentation Requirements Compliance (View: Base) [V1.3] " />
 						<Parameter Name="applyChangesEverywere" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="12" ValueType="0" ValueValue="0" />
 						<Parameter Name="applyChangesToDecisionOnly" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Yes" />
 						<Parameter Name="RightClickOnElement" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Condo Loan Documentation" />
