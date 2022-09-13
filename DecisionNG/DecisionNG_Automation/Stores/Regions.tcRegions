@@ -4,5 +4,11 @@
 		<child name="canvas" key="{AFAE0D09-BEBF-4DB0-A51B-8DF445340616}">
 			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="canvas" ID="{AFAE0D09-BEBF-4DB0-A51B-8DF445340616}" FileName="Regions\canvas.png" Update="False" />
 		</child>
+		<child name="TC_10285" key="{909362F3-683C-4063-B283-871BE6A9D40B}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="TC_10285" ID="{909362F3-683C-4063-B283-871BE6A9D40B}" FileName="Regions\TC_10285.bmp" Update="False" />
+		</child>
+		<child name="TC_10287" key="{DAE81C2B-F051-4441-A90F-F32644E275B2}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="TC_10287" ID="{DAE81C2B-F051-4441-A90F-F32644E275B2}" FileName="Regions\TC_10287.png" Update="False" />
+		</child>
 	</children>
 </Root>

@@ -305,6 +305,13 @@
 						<child name="RF_Use_all_Operators_with_Single_Value" key="{E522DAE8-1F04-4846-969A-A8D2A44CFF88}" path="RF_Use_all_Operators_with_Single_Value.tcKDTest" />
 						<child name="RF_Use_all_Operators_with_Multiple_Value" key="{D079FCD1-FB3C-4459-A151-A1CE1FAE3137}" path="RF_Use_all_Operators_with_Multiple_Value.tcKDTest" />
 					</folder>
+					<folder name="Change Fact Type Version">
+						<child name="RF_Approved_cond_conclusion_context" key="{ABAE8A96-951A-4390-9624-5C3B1CAABC18}" path="RF_Approved_cond_conclusion_context.tcKDTest" />
+						<child name="Draft_condconl_cntxt_nolatst_chgFTver_ok" key="{998F5E9E-1347-4420-91C0-CF8032964E04}" path="Draft_condconl_cntxt_nolatst_chgFTver_ok.tcKDTest" />
+						<child name="RF_Drft_ChngFTver_context_OK" key="{658F91A9-8E90-455B-8A63-FBAA63767152}" path="RF_Drft_ChngFTver_context_OK.tcKDTest" />
+						<child name="RF_Draft_conclusioncol_as_conditioncol" key="{0331FB5D-3FD5-4003-8C1D-518487288210}" path="RF_Draft_conclusioncol_as_conditioncol.tcKDTest" />
+						<child name="RF_Drft_condcol_ChngFTver_Cancel" key="{3B2EF6A7-04A7-42E1-B831-E6055D8F4D93}" path="RF_Drft_condcol_ChngFTver_Cancel.tcKDTest" />
+					</folder>
 					<child name="Draft_DV_SR_Enable_Editing" key="{33716E5B-5BA2-4EE0-A6F8-7803A0392AAA}" path="Draft_DV_SR_Enable_Editing.tcKDTest" />
 					<child name="RF_Table_AddFT_Add_SRF" key="{6FF7D11C-BB60-4090-A446-203DAEF87850}" path="RF_Table_AddFT_Add_SRF.tcKDTest" />
 				</folder>

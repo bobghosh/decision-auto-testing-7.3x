@@ -3827,7 +3827,42 @@
 											</testItem>
 											<testItem name="Change Fact Type Version" key="{40D5320D-36D0-4F8B-88BD-F8FD111D774E}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
-												<children />
+												<children>
+													<testItem name="Test ID 6120_RF_Draft_conclusioncol_as_conditioncol" key="{A0664984-C819-4FA2-9E3A-F65F3E4A4782}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0331FB5D-3FD5-4003-8C1D-518487288210}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 10280,10286_RF_Draft_condition_conclusion_Context" key="{50F14885-DDFE-42AC-B996-FC6E30F38FC6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{998F5E9E-1347-4420-91C0-CF8032964E04}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Delete_Task_Specific" key="{32391A24-C40B-43CA-A5AF-C4A5BE34BD39}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0ECC5690-0601-455B-A688-CBB67BFB6B3D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="TabName" type="1" localVarName="" value="My Tasks" />
+															<param1 name="Subtab_Name" type="1" localVarName="" value="Tasks" />
+															<param2 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 10281_RF_Approved_cond_conclusion_context" key="{EF78D56C-6569-4712-B0B3-B2643F0DB195}" group="False" parallel="False" enabled="True" testMoniker="KDT\{ABAE8A96-951A-4390-9624-5C3B1CAABC18}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 10285,10287_RF_Drft_ChngFTver_context_OK" key="{D9F83B22-1944-417B-89F8-1F19C62EA3F3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{658F91A9-8E90-455B-8A63-FBAA63767152}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="Modeling, Draft Rule Family, Fact Type (Condition/ Conclusion), Contextual menu options, Change Fact Type Version, Fact Type with multiple versions, Select another version,OK" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 10288,10289_RF_Drft_condcol_ChngFTver_Cancel" key="{5FBF04C8-250F-4F3B-82F4-4F101EA8A871}" group="False" parallel="False" enabled="True" testMoniker="KDT\{3B2EF6A7-04A7-42E1-B831-E6055D8F4D93}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+												</children>
 											</testItem>
 											<testItem name="Add FT &amp; RF" key="{1020F7D8-3606-411B-A5D0-2701505ADFC4}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
@@ -3868,6 +3903,11 @@
 														</children>
 													</testItem>
 													<testItem name="Test ID 6826_Rule Family, Draft, Rule Family Table, Add Fact Type, Add Supporting Rule Family" key="{93443146-C851-45A5-8229-A69D3D4A6E7B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6FF7D11C-BB60-4090-A446-203DAEF87850}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="RF_Drft_ChngFTver_context_OK" key="{6ADB08C9-F339-412B-93CC-C7C88AF2A5D1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{658F91A9-8E90-455B-8A63-FBAA63767152}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<environments activeCloud="CBT" />
 														<children />
@@ -8385,6 +8425,25 @@
 				</Variable>
 				<Variable Name="Reg_Suite_New_FlowName" Type="String" Local="True">
 					<DefValue />
+				</Variable>
+				<Variable Name="ContextMenu_RF_var" Type="Table" Local="False">
+					<DefValue RowCount="14" ColumnCount="7">
+						<Columns ColumnName0="contextMenuItem" ColumnName1="Draft_condition_V0_Context" ColumnName2="Draft_conclusion_context" ColumnName3="Approved_Conclusion_context" ColumnName4="Approved_condition_context" ColumnName5="Draft_cond_notlatest" ColumnName6="Draft_conclusion_notlatest" />
+						<Row No="0" Cell0="Insert Column" Cell1="Enabled" Cell2="Enabled" Cell3="Disabled" Cell4="Disabled" Cell5="Enabled" Cell6="Enabled" />
+						<Row No="1" Cell0="Hide Column" Cell1="Enabled" Cell4Type="1" Cell5="Enabled" />
+						<Row No="2" Cell0="Open Fact Type Summary" Cell1="Enabled" Cell2="Enabled" Cell3="Enabled" Cell4="Enabled" Cell5="Enabled" Cell6="Enabled" />
+						<Row No="3" Cell0="Open Fact Type Model Mapping" Cell1="Enabled" Cell2="Enabled" Cell3="Enabled" Cell4="Enabled" Cell5="Enabled" Cell6="Enabled" />
+						<Row No="4" Cell0="Revert Fact Type" Cell1="Disabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Disabled" />
+						<Row No="5" Cell0="Update Fact Type to Latest Version" Cell1="Disabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Enabled" Cell6="Enabled" />
+						<Row No="6" Cell0="Change Fact Type Version" Cell1="Enabled" Cell2="Enabled" Cell3="Disabled" Cell4="Disabled" Cell5="Enabled" Cell6="Enabled" />
+						<Row No="7" Cell0="Create Supporting Rule Family" Cell1="Enabled" Cell4="Disabled" Cell5="Enabled" />
+						<Row No="8" Cell0="Open Supporting Rule Family" Cell1="Disabled" Cell4="Disabled" Cell5="Disabled" />
+						<Row No="9" Cell0="Populated Characteristic" Cell1="Enabled" Cell4="Disabled" Cell5="Enabled" />
+						<Row No="10" Cell0="Replace" Cell1="Enabled" Cell4="Disabled" Cell5="Enabled" />
+						<Row No="11" Cell0="Remove" Cell1="Enabled" Cell4="Disabled" Cell5="Enabled" />
+						<Row No="12" Cell0="Change Conclusion operator" Cell2="Enabled" Cell3="Disabled" Cell6="Enabled" />
+						<Row No="13" Cell0="Add Message Category" Cell2="Enabled" Cell3="Disabled" Cell6="Enabled" />
+					</DefValue>
 				</Variable>
 			</Items>
 		</data>
