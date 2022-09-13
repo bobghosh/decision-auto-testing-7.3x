@@ -144,7 +144,6 @@
 				<child name="Supporting_RF_Perform_Actions" key="{318DC2AC-B71A-4FC4-ABF8-6212CEC28343}" path="Supporting_RF_Perform_Actions.js" />
 				<child name="DRF_Perform_Actions" key="{E077588A-3BFD-4F83-ACF6-2C20FF277DC6}" path="DRF_Perform_Actions.js" />
 				<child name="Supporting_RF_Enable_Edit" key="{C29D3336-F305-49C0-941F-2A2B52C00943}" path="Supporting_RF_Enable_Edit.js" />
-				<child name="ContextMenu_Verify_Enabled_Disabled" key="{81C4E7D8-2EA5-4DEE-9209-DCB37E0B4EBB}" path="ContextMenu_Verify_Enabled_Disabled.js" />
 				<child name="Drag_Drop_FT" key="{4C272BD6-BEBA-46C2-B1BA-6EE80F8EF5E0}" path="Drag_Drop_FT.js" />
 				<child name="DRF_RightClick_SelectSubOption" key="{12019DCC-1860-433E-AE3E-6BFA338B80C3}" path="DRF_RightClick_SelectSubOption.js" />
 				<child name="Decision_Edit_From_Repository_Screen" key="{E91EAD22-8970-4787-921C-1DE465AFD335}" path="Decision_Edit_From_Repository_Screen.js" />
@@ -160,6 +159,7 @@
 				<child name="Asset_Change_Type" key="{A9BB5C2E-BE55-4B32-A389-D0468BA781D1}" path="Asset_Change_Type.js" />
 				<child name="Canvas_Select_OnScreenItem" key="{CC747009-CDCA-40D6-9FE4-276C7E87D0F6}" path="Canvas_Select_OnScreenItem.js" />
 				<child name="Edit_Decision_Flow_Cancel" key="{A6B30A84-D230-49B3-ADC2-8A6EB20ADFBF}" path="Edit_Decision_Flow_Cancel.js" />
+				<child name="ContextMenu_Verify_Enabled_Disabled" key="{81C4E7D8-2EA5-4DEE-9209-DCB37E0B4EBB}" path="ContextMenu_Verify_Enabled_Disabled.js" />
 			</folder>
 			<folder name="Knowledge Source">
 				<child name="Add_New_Knowledge_Source" key="{102849E1-B98F-44F0-8098-16C27F44DCED}" path="Add_New_Knowledge_Source.js" />

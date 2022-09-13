@@ -1498,10 +1498,10 @@
 										<TypeInfo Item0="{3F80DE51-ED73-4C0D-BFB0-F251C33216FE}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//dcn-domain-input[@placeholder=&quot;from&quot;]//button" />
+												<Value Value="//*[@placeholder=&quot;Add a value&quot;]//button" />
 											</Selector>
 											<Selector>
-												<Value Value="//*[@placeholder=&quot;Add a value&quot;]//button" />
+												<Value Value="//dcn-domain-input[@placeholder=&quot;from&quot;]//button" />
 											</Selector>
 											<Selector>
 												<Value Value="//button[contains(@class,&apos;wj-btn&apos;)]" />
@@ -5894,7 +5894,6 @@
 										</Children>
 									</Child>
 									<Child Name="btnOpen" Key="{988A9E8E-051F-4D7B-8759-F4E59304117E}">
-										<Image FileName="379187306" Left="427" Top="434" Right="515" Bottom="460" />
 										<TypeInfo Item0="{6DCB23CA-9A66-4FC5-B8AC-C67195C7BCC8}" />
 										<Properties>
 											<Property Name="WndClass">
