@@ -3289,6 +3289,13 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
+													<testItem name="Test ID 7254,11067_Listing of New Fact Type under the Task" key="{1612C07E-1566-4BC1-8E60-79822E018C7D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E6880359-B9C7-472C-9348-07B62AB063D9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="FactType" type="1" localVarName="" value="CandidateFT" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
 													<testItem name="Delete_Task_Specific" key="{D45A56A7-B3BB-43E9-8E6F-4058978F1765}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0ECC5690-0601-455B-A688-CBB67BFB6B3D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TabName" type="1" localVarName="" value="My Tasks" />
