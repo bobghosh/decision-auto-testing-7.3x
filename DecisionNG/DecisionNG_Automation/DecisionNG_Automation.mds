@@ -3185,6 +3185,15 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
+													<testItem name="Delete_Task_Specific" key="{31C3CFC3-A83D-48F6-993D-89E74FAA9E1F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0ECC5690-0601-455B-A688-CBB67BFB6B3D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="TabName" type="1" localVarName="" value="My Tasks" />
+															<param1 name="Subtab_Name" type="1" localVarName="" value="Tasks" />
+															<param2 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
 												</children>
 											</testItem>
 											<testItem name="Create Flow from Home screen and Task" key="{389D53FF-5648-44E1-84E4-84BC570BFFED}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -3280,6 +3289,22 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
+													<testItem name="Test ID 7254,11067_Listing of New Fact Type under the Task" key="{1612C07E-1566-4BC1-8E60-79822E018C7D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E6880359-B9C7-472C-9348-07B62AB063D9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="FactType" type="1" localVarName="" value="CandidateFT" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Delete_Task_Specific" key="{D45A56A7-B3BB-43E9-8E6F-4058978F1765}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0ECC5690-0601-455B-A688-CBB67BFB6B3D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="TabName" type="1" localVarName="" value="My Tasks" />
+															<param1 name="Subtab_Name" type="1" localVarName="" value="Tasks" />
+															<param2 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
 												</children>
 											</testItem>
 											<testItem name="Breadcrumb" key="{EA6427DA-A980-4E7D-A9C8-45972B362CD2}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -3339,18 +3364,21 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 7699_Flow, Standalone Decision, Change Decision Version, Select Decision Version, Cancel" key="{669EA9A1-F398-4210-8B59-5AAC1CDD7D30}" group="False" parallel="False" enabled="True" testMoniker="KDT\{25567079-B833-43D1-9BDC-0EFD8A4125BF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 7699,7696_Flow, Standalone Decision, Change Decision Version, Select Decision Version, Cancel" key="{669EA9A1-F398-4210-8B59-5AAC1CDD7D30}" group="False" parallel="False" enabled="True" testMoniker="KDT\{25567079-B833-43D1-9BDC-0EFD8A4125BF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 7700_Flow, Standalone Decision, Change Decision Version, Select Decision Version, Close pop-up" key="{21CE9466-F44D-4B72-A27E-A0068F4CF0CF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{38F76E4F-1C2B-475C-9397-032B4D5EE700}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 7700,7697_Flow, Standalone Decision, Change Decision Version, Select Decision Version, Close pop-up" key="{21CE9466-F44D-4B72-A27E-A0068F4CF0CF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{38F76E4F-1C2B-475C-9397-032B4D5EE700}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Test ID 7701_Flow, Not Latest Decision, Change Decision Version, Select Decision Version, Apply changes to this Decision only, OK" key="{A2DE1641-3580-4D3A-9A47-E34B748F2042}" group="False" parallel="False" enabled="True" testMoniker="KDT\{53FBADD5-E770-4748-97FF-90C7A7D3BCA0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters />
+														<testParameters>
+															<param0 name="CDV" type="1" localVarName="" value=" Condo Loan Documentation Requirements Compliance (View: Base) [V1.2] " />
+															<param1 name="Exists_Not_Exists" type="1" localVarName="" value="Exists" />
+														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
@@ -3374,8 +3402,25 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 7946_Flow, Not Latest Decision, Change Decision Version, Select Decision Version, Apply changes everywhere this decision is used, OK" key="{6C1B91C4-6EA9-43A7-9B26-0C87715F0AC1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{49A4429E-1B83-4A45-BE6B-588E9C78B1A6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 7946,7947_Flow, Not Latest Decision, Change Decision Version, Select Decision Version, Apply changes everywhere this decision is used, OK" key="{6C1B91C4-6EA9-43A7-9B26-0C87715F0AC1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{49A4429E-1B83-4A45-BE6B-588E9C78B1A6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 7948_Flow, Not Latest Decision, Change Decision Version, Apply changes to this Decision only" key="{98FE0E7F-D5FB-4787-8E06-A087A5FDDA07}" group="False" parallel="False" enabled="True" testMoniker="KDT\{53FBADD5-E770-4748-97FF-90C7A7D3BCA0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="CDV" type="1" localVarName="" value="Condo Loan Documentation Requirements Compliance (View: Base) [V1.4]" />
+															<param1 name="Exists_Not_Exists" type="1" localVarName="" value="Not Exists" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Delete_Task_Specific" key="{7CDFF441-E245-4E51-B77E-B0DD3DE6424C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0ECC5690-0601-455B-A688-CBB67BFB6B3D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="TabName" type="1" localVarName="" value="My Tasks" />
+															<param1 name="Subtab_Name" type="1" localVarName="" value="Tasks" />
+															<param2 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
+														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
@@ -3389,13 +3434,22 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 7035 and 7601_Modelling Decision Flow, Exisitng Flow, Edit Decision Task " key="{35FD6BDE-8683-434C-B0D9-27F5E8F37BA3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{00B46E7F-1873-4426-A0BD-F7C1CFA98744}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 7035, 7601_Modelling Decision Flow, Exisitng Flow, Edit Decision Task " key="{35FD6BDE-8683-434C-B0D9-27F5E8F37BA3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{00B46E7F-1873-4426-A0BD-F7C1CFA98744}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Test ID 7602_Modelling Decision Flow, Edit an approved Decision in a draft Decision Flow &#13;&#10;" key="{3C2D657F-9E09-415A-BA72-EC67F18B2268}" group="False" parallel="False" enabled="True" testMoniker="KDT\{786E5F55-A6CC-4095-8AB2-D234E20736B7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Delete_Task_Specific" key="{830FC390-D778-4263-8445-420B2BC78C59}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0ECC5690-0601-455B-A688-CBB67BFB6B3D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="TabName" type="1" localVarName="" value="My Tasks" />
+															<param1 name="Subtab_Name" type="1" localVarName="" value="Tasks" />
+															<param2 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
+														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
@@ -3416,12 +3470,35 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
+													<testItem name="Delete_Task_Specific" key="{B3C7E19C-27C5-4582-8708-6088A06EE2D2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0ECC5690-0601-455B-A688-CBB67BFB6B3D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="TabName" type="1" localVarName="" value="My Tasks" />
+															<param1 name="Subtab_Name" type="1" localVarName="" value="Tasks" />
+															<param2 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
 												</children>
 											</testItem>
-											<testItem name=" Test ID 7933_Flow, Edit, Unchanged Asset" key="{E61EAA79-3157-46F5-A800-214D53C3D3DB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{142877C1-D95B-4D40-A8AA-044545CD1722}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="Unchanged Asset&#13;&#10;" key="{3115F630-C2EB-4EB2-9541-A34E84FCEB0A}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
-												<environments activeCloud="CBT" />
-												<children />
+												<children>
+													<testItem name=" Test ID 7933_Flow, Edit, Unchanged Asset" key="{E61EAA79-3157-46F5-A800-214D53C3D3DB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{142877C1-D95B-4D40-A8AA-044545CD1722}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Delete_Task_Specific" key="{26005237-6A9F-4638-9DE4-77BF0628CDAF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0ECC5690-0601-455B-A688-CBB67BFB6B3D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="TabName" type="1" localVarName="" value="My Tasks" />
+															<param1 name="Subtab_Name" type="1" localVarName="" value="Tasks" />
+															<param2 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+												</children>
 											</testItem>
 										</children>
 									</testItem>

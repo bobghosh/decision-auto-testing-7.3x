@@ -24,7 +24,7 @@ function Add_Gateway_FT(existingGateWayFT,searchFT,selectFT,newFT)
       if (Matches != null)
       {
         obj.Block(i).DblClick();
-        page.FindElement("//input").Keys(searchFT);
+        page.WaitElement("//input",5000).Keys(searchFT);
         page.WaitElement(page.FindElement("//*[@role='option']"),10000);
         if(newFT == "")
         {
