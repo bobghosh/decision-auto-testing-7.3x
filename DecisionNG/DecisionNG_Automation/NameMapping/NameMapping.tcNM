@@ -5669,6 +5669,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelNationaltyStatusV10" Key="{B1224581-AE25-4B60-B97C-6C6F26F10761}">
+										<Image FileName="602941036" Left="291" Top="377" Right="1091" Bottom="399" />
+										<TypeInfo Item0="{67FF5717-A724-41A7-BA4D-479B157DE55D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]/change-fact-or-rfv-version-dialog/form/dcn-dialog//div[2]//dcn-radio-button-group//div[contains(@class, &apos;u-align-items--center&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-overlay-17&apos;]//mat-dialog-container[@role=&apos;dialog&apos;]//div/dcn-radio-button-group/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-radio-button-group/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="linkTaskAssigneeOfTaskApproverOf2" Key="{F20CF37D-6257-443C-9C9D-681726984AF0}">
@@ -6738,6 +6753,7 @@
 					<Child Name="textboxName2" Owner="{19C3B489-BBFA-4D18-97A3-214EA1192090}" />
 					<Child Name="label2" Owner="{414433E8-16EA-4F8D-9EDC-2A8830ABCBA5}" />
 					<Child Name="panelDraft" Owner="{4DC1DE2C-C913-4A63-99F1-5AA1A29D0D55}" />
+					<Child Name="panelNationaltyStatusV10" Owner="{B1224581-AE25-4B60-B97C-6C6F26F10761}" />
 				</Child>
 				<Child Name="panel2" Owner="{56CADA4F-3653-43DA-A3BD-9A729010ECE4}" />
 				<Child Name="panel3" Owner="{B4074330-8C03-41D7-A181-4A11B694B3FB}" />
