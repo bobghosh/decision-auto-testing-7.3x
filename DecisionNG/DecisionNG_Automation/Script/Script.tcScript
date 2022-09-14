@@ -218,6 +218,9 @@
 						<child name="Select_Branch" key="{D6FD90CE-A2BD-4DCC-937D-345FAEA5F556}" path="Select_Branch.js" />
 						<child name="Create_Revision_Task" key="{78250B53-B093-4797-9600-50B77C514D55}" path="Create_Revision_Task.js" />
 					</folder>
+					<folder name="General">
+						<child name="Details_General" key="{676BB312-D4B2-4509-827E-4CFB0F1D7395}" path="Details_General.js" />
+					</folder>
 				</folder>
 			</folder>
 			<folder name="User Tasks">

@@ -203,6 +203,8 @@
 						<child name="Enable_Editing_GatewayFT" key="{6995236E-D45B-4BF4-8134-191A59E1DD49}" path="Enable_Editing_GatewayFT.tcKDTest" />
 						<child name="Replcace_Existing_FT_Same_DT" key="{210833B2-7A97-45C6-93AD-4C3EB85F89A8}" path="Replcace_Existing_FT_Same_DT.tcKDTest" />
 						<child name="Listing_NewFactType_under_Task" key="{E6880359-B9C7-472C-9348-07B62AB063D9}" path="Listing_NewFactType_under_Task.tcKDTest" />
+						<child name="validationError_FT_NewDecision_anotherTask" key="{83EC9A68-869A-4175-B3E3-F490FCFC46D7}" path="validationError_FT_NewDecision_anotherTask.tcKDTest" />
+						<child name="Candidate_FT_available_Autocomplete_list" key="{616F07AA-6F77-405F-AF4C-AAE724ACF30F}" path="Candidate_FT_available_Autocomplete_list.tcKDTest" />
 					</folder>
 					<folder name="Unchanged Asset&#13;&#10;">
 						<child name="Flow_Edit_Unchanged_Asset" key="{142877C1-D95B-4D40-A8AA-044545CD1722}" path="Flow_Edit_Unchanged_Asset.tcKDTest" />

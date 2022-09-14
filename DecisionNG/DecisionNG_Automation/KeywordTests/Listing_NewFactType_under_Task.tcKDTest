@@ -112,6 +112,15 @@
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs a script routine." TestName="Close_Dialog_Box" Unit="Close_Dialog_Box" />
 			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Delete_Task_Specific">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="TabName" DefVarType="8" DefValueType="6" DefValueValue="My Tasks" VarType="8" ValueType="6" ValueValue="My Tasks" />
+						<Parameter Name="Subtab_Name" DefVarType="8" DefValueType="6" DefValueValue="Tasks" VarType="8" ValueType="6" ValueValue="Tasks" />
+						<Parameter Name="TaskName" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="NewTaskName" />
+					</Parameters>
+				</Data>
+			</Operation>
 		</Children>
 	</TestData>
 	<Parameters Key="{37D1C5F8-C8FD-4F0B-BC91-D778E1179BBE}">
