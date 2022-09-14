@@ -3296,12 +3296,13 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Delete_Task_Specific" key="{D45A56A7-B3BB-43E9-8E6F-4058978F1765}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0ECC5690-0601-455B-A688-CBB67BFB6B3D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters>
-															<param0 name="TabName" type="1" localVarName="" value="My Tasks" />
-															<param1 name="Subtab_Name" type="1" localVarName="" value="Tasks" />
-															<param2 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
-														</testParameters>
+													<testItem name="Test ID_11068_Task,Verify validation error on FT when adding FT to Flow as New Decision in another Task " key="{E33C5364-2AFA-4EEE-AE7B-B270A7ADC03C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{83EC9A68-869A-4175-B3E3-F490FCFC46D7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID_11076_Candidate FT is available on Autocomplete list when adding FT to Flow as Gateway in same Task" key="{0A68BB88-7A46-497A-B244-08F3B5EDBB38}" group="False" parallel="False" enabled="True" testMoniker="KDT\{616F07AA-6F77-405F-AF4C-AAE724ACF30F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
