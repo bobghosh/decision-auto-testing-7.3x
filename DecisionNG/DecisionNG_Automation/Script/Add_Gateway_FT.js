@@ -29,7 +29,7 @@ function Add_Gateway_FT(existingGateWayFT,searchFT,selectFT,newFT)
         if(newFT == "")
         {
         
-        SelectingOptionfromDropDown_Role.SelectingOptionfromDropdown(selectFT);
+        SelectingOptionfromDropDown_Role.SelectingOptionfromDropdown(selectFT,'No');
         break;
         }
         else{
