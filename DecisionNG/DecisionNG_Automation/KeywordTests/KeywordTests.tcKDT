@@ -318,7 +318,7 @@
 						<child name="RF_Drft_ChngFTver_context_OK" key="{658F91A9-8E90-455B-8A63-FBAA63767152}" path="RF_Drft_ChngFTver_context_OK.tcKDTest" />
 						<child name="RF_Draft_conclusioncol_as_conditioncol" key="{0331FB5D-3FD5-4003-8C1D-518487288210}" path="RF_Draft_conclusioncol_as_conditioncol.tcKDTest" />
 						<child name="RF_Drft_condcol_ChngFTver_Cancel" key="{3B2EF6A7-04A7-42E1-B831-E6055D8F4D93}" path="RF_Drft_condcol_ChngFTver_Cancel.tcKDTest" />
-						<child name="Test1" key="{391EC662-4A5A-4F1C-BFF9-50926891D47C}" path="Test1.tcKDTest" />
+						<child name="RF_Drft_vlidat_TG_Repair" key="{391EC662-4A5A-4F1C-BFF9-50926891D47C}" path="RF_Drft_vlidat_TG_Repair.tcKDTest" />
 					</folder>
 					<child name="Draft_DV_SR_Enable_Editing" key="{33716E5B-5BA2-4EE0-A6F8-7803A0392AAA}" path="Draft_DV_SR_Enable_Editing.tcKDTest" />
 					<child name="RF_Table_AddFT_Add_SRF" key="{6FF7D11C-BB60-4090-A446-203DAEF87850}" path="RF_Table_AddFT_Add_SRF.tcKDTest" />
@@ -334,6 +334,7 @@
 					<child name="Delete_Category_Column_Verify" key="{9F07500A-84A2-4B7C-94E6-711E0B7F60DF}" path="Delete_Category_Column_Verify.tcKDTest" />
 					<child name="Delete_message_Chip" key="{8EC0DB38-F140-489E-915E-FE154CFF997B}" path="Delete_message_Chip.tcKDTest" />
 					<child name="Delete_Desired_CellData_verify" key="{F6F99C18-2D83-41ED-95DC-AD42F76D7B95}" path="Delete_Desired_CellData_verify.tcKDTest" />
+					<child name="Draft_CreteDiagnl_AddMsg" key="{440815CB-64C3-47C4-8D92-6EBE94749395}" path="Draft_CreteDiagnl_AddMsg.tcKDTest" />
 				</folder>
 			</folder>
 			<folder name="Knowledge Source">
@@ -360,6 +361,14 @@
 					<child name="Decision_DraftDV_Edit_BIM_Cancel" key="{6593B6CF-5805-4069-B0DB-EBBAFAE67F55}" path="Decision_DraftDV_Edit_BIM_Cancel.tcKDTest" />
 				</folder>
 				<folder name="General" />
+				<folder name="Generic">
+					<child name="Login" key="{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" path="Login.tcKDTest" />
+					<child name="Logout" key="{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" path="Logout.tcKDTest" />
+					<child name="SelectingItem_MatchSingleItem_MultipleRows_Pages" key="{2AD4F68C-7516-47CB-A441-956FC46F5D67}" path="SelectingItem_MatchSingleItem_MultipleRows_Pages.tcKDTest" />
+					<child name="Repo_Open_Decision_Verify" key="{1B0EE18C-CDEE-453A-9308-9C3F099AF6B1}" path="Repo_Open_Decision_Verify.tcKDTest" />
+					<child name="Repo_DF_CopyTo_WB" key="{440FC627-3A5A-4C3C-B1DF-B55555FEE16A}" path="Repo_DF_CopyTo_WB.tcKDTest" />
+					<child name="Delete_Task_Specific" key="{0ECC5690-0601-455B-A688-CBB67BFB6B3D}" path="Delete_Task_Specific.tcKDTest" />
+				</folder>
 			</folder>
 		</folder>
 		<folder name="Validation">
@@ -474,14 +483,6 @@
 					<child name="Deploy_Tag_Java_Any" key="{B14D6B24-50FD-4F16-A245-6620C71C490B}" path="Deploy_Tag_Java_Any.tcKDTest" />
 				</folder>
 			</folder>
-		</folder>
-		<folder name="Generic">
-			<child name="Login" key="{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" path="Login.tcKDTest" />
-			<child name="Logout" key="{B2BDBC42-2AAA-43B6-AF94-5AA0A11FB38D}" path="Logout.tcKDTest" />
-			<child name="SelectingItem_MatchSingleItem_MultipleRows_Pages" key="{2AD4F68C-7516-47CB-A441-956FC46F5D67}" path="SelectingItem_MatchSingleItem_MultipleRows_Pages.tcKDTest" />
-			<child name="Repo_Open_Decision_Verify" key="{1B0EE18C-CDEE-453A-9308-9C3F099AF6B1}" path="Repo_Open_Decision_Verify.tcKDTest" />
-			<child name="Repo_DF_CopyTo_WB" key="{440FC627-3A5A-4C3C-B1DF-B55555FEE16A}" path="Repo_DF_CopyTo_WB.tcKDTest" />
-			<child name="Delete_Task_Specific" key="{0ECC5690-0601-455B-A688-CBB67BFB6B3D}" path="Delete_Task_Specific.tcKDTest" />
 		</folder>
 		<folder name="End to End">
 			<folder name="Gil&apos;s Demo">

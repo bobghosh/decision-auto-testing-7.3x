@@ -5684,6 +5684,18 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnode28" Key="{31B7C32B-7433-43EC-B274-46769391CA59}">
+										<Image FileName="772647166" Left="726" Top="322" Right="744" Bottom="340" />
+										<TypeInfo Item0="{67FF5717-A724-41A7-BA4D-479B157DE55D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;spec-test-group-list--state-repair-required&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tbody/tr/td[4]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="linkTaskAssigneeOfTaskApproverOf2" Key="{F20CF37D-6257-443C-9C9D-681726984AF0}">
@@ -7186,6 +7198,7 @@
 				<Child Name="textnode7_new13" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
 				<Child Name="panelStudentAgeOnStartOfCourse" Owner="{EDC3E47B-C5F5-4F43-B9C7-626851F5D93A}" />
 				<Child Name="textnode7_new14" Owner="{7329C332-9110-483B-9B5A-EA24C42ED99A}" />
+				<Child Name="textnode28" Owner="{31B7C32B-7433-43EC-B274-46769391CA59}" />
 			</Child>
 			<Child Name="notepad" Owner="{84CBED0B-43C9-48EA-8C38-1D8DC67EFC8F}">
 				<Child Name="wndNotepad" Owner="{5DFDB3EC-5311-4C99-8232-536AD47C0A8A}">
