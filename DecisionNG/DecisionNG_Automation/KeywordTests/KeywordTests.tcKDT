@@ -335,6 +335,8 @@
 					<child name="Delete_message_Chip" key="{8EC0DB38-F140-489E-915E-FE154CFF997B}" path="Delete_message_Chip.tcKDTest" />
 					<child name="Delete_Desired_CellData_verify" key="{F6F99C18-2D83-41ED-95DC-AD42F76D7B95}" path="Delete_Desired_CellData_verify.tcKDTest" />
 					<child name="Draft_CreteDiagnl_AddMsg" key="{440815CB-64C3-47C4-8D92-6EBE94749395}" path="Draft_CreteDiagnl_AddMsg.tcKDTest" />
+					<child name="RF_Draft_reorder_mesage_chip" key="{970E95C1-DE66-40DD-8215-51EEADB66086}" path="RF_Draft_reorder_mesage_chip.tcKDTest" />
+					<child name="RF_Draft_createFTfrommessage" key="{767AF0C9-C6FE-4810-9200-E09A2BD69F34}" path="RF_Draft_createFTfrommessage.tcKDTest" />
 				</folder>
 			</folder>
 			<folder name="Knowledge Source">

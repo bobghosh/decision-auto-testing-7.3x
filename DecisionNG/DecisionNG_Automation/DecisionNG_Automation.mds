@@ -3511,7 +3511,7 @@
 													<testItem name="Pre-Requisites" key="{CE8E3A79-3A98-401B-94CC-B4A0DC219043}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<children>
-															<testItem name="Login to NG as Decision Analyst" key="{0EFD9B6D-39CF-400B-BE06-8DBB65F1DACE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+															<testItem name="Login to NG as Decision Analyst" key="{0EFD9B6D-39CF-400B-BE06-8DBB65F1DACE}" group="False" parallel="False" enabled="False" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 																<testParameters>
 																	<param0 name="URL" type="1" localVarName="Regression_URL" localVarLevel="1" value="" />
 																	<param1 name="UserName" type="1" localVarName="" value="Automation2" />
@@ -3769,6 +3769,21 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
+													<testItem name="Test ID 8334_Draft_CreteDiagnl_AddMsg" key="{B2DE2BDA-9CB2-43AF-AB55-D904FC64740F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{440815CB-64C3-47C4-8D92-6EBE94749395}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="Rule Family, Create Diagonal, Add Message Category" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6488_RF_Draft_reorder_mesage_chip" key="{E089AE15-6426-441D-8828-120F12976072}" group="False" parallel="False" enabled="True" testMoniker="KDT\{970E95C1-DE66-40DD-8215-51EEADB66086}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="RF, Draft, reorder messages/chips in the message category" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6721_RF_Draft_createFTfrommessage" key="{608CCF62-8DAA-416A-A6AF-9D01E7461687}" group="False" parallel="False" enabled="True" testMoniker="KDT\{767AF0C9-C6FE-4810-9200-E09A2BD69F34}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="RF,Draft RF,Use Fact type in message category, create supporting RF with the same FT" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
 												</children>
 											</testItem>
 											<testItem name="Context Menu RF" key="{9B890616-EC93-4F8A-84A2-786D9794AAC0}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -3948,7 +3963,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 10281_RF_Approved_cond_conclusion_context" key="{EF78D56C-6569-4712-B0B3-B2643F0DB195}" group="False" parallel="False" enabled="True" testMoniker="KDT\{ABAE8A96-951A-4390-9624-5C3B1CAABC18}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 10281_12184_RF_Approved_cond_conclusion_context" key="{EF78D56C-6569-4712-B0B3-B2643F0DB195}" group="False" parallel="False" enabled="True" testMoniker="KDT\{ABAE8A96-951A-4390-9624-5C3B1CAABC18}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<environments activeCloud="CBT" />
 														<children />

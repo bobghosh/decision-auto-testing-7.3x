@@ -1,6 +1,7 @@
 ﻿
 var SelectingOptionfromDropdown_UL_LI = require("SelectingOptionfromDropdown_UL_LI");
 var SelectingOptionfromDropDown = require("SelectingOptionfromDropDown_Role");
+var SelectingOptionfromDropDown_Only1DDexsists = require("SelectingOptionfromDropDown_Role");
 
 function Catagory_Add_Message_DesiredCell(MessageCategoryName,Message,RowNumber)
 {  
@@ -166,6 +167,21 @@ function Catagory_Add_Message_DesiredCell(MessageCategoryName,Message,RowNumber)
                  apendedCellData  = apendedCellData+"+"+"!Row ID!"
                  break;
                  
+            }
+           
+            //Annotation FT and creating new FT from messages 
+            case "$":
+            {
+              
+                 page.FindElement("//dcn-combo-box//button").Click();
+                 SelectingOptionfromDropDown.SelectingOptionfromDropdown("% - Fact Type","No");
+                 page.FindElement("//dcn-fact-type-message-element-editor//input").keys(category[i].substr(1));
+                 Delay(5000);
+                 let createnewFT = "Create New Fact Type \""+category[i].substr(1)+"\""
+                 SelectingOptionfromDropdown_UL_LI.SelectingOptionfromDropdown(createnewFT,"No");
+                 page.FindElement("//button[contains(@class,'spec-icon-add')]").Click();
+                 apendedCellData  = apendedCellData+"+"+"%"+category[i].substr(1)+"%"               
+                 break;
             }
             
             //Text
