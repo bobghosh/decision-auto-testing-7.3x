@@ -3473,6 +3473,11 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
+													<testItem name="Test ID 7216,7679,11219_Flow, Add Different versions of Approved Decisions" key="{F3063073-5071-404D-86F9-7C604529CEE7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{44E1725F-9CD9-4268-BB90-E267017EAFC3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
 												</children>
 											</testItem>
 											<testItem name="Flow-Not Latest Decision" key="{C4499A00-7A06-4936-83D9-06C30A20256A}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">

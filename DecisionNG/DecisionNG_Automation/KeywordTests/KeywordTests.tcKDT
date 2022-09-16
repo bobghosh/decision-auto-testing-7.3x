@@ -192,6 +192,7 @@
 						<child name="Draft_Flow_Edit_Approved_DV" key="{786E5F55-A6CC-4095-8AB2-D234E20736B7}" path="Draft_Flow_Edit_Approved_DV.tcKDTest" />
 						<child name="Edit_Decision" key="{00B46E7F-1873-4426-A0BD-F7C1CFA98744}" path="Edit_Decision.tcKDTest" />
 						<child name="Edit_Decision_Pre_requisite" key="{24A044E8-B68D-4180-8A81-C55A8C4DFC70}" path="Edit_Decision_Pre_requisite.tcKDTest" />
+						<child name="Flow_Add_Different_versions_Decisions" key="{44E1725F-9CD9-4268-BB90-E267017EAFC3}" path="Flow_Add_Different_versions_Decisions.tcKDTest" />
 					</folder>
 					<folder name="Flow-Not Latest Decision">
 						<child name="Context_Menu_Verify" key="{A6BB23F4-C08E-4CE5-AE85-6C0BBFA320A4}" path="Context_Menu_Verify.tcKDTest" />
