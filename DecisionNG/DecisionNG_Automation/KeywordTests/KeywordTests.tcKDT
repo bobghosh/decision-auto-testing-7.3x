@@ -209,6 +209,9 @@
 						<child name="Candidate_FT_available_Autocomplete_list" key="{616F07AA-6F77-405F-AF4C-AAE724ACF30F}" path="Candidate_FT_available_Autocomplete_list.tcKDTest" />
 						<child name="Gateway_Component_FactType_Operators_verify" key="{B1380ED5-EC5B-4F66-A5F0-3F243D85B802}" path="Gateway_Component_FactType_Operators_verify.tcKDTest" />
 						<child name="Gateway_List_FactType_Operators_verify" key="{DAF36A80-03A1-479C-95B5-132DFAC746BA}" path="Gateway_List_FactType_Operators_verify.tcKDTest" />
+						<child name="BIM_GatewayFT_conclusion_FT" key="{514A7FC8-E4DB-4941-9FA2-8DCB2912BE4B}" path="BIM_GatewayFT_conclusion_FT.tcKDTest" />
+						<child name="BIM_GatewayFT_version_FT" key="{D77D5563-E0D9-49D2-AD73-ABC0B60FBAC0}" path="BIM_GatewayFT_version_FT.tcKDTest" />
+						<child name="Add_FactType_Gateway_MonthYear" key="{5244E59A-D9AC-4506-AC5B-B202ED12626C}" path="Add_FactType_Gateway_MonthYear.tcKDTest" />
 					</folder>
 					<folder name="Unchanged Asset&#13;&#10;">
 						<child name="Flow_Edit_Unchanged_Asset" key="{142877C1-D95B-4D40-A8AA-044545CD1722}" path="Flow_Edit_Unchanged_Asset.tcKDTest" />

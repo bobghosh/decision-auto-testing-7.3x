@@ -3264,7 +3264,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 7218_Flow, Gateway, Open Approved Fact Type" key="{A74D1ACF-A67C-46BF-B576-AB3921927EA8}" group="False" parallel="False" enabled="True" testMoniker="KDT\{795DF80F-9E0D-47D0-B161-53902A12ADB6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 7218,7678_Flow, Gateway, Open Approved Fact Type" key="{A74D1ACF-A67C-46BF-B576-AB3921927EA8}" group="False" parallel="False" enabled="True" testMoniker="KDT\{795DF80F-9E0D-47D0-B161-53902A12ADB6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="Communities_To_Expand" type="1" localVarName="" value="WORLD,Automation Testing" />
 															<param1 name="Community_To_Select" type="1" localVarName="" value="Automation_Assets" />
@@ -3277,21 +3277,21 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 7210_Flow, Gateway, Open Draft Fact Type" key="{68324A66-B26E-4BA5-B1DD-B90429CA95ED}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6995236E-D45B-4BF4-8134-191A59E1DD49}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 7210,7928_Flow, Gateway, Open Draft Fact Type" key="{68324A66-B26E-4BA5-B1DD-B90429CA95ED}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6995236E-D45B-4BF4-8134-191A59E1DD49}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="GatewayToPerformRightClick" type="1" localVarName="" value="Tuition Fee Loan" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 7221_Flow, Gateway, Edit Fact Type" key="{AA444325-59A0-4CA5-A2B6-0EB757A0527B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{DF5E7AC4-9B7E-4536-83D5-EB157A1CAB15}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 7221,7681_Flow, Gateway, Edit Fact Type" key="{AA444325-59A0-4CA5-A2B6-0EB757A0527B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{DF5E7AC4-9B7E-4536-83D5-EB157A1CAB15}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="GatewayToPerformRightClick" type="1" localVarName="" value="Tuition Fee Loan" />
 														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 7255_Modelling Decision Flow, Replace existing Fact type in Gateway with a New/ Exisitng Fact Type having the same Data Type" key="{4FCA76AC-3585-4B28-97E0-813F71E79D37}" group="False" parallel="False" enabled="True" testMoniker="KDT\{210833B2-7A97-45C6-93AD-4C3EB85F89A8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 7255,7929_Modelling Decision Flow, Replace existing Fact type in Gateway with a New/ Exisitng Fact Type having the same Data Type" key="{4FCA76AC-3585-4B28-97E0-813F71E79D37}" group="False" parallel="False" enabled="True" testMoniker="KDT\{210833B2-7A97-45C6-93AD-4C3EB85F89A8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<environments activeCloud="CBT" />
 														<children />
@@ -3322,6 +3322,23 @@
 													</testItem>
 													<testItem name="Test ID_7207,7256_Modelling Decision Flow, Draft Flow, Gateway Component, List Fact Type Operators verification&#13;&#10;" key="{AF1FC701-F97E-4F8B-BE9E-70943608AB2B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{DAF36A80-03A1-479C-95B5-132DFAC746BA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID_7443,7444,7445_Flow, BIM, Gateway FT" key="{FFCE3B1C-E7F5-4E8D-83BC-91AB41951294}" group="False" parallel="False" enabled="True" testMoniker="KDT\{514A7FC8-E4DB-4941-9FA2-8DCB2912BE4B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID_7446,7449_Flow, BIM, Gateway FT, Latest version FT of Decision" key="{55954E3C-68F3-431E-A292-4F9CB7208382}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D77D5563-E0D9-49D2-AD73-ABC0B60FBAC0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID_8016_Flow, Add Fact Type, Gateway, Month &amp; Year, Range" key="{4C6D494A-D838-4782-AACF-9B4B3F55EDB2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{5244E59A-D9AC-4506-AC5B-B202ED12626C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="GatewayToPerformRightClick" type="1" localVarName="" value="Customer Due Diligence" />
+														</testParameters>
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
