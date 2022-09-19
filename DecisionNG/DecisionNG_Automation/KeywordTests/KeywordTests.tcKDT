@@ -319,6 +319,7 @@
 						<child name="RF_Draft_conclusioncol_as_conditioncol" key="{0331FB5D-3FD5-4003-8C1D-518487288210}" path="RF_Draft_conclusioncol_as_conditioncol.tcKDTest" />
 						<child name="RF_Drft_condcol_ChngFTver_Cancel" key="{3B2EF6A7-04A7-42E1-B831-E6055D8F4D93}" path="RF_Drft_condcol_ChngFTver_Cancel.tcKDTest" />
 						<child name="RF_Drft_vlidat_TG_Repair" key="{391EC662-4A5A-4F1C-BFF9-50926891D47C}" path="RF_Drft_vlidat_TG_Repair.tcKDTest" />
+						<child name="Test1" key="{283BBFF4-82F3-4099-AA21-176B1AA6AC2C}" path="Test1.tcKDTest" />
 					</folder>
 					<child name="Draft_DV_SR_Enable_Editing" key="{33716E5B-5BA2-4EE0-A6F8-7803A0392AAA}" path="Draft_DV_SR_Enable_Editing.tcKDTest" />
 					<child name="RF_Table_AddFT_Add_SRF" key="{6FF7D11C-BB60-4090-A446-203DAEF87850}" path="RF_Table_AddFT_Add_SRF.tcKDTest" />
