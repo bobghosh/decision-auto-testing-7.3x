@@ -7,8 +7,8 @@
 		<child name="TC_10285" key="{909362F3-683C-4063-B283-871BE6A9D40B}">
 			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="TC_10285" ID="{909362F3-683C-4063-B283-871BE6A9D40B}" FileName="Regions\TC_10285.bmp" Update="False" />
 		</child>
-		<child name="TC_10287" key="{DAE81C2B-F051-4441-A90F-F32644E275B2}">
-			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="TC_10287" ID="{DAE81C2B-F051-4441-A90F-F32644E275B2}" FileName="Regions\TC_10287.png" Update="False" />
+		<child name="TC_10287" key="{EF735921-A638-4F76-8B98-982D65C8A090}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="TC_10287" ID="{EF735921-A638-4F76-8B98-982D65C8A090}" FileName="Regions\TC_102877.png" Update="False" />
 		</child>
 	</children>
 </Root>
