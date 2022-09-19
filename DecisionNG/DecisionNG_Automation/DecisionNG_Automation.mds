@@ -3811,6 +3811,21 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
+													<testItem name="Test ID 8334_Draft_CreteDiagnl_AddMsg" key="{B2DE2BDA-9CB2-43AF-AB55-D904FC64740F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{440815CB-64C3-47C4-8D92-6EBE94749395}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="Rule Family, Create Diagonal, Add Message Category" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6488_RF_Draft_reorder_mesage_chip" key="{E089AE15-6426-441D-8828-120F12976072}" group="False" parallel="False" enabled="True" testMoniker="KDT\{970E95C1-DE66-40DD-8215-51EEADB66086}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="RF, Draft, reorder messages/chips in the message category" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6721_RF_Draft_createFTfrommessage" key="{608CCF62-8DAA-416A-A6AF-9D01E7461687}" group="False" parallel="False" enabled="True" testMoniker="KDT\{767AF0C9-C6FE-4810-9200-E09A2BD69F34}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="RF,Draft RF,Use Fact type in message category, create supporting RF with the same FT" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
 												</children>
 											</testItem>
 											<testItem name="Context Menu RF" key="{9B890616-EC93-4F8A-84A2-786D9794AAC0}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -3976,7 +3991,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 10280,10286_RF_Draft_condition_conclusion_Context" key="{50F14885-DDFE-42AC-B996-FC6E30F38FC6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{998F5E9E-1347-4420-91C0-CF8032964E04}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 10280,10286_Draft_condconl_cntxt_nolatst_chgFTver_ok" key="{F4EC7A9D-AEE2-48B6-A0B4-E311E7667141}" group="False" parallel="False" enabled="True" testMoniker="KDT\{998F5E9E-1347-4420-91C0-CF8032964E04}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<environments activeCloud="CBT" />
 														<children />
@@ -3990,7 +4005,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 10281_RF_Approved_cond_conclusion_context" key="{EF78D56C-6569-4712-B0B3-B2643F0DB195}" group="False" parallel="False" enabled="True" testMoniker="KDT\{ABAE8A96-951A-4390-9624-5C3B1CAABC18}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 10281,12184,6490_RF_Aprv_cond_cncl_cntxt_FTMM" key="{3C1FE8E3-3740-43A4-BF67-E7450738283F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{ABAE8A96-951A-4390-9624-5C3B1CAABC18}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<environments activeCloud="CBT" />
 														<children />
@@ -4001,6 +4016,11 @@
 														<children />
 													</testItem>
 													<testItem name="Test ID 10288,10289_RF_Drft_condcol_ChngFTver_Cancel" key="{5FBF04C8-250F-4F3B-82F4-4F101EA8A871}" group="False" parallel="False" enabled="True" testMoniker="KDT\{3B2EF6A7-04A7-42E1-B831-E6055D8F4D93}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 10290_RF_Drft_vlidat_TG_Repair" key="{77D34459-9790-4DF8-B4D6-5C9297C08F4F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{391EC662-4A5A-4F1C-BFF9-50926891D47C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<environments activeCloud="CBT" />
 														<children />
@@ -8580,7 +8600,7 @@
 						<Row No="5" Cell0="Update Fact Type to Latest Version" Cell1="Disabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Enabled" Cell6="Enabled" />
 						<Row No="6" Cell0="Change Fact Type Version" Cell1="Enabled" Cell2="Enabled" Cell3="Disabled" Cell4="Disabled" Cell5="Enabled" Cell6="Enabled" />
 						<Row No="7" Cell0="Create Supporting Rule Family" Cell1="Enabled" Cell4="Disabled" Cell5="Enabled" />
-						<Row No="8" Cell0="Open Supporting Rule Family" Cell1="Disabled" Cell4="Disabled" Cell5="Disabled" />
+						<Row No="8" Cell0="Open Supporting Rule Family" Cell1="Disabled" Cell4="Enabled" Cell5="Disabled" />
 						<Row No="9" Cell0="Populated Characteristic" Cell1="Enabled" Cell4="Disabled" Cell5="Enabled" />
 						<Row No="10" Cell0="Replace" Cell1="Enabled" Cell4="Disabled" Cell5="Enabled" />
 						<Row No="11" Cell0="Remove" Cell1="Enabled" Cell4="Disabled" Cell5="Enabled" />
