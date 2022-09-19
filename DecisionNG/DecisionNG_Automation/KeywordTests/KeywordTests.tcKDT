@@ -165,6 +165,7 @@
 						<child name="NewFlow_AllDetails_Ok_Verify" key="{4DFAAA83-3E53-4799-88D3-76FC6336D115}" path="NewFlow_AllDetails_Ok_Verify.tcKDTest" />
 						<child name="NewFlow_AllDetails_Cancel_Verify" key="{BBE9FB82-0248-4531-852A-24355BD8DE23}" path="NewFlow_AllDetails_Cancel_Verify.tcKDTest" />
 						<child name="Verify_Uniqueness_ErrorMessage" key="{9FA00EC3-4E44-467D-9C87-08DA4BAC53FB}" path="Verify_Uniqueness_ErrorMessage.tcKDTest" />
+						<child name="Add_Existing_Decision_community" key="{659519D9-FAE3-465B-9BC7-7206A21D8708}" path="Add_Existing_Decision_community.tcKDTest" />
 					</folder>
 					<folder name="Edit_Flow">
 						<child name="Repo_Edit_DF_Click_Cancel" key="{8EC63A90-AC92-410C-A9E1-69382A204864}" path="Repo_Edit_DF_Click_Cancel.tcKDTest" />
@@ -191,6 +192,7 @@
 						<child name="Draft_Flow_Edit_Approved_DV" key="{786E5F55-A6CC-4095-8AB2-D234E20736B7}" path="Draft_Flow_Edit_Approved_DV.tcKDTest" />
 						<child name="Edit_Decision" key="{00B46E7F-1873-4426-A0BD-F7C1CFA98744}" path="Edit_Decision.tcKDTest" />
 						<child name="Edit_Decision_Pre_requisite" key="{24A044E8-B68D-4180-8A81-C55A8C4DFC70}" path="Edit_Decision_Pre_requisite.tcKDTest" />
+						<child name="Flow_Add_Different_versions_Decisions" key="{44E1725F-9CD9-4268-BB90-E267017EAFC3}" path="Flow_Add_Different_versions_Decisions.tcKDTest" />
 					</folder>
 					<folder name="Flow-Not Latest Decision">
 						<child name="Context_Menu_Verify" key="{A6BB23F4-C08E-4CE5-AE85-6C0BBFA320A4}" path="Context_Menu_Verify.tcKDTest" />
@@ -203,6 +205,13 @@
 						<child name="Enable_Editing_GatewayFT" key="{6995236E-D45B-4BF4-8134-191A59E1DD49}" path="Enable_Editing_GatewayFT.tcKDTest" />
 						<child name="Replcace_Existing_FT_Same_DT" key="{210833B2-7A97-45C6-93AD-4C3EB85F89A8}" path="Replcace_Existing_FT_Same_DT.tcKDTest" />
 						<child name="Listing_NewFactType_under_Task" key="{E6880359-B9C7-472C-9348-07B62AB063D9}" path="Listing_NewFactType_under_Task.tcKDTest" />
+						<child name="validationError_FT_NewDecision_anotherTask" key="{83EC9A68-869A-4175-B3E3-F490FCFC46D7}" path="validationError_FT_NewDecision_anotherTask.tcKDTest" />
+						<child name="Candidate_FT_available_Autocomplete_list" key="{616F07AA-6F77-405F-AF4C-AAE724ACF30F}" path="Candidate_FT_available_Autocomplete_list.tcKDTest" />
+						<child name="Gateway_Component_FactType_Operators_verify" key="{B1380ED5-EC5B-4F66-A5F0-3F243D85B802}" path="Gateway_Component_FactType_Operators_verify.tcKDTest" />
+						<child name="Gateway_List_FactType_Operators_verify" key="{DAF36A80-03A1-479C-95B5-132DFAC746BA}" path="Gateway_List_FactType_Operators_verify.tcKDTest" />
+						<child name="BIM_GatewayFT_conclusion_FT" key="{514A7FC8-E4DB-4941-9FA2-8DCB2912BE4B}" path="BIM_GatewayFT_conclusion_FT.tcKDTest" />
+						<child name="BIM_GatewayFT_version_FT" key="{D77D5563-E0D9-49D2-AD73-ABC0B60FBAC0}" path="BIM_GatewayFT_version_FT.tcKDTest" />
+						<child name="Add_FactType_Gateway_MonthYear" key="{5244E59A-D9AC-4506-AC5B-B202ED12626C}" path="Add_FactType_Gateway_MonthYear.tcKDTest" />
 					</folder>
 					<folder name="Unchanged Asset&#13;&#10;">
 						<child name="Flow_Edit_Unchanged_Asset" key="{142877C1-D95B-4D40-A8AA-044545CD1722}" path="Flow_Edit_Unchanged_Asset.tcKDTest" />

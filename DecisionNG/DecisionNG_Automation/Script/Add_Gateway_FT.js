@@ -24,12 +24,12 @@ function Add_Gateway_FT(existingGateWayFT,searchFT,selectFT,newFT)
       if (Matches != null)
       {
         obj.Block(i).DblClick();
-        page.WaitElement("//input",5000).Keys(searchFT);
+        page.WaitElement("//input[@role='searchbox']",5000).Keys(searchFT);
         page.WaitElement(page.FindElement("//*[@role='option']"),10000);
         if(newFT == "")
         {
         
-        SelectingOptionfromDropDown_Role.SelectingOptionfromDropdown(selectFT);
+        SelectingOptionfromDropDown_Role.SelectingOptionfromDropdown(selectFT,'No');
         break;
         }
         else{
