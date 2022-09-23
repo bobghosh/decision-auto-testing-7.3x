@@ -196,6 +196,8 @@
 					</folder>
 					<folder name="Flow-Not Latest Decision">
 						<child name="Context_Menu_Verify" key="{A6BB23F4-C08E-4CE5-AE85-6C0BBFA320A4}" path="Context_Menu_Verify.tcKDTest" />
+						<child name="Not_Latest_Decision_Update_Latest" key="{363C1077-7FBB-44D8-9DF9-06B3B62A0B8A}" path="Not_Latest_Decision_Update_Latest.tcKDTest" />
+						<child name="Update_Latest_SameDecision_multiple_places" key="{ABE04AD4-78AB-44F3-A0B2-BA670CB8A9C7}" path="Update_Latest_SameDecision_multiple_places.tcKDTest" />
 					</folder>
 					<folder name="Gateway FactType">
 						<child name="Add_FT_Month_Year_Range" key="{1961F4E6-70D7-45C6-899A-13DCCED78FF5}" path="Add_FT_Month_Year_Range.tcKDTest" />
@@ -215,6 +217,8 @@
 					</folder>
 					<folder name="Unchanged Asset&#13;&#10;">
 						<child name="Flow_Edit_Unchanged_Asset" key="{142877C1-D95B-4D40-A8AA-044545CD1722}" path="Flow_Edit_Unchanged_Asset.tcKDTest" />
+						<child name="Edit_Decision_FullName_display_hover" key="{E6FC52AA-15B8-432E-B70B-9E8A15D3981A}" path="Edit_Decision_FullName_display_hover.tcKDTest" />
+						<child name="Add_FactType_Not_Decision" key="{124564BA-33CA-4B48-B4C1-A824347F6184}" path="Add_FactType_Not_Decision.tcKDTest" />
 					</folder>
 				</folder>
 			</folder>
@@ -267,6 +271,7 @@
 						<child name="RF_Revert_RF_Changes_With_Messages" key="{BC66375D-90CF-42F3-8248-A50B31005EBD}" path="RF_Revert_RF_Changes_With_Messages.tcKDTest" />
 						<child name="RF_Create_conc_FT_draft_no_prior_version" key="{2E88F961-23E4-4E91-9286-9D734E3CD07E}" path="RF_Create_conc_FT_draft_no_prior_version.tcKDTest" />
 						<child name="RF_Approve_enable_editing_conc_FT_change_list_indicatortor" key="{2D930560-2DF2-497F-94AA-815928461D77}" path="RF_Approve_enable_editing_conc_FT_change_list_indicatortor.tcKDTest" />
+						<child name="tooltip_dragRF_remove_revert" key="{3913FCB1-EB57-496B-A328-A9F9F0440E1A}" path="tooltip_dragRF_remove_revert.tcKDTest" />
 					</folder>
 					<folder name="Associated Assets">
 						<child name="RF_VerifyCurrentDecision_AutoSelected_Edit_ApprovedFT" key="{C7D90243-C505-4F84-9FF7-1DAB7DC07ECC}" path="RF_VerifyCurrentDecision_AutoSelected_Edit_ApprovedFT.tcKDTest" />
@@ -328,7 +333,6 @@
 						<child name="RF_Draft_conclusioncol_as_conditioncol" key="{0331FB5D-3FD5-4003-8C1D-518487288210}" path="RF_Draft_conclusioncol_as_conditioncol.tcKDTest" />
 						<child name="RF_Drft_condcol_ChngFTver_Cancel" key="{3B2EF6A7-04A7-42E1-B831-E6055D8F4D93}" path="RF_Drft_condcol_ChngFTver_Cancel.tcKDTest" />
 						<child name="RF_Drft_vlidat_TG_Repair" key="{391EC662-4A5A-4F1C-BFF9-50926891D47C}" path="RF_Drft_vlidat_TG_Repair.tcKDTest" />
-						<child name="Test1" key="{283BBFF4-82F3-4099-AA21-176B1AA6AC2C}" path="Test1.tcKDTest" />
 					</folder>
 					<child name="Draft_DV_SR_Enable_Editing" key="{33716E5B-5BA2-4EE0-A6F8-7803A0392AAA}" path="Draft_DV_SR_Enable_Editing.tcKDTest" />
 					<child name="RF_Table_AddFT_Add_SRF" key="{6FF7D11C-BB60-4090-A446-203DAEF87850}" path="RF_Table_AddFT_Add_SRF.tcKDTest" />
@@ -358,6 +362,7 @@
 			</folder>
 			<folder name="Generic">
 				<child name="Copy_Asset_To_New_Task" key="{A711A226-41E7-4DB4-8130-5841B6A78F31}" path="Copy_Asset_To_New_Task.tcKDTest" />
+				<child name="Delete_Task_Specific" key="{0ECC5690-0601-455B-A688-CBB67BFB6B3D}" path="Delete_Task_Specific.tcKDTest" />
 			</folder>
 			<folder name="Business Information Model">
 				<folder name="Test Case Specific">
@@ -379,7 +384,6 @@
 					<child name="SelectingItem_MatchSingleItem_MultipleRows_Pages" key="{2AD4F68C-7516-47CB-A441-956FC46F5D67}" path="SelectingItem_MatchSingleItem_MultipleRows_Pages.tcKDTest" />
 					<child name="Repo_Open_Decision_Verify" key="{1B0EE18C-CDEE-453A-9308-9C3F099AF6B1}" path="Repo_Open_Decision_Verify.tcKDTest" />
 					<child name="Repo_DF_CopyTo_WB" key="{440FC627-3A5A-4C3C-B1DF-B55555FEE16A}" path="Repo_DF_CopyTo_WB.tcKDTest" />
-					<child name="Delete_Task_Specific" key="{0ECC5690-0601-455B-A688-CBB67BFB6B3D}" path="Delete_Task_Specific.tcKDTest" />
 				</folder>
 			</folder>
 		</folder>
@@ -517,6 +521,7 @@
 				<child name="Breadcrumb_Navigate_OpenDF" key="{54220118-4EA2-4FC6-B7B5-8A9675684656}" path="Breadcrumb_Navigate_OpenDF.tcKDTest" />
 				<child name="Repo_Nav_DF_CopytoWb" key="{7887136C-827D-427B-A417-5861303910CD}" path="Repo_Nav_DF_CopytoWb.tcKDTest" />
 				<child name="Tasks_Open_DV_DF_Open_verify" key="{BAEA316C-ED6E-43E8-B155-4231D52CEB42}" path="Tasks_Open_DV_DF_Open_verify.tcKDTest" />
+				<child name="Repository_DV_Edit_Create_Task" key="{47CFB0AD-FFF1-4615-8849-A8CE3AE6A34E}" path="Repository_DV_Edit_Create_Task.tcKDTest" />
 			</folder>
 			<folder name="Generic Steps">
 				<folder name="Fact Type Approval">

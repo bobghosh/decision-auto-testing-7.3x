@@ -2271,6 +2271,11 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
+													<testItem name="Test ID 6833,6830,6760, 6761,6828_RF,Draft RF,RF table" key="{1929BBD9-7749-4A2E-A1FF-7B2306096ECC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{3913FCB1-EB57-496B-A328-A9F9F0440E1A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
 												</children>
 											</testItem>
 											<testItem name="Associated Assets" key="{31A59173-6041-4498-987A-02934080C397}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -3512,10 +3517,20 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Delete_Task_Specific" key="{B3C7E19C-27C5-4582-8708-6088A06EE2D2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0ECC5690-0601-455B-A688-CBB67BFB6B3D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 7563,7564_Flow, Not Latest Decision, Context Menu " key="{44E5518E-45AC-426A-94F3-4F8120E2AE72}" group="False" parallel="False" enabled="True" testMoniker="KDT\{363C1077-7FBB-44D8-9DF9-06B3B62A0B8A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 7565,7566_Flow, Not Latest Decision Dialog, Update to Latest,Same Decision used multiple places" key="{7C33761A-3749-480C-A2B0-2B5488BC4404}" group="False" parallel="False" enabled="True" testMoniker="KDT\{ABE04AD4-78AB-44F3-A0B2-BA670CB8A9C7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Delete_Task_Specific" key="{7613C687-3F85-4F91-A58A-0E31CF5603B4}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0ECC5690-0601-455B-A688-CBB67BFB6B3D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
 															<param0 name="TabName" type="1" localVarName="" value="My Tasks" />
-															<param1 name="Subtab_Name" type="1" localVarName="" value="Tasks" />
+															<param1 name="Subtab_Name" type="1" localVarName="" value="Analysis Tasks" />
 															<param2 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 														</testParameters>
 														<environments activeCloud="CBT" />
@@ -3531,12 +3546,15 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Delete_Task_Specific" key="{26005237-6A9F-4638-9DE4-77BF0628CDAF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0ECC5690-0601-455B-A688-CBB67BFB6B3D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID_7025,7097_Edit_Decision_FullName_display_hover" key="{2DABC61E-7CE0-421E-8B3B-1382258D9E95}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E6FC52AA-15B8-432E-B70B-9E8A15D3981A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="TabName" type="1" localVarName="" value="My Tasks" />
-															<param1 name="Subtab_Name" type="1" localVarName="" value="Tasks" />
-															<param2 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
+															<param0 name="DecFlow" type="1" localVarName="" value="Condo Loan Eligibility [V1.3]" />
 														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID_7677_Flow, Add Gateway Fact type, Not from Decision in Flow" key="{65F03DC6-950E-42BB-9A84-3804FAE0E159}" group="False" parallel="False" enabled="True" testMoniker="KDT\{124564BA-33CA-4B48-B4C1-A824347F6184}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>

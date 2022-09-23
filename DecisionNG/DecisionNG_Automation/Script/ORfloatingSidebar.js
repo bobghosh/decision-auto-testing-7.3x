@@ -10,3 +10,6 @@ var sidebarValidationBtn = "//div[contains(@class,'decision-sidebar-actions__val
 var dcnBimTreePanel = "//dcn-bim-tree-panel"
 var dcnBimEditTree = "//dcn-edit-bim-tree"
 var dcnBimRightSideTree = "//dcn-bim-right-side-tree"
+
+//------------------- Flow-----------------------------------
+var flowPaletteIcon = "//*[contains(@class, 'icon-flow spec-floating-action-button__icon')]"

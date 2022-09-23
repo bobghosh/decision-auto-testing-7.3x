@@ -5,6 +5,7 @@ function Validation_Button()
   let page= Aliases.browser.pageSapiensDecision2
   page.FindElement(ORfloatingSidebar.dcnFloatingActionbtn+"[contains(@class,'validation-button')]/div").Click()
   page.FindElement(ORfloatingSidebar.dcnFloatingActionbtn+"//button").click(18,18);
+  page.WaitElement(ORfloatingSidebar.dcnFloatingActionbtn+"//dcn-spinner").WaitProperty("VisibleOnScreen", false, 10000)
   page.WaitElement(ORfloatingSidebar.dcnFloatingActionbtn+"//button").WaitProperty("VisibleOnScreen", true, 10000)
   page.WaitElement(page.FindElement(ORfloatingSidebar.containerValidationMSG),30000)
   let validationMessage = page.FindElements(ORfloatingSidebar.containerValidationMSG+"//span");
