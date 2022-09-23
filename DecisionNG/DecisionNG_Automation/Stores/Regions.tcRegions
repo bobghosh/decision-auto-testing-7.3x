@@ -10,5 +10,8 @@
 		<child name="TC_10287" key="{EF735921-A638-4F76-8B98-982D65C8A090}">
 			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="TC_10287" ID="{EF735921-A638-4F76-8B98-982D65C8A090}" FileName="Regions\TC_102877.png" Update="False" />
 		</child>
+		<child name="TC_7677" key="{4FFC9066-1C82-4F1E-83B7-D35E5CFFE649}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="TC_7677" ID="{4FFC9066-1C82-4F1E-83B7-D35E5CFFE649}" FileName="Regions\TC_7677.png" Update="False" />
+		</child>
 	</children>
 </Root>

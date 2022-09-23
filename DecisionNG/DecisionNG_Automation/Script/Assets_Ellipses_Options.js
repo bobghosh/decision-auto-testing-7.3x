@@ -96,6 +96,11 @@
        Aliases.browser.pageSapiensDecision2.FindElement("//*[text()='Update to latest']").click();       
      }
      
+     else if (SelectOption == "Decision List")
+     {
+       aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.FindElement("//a[contains(., 'Decision List')]"), "contentText", cmpEqual, "Decision List");
+       Aliases.browser.pageSapiensDecision2.FindElement("//a[contains(., 'Decision List')]").click();       
+     }
      
   } 
   
