@@ -287,6 +287,13 @@
 						<child name="Change_View_Create_New" key="{5F3581E1-369F-4658-BC4D-3316342237A3}" path="Change_View_Create_New.tcKDTest" />
 						<child name="Unused_View_Create_EmptyRF" key="{1B9C0CDF-3D78-41AB-8A0A-D903B927194D}" path="Unused_View_Create_EmptyRF.tcKDTest" />
 						<child name="Unused_View_CreateEmptyRF" key="{777A390A-D0E4-4C4B-9C88-05FB8EB4EB66}" path="Unused_View_CreateEmptyRF.tcKDTest" />
+						<child name="RF_Draft_SRF_Chngview_Replace" key="{93D86413-CF28-420F-A520-49D08DBC67D2}" path="RF_Draft_SRF_Chngview_Replace.tcKDTest" />
+						<child name="RF_Draft_Chngview_copy_disabled" key="{856AAE44-8487-4785-B97A-F2527B2061E3}" path="RF_Draft_Chngview_copy_disabled.tcKDTest" />
+						<child name="RF_Draft_Chngview_cancel" key="{E0C89074-183D-401E-8AC9-6C1492F7FCCA}" path="RF_Draft_Chngview_cancel.tcKDTest" />
+						<child name="RF_Draft_SRF_Chngview_Copy" key="{CA46FA4C-5AA1-45EF-83E6-8D45E5943B67}" path="RF_Draft_SRF_Chngview_Copy.tcKDTest" />
+						<child name="RF_Drft_SRF_multiDec_Chngview_Copy" key="{A844E90D-1081-43C3-8139-251DF47B9588}" path="RF_Drft_SRF_multiDec_Chngview_Copy.tcKDTest" />
+						<child name="RF_Draft_mltiTsk_Chngview_Err" key="{C928E124-F9CF-4335-B832-9B4F279A9174}" path="RF_Draft_mltiTsk_Chngview_Err.tcKDTest" />
+						<child name="RF_CreateSRF_Viewprivate" key="{57C67A2A-2975-4533-972E-5A9C4B7BB3AA}" path="RF_CreateSRF_Viewprivate.tcKDTest" />
 					</folder>
 					<folder name="Context Menu RF">
 						<child name="DRF_Context_Candidate" key="{0FB3F2BF-D2AE-422E-B17C-ACEB6E04892F}" path="DRF_Context_Candidate.tcKDTest" />
@@ -328,7 +335,6 @@
 						<child name="RF_Draft_conclusioncol_as_conditioncol" key="{0331FB5D-3FD5-4003-8C1D-518487288210}" path="RF_Draft_conclusioncol_as_conditioncol.tcKDTest" />
 						<child name="RF_Drft_condcol_ChngFTver_Cancel" key="{3B2EF6A7-04A7-42E1-B831-E6055D8F4D93}" path="RF_Drft_condcol_ChngFTver_Cancel.tcKDTest" />
 						<child name="RF_Drft_vlidat_TG_Repair" key="{391EC662-4A5A-4F1C-BFF9-50926891D47C}" path="RF_Drft_vlidat_TG_Repair.tcKDTest" />
-						<child name="Test1" key="{283BBFF4-82F3-4099-AA21-176B1AA6AC2C}" path="Test1.tcKDTest" />
 					</folder>
 					<child name="Draft_DV_SR_Enable_Editing" key="{33716E5B-5BA2-4EE0-A6F8-7803A0392AAA}" path="Draft_DV_SR_Enable_Editing.tcKDTest" />
 					<child name="RF_Table_AddFT_Add_SRF" key="{6FF7D11C-BB60-4090-A446-203DAEF87850}" path="RF_Table_AddFT_Add_SRF.tcKDTest" />
