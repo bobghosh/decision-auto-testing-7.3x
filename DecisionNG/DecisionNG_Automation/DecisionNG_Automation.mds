@@ -3999,6 +3999,41 @@
 														<environments activeCloud="BitBar" />
 														<children />
 													</testItem>
+													<testItem name="Test ID 6877_RF_Draft_SRF_Chngview_Replace" key="{7482A3DD-E0C1-4C51-BEEB-16715A75897E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{93D86413-CF28-420F-A520-49D08DBC67D2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6879_RF_Draft_Chngview_copy_disabled" key="{766F0DF5-DC43-4461-BCBF-44B5AF15D9BB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{856AAE44-8487-4785-B97A-F2527B2061E3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6885_RF_Draft_Chngview_cancel" key="{551130E0-7583-45CC-8950-5BF02CA36D9D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E0C89074-183D-401E-8AC9-6C1492F7FCCA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6871_RF_Draft_SRF_Chngview_Copy" key="{A8531EDB-01C6-4388-876C-C0081CA75774}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CA46FA4C-5AA1-45EF-83E6-8D45E5943B67}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6893_RF_Drft_SRF_multiDec_Chngview_Copy" key="{71E9A697-98C7-428D-8338-6134FD0435D5}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A844E90D-1081-43C3-8139-251DF47B9588}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6890_RF_Draft_mltiTsk_Chngview_Err" key="{7EC6BD9B-AAA1-4106-B8C4-B6AA49795B12}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C928E124-F9CF-4335-B832-9B4F279A9174}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 8922_RF_CreateSRF_Viewprivate" key="{9017C888-1004-4B8A-AC42-9091E422D460}" group="False" parallel="False" enabled="True" testMoniker="KDT\{57C67A2A-2975-4533-972E-5A9C4B7BB3AA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
 												</children>
 											</testItem>
 											<testItem name="Change Fact Type Version" key="{40D5320D-36D0-4F8B-88BD-F8FD111D774E}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -4023,7 +4058,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 10281,12184,6490_RF_Aprv_cond_cncl_cntxt_FTMM" key="{3C1FE8E3-3740-43A4-BF67-E7450738283F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{ABAE8A96-951A-4390-9624-5C3B1CAABC18}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 10281,12184,6490_6717_RF_Aprv_cond_cncl_cntxt_FTMM" key="{3C1FE8E3-3740-43A4-BF67-E7450738283F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{ABAE8A96-951A-4390-9624-5C3B1CAABC18}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<environments activeCloud="CBT" />
 														<children />

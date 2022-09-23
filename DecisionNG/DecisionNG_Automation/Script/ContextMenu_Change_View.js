@@ -19,7 +19,7 @@ function Decision_Screen_ContextMenu_Select_Option(contextMenuItem,viewNametoSel
      }
   }
  
-  aqObject.CheckProperty(page.FindElement("//dcn-rule-family-change-view-dialog//h1"),"textContent",cmpEqual," Change View ")
+  aqObject.CheckProperty(page.FindElement("//dcn-rule-family-change-view-dialog//h1"),"textContent",cmpContains," Change View ")
   page.FindElement("//dcn-rule-family-change-view-dialog//p-autocomplete//button").click()
   SelectingOptionfromDropdown_UL_LI.SelectingOptionfromDropdown(viewNametoSelect,"No")
   

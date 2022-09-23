@@ -292,6 +292,13 @@
 						<child name="Change_View_Create_New" key="{5F3581E1-369F-4658-BC4D-3316342237A3}" path="Change_View_Create_New.tcKDTest" />
 						<child name="Unused_View_Create_EmptyRF" key="{1B9C0CDF-3D78-41AB-8A0A-D903B927194D}" path="Unused_View_Create_EmptyRF.tcKDTest" />
 						<child name="Unused_View_CreateEmptyRF" key="{777A390A-D0E4-4C4B-9C88-05FB8EB4EB66}" path="Unused_View_CreateEmptyRF.tcKDTest" />
+						<child name="RF_Draft_SRF_Chngview_Replace" key="{93D86413-CF28-420F-A520-49D08DBC67D2}" path="RF_Draft_SRF_Chngview_Replace.tcKDTest" />
+						<child name="RF_Draft_Chngview_copy_disabled" key="{856AAE44-8487-4785-B97A-F2527B2061E3}" path="RF_Draft_Chngview_copy_disabled.tcKDTest" />
+						<child name="RF_Draft_Chngview_cancel" key="{E0C89074-183D-401E-8AC9-6C1492F7FCCA}" path="RF_Draft_Chngview_cancel.tcKDTest" />
+						<child name="RF_Draft_SRF_Chngview_Copy" key="{CA46FA4C-5AA1-45EF-83E6-8D45E5943B67}" path="RF_Draft_SRF_Chngview_Copy.tcKDTest" />
+						<child name="RF_Drft_SRF_multiDec_Chngview_Copy" key="{A844E90D-1081-43C3-8139-251DF47B9588}" path="RF_Drft_SRF_multiDec_Chngview_Copy.tcKDTest" />
+						<child name="RF_Draft_mltiTsk_Chngview_Err" key="{C928E124-F9CF-4335-B832-9B4F279A9174}" path="RF_Draft_mltiTsk_Chngview_Err.tcKDTest" />
+						<child name="RF_CreateSRF_Viewprivate" key="{57C67A2A-2975-4533-972E-5A9C4B7BB3AA}" path="RF_CreateSRF_Viewprivate.tcKDTest" />
 					</folder>
 					<folder name="Context Menu RF">
 						<child name="DRF_Context_Candidate" key="{0FB3F2BF-D2AE-422E-B17C-ACEB6E04892F}" path="DRF_Context_Candidate.tcKDTest" />
