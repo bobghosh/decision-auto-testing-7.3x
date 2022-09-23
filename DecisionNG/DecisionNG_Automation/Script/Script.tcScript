@@ -49,6 +49,7 @@
 			<child name="Verify_Element_Exists_Not_Exists" key="{FC0837BE-D8DD-4B18-B05D-C3F02450935E}" path="Verify_Element_Exists_Not_Exists.js" />
 			<child name="Breadcrumb_Arrows_Navigation" key="{4E744716-7129-4FCA-82FF-3AFDC27EC4D6}" path="Breadcrumb_Arrows_Navigation.js" />
 			<child name="Image_Comparison" key="{124BDDD0-391F-4BDB-B80E-ECEC734C0D0C}" path="Image_Comparison.js" />
+			<child name="Tooltip_common" key="{B5C93B4C-AF7C-419A-AF90-2EE5141D3850}" path="Tooltip_common.js" />
 		</folder>
 		<folder name="Modelling">
 			<folder name="FactType">
@@ -180,6 +181,7 @@
 				<child name="Change_Decision_Version" key="{5753F036-EDA4-486F-9727-B81CBC98AA4E}" path="Change_Decision_Version.js" />
 				<child name="Add_Gateway_FT" key="{4D03F90C-F537-4FBF-AE25-9C9FCA0AD6FF}" path="Add_Gateway_FT.js" />
 				<child name="Edit_Decision_SelectDV" key="{898F8568-A3C8-4E19-A826-670915EB8C78}" path="Edit_Decision_SelectDV.js" />
+				<child name="Open_Flow_Palette_Actions" key="{74ECCCE7-5500-4D78-A6E6-854D1B755C94}" path="Open_Flow_Palette_Actions.js" />
 			</folder>
 		</folder>
 		<folder name="Tasks Queue">
