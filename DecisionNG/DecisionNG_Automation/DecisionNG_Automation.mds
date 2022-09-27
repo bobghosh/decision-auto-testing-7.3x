@@ -4063,7 +4063,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 10285,10287_RF_Drft_ChngFTver_context_OK" key="{D9F83B22-1944-417B-89F8-1F19C62EA3F3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{658F91A9-8E90-455B-8A63-FBAA63767152}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="Modeling, Draft Rule Family, Fact Type (Condition/ Conclusion), Contextual menu options, Change Fact Type Version, Fact Type with multiple versions, Select another version,OK" tmsData="" testCase="True">
+													<testItem name="Test ID 10285,10287,6142_RF_Drft_ChngFTver_context_OK" key="{D9F83B22-1944-417B-89F8-1F19C62EA3F3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{658F91A9-8E90-455B-8A63-FBAA63767152}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="Modeling, Draft Rule Family, Fact Type (Condition/ Conclusion), Contextual menu options, Change Fact Type Version, Fact Type with multiple versions, Select another version,OK" tmsData="" testCase="True">
 														<testParameters />
 														<environments activeCloud="CBT" />
 														<children />
@@ -8617,20 +8617,20 @@
 					<DefValue StrValue="Auto_Deploy_Assets_Project" />
 				</Variable>
 				<Variable Name="ContextMenu_Var" Type="Table" Local="False">
-					<DefValue RowCount="12" ColumnCount="9">
-						<Columns ColumnName0="contextMenuItem" ColumnName1="support_Context_Draft" ColumnName2="support_Context_Approved" ColumnName3="support_Context_Retired" ColumnName4="support_Context_Candidate" ColumnName5="DRF_Context_Candidate" ColumnName6="DRF_Context_Draft" ColumnName7="DRF_Context_Approved" ColumnName8="DRF_Context_Retired" />
-						<Row No="0" Cell0="Open Fact Type Summary" Cell1="Enabled" Cell2="Enabled" Cell3="Enabled" Cell4="Enabled" Cell5="Enabled" Cell6="Enabled" Cell7="Enabled" />
-						<Row No="1" Cell0="Open Fact Type Model Mapping" Cell1="Enabled" Cell2="Enabled" Cell3="Enabled" Cell4="Enabled" Cell5="Enabled" Cell6="Enabled" Cell7="Enabled" />
-						<Row No="2" Cell0="Revert Fact Type" Cell1="Disabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Disabled" Cell7="Disabled" />
-						<Row No="3" Cell0="Update Fact Type to Latest Version" Cell1="Disabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Disabled" Cell7="Disabled" />
-						<Row No="4" Cell0="Change Fact Type Version" Cell1="Enabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Enabled" Cell7="Disabled" />
-						<Row No="5" Cell0="Revert Rule Family" Cell1="Disabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Enabled" Cell7="Disabled" />
-						<Row No="6" Cell0="Update Rule Family to Latest Version" Cell1="Disabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Disabled" Cell7="Disabled" />
-						<Row No="7" Cell0="Change Rule Family Version" Cell1="Enabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Enabled" Cell7="Disabled" />
-						<Row No="8" Cell0="Change View and/or Conclusion" Cell1="Enabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Enabled" Cell7="Disabled" />
-						<Row No="9" Cell0="Create New Decision From Rule Family Branch" Cell1="Enabled" Cell2="Enabled" Cell3="Enabled" Cell4="Disabled" />
-						<Row No="10" Cell0="Remove Rule Family" Cell1="Enabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" />
-						<Row No="11" Cell0="Knowledge Source" Cell1="Enabled" Cell2="Enabled" Cell3="Enabled" Cell4="Enabled" Cell5="Enabled" Cell6="Enabled" Cell7="Enabled" />
+					<DefValue RowCount="12" ColumnCount="10">
+						<Columns ColumnName0="contextMenuItem" ColumnName1="support_Context_Draft" ColumnName2="support_Context_Approved" ColumnName3="support_Context_Retired" ColumnName4="support_Context_Candidate" ColumnName5="DRF_Context_Candidate" ColumnName6="DRF_Context_Draft" ColumnName7="DRF_Context_Approved" ColumnName8="DRF_Context_Retired" ColumnName9="Support_Readmode_Draft" />
+						<Row No="0" Cell0="Open Fact Type Summary" Cell1="Enabled" Cell2="Enabled" Cell3="Enabled" Cell4="Enabled" Cell5="Enabled" Cell6="Enabled" Cell7="Enabled" Cell9="Enabled" />
+						<Row No="1" Cell0="Open Fact Type Model Mapping" Cell1="Enabled" Cell2="Enabled" Cell3="Enabled" Cell4="Enabled" Cell5="Enabled" Cell6="Enabled" Cell7="Enabled" Cell9="Enabled" />
+						<Row No="2" Cell0="Revert Fact Type" Cell1="Disabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Disabled" Cell7="Disabled" Cell9="Disabled" />
+						<Row No="3" Cell0="Update Fact Type to Latest Version" Cell1="Disabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Disabled" Cell7="Disabled" Cell9="Disabled" />
+						<Row No="4" Cell0="Change Fact Type Version" Cell1="Enabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Enabled" Cell7="Disabled" Cell9="Disabled" />
+						<Row No="5" Cell0="Revert Rule Family" Cell1="Disabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Enabled" Cell7="Disabled" Cell9="Disabled" />
+						<Row No="6" Cell0="Update Rule Family to Latest Version" Cell1="Disabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Disabled" Cell7="Disabled" Cell9="Disabled" />
+						<Row No="7" Cell0="Change Rule Family Version" Cell1="Enabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Enabled" Cell7="Disabled" Cell9="Disabled" />
+						<Row No="8" Cell0="Change View and/or Conclusion" Cell1="Enabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Enabled" Cell7="Disabled" Cell9="Disabled" />
+						<Row No="9" Cell0="Create New Decision From Rule Family Branch" Cell1="Enabled" Cell2="Enabled" Cell3="Enabled" Cell4="Disabled" Cell9="Disabled" />
+						<Row No="10" Cell0="Remove Rule Family" Cell1="Enabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell9="Disabled" />
+						<Row No="11" Cell0="Knowledge Source" Cell1="Enabled" Cell2="Enabled" Cell3="Enabled" Cell4="Enabled" Cell5="Enabled" Cell6="Enabled" Cell7="Enabled" Cell9="Disabled" />
 					</DefValue>
 				</Variable>
 				<Variable Name="NewFactTypeName" Type="String" Local="True">

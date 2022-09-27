@@ -17,3 +17,8 @@ function OpenDuplicateTab()
   
   Delay(255)
 }
+
+function CloseCurrentTab()
+{
+  Sys.Desktop.Keys("^w")
+} 
