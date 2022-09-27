@@ -20,6 +20,7 @@ var dcnEnvDialog = "//dcn-environments-dialog"
 var wjComboBox = "//wj-combo-box"
 var newAssignee = "[@name='assignee']"
 var clsLabelDraft = "//span[contains(@class,'label--draft')]"
+var newUserName = "//input[@name='userName']"
 
 //----------------------------------------------------------------
 var ModelingPrjName = "//*[@name='project']"

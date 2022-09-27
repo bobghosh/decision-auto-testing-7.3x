@@ -272,6 +272,7 @@
 						<child name="RF_Create_conc_FT_draft_no_prior_version" key="{2E88F961-23E4-4E91-9286-9D734E3CD07E}" path="RF_Create_conc_FT_draft_no_prior_version.tcKDTest" />
 						<child name="RF_Approve_enable_editing_conc_FT_change_list_indicatortor" key="{2D930560-2DF2-497F-94AA-815928461D77}" path="RF_Approve_enable_editing_conc_FT_change_list_indicatortor.tcKDTest" />
 						<child name="tooltip_dragRF_remove_revert" key="{3913FCB1-EB57-496B-A328-A9F9F0440E1A}" path="tooltip_dragRF_remove_revert.tcKDTest" />
+						<child name="RuleFamily_Reorder_rows" key="{C7E8CED4-A544-45CF-8B86-23885C120BCD}" path="RuleFamily_Reorder_rows.tcKDTest" />
 					</folder>
 					<folder name="Associated Assets">
 						<child name="RF_VerifyCurrentDecision_AutoSelected_Edit_ApprovedFT" key="{C7D90243-C505-4F84-9FF7-1DAB7DC07ECC}" path="RF_VerifyCurrentDecision_AutoSelected_Edit_ApprovedFT.tcKDTest" />
@@ -340,6 +341,7 @@
 						<child name="RF_Draft_conclusioncol_as_conditioncol" key="{0331FB5D-3FD5-4003-8C1D-518487288210}" path="RF_Draft_conclusioncol_as_conditioncol.tcKDTest" />
 						<child name="RF_Drft_condcol_ChngFTver_Cancel" key="{3B2EF6A7-04A7-42E1-B831-E6055D8F4D93}" path="RF_Drft_condcol_ChngFTver_Cancel.tcKDTest" />
 						<child name="RF_Drft_vlidat_TG_Repair" key="{391EC662-4A5A-4F1C-BFF9-50926891D47C}" path="RF_Drft_vlidat_TG_Repair.tcKDTest" />
+						<child name="CondConc_ContMenu_User_not_Assignee" key="{430D99F5-B9E6-409A-9D96-6725A62705FF}" path="CondConc_ContMenu_User_not_Assignee.tcKDTest" />
 					</folder>
 					<child name="Draft_DV_SR_Enable_Editing" key="{33716E5B-5BA2-4EE0-A6F8-7803A0392AAA}" path="Draft_DV_SR_Enable_Editing.tcKDTest" />
 					<child name="RF_Table_AddFT_Add_SRF" key="{6FF7D11C-BB60-4090-A446-203DAEF87850}" path="RF_Table_AddFT_Add_SRF.tcKDTest" />

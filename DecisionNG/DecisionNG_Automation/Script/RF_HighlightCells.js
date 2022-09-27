@@ -1,6 +1,7 @@
 ﻿//USEUNIT RF_Select_Row_OR_Column_OR_Cell
 //USEUNIT WaitElement_ispresent
 //USEUNIT Buttons_Actions
+//USEUNIT RefLibrary
 
 function RuleFamily_HighlightCells_UsingKeys(ColumnName,RowNumber,NumberOfCellsToBeSelected,KeysToBePressed,AdditionalKeyToBePressed)
 {
@@ -406,4 +407,18 @@ function getHighlightedStateForConclusionColumn()
   {
     Log.Error("Not Highlighted")
   }
+}
+
+function DragRowTo_RightTT(RowName){
+  
+  //This function only created for TC6731 and may not work for other cases
+  let page = Aliases.browser.pageSapiensDecision2;
+  let sourceRG = page.FindElement("//div[contains(@class,'condition-fact-type-name')]//*[text()='"+RowName+"']/ancestor::dcn-fact-type-status-view/..").click();
+    
+  Delay(500);
+  const sourceMouseX = Sys.Desktop.MouseX;
+  const sourceMouseY = Sys.Desktop.MouseY;
+  LLPlayer.MouseDown(MK_LBUTTON,sourceMouseX,sourceMouseY,2000);
+  LLPlayer.MouseMove(sourceMouseX+300,sourceMouseY,2000);
+  LLPlayer.MouseUp(MK_LBUTTON,sourceMouseX+200,sourceMouseY,2000);
 }

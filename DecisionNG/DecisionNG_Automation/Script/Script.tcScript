@@ -117,7 +117,6 @@
 					<child name="RF_Insert_From_Conclusion_Column" key="{B887F89C-660A-4F5F-BBD0-F32BC1C808E5}" path="RF_Insert_From_Conclusion_Column.js" />
 					<child name="RF_Logic_Build" key="{16FD5C3E-9BCA-41E1-B04D-D4A187442931}" path="RF_Logic_Build.js" />
 					<child name="RF_Select_Row_OR_Column_OR_Cell" key="{43732BD9-15E2-40A4-A0CD-90E3B255B45F}" path="RF_Select_Row_OR_Column_OR_Cell.js" />
-					<child name="Test_LogicRF" key="{6C6301BC-470D-4B4F-8CEC-270D8DDFCF60}" path="Test_LogicRF.js" />
 					<child name="RF_Logic_Build_Row_Specific" key="{D225CB13-6313-482C-8D73-26DD128C9E61}" path="RF_Logic_Build_Row_Specific.js" />
 					<child name="RF_RightClick_HeaderColumns_SelectSubMenu" key="{BE7F1BD0-29A8-4243-9EE9-0479D01B8129}" path="RF_RightClick_HeaderColumns_SelectSubMenu.js" />
 					<child name="ConclusionHeader_Add_Column" key="{7E2A3764-41CB-46BE-9F14-D8474AB52320}" path="ConclusionHeader_Add_Column.js" />
@@ -127,6 +126,7 @@
 					<child name="RF_CellOperatorDisplay" key="{E84CCA8F-71C2-4B72-9E2C-01D5BA463137}" path="RF_CellOperatorDisplay.js" />
 					<child name="RF_Content_Padding" key="{D66FCC2B-EC63-4106-8A23-72E511801F6A}" path="RF_Content_Padding.js" />
 					<child name="ConditionColumnHeader_CreateNewFactType" key="{0EB2F2D1-DD66-4B9D-B839-C419E561B098}" path="ConditionColumnHeader_CreateNewFactType.js" />
+					<child name="Test_LogicRF" key="{35A523FA-2E14-4096-BF11-757BE5A37962}" path="Test_LogicRF.js" />
 				</folder>
 				<folder name="Context Menu">
 					<child name="ContextMenu_Change_View" key="{81C23F3A-4F5B-4B04-83A4-83288E38723B}" path="ContextMenu_Change_View.js" />
