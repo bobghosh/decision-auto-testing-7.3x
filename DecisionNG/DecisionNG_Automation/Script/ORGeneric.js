@@ -37,6 +37,7 @@ var ViewName = "//*[@name='viewName']"
 var FolderName = "//*[@name='folder']"
 var placeholderName = "//*[@placeholder='column name']"
 var community = "[@name='community']"
+var newCommunity = "[@name='Community']"
 
 //--------Fact type-------------------------
 var FactTypeSummary = "//h1[contains(text(), 'Fact Type Summary:')]"
@@ -55,6 +56,8 @@ var datePickFrom = "//*[@placeholder='from']//*[@wj-part='btn']"
 var datePickTo = "//*[@placeholder='to']//*[@wj-part='btn']"
 var nameValue = "//*[@name='value']"
 var btnAdd = "//button[contains(@class,'add-btn')]"
+var drpdwnPriority = "//*[@name='priority']"
+var GroupLabel = "//*[@name='groupingLabel']"
 
 //----------------------------------------------------------------
 var tblFrozenView = "//*[contains(@class,'table-frozen-view')]"

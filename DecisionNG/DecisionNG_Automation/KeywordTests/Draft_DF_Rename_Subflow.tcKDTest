@@ -106,6 +106,16 @@
 					</Parameters>
 				</Data>
 			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Breadcrumb" Unit="Breadcrumb_Navigations">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="BreadcrumbName" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="FlowNameWithVersion" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Validation_Button" Unit="Asset_Validation" />
+			</Operation>
 		</Children>
 	</TestData>
 	<Parameters Key="{3ADC8940-1BFC-4527-BDFD-ED9DFD9766BE}">

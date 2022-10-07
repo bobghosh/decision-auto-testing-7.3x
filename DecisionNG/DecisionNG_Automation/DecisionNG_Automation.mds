@@ -3188,7 +3188,7 @@
 																<environments activeCloud="CBT" />
 																<children />
 															</testItem>
-															<testItem name="Test ID 7146_Modelling DF, Rename Subflow, Existing DF" key="{EC101120-E845-4982-B63E-80FEB2A9AEE2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{39CB0A13-2F5D-43F2-B22E-CF3E8406FB15}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+															<testItem name="Test ID 7146,12387_Modelling DF, Rename Subflow, Existing DF" key="{EC101120-E845-4982-B63E-80FEB2A9AEE2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{39CB0A13-2F5D-43F2-B22E-CF3E8406FB15}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 																<testParameters>
 																	<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 																	<param1 name="FlowNameWithVersion" type="1" localVarName="" value="Student Fee Loan Flow_Auto_Add_Info [V1.1]" />
@@ -6628,7 +6628,7 @@
 												<children>
 													<testItem name="Login_MPM" key="{A3D2565E-81E6-4FB7-9111-AB11D6C59810}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 														<testParameters>
-															<param0 name="URL" type="1" localVarName="Regression_URL" localVarLevel="1" value="" />
+															<param0 name="URL" type="1" localVarName="Environment_URL" localVarLevel="1" value="" />
 															<param1 name="UserName" type="1" localVarName="" value="Modeling Project Manager" />
 															<param2 name="Password" type="1" localVarName="" value="Decision1" />
 														</testParameters>
@@ -7067,6 +7067,52 @@
 															<param5 name="New_Assignee" type="1" localVarName="" value="Modeling Project Manager" />
 															<param6 name="OkorCancel" type="1" localVarName="" value="ok" />
 														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+												</children>
+											</testItem>
+										</children>
+									</testItem>
+								</children>
+							</testItem>
+							<testItem name="Task Details" key="{D591C85D-5B5B-4678-8BA0-DD57F2E5C42F}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children>
+									<testItem name="Priority-P1" key="{52F18259-0F9D-4503-94EA-1BDA1AB0B725}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<children>
+											<testItem name="Edit_Details" key="{3309E006-50EC-4FA6-B232-9ED46076D703}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<children>
+													<testItem name="Test ID 6222_Task, Details, General tab, Layout and usability" key="{EDF32FCF-22F5-41F9-AFAF-7DA1911C2E95}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E4302AAE-8470-47C4-AFCD-CA31DC48BF8F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6241,6263_Task, Details Tab, Edit Task Name" key="{E7D5F2BC-F90A-4789-BE76-D2C3472890B1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4C2AFCAC-ED1E-448E-9A19-32625B81D014}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="description" type="1" localVarName="" value="setting new desscription" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6265,7635_Task, Details Tab, Edit Priority" key="{AD1D9729-138E-4CA6-9E84-9F25BD2322AD}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1D48C3D0-66BA-4125-93AA-BB6370CA7A30}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="priority" type="1" localVarName="" value="HIGH" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 9974,10007,10008_Task, Details, General tab, Create Grouping Label " key="{614A1DF4-AFED-4613-871B-CDCACAE57EC1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{12D539B6-E790-4BAC-B97E-2FD3FACA2BDA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="GrpName" type="1" localVarName="" value="AutoGroupTest" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 7637,7636_Tasks_Details_Cancel_Task" key="{09C64943-0A6C-47DE-B0BE-C91BA67915B5}" group="False" parallel="False" enabled="True" testMoniker="KDT\{762BD55B-6461-4568-B337-03611B0A6DAC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
@@ -8585,7 +8631,7 @@
 					</DefValue>
 				</Variable>
 				<Variable Name="Regression_URL" Type="String" Local="False">
-					<DefValue StrValue="https://dev-app-ext.dm.sapiens.com/dm/login.jsp" />
+					<DefValue StrValue="http://bdmsuat79:37068/dm/login.jsp" />
 				</Variable>
 				<Variable Name="Additional_Info_Task_with_assets" Type="String" Local="True">
 					<DefValue />

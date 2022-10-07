@@ -10,14 +10,13 @@ var Navigate_to_Details_Tab = require("Navigate_to_Details_Tab");
 
 function Start_button()
 {  
-  Delay(2000);
-  
+ 
   Split_button();
-  
+  let page = Aliases.browser.pageSapiensDecision
   Aliases.browser.pageSapiensDecision.FindElement("//*[(text()='Start')]").Click();
   
   //Verify that Button should become disabled
-//  aqObject.CheckProperty(Aliases.browser.pageSapiensDecision.FindElement("//p-splitbutton/div"), "className", cmpContains, "ui-state-disabled");
+  //aqObject.CheckProperty(page.WaitElement("//p-splitbutton/button"), "disabled", cmpContains, true, true);
   
   Delay(500);
   
@@ -48,7 +47,7 @@ function Start_and_Claim_button()
   
   Navigate_to_Details_General.Navigate_to_Details_General();
   
-  aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.form6.textboxUsername2, "Text", cmpEqual, userName);
+  //aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.form6.textboxUsername2, "Text", cmpEqual, userName);
   
   Navigate_to_Details_Audit.Navigate_to_Details_Audit();
   

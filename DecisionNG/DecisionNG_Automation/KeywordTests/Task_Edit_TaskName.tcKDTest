@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{A9C5772D-FC46-4DC2-9BCC-DB7C633ADD1A}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Nav_MyTasks_SpecificTask">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="TabName" DefVarType="8" DefValueType="6" DefValueValue="My Tasks" VarType="8" ValueType="6" ValueValue="My Tasks" />
+						<Parameter Name="Subtab_Name" DefVarType="8" DefValueType="6" DefValueValue="Tasks" VarType="8" ValueType="6" ValueValue="Tasks" />
+						<Parameter Name="TaskName" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="NewTaskName" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageSapiensDecision.WaitElement(&quot;//*[contains(@class, &apos;navigation-menu&apos;)]//*[text()=&apos;Decisions&apos;]/..&quot;,5000)" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="VisibleOnScreen" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" VarType="11" ValueType="7" ValueValue="True" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageSapiensDecision.WaitElement(&quot;//*[contains(@class, &apos;navigation-menu&apos;)]//*[text()=&apos;Decisions&apos;]/..&quot;,5000)" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="className" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="6" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="selected" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Breadcrumb_Verify_Navigation" Unit="Breadcrumb_Verify_Navigation">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="breadcrumb_Toverify" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="NewTaskName" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Navigate_to_Details_Tab" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Change_Existing_Task_Name" Unit="Details_General">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="existTask" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="NewTaskName" />
+						<Parameter Name="newTask" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="ModifiedTask" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Set_Description" Unit="Details_General">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="text" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="description" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Navigate_to_FactType_Tab_from_Decision_Tab" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Navigate_to_Details_Tab" />
+			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageSapiensDecision.WaitElement(&quot;//*[@name=&apos;description&apos;]&quot;,5000)" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="value" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="description" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{59622484-0BE6-4347-B917-E1733D6F6D0D}">
+		<Parameter0 Name="description" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+	</Parameters>
+</Root>

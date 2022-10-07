@@ -11,7 +11,8 @@ function Create_A_New_Task(Community, TaskName, ModelingProjectName, AssetApprov
   
   page.WaitElement(ORHomepage.StartATask, 20000).Click();
   
-  let communityButton=page.FindElement(ORGeneric.dcnComboBox+ORGeneric.community+"//button");
+//  let communityButton=page.FindElement(ORGeneric.dcnComboBox+ORGeneric.community+"//button");
+  let communityButton=page.FindElement(ORGeneric.dcnAutoComplete+ORGeneric.newCommunity+"//button");
   
   communityButton.WaitProperty("enabled",true,30000);
   

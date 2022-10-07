@@ -405,7 +405,16 @@
 				<child name="Tasks_AddFT_Validation_Name_is_required" key="{358D64D1-5F97-4123-BA84-19788629FA99}" path="Tasks_AddFT_Validation_Name_is_required.tcKDTest" />
 			</folder>
 		</folder>
-		<folder name="Tasks Queue" />
+		<folder name="Tasks Details">
+			<folder name="General" />
+			<folder name="Test Cases">
+				<child name="Task_Details_General_Layout_usability" key="{E4302AAE-8470-47C4-AFCD-CA31DC48BF8F}" path="Task_Details_General_Layout_usability.tcKDTest" />
+				<child name="Task_Edit_TaskName" key="{4C2AFCAC-ED1E-448E-9A19-32625B81D014}" path="Task_Edit_TaskName.tcKDTest" />
+				<child name="Task_Edit_Priority" key="{1D48C3D0-66BA-4125-93AA-BB6370CA7A30}" path="Task_Edit_Priority.tcKDTest" />
+				<child name="Task_Create_Grouping_Label" key="{12D539B6-E790-4BAC-B97E-2FD3FACA2BDA}" path="Task_Create_Grouping_Label.tcKDTest" />
+				<child name="Tasks_Details_Cancel_Task" key="{762BD55B-6461-4568-B337-03611B0A6DAC}" path="Tasks_Details_Cancel_Task.tcKDTest" />
+			</folder>
+		</folder>
 		<folder name="HomePage">
 			<child name="HomeScreen_Create_New_task" key="{F80B6045-49B0-440E-B555-47A7633F2594}" path="HomeScreen_Create_New_task.tcKDTest" />
 		</folder>

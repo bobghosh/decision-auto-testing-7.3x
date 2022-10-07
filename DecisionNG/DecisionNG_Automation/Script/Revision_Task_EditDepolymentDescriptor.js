@@ -1,4 +1,5 @@
-﻿var RevisionTasks_Buttons = require("RevisionTasks_Buttons");
+﻿//USEUNIT RefLibrary
+var RevisionTasks_Buttons = require("RevisionTasks_Buttons");
 var SelectingDateFromCalendar = require("SelectingDateFromCalendar");
 var SelectingTimeFromDropDown = require("SelectingTimeFromDropDown");
 function Revision_Task_EditDepolymentDescriptor(Descriptive_View,AssetName,Month)
@@ -40,7 +41,7 @@ function Revision_Task_EditDepolymentDescriptor(Descriptive_View,AssetName,Month
       Log.Message(EffectiveDate);
       
       Aliases.browser.pageSapiensDecision2.FindElement("//*[@class='spec-expiration-date-field']//*[@class='wj-glyph-calendar']").Click();
-      SelectingDateFromCalendar.CalendarSelection("No","2021" , Month, "30");
+      SelectingDateFromCalendar.CalendarSelection("No","2022" , Month, "30");
   
       Aliases.browser.pageSapiensDecision2.FindElement("//*[@class='spec-expiration-date-field']//*[@class='wj-glyph-clock']").Click();
       SelectingTimeFromDropDown.SelectingTimeFromDropdown("12:45 AM" , "No");
@@ -49,9 +50,7 @@ function Revision_Task_EditDepolymentDescriptor(Descriptive_View,AssetName,Month
   
       Log.Message(ExpirationDate);
       
-      //Closing the Edit Deplotment Descriptor Pop up
-//      Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
-      Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'spec-confirmed')]").Clickbutton();
+      Buttons_Actions.okButtonClick();
         
       
       Delay(300);
