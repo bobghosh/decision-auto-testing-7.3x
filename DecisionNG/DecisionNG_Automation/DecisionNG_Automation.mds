@@ -2271,6 +2271,16 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
+													<testItem name="Test ID 6833,6830,6760, 6761,6828_RF,Draft RF,RF table" key="{1929BBD9-7749-4A2E-A1FF-7B2306096ECC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{3913FCB1-EB57-496B-A328-A9F9F0440E1A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6731_Edit Rule Family, Reorder rows/columns" key="{A6F2023E-D9D5-403D-BE05-A5CAA79E6DFB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C7E8CED4-A544-45CF-8B86-23885C120BCD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
 												</children>
 											</testItem>
 											<testItem name="Associated Assets" key="{31A59173-6041-4498-987A-02934080C397}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -3137,391 +3147,426 @@
 									<testItem name="Flow" key="{60A0FB54-37E7-4A7C-BB27-AB5FD523F608}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters />
 										<children>
-											<testItem name="Edit Flow" key="{66A1D117-4119-459B-A6FE-7A447F8A6DF8}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+											<testItem name="Priority-P1" key="{7C3B9ECE-9BEB-4514-A226-E9420A94A0DD}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 												<testParameters />
 												<children>
-													<testItem name="HomeScreen_Create_NewTask_Flow_TestCases" key="{5FC4217A-4FC0-43D8-94D6-7BD5E03366F4}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F80B6045-49B0-440E-B555-47A7633F2594}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters>
-															<param0 name="Community" type="1" localVarName="" value="Automation_Assets" />
-															<param1 name="TaskName" type="1" localVarName="" value="Flow_Reg_Task" />
-															<param2 name="ModelingProjectName" type="1" localVarName="" value="Gil&apos;s Demo" />
-															<param3 name="AssetApprovalProcess" type="1" localVarName="" value="Quick Asset Workflow" />
-															<param4 name="FactTypeApprovalProcess" type="1" localVarName="" value="Quick FT Workflow" />
-														</testParameters>
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Test ID 7425_Flow, Approved, Edit, Ok" key="{02B835CC-9396-44D3-BE10-6E89CFBFDA9B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{440FC627-3A5A-4C3C-B1DF-B55555FEE16A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters>
-															<param0 name="Communities_To_Expand" type="1" localVarName="" value="WORLD,Automation Testing" />
-															<param1 name="Community_To_Select" type="1" localVarName="" value="Automation_Assets" />
-															<param2 name="Select_SubTab" type="1" localVarName="" value="Decision Flows" />
-															<param3 name="Flow" type="1" localVarName="" value="Student Fee Loan Flow_Auto_Add_Info [V1.1]" />
-															<param4 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-															<param5 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
-														</testParameters>
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Test ID 7426_Flow, Approved, Edit, Cancel" key="{2C471223-A876-448C-8F04-405A497D37DE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8EC63A90-AC92-410C-A9E1-69382A204864}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters>
-															<param0 name="Communities_To_Expand" type="1" localVarName="" value="WORLD,Automation Testing" />
-															<param1 name="Community_To_Select" type="1" localVarName="" value="Automation_Assets" />
-															<param2 name="Select_SubTab" type="1" localVarName="" value="Decision Flows" />
-															<param3 name="Flow" type="1" localVarName="" value="Student Fee Loan Flow_Auto_Add_Info [V1.1]" />
-															<param4 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-															<param5 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
-														</testParameters>
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Test ID 7146_Modelling DF, Rename Subflow, Existing DF" key="{EC101120-E845-4982-B63E-80FEB2A9AEE2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{39CB0A13-2F5D-43F2-B22E-CF3E8406FB15}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters>
-															<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
-															<param1 name="FlowNameWithVersion" type="1" localVarName="" value="Student Fee Loan Flow_Auto_Add_Info [V1.1]" />
-															<param2 name="SubFlowToRename" type="1" localVarName="" value="Sub Flow" />
-															<param3 name="RenamedSubFlow" type="1" localVarName="" value="Sub Flow Renamed" />
-														</testParameters>
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Delete_Task_Specific" key="{31C3CFC3-A83D-48F6-993D-89E74FAA9E1F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0ECC5690-0601-455B-A688-CBB67BFB6B3D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters>
-															<param0 name="TabName" type="1" localVarName="" value="My Tasks" />
-															<param1 name="Subtab_Name" type="1" localVarName="" value="Tasks" />
-															<param2 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
-														</testParameters>
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-												</children>
-											</testItem>
-											<testItem name="Create Flow from Home screen and Task" key="{389D53FF-5648-44E1-84E4-84BC570BFFED}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters />
-												<children>
-													<testItem name="Test ID 7017,Test ID 7019_Modelling Decision Flow, Create New Flow, OK" key="{B0883C1B-413B-4DDD-8640-6C517EE23CB8}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4DFAAA83-3E53-4799-88D3-76FC6336D115}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters>
-															<param0 name="community" type="1" localVarName="" value="Automation_Assets" />
-															<param1 name="flowName" type="1" localVarName="" value="Flow_RegTest" />
-															<param2 name="taskName" type="1" localVarName="" value="Flow_NewTask" />
-															<param3 name="NewOrExstingTask" type="1" localVarName="" value="New" />
-															<param4 name="NewOrExistingFlow" type="1" localVarName="" value="New" />
-														</testParameters>
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Test ID 7018_Modelling Decision Flow, Create a New Flow pop- up, Mandatory fields validation" key="{FC44B01C-88F2-45DB-B4AF-0051C4A26595}" group="False" parallel="False" enabled="True" testMoniker="KDT\{36FC185D-C7F1-43AD-BF1F-D52A9AFE1CFE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters>
-															<param0 name="VerifyCommunityErrorMessage" type="1" localVarName="" value="Yes" />
-															<param1 name="verifyTaskErrorMessage" type="1" localVarName="" value="" />
-															<param2 name="verifyFlowNameErrorMessage" type="1" localVarName="" value="Yes" />
-														</testParameters>
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Test ID 7020_Modelling Decision Flow, Create New Flow, Cancel" key="{C486FFB5-0004-488D-92EE-7476D47516CD}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BBE9FB82-0248-4531-852A-24355BD8DE23}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters>
-															<param0 name="community" type="1" localVarName="" value="Automation_Assets" />
-															<param1 name="flowName" type="1" localVarName="" value="FlowName" />
-															<param2 name="taskName" type="1" localVarName="" value="TaskName" />
-															<param3 name="NewOrExstingTask" type="1" localVarName="" value="New" />
-															<param4 name="NewOrExistingFlow" type="1" localVarName="" value="New" />
-														</testParameters>
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Test ID 7021_Modelling Decision Flow, Flow Name, Uniqueness Validation" key="{8F80560A-0EE9-4664-8C54-368D9396B2C6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{9FA00EC3-4E44-467D-9C87-08DA4BAC53FB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters>
-															<param0 name="community" type="1" localVarName="" value="Automation_Assets" />
-															<param1 name="flowName" type="1" localVarName="" value="Student Fee Loan Flow" />
-															<param2 name="taskName" type="1" localVarName="" value="NewTask" />
-															<param3 name="NewOrExstingTask" type="1" localVarName="" value="New" />
-															<param4 name="NewOrExistingFlow" type="1" localVarName="" value="Existing" />
-														</testParameters>
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Test ID 7034,7211,7213_Decision Flow, Decision Task, Create New Decision&#13;&#10;" key="{6EF070E9-C3FE-483C-9570-AA8014652C85}" group="False" parallel="False" enabled="True" testMoniker="KDT\{659519D9-FAE3-465B-9BC7-7206A21D8708}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters>
-															<param0 name="FlowName" type="1" localVarName="" value="Student Fee Loan Flow_Auto_Add_Info [V1.1]" />
-														</testParameters>
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-												</children>
-											</testItem>
-											<testItem name="Gateway FactType" key="{30967969-3BC4-49DA-9C91-3041FB599F0F}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters />
-												<children>
-													<testItem name="Test ID 7208_Modelling Decision Flow, Approved Flow, Non-editable Gateway Component Operator Operand editor" key="{54AC382C-8443-4E6D-AA5D-5F031BA2191B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E6FF2E82-25A3-4DC7-97DD-15141FD8F6E2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters>
-															<param0 name="Communities_To_Expand" type="1" localVarName="" value="WORLD,Automation Testing" />
-															<param1 name="Community_To_Select" type="1" localVarName="" value="Automation_Assets" />
-															<param2 name="Select_SubTab" type="1" localVarName="" value="Decision Flows" />
-															<param3 name="Flow" type="1" localVarName="" value="Student Fee Loan Flow_Auto_Add_Info [V1.1]" />
-															<param4 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-														</testParameters>
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Test ID 7218_Flow, Gateway, Open Approved Fact Type" key="{A74D1ACF-A67C-46BF-B576-AB3921927EA8}" group="False" parallel="False" enabled="True" testMoniker="KDT\{795DF80F-9E0D-47D0-B161-53902A12ADB6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters>
-															<param0 name="Communities_To_Expand" type="1" localVarName="" value="WORLD,Automation Testing" />
-															<param1 name="Community_To_Select" type="1" localVarName="" value="Automation_Assets" />
-															<param2 name="Select_SubTab" type="1" localVarName="" value="Decision Flows" />
-															<param3 name="Flow" type="1" localVarName="" value="Student Fee Loan Flow_Auto_Add_Info [V1.1]" />
-															<param4 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-															<param5 name="GatewayFtName" type="1" localVarName="" value="Tuition Fee Loan" />
-															<param6 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
-														</testParameters>
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Test ID 7210_Flow, Gateway, Open Draft Fact Type" key="{68324A66-B26E-4BA5-B1DD-B90429CA95ED}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6995236E-D45B-4BF4-8134-191A59E1DD49}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters>
-															<param0 name="GatewayToPerformRightClick" type="1" localVarName="" value="Tuition Fee Loan" />
-														</testParameters>
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Test ID 7221_Flow, Gateway, Edit Fact Type" key="{AA444325-59A0-4CA5-A2B6-0EB757A0527B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{DF5E7AC4-9B7E-4536-83D5-EB157A1CAB15}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters>
-															<param0 name="GatewayToPerformRightClick" type="1" localVarName="" value="Tuition Fee Loan" />
-														</testParameters>
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Test ID 7255_Modelling Decision Flow, Replace existing Fact type in Gateway with a New/ Exisitng Fact Type having the same Data Type" key="{4FCA76AC-3585-4B28-97E0-813F71E79D37}" group="False" parallel="False" enabled="True" testMoniker="KDT\{210833B2-7A97-45C6-93AD-4C3EB85F89A8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters />
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Test ID 7254,11067_Listing of New Fact Type under the Task" key="{1612C07E-1566-4BC1-8E60-79822E018C7D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E6880359-B9C7-472C-9348-07B62AB063D9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters>
-															<param0 name="FactType" type="1" localVarName="" value="CandidateFT" />
-														</testParameters>
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Test ID_11068_Task,Verify validation error on FT when adding FT to Flow as New Decision in another Task " key="{E33C5364-2AFA-4EEE-AE7B-B270A7ADC03C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{83EC9A68-869A-4175-B3E3-F490FCFC46D7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters />
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Test ID_11076_Candidate FT is available on Autocomplete list when adding FT to Flow as Gateway in same Task" key="{0A68BB88-7A46-497A-B244-08F3B5EDBB38}" group="False" parallel="False" enabled="True" testMoniker="KDT\{616F07AA-6F77-405F-AF4C-AAE724ACF30F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters />
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Test ID_7024,7033_Flow, Add Gateway Fact type, Existing Fact Type, From Decision in Flow&#13;&#10;" key="{C5875583-9D95-432C-9D58-43AD8ECA6923}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B1380ED5-EC5B-4F66-A5F0-3F243D85B802}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters>
-															<param0 name="FlowName" type="1" localVarName="" value="Student Fee Loan Flow_Auto_Add_Info [V1.1]" />
-														</testParameters>
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Test ID_7207,7256_Modelling Decision Flow, Draft Flow, Gateway Component, List Fact Type Operators verification&#13;&#10;" key="{AF1FC701-F97E-4F8B-BE9E-70943608AB2B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{DAF36A80-03A1-479C-95B5-132DFAC746BA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters />
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-												</children>
-											</testItem>
-											<testItem name="Breadcrumb" key="{EA6427DA-A980-4E7D-A9C8-45972B362CD2}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters />
-												<children>
-													<testItem name="Test ID 7023,7230 _Flow, Breadcrumb Dropdown holding DV&apos;s used in Flow,Verify" key="{1C1EDDF1-4DBE-4AB1-8C86-5C7A664E7A0D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6F4B146D-7D97-4165-BB11-E879CB0B5FA9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters>
-															<param0 name="Communities_To_Expand" type="1" localVarName="" value="WORLD,Automation Testing" />
-															<param1 name="Community_To_Select" type="1" localVarName="" value="Automation_Assets" />
-															<param2 name="Select_SubTab" type="1" localVarName="" value="Decision Flows" />
-															<param3 name="Flow" type="1" localVarName="" value="Student Fee Loan Flow_Auto_Add_Info [V1.1]" />
-															<param4 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-															<param5 name="BreadcrumbArrowClick" type="1" localVarName="" value="Student Fee Loan Flow_Auto_Add_Info [V1.1]" />
-															<param6 name="DV_OpenFrom_Breadcrumb" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
-															<param7 name="RF_open" type="1" localVarName="" value="Tuition Fee Loan Amount" />
-															<param8 name="RF_breadcrumb_verify" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
-															<param9 name="BreadcrumbArrowClicktoopenRF" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
-														</testParameters>
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Test ID 7377_Open Flow, Navigate to any component, Navigate Back though browser/Breadcrumb" key="{EE9762C9-248F-46F7-8AEC-68CF87DF299B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{845300FA-08A3-421D-8DB3-2952E3B164D8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters>
-															<param0 name="Communities_To_Expand" type="1" localVarName="" value="WORLD,Automation Testing" />
-															<param1 name="Community_To_Select" type="1" localVarName="" value="Automation_Assets" />
-															<param2 name="Select_SubTab" type="1" localVarName="" value="Decision Flows" />
-															<param3 name="Flow" type="1" localVarName="" value="Student Fee Loan Flow_Auto_Add_Info [V1.1]" />
-															<param4 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-															<param5 name="BreadcrumbArrowClick" type="1" localVarName="" value="Student Fee Loan Flow_Auto_Add_Info [V1.1]" />
-															<param6 name="DV_OpenFrom_Breadcrumb" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
-															<param7 name="RF_open" type="1" localVarName="" value="Tuition Fee Loan Amount" />
-															<param8 name="RF_breadcrumb_verify" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
-															<param9 name="BreadcrumbArrowClicktoopenRF" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
-														</testParameters>
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-												</children>
-											</testItem>
-											<testItem name="Change Decision Version" key="{7528096B-C1BF-4940-A8DA-C8B6301F6515}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters />
-												<children>
-													<testItem name="Pre-Requisite" key="{BE97A9E5-14E6-433E-AE4B-0ED19CC04AC5}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Edit Flow" key="{66A1D117-4119-459B-A6FE-7A447F8A6DF8}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<children>
-															<testItem name="Pre_requisite" key="{251A37C1-A143-4CF3-809E-FCC3A45452C0}" group="False" parallel="False" enabled="True" testMoniker="KDT\{AD2EC245-EA36-494E-9CC2-5FB666D50A59}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+															<testItem name="HomeScreen_Create_NewTask_Flow_TestCases" key="{5FC4217A-4FC0-43D8-94D6-7BD5E03366F4}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F80B6045-49B0-440E-B555-47A7633F2594}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 																<testParameters>
-																	<param0 name="TaskName_To_Edit_DF" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
+																	<param0 name="Community" type="1" localVarName="" value="Automation_Assets" />
+																	<param1 name="TaskName" type="1" localVarName="" value="Flow_Reg_Task" />
+																	<param2 name="ModelingProjectName" type="1" localVarName="" value="Gil&apos;s Demo" />
+																	<param3 name="AssetApprovalProcess" type="1" localVarName="" value="Quick Asset Workflow" />
+																	<param4 name="FactTypeApprovalProcess" type="1" localVarName="" value="Quick FT Workflow" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7425_Flow, Approved, Edit, Ok" key="{02B835CC-9396-44D3-BE10-6E89CFBFDA9B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{440FC627-3A5A-4C3C-B1DF-B55555FEE16A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="Communities_To_Expand" type="1" localVarName="" value="WORLD,Automation Testing" />
+																	<param1 name="Community_To_Select" type="1" localVarName="" value="Automation_Assets" />
+																	<param2 name="Select_SubTab" type="1" localVarName="" value="Decision Flows" />
+																	<param3 name="Flow" type="1" localVarName="" value="Student Fee Loan Flow_Auto_Add_Info [V1.1]" />
+																	<param4 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+																	<param5 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7426_Flow, Approved, Edit, Cancel" key="{2C471223-A876-448C-8F04-405A497D37DE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8EC63A90-AC92-410C-A9E1-69382A204864}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="Communities_To_Expand" type="1" localVarName="" value="WORLD,Automation Testing" />
+																	<param1 name="Community_To_Select" type="1" localVarName="" value="Automation_Assets" />
+																	<param2 name="Select_SubTab" type="1" localVarName="" value="Decision Flows" />
+																	<param3 name="Flow" type="1" localVarName="" value="Student Fee Loan Flow_Auto_Add_Info [V1.1]" />
+																	<param4 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+																	<param5 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7146,12387_Modelling DF, Rename Subflow, Existing DF" key="{EC101120-E845-4982-B63E-80FEB2A9AEE2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{39CB0A13-2F5D-43F2-B22E-CF3E8406FB15}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
+																	<param1 name="FlowNameWithVersion" type="1" localVarName="" value="Student Fee Loan Flow_Auto_Add_Info [V1.1]" />
+																	<param2 name="SubFlowToRename" type="1" localVarName="" value="Sub Flow" />
+																	<param3 name="RenamedSubFlow" type="1" localVarName="" value="Sub Flow Renamed" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Delete_Task_Specific" key="{31C3CFC3-A83D-48F6-993D-89E74FAA9E1F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0ECC5690-0601-455B-A688-CBB67BFB6B3D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="TabName" type="1" localVarName="" value="My Tasks" />
+																	<param1 name="Subtab_Name" type="1" localVarName="" value="Tasks" />
+																	<param2 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
 																</testParameters>
 																<environments activeCloud="CBT" />
 																<children />
 															</testItem>
 														</children>
 													</testItem>
-													<testItem name="Test ID 7698_Flow, Standalone Decision, Change Decision Version, Select Decision Version, OK" key="{FE8DDF36-D090-41DC-ACC8-AAAF597EC813}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BB0AB67B-C977-4EB2-94B4-1A1F0ACE6101}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Create Flow from Home screen and Task" key="{389D53FF-5648-44E1-84E4-84BC570BFFED}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
-														<environments activeCloud="CBT" />
-														<children />
+														<children>
+															<testItem name="Test ID 7017,Test ID 7019_Modelling Decision Flow, Create New Flow, OK" key="{B0883C1B-413B-4DDD-8640-6C517EE23CB8}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4DFAAA83-3E53-4799-88D3-76FC6336D115}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="community" type="1" localVarName="" value="Automation_Assets" />
+																	<param1 name="flowName" type="1" localVarName="" value="Flow_RegTest" />
+																	<param2 name="taskName" type="1" localVarName="" value="Flow_NewTask" />
+																	<param3 name="NewOrExstingTask" type="1" localVarName="" value="New" />
+																	<param4 name="NewOrExistingFlow" type="1" localVarName="" value="New" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7018_Modelling Decision Flow, Create a New Flow pop- up, Mandatory fields validation" key="{FC44B01C-88F2-45DB-B4AF-0051C4A26595}" group="False" parallel="False" enabled="True" testMoniker="KDT\{36FC185D-C7F1-43AD-BF1F-D52A9AFE1CFE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="VerifyCommunityErrorMessage" type="1" localVarName="" value="Yes" />
+																	<param1 name="verifyTaskErrorMessage" type="1" localVarName="" value="" />
+																	<param2 name="verifyFlowNameErrorMessage" type="1" localVarName="" value="Yes" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7020_Modelling Decision Flow, Create New Flow, Cancel" key="{C486FFB5-0004-488D-92EE-7476D47516CD}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BBE9FB82-0248-4531-852A-24355BD8DE23}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="community" type="1" localVarName="" value="Automation_Assets" />
+																	<param1 name="flowName" type="1" localVarName="" value="FlowName" />
+																	<param2 name="taskName" type="1" localVarName="" value="TaskName" />
+																	<param3 name="NewOrExstingTask" type="1" localVarName="" value="New" />
+																	<param4 name="NewOrExistingFlow" type="1" localVarName="" value="New" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7021_Modelling Decision Flow, Flow Name, Uniqueness Validation" key="{8F80560A-0EE9-4664-8C54-368D9396B2C6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{9FA00EC3-4E44-467D-9C87-08DA4BAC53FB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="community" type="1" localVarName="" value="Automation_Assets" />
+																	<param1 name="flowName" type="1" localVarName="" value="Student Fee Loan Flow" />
+																	<param2 name="taskName" type="1" localVarName="" value="NewTask" />
+																	<param3 name="NewOrExstingTask" type="1" localVarName="" value="New" />
+																	<param4 name="NewOrExistingFlow" type="1" localVarName="" value="Existing" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7034,7211,7213_Decision Flow, Decision Task, Create New Decision&#13;&#10;" key="{6EF070E9-C3FE-483C-9570-AA8014652C85}" group="False" parallel="False" enabled="True" testMoniker="KDT\{659519D9-FAE3-465B-9BC7-7206A21D8708}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="FlowName" type="1" localVarName="" value="Student Fee Loan Flow_Auto_Add_Info [V1.1]" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
 													</testItem>
-													<testItem name="Test ID 7699,7696_Flow, Standalone Decision, Change Decision Version, Select Decision Version, Cancel" key="{669EA9A1-F398-4210-8B59-5AAC1CDD7D30}" group="False" parallel="False" enabled="True" testMoniker="KDT\{25567079-B833-43D1-9BDC-0EFD8A4125BF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Gateway FactType" key="{30967969-3BC4-49DA-9C91-3041FB599F0F}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
-														<environments activeCloud="CBT" />
-														<children />
+														<children>
+															<testItem name="Test ID 7208_Modelling Decision Flow, Approved Flow, Non-editable Gateway Component Operator Operand editor" key="{54AC382C-8443-4E6D-AA5D-5F031BA2191B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E6FF2E82-25A3-4DC7-97DD-15141FD8F6E2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="Communities_To_Expand" type="1" localVarName="" value="WORLD,Automation Testing" />
+																	<param1 name="Community_To_Select" type="1" localVarName="" value="Automation_Assets" />
+																	<param2 name="Select_SubTab" type="1" localVarName="" value="Decision Flows" />
+																	<param3 name="Flow" type="1" localVarName="" value="Student Fee Loan Flow_Auto_Add_Info [V1.1]" />
+																	<param4 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7218,7678_Flow, Gateway, Open Approved Fact Type" key="{A74D1ACF-A67C-46BF-B576-AB3921927EA8}" group="False" parallel="False" enabled="True" testMoniker="KDT\{795DF80F-9E0D-47D0-B161-53902A12ADB6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="Communities_To_Expand" type="1" localVarName="" value="WORLD,Automation Testing" />
+																	<param1 name="Community_To_Select" type="1" localVarName="" value="Automation_Assets" />
+																	<param2 name="Select_SubTab" type="1" localVarName="" value="Decision Flows" />
+																	<param3 name="Flow" type="1" localVarName="" value="Student Fee Loan Flow_Auto_Add_Info [V1.1]" />
+																	<param4 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+																	<param5 name="GatewayFtName" type="1" localVarName="" value="Tuition Fee Loan" />
+																	<param6 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7210,7928_Flow, Gateway, Open Draft Fact Type" key="{68324A66-B26E-4BA5-B1DD-B90429CA95ED}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6995236E-D45B-4BF4-8134-191A59E1DD49}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="GatewayToPerformRightClick" type="1" localVarName="" value="Tuition Fee Loan" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7221,7681_Flow, Gateway, Edit Fact Type" key="{AA444325-59A0-4CA5-A2B6-0EB757A0527B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{DF5E7AC4-9B7E-4536-83D5-EB157A1CAB15}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="GatewayToPerformRightClick" type="1" localVarName="" value="Tuition Fee Loan" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7255,7929_Modelling Decision Flow, Replace existing Fact type in Gateway with a New/ Exisitng Fact Type having the same Data Type" key="{4FCA76AC-3585-4B28-97E0-813F71E79D37}" group="False" parallel="False" enabled="True" testMoniker="KDT\{210833B2-7A97-45C6-93AD-4C3EB85F89A8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7254,11067_Listing of New Fact Type under the Task" key="{1612C07E-1566-4BC1-8E60-79822E018C7D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E6880359-B9C7-472C-9348-07B62AB063D9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="FactType" type="1" localVarName="" value="CandidateFT" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID_11068_Task,Verify validation error on FT when adding FT to Flow as New Decision in another Task " key="{E33C5364-2AFA-4EEE-AE7B-B270A7ADC03C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{83EC9A68-869A-4175-B3E3-F490FCFC46D7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID_11076_Candidate FT is available on Autocomplete list when adding FT to Flow as Gateway in same Task" key="{0A68BB88-7A46-497A-B244-08F3B5EDBB38}" group="False" parallel="False" enabled="True" testMoniker="KDT\{616F07AA-6F77-405F-AF4C-AAE724ACF30F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID_7024,7033_Flow, Add Gateway Fact type, Existing Fact Type, From Decision in Flow&#13;&#10;" key="{C5875583-9D95-432C-9D58-43AD8ECA6923}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B1380ED5-EC5B-4F66-A5F0-3F243D85B802}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="FlowName" type="1" localVarName="" value="Student Fee Loan Flow_Auto_Add_Info [V1.1]" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID_7207,7256_Modelling Decision Flow, Draft Flow, Gateway Component, List Fact Type Operators verification&#13;&#10;" key="{AF1FC701-F97E-4F8B-BE9E-70943608AB2B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{DAF36A80-03A1-479C-95B5-132DFAC746BA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID_7443,7444,7445_Flow, BIM, Gateway FT" key="{FFCE3B1C-E7F5-4E8D-83BC-91AB41951294}" group="False" parallel="False" enabled="True" testMoniker="KDT\{514A7FC8-E4DB-4941-9FA2-8DCB2912BE4B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID_7446,7449_Flow, BIM, Gateway FT, Latest version FT of Decision" key="{55954E3C-68F3-431E-A292-4F9CB7208382}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D77D5563-E0D9-49D2-AD73-ABC0B60FBAC0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID_8016_Flow, Add Fact Type, Gateway, Month &amp; Year, Range" key="{4C6D494A-D838-4782-AACF-9B4B3F55EDB2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{5244E59A-D9AC-4506-AC5B-B202ED12626C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="GatewayToPerformRightClick" type="1" localVarName="" value="Customer Due Diligence" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
 													</testItem>
-													<testItem name="Test ID 7700,7697_Flow, Standalone Decision, Change Decision Version, Select Decision Version, Close pop-up" key="{21CE9466-F44D-4B72-A27E-A0068F4CF0CF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{38F76E4F-1C2B-475C-9397-032B4D5EE700}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Breadcrumb" key="{EA6427DA-A980-4E7D-A9C8-45972B362CD2}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
-														<environments activeCloud="CBT" />
-														<children />
+														<children>
+															<testItem name="Test ID 7023,7230 _Flow, Breadcrumb Dropdown holding DV&apos;s used in Flow,Verify" key="{1C1EDDF1-4DBE-4AB1-8C86-5C7A664E7A0D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6F4B146D-7D97-4165-BB11-E879CB0B5FA9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="Communities_To_Expand" type="1" localVarName="" value="WORLD,Automation Testing" />
+																	<param1 name="Community_To_Select" type="1" localVarName="" value="Automation_Assets" />
+																	<param2 name="Select_SubTab" type="1" localVarName="" value="Decision Flows" />
+																	<param3 name="Flow" type="1" localVarName="" value="Student Fee Loan Flow_Auto_Add_Info [V1.1]" />
+																	<param4 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+																	<param5 name="BreadcrumbArrowClick" type="1" localVarName="" value="Student Fee Loan Flow_Auto_Add_Info [V1.1]" />
+																	<param6 name="DV_OpenFrom_Breadcrumb" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
+																	<param7 name="RF_open" type="1" localVarName="" value="Tuition Fee Loan Amount" />
+																	<param8 name="RF_breadcrumb_verify" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
+																	<param9 name="BreadcrumbArrowClicktoopenRF" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7377_Open Flow, Navigate to any component, Navigate Back though browser/Breadcrumb" key="{EE9762C9-248F-46F7-8AEC-68CF87DF299B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{845300FA-08A3-421D-8DB3-2952E3B164D8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="Communities_To_Expand" type="1" localVarName="" value="WORLD,Automation Testing" />
+																	<param1 name="Community_To_Select" type="1" localVarName="" value="Automation_Assets" />
+																	<param2 name="Select_SubTab" type="1" localVarName="" value="Decision Flows" />
+																	<param3 name="Flow" type="1" localVarName="" value="Student Fee Loan Flow_Auto_Add_Info [V1.1]" />
+																	<param4 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+																	<param5 name="BreadcrumbArrowClick" type="1" localVarName="" value="Student Fee Loan Flow_Auto_Add_Info [V1.1]" />
+																	<param6 name="DV_OpenFrom_Breadcrumb" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
+																	<param7 name="RF_open" type="1" localVarName="" value="Tuition Fee Loan Amount" />
+																	<param8 name="RF_breadcrumb_verify" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
+																	<param9 name="BreadcrumbArrowClicktoopenRF" type="1" localVarName="" value="Tuition Fee Loan Amount (View: Auto_Add_Info) [V1.0]" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
 													</testItem>
-													<testItem name="Test ID 7701_Flow, Not Latest Decision, Change Decision Version, Select Decision Version, Apply changes to this Decision only, OK" key="{A2DE1641-3580-4D3A-9A47-E34B748F2042}" group="False" parallel="False" enabled="True" testMoniker="KDT\{53FBADD5-E770-4748-97FF-90C7A7D3BCA0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters>
-															<param0 name="CDV" type="1" localVarName="" value=" Condo Loan Documentation Requirements Compliance (View: Base) [V1.2] " />
-															<param1 name="Exists_Not_Exists" type="1" localVarName="" value="Exists" />
-														</testParameters>
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Test ID 7702_Flow, Not Latest Decision, Change Decision Version, Select Decision Version, Apply changes to this Decision only, Cancel " key="{3C9CB557-9221-4F66-9296-CC88F6A77355}" group="False" parallel="False" enabled="True" testMoniker="KDT\{EF8DFB6A-05BE-4351-A0F5-74FD8E69BAC0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Change Decision Version" key="{7528096B-C1BF-4940-A8DA-C8B6301F6515}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
-														<environments activeCloud="CBT" />
-														<children />
+														<children>
+															<testItem name="Pre-Requisite" key="{BE97A9E5-14E6-433E-AE4B-0ED19CC04AC5}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<children>
+																	<testItem name="Pre_requisite" key="{251A37C1-A143-4CF3-809E-FCC3A45452C0}" group="False" parallel="False" enabled="True" testMoniker="KDT\{AD2EC245-EA36-494E-9CC2-5FB666D50A59}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																		<testParameters>
+																			<param0 name="TaskName_To_Edit_DF" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
+																		</testParameters>
+																		<environments activeCloud="CBT" />
+																		<children />
+																	</testItem>
+																</children>
+															</testItem>
+															<testItem name="Test ID 7698_Flow, Standalone Decision, Change Decision Version, Select Decision Version, OK" key="{FE8DDF36-D090-41DC-ACC8-AAAF597EC813}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BB0AB67B-C977-4EB2-94B4-1A1F0ACE6101}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7699,7696_Flow, Standalone Decision, Change Decision Version, Select Decision Version, Cancel" key="{669EA9A1-F398-4210-8B59-5AAC1CDD7D30}" group="False" parallel="False" enabled="True" testMoniker="KDT\{25567079-B833-43D1-9BDC-0EFD8A4125BF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7700,7697_Flow, Standalone Decision, Change Decision Version, Select Decision Version, Close pop-up" key="{21CE9466-F44D-4B72-A27E-A0068F4CF0CF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{38F76E4F-1C2B-475C-9397-032B4D5EE700}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7701_Flow, Not Latest Decision, Change Decision Version, Select Decision Version, Apply changes to this Decision only, OK" key="{A2DE1641-3580-4D3A-9A47-E34B748F2042}" group="False" parallel="False" enabled="True" testMoniker="KDT\{53FBADD5-E770-4748-97FF-90C7A7D3BCA0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="CDV" type="1" localVarName="" value=" Condo Loan Documentation Requirements Compliance (View: Base) [V1.2] " />
+																	<param1 name="Exists_Not_Exists" type="1" localVarName="" value="Exists" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7702_Flow, Not Latest Decision, Change Decision Version, Select Decision Version, Apply changes to this Decision only, Cancel " key="{3C9CB557-9221-4F66-9296-CC88F6A77355}" group="False" parallel="False" enabled="True" testMoniker="KDT\{EF8DFB6A-05BE-4351-A0F5-74FD8E69BAC0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7703_Flow, Not Latest Decision, Change Decision Version, Select Decision Version, Apply changes to this Decision only, Close pop-up" key="{D4BED4E2-CE56-4837-97C8-4E6DB24A5513}" group="False" parallel="False" enabled="True" testMoniker="KDT\{12329FF5-0BCD-4770-9719-EBDC9700545C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7710_Flow, Not Latest Decision, Change Decision Version, Select Decision Version, Apply changes everywhere this decision is used, Close pop-up" key="{CD8BEC3C-80A3-4DAD-A6C7-36806DF235DE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FED82501-8D2F-40C9-BBA7-F07075E93D75}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7711_Flow, Not Latest Decision, Change Decision Version, Select Decision Version, Apply changes everywhere this decision is used, Cancel" key="{9BDE67F7-D95B-46A2-B8DE-322AF0E8B774}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A7C30761-E890-4F7A-B809-47989A39FAFA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7946,7947_Flow, Not Latest Decision, Change Decision Version, Select Decision Version, Apply changes everywhere this decision is used, OK" key="{6C1B91C4-6EA9-43A7-9B26-0C87715F0AC1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{49A4429E-1B83-4A45-BE6B-588E9C78B1A6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7948_Flow, Not Latest Decision, Change Decision Version, Apply changes to this Decision only" key="{98FE0E7F-D5FB-4787-8E06-A087A5FDDA07}" group="False" parallel="False" enabled="True" testMoniker="KDT\{53FBADD5-E770-4748-97FF-90C7A7D3BCA0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="CDV" type="1" localVarName="" value="Condo Loan Documentation Requirements Compliance (View: Base) [V1.4]" />
+																	<param1 name="Exists_Not_Exists" type="1" localVarName="" value="Not Exists" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Delete_Task_Specific" key="{7CDFF441-E245-4E51-B77E-B0DD3DE6424C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0ECC5690-0601-455B-A688-CBB67BFB6B3D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="TabName" type="1" localVarName="" value="My Tasks" />
+																	<param1 name="Subtab_Name" type="1" localVarName="" value="Tasks" />
+																	<param2 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
 													</testItem>
-													<testItem name="Test ID 7703_Flow, Not Latest Decision, Change Decision Version, Select Decision Version, Apply changes to this Decision only, Close pop-up" key="{D4BED4E2-CE56-4837-97C8-4E6DB24A5513}" group="False" parallel="False" enabled="True" testMoniker="KDT\{12329FF5-0BCD-4770-9719-EBDC9700545C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Flow-Edit Decision" key="{7BA30B0C-A2DB-4CD4-B5B1-583BF75FC844}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
-														<environments activeCloud="CBT" />
-														<children />
+														<children>
+															<testItem name="Edit_Decision_Pre_requisite" key="{4B630626-850C-4E5B-90DF-EBBCF0937FBB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{24A044E8-B68D-4180-8A81-C55A8C4DFC70}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7035, 7601_Modelling Decision Flow, Exisitng Flow, Edit Decision Task " key="{35FD6BDE-8683-434C-B0D9-27F5E8F37BA3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{00B46E7F-1873-4426-A0BD-F7C1CFA98744}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7602_Modelling Decision Flow, Edit an approved Decision in a draft Decision Flow &#13;&#10;" key="{3C2D657F-9E09-415A-BA72-EC67F18B2268}" group="False" parallel="False" enabled="True" testMoniker="KDT\{786E5F55-A6CC-4095-8AB2-D234E20736B7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Delete_Task_Specific" key="{830FC390-D778-4263-8445-420B2BC78C59}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0ECC5690-0601-455B-A688-CBB67BFB6B3D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="TabName" type="1" localVarName="" value="My Tasks" />
+																	<param1 name="Subtab_Name" type="1" localVarName="" value="Tasks" />
+																	<param2 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7216,7679,11219_Flow, Add Different versions of Approved Decisions" key="{F3063073-5071-404D-86F9-7C604529CEE7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{44E1725F-9CD9-4268-BB90-E267017EAFC3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
 													</testItem>
-													<testItem name="Test ID 7710_Flow, Not Latest Decision, Change Decision Version, Select Decision Version, Apply changes everywhere this decision is used, Close pop-up" key="{CD8BEC3C-80A3-4DAD-A6C7-36806DF235DE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FED82501-8D2F-40C9-BBA7-F07075E93D75}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Flow-Not Latest Decision" key="{C4499A00-7A06-4936-83D9-06C30A20256A}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
-														<environments activeCloud="CBT" />
-														<children />
+														<children>
+															<testItem name="Test ID 7384_Flow, Decision, Not Latest Indicator" key="{93AC469D-DE6E-4746-82D5-C681815642ED}" group="False" parallel="False" enabled="True" testMoniker="KDT\{AD2EC245-EA36-494E-9CC2-5FB666D50A59}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="TaskName_To_Edit_DF" type="1" localVarName="" value="" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7695_Flow, Not Latest Decision, Context Menu " key="{BED36E4B-7B5A-4150-95C1-0369768DFC57}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A6BB23F4-C08E-4CE5-AE85-6C0BBFA320A4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7563,7564_Flow, Not Latest Decision, Context Menu " key="{44E5518E-45AC-426A-94F3-4F8120E2AE72}" group="False" parallel="False" enabled="True" testMoniker="KDT\{363C1077-7FBB-44D8-9DF9-06B3B62A0B8A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID 7565,7566_Flow, Not Latest Decision Dialog, Update to Latest,Same Decision used multiple places" key="{7C33761A-3749-480C-A2B0-2B5488BC4404}" group="False" parallel="False" enabled="True" testMoniker="KDT\{ABE04AD4-78AB-44F3-A0B2-BA670CB8A9C7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Delete_Task_Specific" key="{7613C687-3F85-4F91-A58A-0E31CF5603B4}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0ECC5690-0601-455B-A688-CBB67BFB6B3D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="TabName" type="1" localVarName="" value="My Tasks" />
+																	<param1 name="Subtab_Name" type="1" localVarName="" value="Analysis Tasks" />
+																	<param2 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
 													</testItem>
-													<testItem name="Test ID 7711_Flow, Not Latest Decision, Change Decision Version, Select Decision Version, Apply changes everywhere this decision is used, Cancel" key="{9BDE67F7-D95B-46A2-B8DE-322AF0E8B774}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A7C30761-E890-4F7A-B809-47989A39FAFA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Unchanged Asset&#13;&#10;" key="{3115F630-C2EB-4EB2-9541-A34E84FCEB0A}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Test ID 7946,7947_Flow, Not Latest Decision, Change Decision Version, Select Decision Version, Apply changes everywhere this decision is used, OK" key="{6C1B91C4-6EA9-43A7-9B26-0C87715F0AC1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{49A4429E-1B83-4A45-BE6B-588E9C78B1A6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters />
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Test ID 7948_Flow, Not Latest Decision, Change Decision Version, Apply changes to this Decision only" key="{98FE0E7F-D5FB-4787-8E06-A087A5FDDA07}" group="False" parallel="False" enabled="True" testMoniker="KDT\{53FBADD5-E770-4748-97FF-90C7A7D3BCA0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters>
-															<param0 name="CDV" type="1" localVarName="" value="Condo Loan Documentation Requirements Compliance (View: Base) [V1.4]" />
-															<param1 name="Exists_Not_Exists" type="1" localVarName="" value="Not Exists" />
-														</testParameters>
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Delete_Task_Specific" key="{7CDFF441-E245-4E51-B77E-B0DD3DE6424C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0ECC5690-0601-455B-A688-CBB67BFB6B3D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters>
-															<param0 name="TabName" type="1" localVarName="" value="My Tasks" />
-															<param1 name="Subtab_Name" type="1" localVarName="" value="Tasks" />
-															<param2 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
-														</testParameters>
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-												</children>
-											</testItem>
-											<testItem name="Flow-Edit Decision" key="{7BA30B0C-A2DB-4CD4-B5B1-583BF75FC844}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters />
-												<children>
-													<testItem name="Edit_Decision_Pre_requisite" key="{4B630626-850C-4E5B-90DF-EBBCF0937FBB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{24A044E8-B68D-4180-8A81-C55A8C4DFC70}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters />
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Test ID 7035, 7601_Modelling Decision Flow, Exisitng Flow, Edit Decision Task " key="{35FD6BDE-8683-434C-B0D9-27F5E8F37BA3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{00B46E7F-1873-4426-A0BD-F7C1CFA98744}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters />
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Test ID 7602_Modelling Decision Flow, Edit an approved Decision in a draft Decision Flow &#13;&#10;" key="{3C2D657F-9E09-415A-BA72-EC67F18B2268}" group="False" parallel="False" enabled="True" testMoniker="KDT\{786E5F55-A6CC-4095-8AB2-D234E20736B7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters />
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Delete_Task_Specific" key="{830FC390-D778-4263-8445-420B2BC78C59}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0ECC5690-0601-455B-A688-CBB67BFB6B3D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters>
-															<param0 name="TabName" type="1" localVarName="" value="My Tasks" />
-															<param1 name="Subtab_Name" type="1" localVarName="" value="Tasks" />
-															<param2 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
-														</testParameters>
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Test ID 7216,7679,11219_Flow, Add Different versions of Approved Decisions" key="{F3063073-5071-404D-86F9-7C604529CEE7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{44E1725F-9CD9-4268-BB90-E267017EAFC3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters />
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-												</children>
-											</testItem>
-											<testItem name="Flow-Not Latest Decision" key="{C4499A00-7A06-4936-83D9-06C30A20256A}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters />
-												<children>
-													<testItem name="Test ID 7384_Flow, Decision, Not Latest Indicator" key="{93AC469D-DE6E-4746-82D5-C681815642ED}" group="False" parallel="False" enabled="True" testMoniker="KDT\{AD2EC245-EA36-494E-9CC2-5FB666D50A59}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters>
-															<param0 name="TaskName_To_Edit_DF" type="1" localVarName="" value="" />
-														</testParameters>
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Test ID 7695_Flow, Not Latest Decision, Context Menu " key="{BED36E4B-7B5A-4150-95C1-0369768DFC57}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A6BB23F4-C08E-4CE5-AE85-6C0BBFA320A4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters />
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Delete_Task_Specific" key="{B3C7E19C-27C5-4582-8708-6088A06EE2D2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0ECC5690-0601-455B-A688-CBB67BFB6B3D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters>
-															<param0 name="TabName" type="1" localVarName="" value="My Tasks" />
-															<param1 name="Subtab_Name" type="1" localVarName="" value="Tasks" />
-															<param2 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
-														</testParameters>
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-												</children>
-											</testItem>
-											<testItem name="Unchanged Asset&#13;&#10;" key="{3115F630-C2EB-4EB2-9541-A34E84FCEB0A}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters />
-												<children>
-													<testItem name=" Test ID 7933_Flow, Edit, Unchanged Asset" key="{E61EAA79-3157-46F5-A800-214D53C3D3DB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{142877C1-D95B-4D40-A8AA-044545CD1722}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters />
-														<environments activeCloud="CBT" />
-														<children />
-													</testItem>
-													<testItem name="Delete_Task_Specific" key="{26005237-6A9F-4638-9DE4-77BF0628CDAF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0ECC5690-0601-455B-A688-CBB67BFB6B3D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters>
-															<param0 name="TabName" type="1" localVarName="" value="My Tasks" />
-															<param1 name="Subtab_Name" type="1" localVarName="" value="Tasks" />
-															<param2 name="TaskName" type="1" localVarName="NewTaskName" localVarLevel="1" value="" />
-														</testParameters>
-														<environments activeCloud="CBT" />
-														<children />
+														<children>
+															<testItem name=" Test ID 7933_Flow, Edit, Unchanged Asset" key="{E61EAA79-3157-46F5-A800-214D53C3D3DB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{142877C1-D95B-4D40-A8AA-044545CD1722}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID_7025,7097_Edit_Decision_FullName_display_hover" key="{2DABC61E-7CE0-421E-8B3B-1382258D9E95}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E6FC52AA-15B8-432E-B70B-9E8A15D3981A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters>
+																	<param0 name="DecFlow" type="1" localVarName="" value="Condo Loan Eligibility [V1.3]" />
+																</testParameters>
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+															<testItem name="Test ID_7677_Flow, Add Gateway Fact type, Not from Decision in Flow" key="{65F03DC6-950E-42BB-9A84-3804FAE0E159}" group="False" parallel="False" enabled="True" testMoniker="KDT\{124564BA-33CA-4B48-B4C1-A824347F6184}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+																<testParameters />
+																<environments activeCloud="CBT" />
+																<children />
+															</testItem>
+														</children>
 													</testItem>
 												</children>
 											</testItem>
@@ -3794,6 +3839,21 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
+													<testItem name="Test ID 8334_Draft_CreteDiagnl_AddMsg" key="{B2DE2BDA-9CB2-43AF-AB55-D904FC64740F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{440815CB-64C3-47C4-8D92-6EBE94749395}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="Rule Family, Create Diagonal, Add Message Category" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6488_RF_Draft_reorder_mesage_chip" key="{E089AE15-6426-441D-8828-120F12976072}" group="False" parallel="False" enabled="True" testMoniker="KDT\{970E95C1-DE66-40DD-8215-51EEADB66086}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="RF, Draft, reorder messages/chips in the message category" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6721_RF_Draft_createFTfrommessage" key="{608CCF62-8DAA-416A-A6AF-9D01E7461687}" group="False" parallel="False" enabled="True" testMoniker="KDT\{767AF0C9-C6FE-4810-9200-E09A2BD69F34}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="RF,Draft RF,Use Fact type in message category, create supporting RF with the same FT" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
 												</children>
 											</testItem>
 											<testItem name="Context Menu RF" key="{9B890616-EC93-4F8A-84A2-786D9794AAC0}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -3949,6 +4009,41 @@
 														<environments activeCloud="BitBar" />
 														<children />
 													</testItem>
+													<testItem name="Test ID 6877_RF_Draft_SRF_Chngview_Replace" key="{7482A3DD-E0C1-4C51-BEEB-16715A75897E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{93D86413-CF28-420F-A520-49D08DBC67D2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6879_RF_Draft_Chngview_copy_disabled" key="{766F0DF5-DC43-4461-BCBF-44B5AF15D9BB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{856AAE44-8487-4785-B97A-F2527B2061E3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6885_RF_Draft_Chngview_cancel" key="{551130E0-7583-45CC-8950-5BF02CA36D9D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E0C89074-183D-401E-8AC9-6C1492F7FCCA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6871_RF_Draft_SRF_Chngview_Copy" key="{A8531EDB-01C6-4388-876C-C0081CA75774}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CA46FA4C-5AA1-45EF-83E6-8D45E5943B67}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6893_RF_Drft_SRF_multiDec_Chngview_Copy" key="{71E9A697-98C7-428D-8338-6134FD0435D5}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A844E90D-1081-43C3-8139-251DF47B9588}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6890_RF_Draft_mltiTsk_Chngview_Err" key="{7EC6BD9B-AAA1-4106-B8C4-B6AA49795B12}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C928E124-F9CF-4335-B832-9B4F279A9174}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 8922_RF_CreateSRF_Viewprivate" key="{9017C888-1004-4B8A-AC42-9091E422D460}" group="False" parallel="False" enabled="True" testMoniker="KDT\{57C67A2A-2975-4533-972E-5A9C4B7BB3AA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
 												</children>
 											</testItem>
 											<testItem name="Change Fact Type Version" key="{40D5320D-36D0-4F8B-88BD-F8FD111D774E}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -3959,7 +4054,7 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 10280,10286_RF_Draft_condition_conclusion_Context" key="{50F14885-DDFE-42AC-B996-FC6E30F38FC6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{998F5E9E-1347-4420-91C0-CF8032964E04}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 10280,10286_Draft_condconl_cntxt_nolatst_chgFTver_ok" key="{F4EC7A9D-AEE2-48B6-A0B4-E311E7667141}" group="False" parallel="False" enabled="True" testMoniker="KDT\{998F5E9E-1347-4420-91C0-CF8032964E04}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<environments activeCloud="CBT" />
 														<children />
@@ -3973,17 +4068,27 @@
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 10281_RF_Approved_cond_conclusion_context" key="{EF78D56C-6569-4712-B0B3-B2643F0DB195}" group="False" parallel="False" enabled="True" testMoniker="KDT\{ABAE8A96-951A-4390-9624-5C3B1CAABC18}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+													<testItem name="Test ID 10281,12184,6490_6717_RF_Aprv_cond_cncl_cntxt_FTMM" key="{3C1FE8E3-3740-43A4-BF67-E7450738283F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{ABAE8A96-951A-4390-9624-5C3B1CAABC18}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
-													<testItem name="Test ID 10285,10287_RF_Drft_ChngFTver_context_OK" key="{D9F83B22-1944-417B-89F8-1F19C62EA3F3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{658F91A9-8E90-455B-8A63-FBAA63767152}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="Modeling, Draft Rule Family, Fact Type (Condition/ Conclusion), Contextual menu options, Change Fact Type Version, Fact Type with multiple versions, Select another version,OK" tmsData="" testCase="True">
+													<testItem name="Test ID 10285,10287,6142_RF_Drft_ChngFTver_context_OK" key="{D9F83B22-1944-417B-89F8-1F19C62EA3F3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{658F91A9-8E90-455B-8A63-FBAA63767152}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="Modeling, Draft Rule Family, Fact Type (Condition/ Conclusion), Contextual menu options, Change Fact Type Version, Fact Type with multiple versions, Select another version,OK" tmsData="" testCase="True">
 														<testParameters />
 														<environments activeCloud="CBT" />
 														<children />
 													</testItem>
 													<testItem name="Test ID 10288,10289_RF_Drft_condcol_ChngFTver_Cancel" key="{5FBF04C8-250F-4F3B-82F4-4F101EA8A871}" group="False" parallel="False" enabled="True" testMoniker="KDT\{3B2EF6A7-04A7-42E1-B831-E6055D8F4D93}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 10290_RF_Drft_vlidat_TG_Repair" key="{77D34459-9790-4DF8-B4D6-5C9297C08F4F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{391EC662-4A5A-4F1C-BFF9-50926891D47C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 10284_(Condition/ Conclusion), Contextual menu options, User not the Task Assignee" key="{AC6FA34E-508C-44DF-8273-32367A0CC34C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{430D99F5-B9E6-409A-9D96-6725A62705FF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 														<testParameters />
 														<environments activeCloud="CBT" />
 														<children />
@@ -6515,452 +6620,503 @@
 							<testItem name="Modeling Project" key="{418F50E8-B056-4D46-9097-55E5C8CD6B01}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children>
-									<testItem name="Pre-Requisite" key="{B01353D1-F3E1-4886-93A1-9159411EAEE3}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+									<testItem name="Priority-P1" key="{3B48C99F-A93A-4093-BE4E-F58FA96144F0}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters />
 										<children>
-											<testItem name="Login_MPM" key="{A3D2565E-81E6-4FB7-9111-AB11D6C59810}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="URL" type="1" localVarName="Regression_URL" localVarLevel="1" value="" />
-													<param1 name="UserName" type="1" localVarName="" value="Modeling Project Manager" />
-													<param2 name="Password" type="1" localVarName="" value="Decision1" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
+											<testItem name="Pre-Requisite" key="{B01353D1-F3E1-4886-93A1-9159411EAEE3}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<children>
+													<testItem name="Login_MPM" key="{A3D2565E-81E6-4FB7-9111-AB11D6C59810}" group="False" parallel="False" enabled="True" testMoniker="KDT\{91271AA2-ED5D-4C3C-BC1C-8246AB9EF8A1}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="URL" type="1" localVarName="Environment_URL" localVarLevel="1" value="" />
+															<param1 name="UserName" type="1" localVarName="" value="Modeling Project Manager" />
+															<param2 name="Password" type="1" localVarName="" value="Decision1" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+												</children>
+											</testItem>
+											<testItem name="Add" key="{9683D4DB-1D5F-47C7-BA7A-07F15BB4FFE0}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<children>
+													<testItem name="Test ID 9796_Add Modeling Projects,select any Approval Process(Asset/FT),Verify" key="{0F4F8FA6-0BBF-4826-86AB-8A0F3F0A74CE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{79EF0479-D83F-448E-A859-15F5403AB326}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
+															<param1 name="Select_SubTab" type="1" localVarName="" value="Projects" />
+															<param2 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
+															<param3 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+															<param4 name="Modeling_Project_Name" type="1" localVarName="" value="Auto_Modeling_Project" />
+															<param5 name="Asset_Approval_Process" type="1" localVarName="" value="Gil&apos;s Demo_Asset Flow" />
+															<param6 name="FactType_Approval_Process" type="1" localVarName="" value="Gil&apos;s Demo FT Flow" />
+															<param7 name="OkorCancel" type="1" localVarName="" value="OK" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 9788_Modeling Projects,Projects,Add Modeling Project Dialog,Layout &amp; Usability" key="{6F9357E7-F0A5-49E7-8DE6-739AFBE5689B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6F924719-1985-4BF6-B932-11634B777618}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
+															<param1 name="Select_SubTab" type="1" localVarName="" value="Projects" />
+															<param2 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
+															<param3 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+															<param4 name="element" type="1" localVarName="" value="//button[contains(text(), &apos;Add Modeling Project&apos;)]" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 9791_Modeling Projects,Projects,Add Modeling Project,Cancel/X,Discard changes, Verify" key="{E959D264-E4D7-400A-BC1B-22504AB1B913}" group="False" parallel="False" enabled="True" testMoniker="KDT\{38DEE93B-18B0-42F9-9504-B9376DAE0BFB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="element" type="1" localVarName="" value="//button[contains(text(), &apos;Add Modeling Project&apos;)]" />
+															<param1 name="Modeling_Project_Name" type="1" localVarName="" value="Modelling_Project12" />
+															<param2 name="Asset_Approval_Process" type="1" localVarName="" value="Gil&apos;s Demo_Asset Flow" />
+															<param3 name="FactType_Approval_Process" type="1" localVarName="" value="Gil&apos;s Demo FT Flow" />
+															<param4 name="OkorCancel" type="1" localVarName="" value="Cancel" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 9792_Modeling Project Dialog,Inline validation of Modeling project name" key="{31CF693B-F570-4FB9-BA45-4AEB5937264F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{058A0529-A056-4F83-A4AE-47497746C7B9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="element" type="1" localVarName="" value="//button[contains(text(), &apos;Add Modeling Project&apos;)]" />
+															<param1 name="project_name" type="1" localVarName="" value="Auto_Modeling_Project" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 9793_Add Modeling Project,only one Approval Process for FT and Asset,Verify" key="{D158018C-A2AF-40FC-89A5-9C7EB11F863B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6F924719-1985-4BF6-B932-11634B777618}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
+															<param1 name="Select_SubTab" type="1" localVarName="" value="Projects" />
+															<param2 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
+															<param3 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+															<param4 name="element" type="1" localVarName="" value="//button[contains(text(), &apos;Add Modeling Project&apos;)]" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 9794_Add Modeling Project,only one Approval Process for Asset,Verify " key="{2C2B0D34-1F42-4759-862C-AC5E6D815CC3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{979D5022-2254-4E9B-BACE-CE7EFAF06803}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="element" type="1" localVarName="" value="//button[contains(text(), &apos;Add Modeling Project&apos;)]" />
+															<param1 name="dropdownbtn" type="1" localVarName="" value="//*[@name=&apos;assetApprovalProcess&apos;]//span[@wj-part]" />
+															<param2 name="AssetApproval" type="1" localVarName="" value="Gil&apos;s Demo_Asset Flow" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 9795_Add Modeling Project,only one Approval Process for Fact Type,Verify " key="{38D3B8E2-5378-421B-B48B-E34268F419C2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{15AB7C72-0697-41A4-A81A-80EF3133A115}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="element" type="1" localVarName="" value="//button[contains(text(), &apos;Add Modeling Project&apos;)]" />
+															<param1 name="dropdownbtn" type="1" localVarName="" value="//*[@name=&apos;factTypeApprovalProcess&apos;]//span[@wj-part]" />
+															<param2 name="AssetApproval" type="1" localVarName="" value="Gil&apos;s Demo FT Flow" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+												</children>
+											</testItem>
+											<testItem name="CreateTask" key="{1F37EF21-CE72-4834-A990-CE3F7549AC1A}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<children>
+													<testItem name="Test ID 11419_Modeling Project,Tasks tab,Create a New Task Dialog,Layout &amp; Usability" key="{325A0AC6-8305-4068-9598-C9F7F805CF71}" group="False" parallel="False" enabled="True" testMoniker="KDT\{26DC03BB-673F-4271-A730-F33AE41B529A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+															<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
+															<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
+															<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
+															<param4 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
+															<param5 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 12104_Modeling Project,Tasks tab,Create a New Task Dialog, Create and start " key="{C0712592-79D6-4F1D-B36C-F83FF711FC0D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4EEC5F35-30F7-40E0-9282-8EC161A60AF1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+															<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
+															<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
+															<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
+															<param4 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
+															<param5 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
+															<param6 name="Community" type="1" localVarName="" value="Automation_Assets" />
+															<param7 name="TaskName" type="1" localVarName="" value="newTask" />
+															<param8 name="AssetProcess" type="1" localVarName="" value="Gil&apos;s Demo_Asset Flow" />
+															<param9 name="FactTypePRocess" type="1" localVarName="" value="Gil&apos;s Demo FT Flow" />
+															<param10 name="button" type="1" localVarName="" value="start" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 12105_Modeling Project,Tasks tab,Create a New Task Dialog, Create and open" key="{4754DADB-9736-47B4-8178-95ECF364F862}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E78C245B-B684-4ECC-8AF2-A0F2FF8B8394}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+															<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
+															<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
+															<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
+															<param4 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
+															<param5 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
+															<param6 name="Community" type="1" localVarName="" value="Automation_Assets" />
+															<param7 name="TaskName" type="1" localVarName="" value="newTask" />
+															<param8 name="AssetProcess" type="1" localVarName="" value="Gil&apos;s Demo_Asset Flow" />
+															<param9 name="FactTypePRocess" type="1" localVarName="" value="Gil&apos;s Demo FT Flow" />
+															<param10 name="button" type="1" localVarName="" value="open" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 11421_Modeling Project,on Lowest Community,Add Task from Tasks tab of Project,Verify Community Field" key="{6173DF1C-4C0A-4031-B8D1-2C0C3D5C9A53}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7E3B53D0-06CB-4355-A575-8EAF0773039E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="Communities_To_Expand" type="1" localVarName="" value="WORLD,Automation Testing" />
+															<param1 name="Community_To_Select" type="1" localVarName="" value="Automation_Assets" />
+															<param2 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+															<param3 name="Modeling_Project_Name" type="1" localVarName="" value="Auto_Modeling_Project_LC" />
+															<param4 name="Asset_Approval_Process" type="1" localVarName="" value="Gil&apos;s Demo_Asset Flow" />
+															<param5 name="FactType_Approval_Process" type="1" localVarName="" value="Gil&apos;s Demo FT Flow" />
+															<param6 name="OkorCancel" type="1" localVarName="" value="OK" />
+															<param7 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
+															<param8 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
+															<param9 name="Select_SubTab" type="1" localVarName="" value="Projects" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 11422_Modeling Project,Not on Lowest Community,Add Task from Tasks tab of Project,Verify" key="{CA1A4167-1C55-4133-8B66-C242F164C090}" group="False" parallel="False" enabled="True" testMoniker="KDT\{AED88919-83ED-483E-8DBB-EACD7AA0F560}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+															<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
+															<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
+															<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
+															<param4 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
+															<param5 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 10903_Modeling Projects, Project, Tasks Tab, Switch Modeling Project from breadcrumb" key="{8F71C8E4-6CCD-4278-B78E-464DE5A92C8B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{EB3B01EF-7E1A-4A02-BF3D-9CD2EC4515F0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="MP_Name" type="1" localVarName="" value="Auto_Modeling_Project" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+												</children>
+											</testItem>
+											<testItem name="Analysis" key="{A6ACEAB5-73EF-48A9-AC6E-244534677D78}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<children>
+													<testItem name="Test ID 9813_Modeling Projects,Projects,Upper community,Analysis Project,Open&amp;Verify" key="{D0E23005-8E79-4ACE-A28E-BD11C4257090}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1776C31E-7CBF-4B87-A43A-40514D47567D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+															<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
+															<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
+															<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
+															<param4 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
+															<param5 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
+															<param6 name="Side_Tab" type="1" localVarName="" value="Details" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 9823_Modeling Projects,Projects,other communities (Not Wolrd),Analysis Project,Verify" key="{931E1DF8-0514-47EF-9A32-3DBC93A39A0B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{47E43B44-AAAD-4C35-9823-AED6F8AE3931}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+															<param1 name="Communities_To_Expand" type="1" localVarName="" value="WORLD,Automation Testing" />
+															<param2 name="Community_To_Select" type="1" localVarName="" value="Automation_Assets" />
+															<param3 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
+															<param4 name="Select_SubTab" type="1" localVarName="" value="Projects" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 9798_Projects,Details,General,Assignee,Update fields of General tab,Verify" key="{552449FD-21CA-424D-B33F-DD646F15C268}" group="False" parallel="False" enabled="True" testMoniker="KDT\{746C8A5C-2B4D-40FF-94AF-DFE2324430B8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+															<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
+															<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
+															<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
+															<param4 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
+															<param5 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
+															<param6 name="sideTab" type="1" localVarName="" value="details" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 9800_Projects,Details,General,Not Assignee,Fields of General tab,Verify" key="{93B2FABD-4297-4168-8941-D7C3D851832E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{5D9E4C9E-DDE2-465D-9ECC-17E79BEA74B8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+															<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
+															<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
+															<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
+															<param4 name="sideTab" type="1" localVarName="" value="details" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 10514_Modeling Projects, Details Tab (accordion), Assets Approval Tab, User is the owner/ assignee" key="{8CA10429-1899-4DA6-9C35-D30308BC5948}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F1EDBD44-2715-47F2-B6D7-020FCF62D6AF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+															<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
+															<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
+															<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
+															<param4 name="sideTab" type="1" localVarName="" value="details" />
+															<param5 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
+															<param6 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
+															<param7 name="subTab" type="1" localVarName="" value="ASSET APPROVAL" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 10515_Modeling Projects, Details Tab (accordion), Assets Approval Tab, User is not the assignee/ owner" key="{ACA382F1-952F-4E24-91D0-74D846FC034E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{ACEC52AE-23B9-43A6-A0AB-098E9816372E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+															<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
+															<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
+															<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
+															<param4 name="sideTab" type="1" localVarName="" value="details" />
+															<param5 name="MP_name" type="1" localVarName="" value="Gil&apos;s Demo" />
+															<param6 name="AssigneNasme" type="1" localVarName="" value="Automation1" />
+															<param7 name="subTab" type="1" localVarName="" value="ASSET APPROVAL" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 10517_Closed Project, Modeling Projects, Details Tab (accordion), Assets Approval Tab, User is the assignee" key="{42D7216A-088E-4F37-B26E-0CBE731056D4}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B65F582D-B309-498D-84E8-1EEB74E4C8A4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="subTab" type="1" localVarName="" value="ASSET APPROVAL" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 10516_Closed Project, Modeling Projects, Details Tab (accordion)" key="{1A124680-543C-41BC-8816-5F7CD9DBC0B0}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B65F582D-B309-498D-84E8-1EEB74E4C8A4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="subTab" type="1" localVarName="" value="ASSET APPROVAL" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 10518_Modeling Projects, Details Tab (accordion), Assets Approval Tab, Change Default Asset Approval Process" key="{0FC8FB49-1761-4676-97F0-DCFC08F128EA}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F1EDBD44-2715-47F2-B6D7-020FCF62D6AF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+															<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
+															<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
+															<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
+															<param4 name="sideTab" type="1" localVarName="" value="details" />
+															<param5 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
+															<param6 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
+															<param7 name="subTab" type="1" localVarName="" value="ASSET APPROVAL" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 10519_Change Default Fact Type Approval Process, User is the owner/ assignee" key="{EF2578BB-96CC-4B0F-87FD-D2BEE9D730A9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CE597183-024F-4C57-856D-8A6B70D3E3CB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+															<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
+															<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
+															<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
+															<param4 name="sideTab" type="1" localVarName="" value="details" />
+															<param5 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
+															<param6 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
+															<param7 name="subTab" type="1" localVarName="" value="Fact TYPE APPROVAL" />
+															<param8 name="ApprovalName" type="1" localVarName="" value="Gil&apos;s Demo FT Flow" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 10520_Closed Project, Modeling Projects, Details Tab (accordion), Fact Type Approval" key="{B9017CC7-59C8-450E-9C97-1543963FE22F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{77F89140-E5E6-44C8-AE7C-E655E1D755BB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="subTab" type="1" localVarName="" value="fact type APPROVAL" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 10522_Modeling Projects, Details Tab (accordion), Fact Type Approval Tab, User is not the assignee/ owner" key="{F8634E79-A82F-45A3-B33E-84B6B3954593}" group="False" parallel="False" enabled="True" testMoniker="KDT\{547237D0-9408-4AD5-862F-7448FBA4369C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+															<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
+															<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
+															<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
+															<param4 name="sideTab" type="1" localVarName="" value="details" />
+															<param5 name="MP_name" type="1" localVarName="" value="Gil&apos;s Demo" />
+															<param6 name="AssigneNasme" type="1" localVarName="" value="Automation1" />
+															<param7 name="subTab" type="1" localVarName="" value="Fact type APPROVAL" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 10523_Fact Type Approval Tab, User is the owner/ assignee" key="{8564854B-9BD7-425C-ADD0-389B5677A262}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CE597183-024F-4C57-856D-8A6B70D3E3CB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+															<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
+															<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
+															<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
+															<param4 name="sideTab" type="1" localVarName="" value="details" />
+															<param5 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
+															<param6 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
+															<param7 name="subTab" type="1" localVarName="" value="Fact TYPE APPROVAL" />
+															<param8 name="ApprovalName" type="1" localVarName="" value="Gil&apos;s Demo FT Flow" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+												</children>
+											</testItem>
+											<testItem name="Tasks" key="{C7745EA6-6DAC-43CA-B43F-0D5AAFC2403F}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<children>
+													<testItem name="Test ID 10895_Modeling Project Screen, Tasks Tab_Layout" key="{A763C825-17E5-4A55-BCD3-6CA4AF3D6D44}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E9BEB366-A2F7-4082-9454-C0B31224A409}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+															<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
+															<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
+															<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
+															<param4 name="sideTab" type="1" localVarName="" value="tasks" />
+															<param5 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
+															<param6 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 10896_Project Screen, Tasks Tab of Tasks_ 0" key="{298B12CC-0F2A-4235-843D-D0561EFF7BD3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{13DD8F1F-D509-4188-97E3-06CE11005F84}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
+															<param1 name="Select_SubTab" type="1" localVarName="" value="Projects" />
+															<param2 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
+															<param3 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+															<param4 name="Modeling_Project_Name" type="1" localVarName="" value="Auto_MProject_7845" />
+															<param5 name="sideTab" type="1" localVarName="" value="tasks" />
+															<param6 name="Asset_Approval_Process" type="1" localVarName="" value="Gil&apos;s Demo_Asset Flow" />
+															<param7 name="FactType_Approval_Process" type="1" localVarName="" value="Gil&apos;s Demo FT Flow" />
+															<param8 name="OkorCancel" type="1" localVarName="" value="OK" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 10898_Modeling Project Screen, Tasks Tab, Sort Tasks" key="{DD303EF5-3F90-43D3-A61A-951323FD265E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E9BEB366-A2F7-4082-9454-C0B31224A409}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+															<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
+															<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
+															<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
+															<param4 name="sideTab" type="1" localVarName="" value="tasks" />
+															<param5 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
+															<param6 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 10899_Modeling Project Screen, Tasks Tab,Open Task " key="{DEC4FD21-BA8C-46B5-A2BB-BF64A04A453B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{3BC0D7A8-594A-47C4-AF86-168F1D522D27}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
+															<param1 name="Select_SubTab" type="1" localVarName="" value="Projects" />
+															<param2 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
+															<param3 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+															<param4 name="Modeling_Project_Name" type="1" localVarName="" value="Auto_MProject_9586" />
+															<param5 name="sideTab" type="1" localVarName="" value="tasks" />
+															<param6 name="Asset_Approval_Process" type="1" localVarName="" value="Gil&apos;s Demo_Asset Flow" />
+															<param7 name="FactType_Approval_Process" type="1" localVarName="" value="Gil&apos;s Demo FT Flow" />
+															<param8 name="OkorCancel" type="1" localVarName="" value="OK" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+												</children>
+											</testItem>
+											<testItem name="Re-Assign" key="{0C89FEC3-3588-4B59-8DF5-93D68851E513}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<children>
+													<testItem name="Test ID 9803_General,Not Assignee,With MODELING_PROJECT_MANAGE Permission" key="{CCBE22E5-FF21-4501-9CB2-627358D0AF5E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6682FCC5-92FD-4602-9DD3-DE41FDBABD08}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+															<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
+															<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
+															<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
+															<param4 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
+															<param5 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
+															<param6 name="sideMenu" type="1" localVarName="" value="Details" />
+															<param7 name="subTab" type="1" localVarName="" value="General" />
+															<param8 name="OkorCancel" type="1" localVarName="" value="cancel" />
+															<param9 name="New_Assignee" type="1" localVarName="" value="Automation1" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 9801_Modeling Projects,Projects,Details,General,Assignee ,Reassign,Verify " key="{3AD583C3-B7E3-43B6-AB64-2FD7C53154DA}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0C0EE153-CDD5-44F3-AF89-63E446D6070B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
+															<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
+															<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
+															<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
+															<param4 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
+															<param5 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
+															<param6 name="sideMenu" type="1" localVarName="" value="Details" />
+															<param7 name="subTab" type="1" localVarName="" value="general" />
+															<param8 name="OkorCancel" type="1" localVarName="" value="ok" />
+															<param9 name="New_Assignee" type="1" localVarName="" value="Automation1" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 9802_Modeling Projects,Projects,Details,General,Reassign Dialog,Layout &amp;Usability" key="{8D4FA719-DE7E-4076-B99F-D99DB46502B3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6A61B65A-45FB-447C-A8C5-93925CBB76EE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
+															<param1 name="AssigneNasme" type="1" localVarName="" value="Automation1" />
+															<param2 name="sideMenu" type="1" localVarName="" value="Details" />
+															<param3 name="subTab" type="1" localVarName="" value="general" />
+															<param4 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
+															<param5 name="New_Assignee" type="1" localVarName="" value="Modeling Project Manager" />
+															<param6 name="OkorCancel" type="1" localVarName="" value="ok" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+												</children>
 											</testItem>
 										</children>
 									</testItem>
-									<testItem name="Add" key="{9683D4DB-1D5F-47C7-BA7A-07F15BB4FFE0}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								</children>
+							</testItem>
+							<testItem name="Task Details" key="{D591C85D-5B5B-4678-8BA0-DD57F2E5C42F}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children>
+									<testItem name="Priority-P1" key="{52F18259-0F9D-4503-94EA-1BDA1AB0B725}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters />
 										<children>
-											<testItem name="Test ID 9796_Add Modeling Projects,select any Approval Process(Asset/FT),Verify" key="{0F4F8FA6-0BBF-4826-86AB-8A0F3F0A74CE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{79EF0479-D83F-448E-A859-15F5403AB326}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
-													<param1 name="Select_SubTab" type="1" localVarName="" value="Projects" />
-													<param2 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
-													<param3 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-													<param4 name="Modeling_Project_Name" type="1" localVarName="" value="Auto_Modeling_Project" />
-													<param5 name="Asset_Approval_Process" type="1" localVarName="" value="Gil&apos;s Demo_Asset Flow" />
-													<param6 name="FactType_Approval_Process" type="1" localVarName="" value="Gil&apos;s Demo FT Flow" />
-													<param7 name="OkorCancel" type="1" localVarName="" value="OK" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 9788_Modeling Projects,Projects,Add Modeling Project Dialog,Layout &amp; Usability" key="{6F9357E7-F0A5-49E7-8DE6-739AFBE5689B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6F924719-1985-4BF6-B932-11634B777618}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
-													<param1 name="Select_SubTab" type="1" localVarName="" value="Projects" />
-													<param2 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
-													<param3 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-													<param4 name="element" type="1" localVarName="" value="//button[contains(text(), &apos;Add Modeling Project&apos;)]" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 9791_Modeling Projects,Projects,Add Modeling Project,Cancel/X,Discard changes, Verify" key="{E959D264-E4D7-400A-BC1B-22504AB1B913}" group="False" parallel="False" enabled="True" testMoniker="KDT\{38DEE93B-18B0-42F9-9504-B9376DAE0BFB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="element" type="1" localVarName="" value="//button[contains(text(), &apos;Add Modeling Project&apos;)]" />
-													<param1 name="Modeling_Project_Name" type="1" localVarName="" value="Modelling_Project12" />
-													<param2 name="Asset_Approval_Process" type="1" localVarName="" value="Gil&apos;s Demo_Asset Flow" />
-													<param3 name="FactType_Approval_Process" type="1" localVarName="" value="Gil&apos;s Demo FT Flow" />
-													<param4 name="OkorCancel" type="1" localVarName="" value="Cancel" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 9792_Modeling Project Dialog,Inline validation of Modeling project name" key="{31CF693B-F570-4FB9-BA45-4AEB5937264F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{058A0529-A056-4F83-A4AE-47497746C7B9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="element" type="1" localVarName="" value="//button[contains(text(), &apos;Add Modeling Project&apos;)]" />
-													<param1 name="project_name" type="1" localVarName="" value="Auto_Modeling_Project" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 9793_Add Modeling Project,only one Approval Process for FT and Asset,Verify" key="{D158018C-A2AF-40FC-89A5-9C7EB11F863B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6F924719-1985-4BF6-B932-11634B777618}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
-													<param1 name="Select_SubTab" type="1" localVarName="" value="Projects" />
-													<param2 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
-													<param3 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-													<param4 name="element" type="1" localVarName="" value="//button[contains(text(), &apos;Add Modeling Project&apos;)]" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 9794_Add Modeling Project,only one Approval Process for Asset,Verify " key="{2C2B0D34-1F42-4759-862C-AC5E6D815CC3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{979D5022-2254-4E9B-BACE-CE7EFAF06803}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="element" type="1" localVarName="" value="//button[contains(text(), &apos;Add Modeling Project&apos;)]" />
-													<param1 name="dropdownbtn" type="1" localVarName="" value="//*[@name=&apos;assetApprovalProcess&apos;]//span[@wj-part]" />
-													<param2 name="AssetApproval" type="1" localVarName="" value="Gil&apos;s Demo_Asset Flow" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 9795_Add Modeling Project,only one Approval Process for Fact Type,Verify " key="{38D3B8E2-5378-421B-B48B-E34268F419C2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{15AB7C72-0697-41A4-A81A-80EF3133A115}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="element" type="1" localVarName="" value="//button[contains(text(), &apos;Add Modeling Project&apos;)]" />
-													<param1 name="dropdownbtn" type="1" localVarName="" value="//*[@name=&apos;factTypeApprovalProcess&apos;]//span[@wj-part]" />
-													<param2 name="AssetApproval" type="1" localVarName="" value="Gil&apos;s Demo FT Flow" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-										</children>
-									</testItem>
-									<testItem name="CreateTask" key="{1F37EF21-CE72-4834-A990-CE3F7549AC1A}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-										<testParameters />
-										<children>
-											<testItem name="Test ID 11419_Modeling Project,Tasks tab,Create a New Task Dialog,Layout &amp; Usability" key="{325A0AC6-8305-4068-9598-C9F7F805CF71}" group="False" parallel="False" enabled="True" testMoniker="KDT\{26DC03BB-673F-4271-A730-F33AE41B529A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-													<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
-													<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
-													<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
-													<param4 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
-													<param5 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 12104_Modeling Project,Tasks tab,Create a New Task Dialog, Create and start " key="{C0712592-79D6-4F1D-B36C-F83FF711FC0D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4EEC5F35-30F7-40E0-9282-8EC161A60AF1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-													<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
-													<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
-													<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
-													<param4 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
-													<param5 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
-													<param6 name="Community" type="1" localVarName="" value="Automation_Assets" />
-													<param7 name="TaskName" type="1" localVarName="" value="newTask" />
-													<param8 name="AssetProcess" type="1" localVarName="" value="Gil&apos;s Demo_Asset Flow" />
-													<param9 name="FactTypePRocess" type="1" localVarName="" value="Gil&apos;s Demo FT Flow" />
-													<param10 name="button" type="1" localVarName="" value="start" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 12105_Modeling Project,Tasks tab,Create a New Task Dialog, Create and open" key="{4754DADB-9736-47B4-8178-95ECF364F862}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E78C245B-B684-4ECC-8AF2-A0F2FF8B8394}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-													<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
-													<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
-													<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
-													<param4 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
-													<param5 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
-													<param6 name="Community" type="1" localVarName="" value="Automation_Assets" />
-													<param7 name="TaskName" type="1" localVarName="" value="newTask" />
-													<param8 name="AssetProcess" type="1" localVarName="" value="Gil&apos;s Demo_Asset Flow" />
-													<param9 name="FactTypePRocess" type="1" localVarName="" value="Gil&apos;s Demo FT Flow" />
-													<param10 name="button" type="1" localVarName="" value="open" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 11421_Modeling Project,on Lowest Community,Add Task from Tasks tab of Project,Verify Community Field" key="{6173DF1C-4C0A-4031-B8D1-2C0C3D5C9A53}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7E3B53D0-06CB-4355-A575-8EAF0773039E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="Communities_To_Expand" type="1" localVarName="" value="WORLD,Automation Testing" />
-													<param1 name="Community_To_Select" type="1" localVarName="" value="Automation_Assets" />
-													<param2 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-													<param3 name="Modeling_Project_Name" type="1" localVarName="" value="Auto_Modeling_Project_LC" />
-													<param4 name="Asset_Approval_Process" type="1" localVarName="" value="Gil&apos;s Demo_Asset Flow" />
-													<param5 name="FactType_Approval_Process" type="1" localVarName="" value="Gil&apos;s Demo FT Flow" />
-													<param6 name="OkorCancel" type="1" localVarName="" value="OK" />
-													<param7 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
-													<param8 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
-													<param9 name="Select_SubTab" type="1" localVarName="" value="Projects" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 11422_Modeling Project,Not on Lowest Community,Add Task from Tasks tab of Project,Verify" key="{CA1A4167-1C55-4133-8B66-C242F164C090}" group="False" parallel="False" enabled="True" testMoniker="KDT\{AED88919-83ED-483E-8DBB-EACD7AA0F560}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-													<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
-													<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
-													<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
-													<param4 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
-													<param5 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 10903_Modeling Projects, Project, Tasks Tab, Switch Modeling Project from breadcrumb" key="{8F71C8E4-6CCD-4278-B78E-464DE5A92C8B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{EB3B01EF-7E1A-4A02-BF3D-9CD2EC4515F0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="MP_Name" type="1" localVarName="" value="Auto_Modeling_Project" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-										</children>
-									</testItem>
-									<testItem name="Analysis" key="{A6ACEAB5-73EF-48A9-AC6E-244534677D78}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-										<testParameters />
-										<children>
-											<testItem name="Test ID 9813_Modeling Projects,Projects,Upper community,Analysis Project,Open&amp;Verify" key="{D0E23005-8E79-4ACE-A28E-BD11C4257090}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1776C31E-7CBF-4B87-A43A-40514D47567D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-													<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
-													<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
-													<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
-													<param4 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
-													<param5 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
-													<param6 name="Side_Tab" type="1" localVarName="" value="Details" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 9823_Modeling Projects,Projects,other communities (Not Wolrd),Analysis Project,Verify" key="{931E1DF8-0514-47EF-9A32-3DBC93A39A0B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{47E43B44-AAAD-4C35-9823-AED6F8AE3931}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-													<param1 name="Communities_To_Expand" type="1" localVarName="" value="WORLD,Automation Testing" />
-													<param2 name="Community_To_Select" type="1" localVarName="" value="Automation_Assets" />
-													<param3 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
-													<param4 name="Select_SubTab" type="1" localVarName="" value="Projects" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 9798_Projects,Details,General,Assignee,Update fields of General tab,Verify" key="{552449FD-21CA-424D-B33F-DD646F15C268}" group="False" parallel="False" enabled="True" testMoniker="KDT\{746C8A5C-2B4D-40FF-94AF-DFE2324430B8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-													<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
-													<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
-													<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
-													<param4 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
-													<param5 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
-													<param6 name="sideTab" type="1" localVarName="" value="details" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 9800_Projects,Details,General,Not Assignee,Fields of General tab,Verify" key="{93B2FABD-4297-4168-8941-D7C3D851832E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{5D9E4C9E-DDE2-465D-9ECC-17E79BEA74B8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-													<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
-													<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
-													<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
-													<param4 name="sideTab" type="1" localVarName="" value="details" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 10514_Modeling Projects, Details Tab (accordion), Assets Approval Tab, User is the owner/ assignee" key="{8CA10429-1899-4DA6-9C35-D30308BC5948}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F1EDBD44-2715-47F2-B6D7-020FCF62D6AF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-													<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
-													<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
-													<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
-													<param4 name="sideTab" type="1" localVarName="" value="details" />
-													<param5 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
-													<param6 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
-													<param7 name="subTab" type="1" localVarName="" value="ASSET APPROVAL" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 10515_Modeling Projects, Details Tab (accordion), Assets Approval Tab, User is not the assignee/ owner" key="{ACA382F1-952F-4E24-91D0-74D846FC034E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{ACEC52AE-23B9-43A6-A0AB-098E9816372E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-													<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
-													<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
-													<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
-													<param4 name="sideTab" type="1" localVarName="" value="details" />
-													<param5 name="MP_name" type="1" localVarName="" value="Gil&apos;s Demo" />
-													<param6 name="AssigneNasme" type="1" localVarName="" value="Automation1" />
-													<param7 name="subTab" type="1" localVarName="" value="ASSET APPROVAL" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 10517_Closed Project, Modeling Projects, Details Tab (accordion), Assets Approval Tab, User is the assignee" key="{42D7216A-088E-4F37-B26E-0CBE731056D4}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B65F582D-B309-498D-84E8-1EEB74E4C8A4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="subTab" type="1" localVarName="" value="ASSET APPROVAL" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 10516_Closed Project, Modeling Projects, Details Tab (accordion)" key="{1A124680-543C-41BC-8816-5F7CD9DBC0B0}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B65F582D-B309-498D-84E8-1EEB74E4C8A4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="subTab" type="1" localVarName="" value="ASSET APPROVAL" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 10518_Modeling Projects, Details Tab (accordion), Assets Approval Tab, Change Default Asset Approval Process" key="{0FC8FB49-1761-4676-97F0-DCFC08F128EA}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F1EDBD44-2715-47F2-B6D7-020FCF62D6AF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-													<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
-													<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
-													<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
-													<param4 name="sideTab" type="1" localVarName="" value="details" />
-													<param5 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
-													<param6 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
-													<param7 name="subTab" type="1" localVarName="" value="ASSET APPROVAL" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 10519_Change Default Fact Type Approval Process, User is the owner/ assignee" key="{EF2578BB-96CC-4B0F-87FD-D2BEE9D730A9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CE597183-024F-4C57-856D-8A6B70D3E3CB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-													<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
-													<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
-													<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
-													<param4 name="sideTab" type="1" localVarName="" value="details" />
-													<param5 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
-													<param6 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
-													<param7 name="subTab" type="1" localVarName="" value="Fact TYPE APPROVAL" />
-													<param8 name="ApprovalName" type="1" localVarName="" value="Gil&apos;s Demo FT Flow" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 10520_Closed Project, Modeling Projects, Details Tab (accordion), Fact Type Approval" key="{B9017CC7-59C8-450E-9C97-1543963FE22F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{77F89140-E5E6-44C8-AE7C-E655E1D755BB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="subTab" type="1" localVarName="" value="fact type APPROVAL" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 10522_Modeling Projects, Details Tab (accordion), Fact Type Approval Tab, User is not the assignee/ owner" key="{F8634E79-A82F-45A3-B33E-84B6B3954593}" group="False" parallel="False" enabled="True" testMoniker="KDT\{547237D0-9408-4AD5-862F-7448FBA4369C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-													<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
-													<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
-													<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
-													<param4 name="sideTab" type="1" localVarName="" value="details" />
-													<param5 name="MP_name" type="1" localVarName="" value="Gil&apos;s Demo" />
-													<param6 name="AssigneNasme" type="1" localVarName="" value="Automation1" />
-													<param7 name="subTab" type="1" localVarName="" value="Fact type APPROVAL" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 10523_Fact Type Approval Tab, User is the owner/ assignee" key="{8564854B-9BD7-425C-ADD0-389B5677A262}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CE597183-024F-4C57-856D-8A6B70D3E3CB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-													<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
-													<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
-													<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
-													<param4 name="sideTab" type="1" localVarName="" value="details" />
-													<param5 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
-													<param6 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
-													<param7 name="subTab" type="1" localVarName="" value="Fact TYPE APPROVAL" />
-													<param8 name="ApprovalName" type="1" localVarName="" value="Gil&apos;s Demo FT Flow" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-										</children>
-									</testItem>
-									<testItem name="Tasks" key="{C7745EA6-6DAC-43CA-B43F-0D5AAFC2403F}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-										<testParameters />
-										<children>
-											<testItem name="Test ID 10895_Modeling Project Screen, Tasks Tab_Layout" key="{A763C825-17E5-4A55-BCD3-6CA4AF3D6D44}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E9BEB366-A2F7-4082-9454-C0B31224A409}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-													<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
-													<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
-													<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
-													<param4 name="sideTab" type="1" localVarName="" value="tasks" />
-													<param5 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
-													<param6 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 10896_Project Screen, Tasks Tab of Tasks_ 0" key="{298B12CC-0F2A-4235-843D-D0561EFF7BD3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{13DD8F1F-D509-4188-97E3-06CE11005F84}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
-													<param1 name="Select_SubTab" type="1" localVarName="" value="Projects" />
-													<param2 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
-													<param3 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-													<param4 name="Modeling_Project_Name" type="1" localVarName="" value="Auto_MProject_7845" />
-													<param5 name="sideTab" type="1" localVarName="" value="tasks" />
-													<param6 name="Asset_Approval_Process" type="1" localVarName="" value="Gil&apos;s Demo_Asset Flow" />
-													<param7 name="FactType_Approval_Process" type="1" localVarName="" value="Gil&apos;s Demo FT Flow" />
-													<param8 name="OkorCancel" type="1" localVarName="" value="OK" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 10898_Modeling Project Screen, Tasks Tab, Sort Tasks" key="{DD303EF5-3F90-43D3-A61A-951323FD265E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E9BEB366-A2F7-4082-9454-C0B31224A409}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-													<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
-													<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
-													<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
-													<param4 name="sideTab" type="1" localVarName="" value="tasks" />
-													<param5 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
-													<param6 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 10899_Modeling Project Screen, Tasks Tab,Open Task " key="{DEC4FD21-BA8C-46B5-A2BB-BF64A04A453B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{3BC0D7A8-594A-47C4-AF86-168F1D522D27}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
-													<param1 name="Select_SubTab" type="1" localVarName="" value="Projects" />
-													<param2 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
-													<param3 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-													<param4 name="Modeling_Project_Name" type="1" localVarName="" value="Auto_MProject_9586" />
-													<param5 name="sideTab" type="1" localVarName="" value="tasks" />
-													<param6 name="Asset_Approval_Process" type="1" localVarName="" value="Gil&apos;s Demo_Asset Flow" />
-													<param7 name="FactType_Approval_Process" type="1" localVarName="" value="Gil&apos;s Demo FT Flow" />
-													<param8 name="OkorCancel" type="1" localVarName="" value="OK" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-										</children>
-									</testItem>
-									<testItem name="Re-Assign" key="{0C89FEC3-3588-4B59-8DF5-93D68851E513}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-										<testParameters />
-										<children>
-											<testItem name="Test ID 9803_General,Not Assignee,With MODELING_PROJECT_MANAGE Permission" key="{CCBE22E5-FF21-4501-9CB2-627358D0AF5E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6682FCC5-92FD-4602-9DD3-DE41FDBABD08}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-													<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
-													<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
-													<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
-													<param4 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
-													<param5 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
-													<param6 name="sideMenu" type="1" localVarName="" value="Details" />
-													<param7 name="subTab" type="1" localVarName="" value="General" />
-													<param8 name="OkorCancel" type="1" localVarName="" value="cancel" />
-													<param9 name="New_Assignee" type="1" localVarName="" value="Automation1" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 9801_Modeling Projects,Projects,Details,General,Assignee ,Reassign,Verify " key="{3AD583C3-B7E3-43B6-AB64-2FD7C53154DA}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0C0EE153-CDD5-44F3-AF89-63E446D6070B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="SelectOption_Community_OR_VG" type="1" localVarName="" value="Community" />
-													<param1 name="Community_To_Select" type="1" localVarName="" value="WORLD" />
-													<param2 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
-													<param3 name="Select_SubTab" type="1" localVarName="" value="Projects" />
-													<param4 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
-													<param5 name="AssigneNasme" type="1" localVarName="" value="Modeling Project Manager" />
-													<param6 name="sideMenu" type="1" localVarName="" value="Details" />
-													<param7 name="subTab" type="1" localVarName="" value="general" />
-													<param8 name="OkorCancel" type="1" localVarName="" value="ok" />
-													<param9 name="New_Assignee" type="1" localVarName="" value="Automation1" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
-											</testItem>
-											<testItem name="Test ID 9802_Modeling Projects,Projects,Details,General,Reassign Dialog,Layout &amp;Usability" key="{8D4FA719-DE7E-4076-B99F-D99DB46502B3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6A61B65A-45FB-447C-A8C5-93925CBB76EE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters>
-													<param0 name="MP_name" type="1" localVarName="" value="Auto_Modeling_Project" />
-													<param1 name="AssigneNasme" type="1" localVarName="" value="Automation1" />
-													<param2 name="sideMenu" type="1" localVarName="" value="Details" />
-													<param3 name="subTab" type="1" localVarName="" value="general" />
-													<param4 name="MainTab" type="1" localVarName="" value="Modeling Projects" />
-													<param5 name="New_Assignee" type="1" localVarName="" value="Modeling Project Manager" />
-													<param6 name="OkorCancel" type="1" localVarName="" value="ok" />
-												</testParameters>
-												<environments activeCloud="CBT" />
-												<children />
+											<testItem name="Edit_Details" key="{3309E006-50EC-4FA6-B232-9ED46076D703}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+												<testParameters />
+												<children>
+													<testItem name="Test ID 6222_Task, Details, General tab, Layout and usability" key="{EDF32FCF-22F5-41F9-AFAF-7DA1911C2E95}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E4302AAE-8470-47C4-AFCD-CA31DC48BF8F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6241,6263_Task, Details Tab, Edit Task Name" key="{E7D5F2BC-F90A-4789-BE76-D2C3472890B1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4C2AFCAC-ED1E-448E-9A19-32625B81D014}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="description" type="1" localVarName="" value="setting new desscription" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 6265,7635_Task, Details Tab, Edit Priority" key="{AD1D9729-138E-4CA6-9E84-9F25BD2322AD}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1D48C3D0-66BA-4125-93AA-BB6370CA7A30}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="priority" type="1" localVarName="" value="HIGH" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 9974,10007,10008_Task, Details, General tab, Create Grouping Label " key="{614A1DF4-AFED-4613-871B-CDCACAE57EC1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{12D539B6-E790-4BAC-B97E-2FD3FACA2BDA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters>
+															<param0 name="GrpName" type="1" localVarName="" value="AutoGroupTest" />
+														</testParameters>
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+													<testItem name="Test ID 7637,7636_Tasks_Details_Cancel_Task" key="{09C64943-0A6C-47DE-B0BE-C91BA67915B5}" group="False" parallel="False" enabled="True" testMoniker="KDT\{762BD55B-6461-4568-B337-03611B0A6DAC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+														<testParameters />
+														<environments activeCloud="CBT" />
+														<children />
+													</testItem>
+												</children>
 											</testItem>
 										</children>
 									</testItem>
@@ -8475,7 +8631,7 @@
 					</DefValue>
 				</Variable>
 				<Variable Name="Regression_URL" Type="String" Local="False">
-					<DefValue StrValue="https://dev-app-ext.dm.sapiens.com/dm/login.jsp" />
+					<DefValue StrValue="http://bdmsuat79:37068/dm/login.jsp" />
 				</Variable>
 				<Variable Name="Additional_Info_Task_with_assets" Type="String" Local="True">
 					<DefValue />
@@ -8527,20 +8683,20 @@
 					<DefValue StrValue="Auto_Deploy_Assets_Project" />
 				</Variable>
 				<Variable Name="ContextMenu_Var" Type="Table" Local="False">
-					<DefValue RowCount="12" ColumnCount="9">
-						<Columns ColumnName0="contextMenuItem" ColumnName1="support_Context_Draft" ColumnName2="support_Context_Approved" ColumnName3="support_Context_Retired" ColumnName4="support_Context_Candidate" ColumnName5="DRF_Context_Candidate" ColumnName6="DRF_Context_Draft" ColumnName7="DRF_Context_Approved" ColumnName8="DRF_Context_Retired" />
-						<Row No="0" Cell0="Open Fact Type Summary" Cell1="Enabled" Cell2="Enabled" Cell3="Enabled" Cell4="Enabled" Cell5="Enabled" Cell6="Enabled" Cell7="Enabled" />
-						<Row No="1" Cell0="Open Fact Type Model Mapping" Cell1="Enabled" Cell2="Enabled" Cell3="Enabled" Cell4="Enabled" Cell5="Enabled" Cell6="Enabled" Cell7="Enabled" />
-						<Row No="2" Cell0="Revert Fact Type" Cell1="Disabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Disabled" Cell7="Disabled" />
-						<Row No="3" Cell0="Update Fact Type to Latest Version" Cell1="Disabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Disabled" Cell7="Disabled" />
-						<Row No="4" Cell0="Change Fact Type Version" Cell1="Enabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Enabled" Cell7="Disabled" />
-						<Row No="5" Cell0="Revert Rule Family" Cell1="Disabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Enabled" Cell7="Disabled" />
-						<Row No="6" Cell0="Update Rule Family to Latest Version" Cell1="Disabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Disabled" Cell7="Disabled" />
-						<Row No="7" Cell0="Change Rule Family Version" Cell1="Enabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Enabled" Cell7="Disabled" />
-						<Row No="8" Cell0="Change View and/or Conclusion" Cell1="Enabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Enabled" Cell7="Disabled" />
-						<Row No="9" Cell0="Create New Decision From Rule Family Branch" Cell1="Enabled" Cell2="Enabled" Cell3="Enabled" Cell4="Disabled" />
-						<Row No="10" Cell0="Remove Rule Family" Cell1="Enabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" />
-						<Row No="11" Cell0="Knowledge Source" Cell1="Enabled" Cell2="Enabled" Cell3="Enabled" Cell4="Enabled" Cell5="Enabled" Cell6="Enabled" Cell7="Enabled" />
+					<DefValue RowCount="12" ColumnCount="10">
+						<Columns ColumnName0="contextMenuItem" ColumnName1="support_Context_Draft" ColumnName2="support_Context_Approved" ColumnName3="support_Context_Retired" ColumnName4="support_Context_Candidate" ColumnName5="DRF_Context_Candidate" ColumnName6="DRF_Context_Draft" ColumnName7="DRF_Context_Approved" ColumnName8="DRF_Context_Retired" ColumnName9="Support_Readmode_Draft" />
+						<Row No="0" Cell0="Open Fact Type Summary" Cell1="Enabled" Cell2="Enabled" Cell3="Enabled" Cell4="Enabled" Cell5="Enabled" Cell6="Enabled" Cell7="Enabled" Cell9="Enabled" />
+						<Row No="1" Cell0="Open Fact Type Model Mapping" Cell1="Enabled" Cell2="Enabled" Cell3="Enabled" Cell4="Enabled" Cell5="Enabled" Cell6="Enabled" Cell7="Enabled" Cell9="Enabled" />
+						<Row No="2" Cell0="Revert Fact Type" Cell1="Disabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Disabled" Cell7="Disabled" Cell9="Disabled" />
+						<Row No="3" Cell0="Update Fact Type to Latest Version" Cell1="Disabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Disabled" Cell7="Disabled" Cell9="Disabled" />
+						<Row No="4" Cell0="Change Fact Type Version" Cell1="Enabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Enabled" Cell7="Disabled" Cell9="Disabled" />
+						<Row No="5" Cell0="Revert Rule Family" Cell1="Disabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Enabled" Cell7="Disabled" Cell9="Disabled" />
+						<Row No="6" Cell0="Update Rule Family to Latest Version" Cell1="Disabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Disabled" Cell7="Disabled" Cell9="Disabled" />
+						<Row No="7" Cell0="Change Rule Family Version" Cell1="Enabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Enabled" Cell7="Disabled" Cell9="Disabled" />
+						<Row No="8" Cell0="Change View and/or Conclusion" Cell1="Enabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Disabled" Cell6="Enabled" Cell7="Disabled" Cell9="Disabled" />
+						<Row No="9" Cell0="Create New Decision From Rule Family Branch" Cell1="Enabled" Cell2="Enabled" Cell3="Enabled" Cell4="Disabled" Cell9="Disabled" />
+						<Row No="10" Cell0="Remove Rule Family" Cell1="Enabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell9="Disabled" />
+						<Row No="11" Cell0="Knowledge Source" Cell1="Enabled" Cell2="Enabled" Cell3="Enabled" Cell4="Enabled" Cell5="Enabled" Cell6="Enabled" Cell7="Enabled" Cell9="Disabled" />
 					</DefValue>
 				</Variable>
 				<Variable Name="NewFactTypeName" Type="String" Local="True">
@@ -8563,7 +8719,7 @@
 						<Row No="5" Cell0="Update Fact Type to Latest Version" Cell1="Disabled" Cell2="Disabled" Cell3="Disabled" Cell4="Disabled" Cell5="Enabled" Cell6="Enabled" />
 						<Row No="6" Cell0="Change Fact Type Version" Cell1="Enabled" Cell2="Enabled" Cell3="Disabled" Cell4="Disabled" Cell5="Enabled" Cell6="Enabled" />
 						<Row No="7" Cell0="Create Supporting Rule Family" Cell1="Enabled" Cell4="Disabled" Cell5="Enabled" />
-						<Row No="8" Cell0="Open Supporting Rule Family" Cell1="Disabled" Cell4="Disabled" Cell5="Disabled" />
+						<Row No="8" Cell0="Open Supporting Rule Family" Cell1="Disabled" Cell4="Enabled" Cell5="Disabled" />
 						<Row No="9" Cell0="Populated Characteristic" Cell1="Enabled" Cell4="Disabled" Cell5="Enabled" />
 						<Row No="10" Cell0="Replace" Cell1="Enabled" Cell4="Disabled" Cell5="Enabled" />
 						<Row No="11" Cell0="Remove" Cell1="Enabled" Cell4="Disabled" Cell5="Enabled" />

@@ -7,7 +7,7 @@
       Aliases.browser.pageSapiensDecision2.buttonExecuteGroup.ClickButton();
   
       aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.panel24, "className", cmpEqual, "test-case-progress-bar");
-      aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.panel25, "className", cmpEqual, "ui-progressbar-label ng-star-inserted");
+      aqObject.CheckProperty(Aliases.browser.pageSapiensDecision2.panel25, "className", cmpEqual, "p-progressbar-label ng-star-inserted");
    
    Aliases.browser.pageSapiensDecision2.panel25.WaitProperty("Exists",false,100000);
    

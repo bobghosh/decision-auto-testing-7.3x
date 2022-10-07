@@ -69,6 +69,9 @@
 					</Parameters>
 				</Data>
 			</Operation>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="breadcrumb verification will fail. need to add browser back button" />
+			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs a script routine." TestName="Breadcrumb_Verify_Navigation" Unit="Breadcrumb_Verify_Navigation">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
@@ -78,10 +81,14 @@
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs a script routine." TestName="Breadcrumb" Unit="Breadcrumb_Navigations">
+					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="BreadcrumbName" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="TaskName" />
 					</Parameters>
 				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Browserbackaction" Unit="BrowserBack_Action" />
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs a script routine." TestName="Tab_Navigations_AllInOne_Click_verify" Unit="Tab_Navigations_All_Click_verify">

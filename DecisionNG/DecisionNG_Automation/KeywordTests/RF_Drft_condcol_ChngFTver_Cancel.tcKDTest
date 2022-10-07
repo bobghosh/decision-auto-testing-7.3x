@@ -98,7 +98,7 @@
 				<Data Description="Runs a script routine." TestName="RightClick_Condition_Conclusion_header" Unit="RF_RightClick_HeaderColumns_SelectSubMenu">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="FTType" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="conclusion" />
-						<Parameter Name="ColumnText" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Nationality or Residency Status Eligibility" />
+						<Parameter Name="ColumnText" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Nationalty Status" />
 						<Parameter Name="SubOption" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Open Fact Type Summary" />
 					</Parameters>
 				</Data>
@@ -113,7 +113,7 @@
 				<Data Description="Runs a script routine." TestName="RightClick_Condition_Conclusion_header" Unit="RF_RightClick_HeaderColumns_SelectSubMenu">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="FTType" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="conclusion" />
-						<Parameter Name="ColumnText" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Nationality or Residency Status Eligibility" />
+						<Parameter Name="ColumnText" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Nationalty Status" />
 						<Parameter Name="SubOption" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Change Fact Type Version" />
 					</Parameters>
 				</Data>
@@ -121,7 +121,7 @@
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs a script routine." TestName="Perform_Click_On_Element" Unit="Perform_Click_On_Element">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Element" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="//span[text()=&apos; Nationality or Residency Status Eligibility [V1.0] &apos;]" />
+						<Parameter Name="Element" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="//span[text()=&apos; Nationalty Status [V1.0] &apos;]" />
 					</Parameters>
 				</Data>
 			</Operation>
@@ -132,7 +132,7 @@
 				<Data Description="Runs a script routine." TestName="RightClick_Condition_Conclusion_header" Unit="RF_RightClick_HeaderColumns_SelectSubMenu">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="FTType" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="conclusion" />
-						<Parameter Name="ColumnText" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Nationality or Residency Status Eligibility" />
+						<Parameter Name="ColumnText" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Nationalty Status" />
 						<Parameter Name="SubOption" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Open Fact Type Summary" />
 					</Parameters>
 				</Data>
@@ -154,7 +154,7 @@
 						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageSapiensDecision.FindElement(&quot;//h1&quot;)" />
 						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="innerText" />
 						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
-						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Fact Type Summary: Nationality or Residency Status Eligibility [V1.1]" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Fact Type Summary: Nationalty Status [V1.0]" />
 						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
 					</Parameters>
 				</Data>
@@ -166,7 +166,7 @@
 				<Data Description="Runs a script routine." TestName="RightClick_Condition_Conclusion_header" Unit="RF_RightClick_HeaderColumns_SelectSubMenu">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="FTType" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="conclusion" />
-						<Parameter Name="ColumnText" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Nationality or Residency Status Eligibility" />
+						<Parameter Name="ColumnText" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Nationalty Status" />
 						<Parameter Name="SubOption" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Change Fact Type Version" />
 					</Parameters>
 				</Data>
@@ -174,7 +174,7 @@
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs a script routine." TestName="Perform_Click_On_Element" Unit="Perform_Click_On_Element">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Element" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="//span[text()=&apos; Nationality or Residency Status Eligibility [V1.0] &apos;]" />
+						<Parameter Name="Element" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="//span[text()=&apos; Nationalty Status [V1.0] &apos;]" />
 					</Parameters>
 				</Data>
 			</Operation>

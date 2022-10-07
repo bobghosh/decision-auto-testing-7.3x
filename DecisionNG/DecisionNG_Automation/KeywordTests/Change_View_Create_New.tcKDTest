@@ -143,10 +143,27 @@
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="Delete_Task_Specific">
+					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="TabName" DefVarType="8" DefValueType="6" DefValueValue="My Tasks" VarType="8" ValueType="6" ValueValue="My Tasks" />
 						<Parameter Name="Subtab_Name" DefVarType="8" DefValueType="6" DefValueValue="Tasks" VarType="8" ValueType="6" ValueValue="Tasks" />
 						<Parameter Name="TaskName" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="tempVariable" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Nav_MyTasks_SpecificTask">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="TabName" DefVarType="8" DefValueType="6" DefValueValue="My Tasks" VarType="8" ValueType="6" ValueValue="My Tasks" />
+						<Parameter Name="Subtab_Name" DefVarType="8" DefValueType="6" DefValueValue="Tasks" VarType="8" ValueType="6" ValueValue="Tasks" />
+						<Parameter Name="TaskName" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="tempVariable" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+				<Data VariableType="2" VariableName="NewTaskName">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="NewValue" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="tempVariable" />
 					</Parameters>
 				</Data>
 			</Operation>

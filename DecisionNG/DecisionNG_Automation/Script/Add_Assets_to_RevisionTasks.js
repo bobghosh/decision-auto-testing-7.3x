@@ -3,7 +3,7 @@ var SelectingOptionfromDropDown_Role = require("SelectingOptionfromDropDown_Role
 var Source_Select_Assets_Checkboxes = require("Source_Select_Assets_Checkboxes");
 var SelectingDateFromCalendar = require("SelectingDateFromCalendar");
 var SelectingTimeFromDropDown = require("SelectingTimeFromDropDown");
-//var SelectingOptionfromDropDown_Only1DDexsists = require("SelectingOptionfromDropDown_Only1DDexsists");
+//USEUNIT RefLibrary
 var Community_VG_Folder_Select = require("Community_VG_Folder_Select");
 var Expand_Icon_Click_Verify = require("Expand_Icon_Click_Verify");
 var RevisionTasks_Buttons = require("RevisionTasks_Buttons");
@@ -64,12 +64,8 @@ function Add_Assets_to_RevisionTasks(Tabs_Assets,CommunityName,Community_VG_Fold
     let EffectiveDateValue = Aliases.browser.pageSapiensDecision2.FindElement("//*[@class='effective-date ng-star-inserted']//input").Text;
   }
   
-  //Click on Okay
-//  Aliases.browser.pageSapiensDecision.form.buttonOk.ClickButton();
-  
-  Aliases.browser.pageSapiensDecision.FindElement("//*[contains(@class,'spec-confirmed')]").Clickbutton();
-        
-  
+  Buttons_Actions.okButtonClick(); 
+
   Delay(5000);
   
   //Verify the Assets Available  

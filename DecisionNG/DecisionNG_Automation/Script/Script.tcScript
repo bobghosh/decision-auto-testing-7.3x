@@ -49,6 +49,7 @@
 			<child name="Verify_Element_Exists_Not_Exists" key="{FC0837BE-D8DD-4B18-B05D-C3F02450935E}" path="Verify_Element_Exists_Not_Exists.js" />
 			<child name="Breadcrumb_Arrows_Navigation" key="{4E744716-7129-4FCA-82FF-3AFDC27EC4D6}" path="Breadcrumb_Arrows_Navigation.js" />
 			<child name="Image_Comparison" key="{124BDDD0-391F-4BDB-B80E-ECEC734C0D0C}" path="Image_Comparison.js" />
+			<child name="Tooltip_common" key="{B5C93B4C-AF7C-419A-AF90-2EE5141D3850}" path="Tooltip_common.js" />
 		</folder>
 		<folder name="Modelling">
 			<folder name="FactType">
@@ -116,7 +117,6 @@
 					<child name="RF_Insert_From_Conclusion_Column" key="{B887F89C-660A-4F5F-BBD0-F32BC1C808E5}" path="RF_Insert_From_Conclusion_Column.js" />
 					<child name="RF_Logic_Build" key="{16FD5C3E-9BCA-41E1-B04D-D4A187442931}" path="RF_Logic_Build.js" />
 					<child name="RF_Select_Row_OR_Column_OR_Cell" key="{43732BD9-15E2-40A4-A0CD-90E3B255B45F}" path="RF_Select_Row_OR_Column_OR_Cell.js" />
-					<child name="Test_LogicRF" key="{6C6301BC-470D-4B4F-8CEC-270D8DDFCF60}" path="Test_LogicRF.js" />
 					<child name="RF_Logic_Build_Row_Specific" key="{D225CB13-6313-482C-8D73-26DD128C9E61}" path="RF_Logic_Build_Row_Specific.js" />
 					<child name="RF_RightClick_HeaderColumns_SelectSubMenu" key="{BE7F1BD0-29A8-4243-9EE9-0479D01B8129}" path="RF_RightClick_HeaderColumns_SelectSubMenu.js" />
 					<child name="ConclusionHeader_Add_Column" key="{7E2A3764-41CB-46BE-9F14-D8474AB52320}" path="ConclusionHeader_Add_Column.js" />
@@ -126,6 +126,7 @@
 					<child name="RF_CellOperatorDisplay" key="{E84CCA8F-71C2-4B72-9E2C-01D5BA463137}" path="RF_CellOperatorDisplay.js" />
 					<child name="RF_Content_Padding" key="{D66FCC2B-EC63-4106-8A23-72E511801F6A}" path="RF_Content_Padding.js" />
 					<child name="ConditionColumnHeader_CreateNewFactType" key="{0EB2F2D1-DD66-4B9D-B839-C419E561B098}" path="ConditionColumnHeader_CreateNewFactType.js" />
+					<child name="Test_LogicRF" key="{35A523FA-2E14-4096-BF11-757BE5A37962}" path="Test_LogicRF.js" />
 				</folder>
 				<folder name="Context Menu">
 					<child name="ContextMenu_Change_View" key="{81C23F3A-4F5B-4B04-83A4-83288E38723B}" path="ContextMenu_Change_View.js" />
@@ -180,6 +181,7 @@
 				<child name="Change_Decision_Version" key="{5753F036-EDA4-486F-9727-B81CBC98AA4E}" path="Change_Decision_Version.js" />
 				<child name="Add_Gateway_FT" key="{4D03F90C-F537-4FBF-AE25-9C9FCA0AD6FF}" path="Add_Gateway_FT.js" />
 				<child name="Edit_Decision_SelectDV" key="{898F8568-A3C8-4E19-A826-670915EB8C78}" path="Edit_Decision_SelectDV.js" />
+				<child name="Open_Flow_Palette_Actions" key="{74ECCCE7-5500-4D78-A6E6-854D1B755C94}" path="Open_Flow_Palette_Actions.js" />
 			</folder>
 		</folder>
 		<folder name="Tasks Queue">

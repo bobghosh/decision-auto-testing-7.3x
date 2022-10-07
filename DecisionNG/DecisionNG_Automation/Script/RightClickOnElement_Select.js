@@ -1,4 +1,4 @@
-﻿function rightClickOnElementAndSelect(clickElement, option)
+﻿  function rightClickOnElementAndSelect(clickElement, option)
 {
         let page = Aliases.browser.pageSapiensDecision2;
         

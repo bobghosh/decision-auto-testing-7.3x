@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{6948F754-7E18-43AD-8600-90658419F2FE}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Repo_Open_Decision_Verify">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Communities_To_Expand" DefVarType="8" DefValueType="6" DefValueValue="WORLD" VarType="8" ValueType="6" ValueValue="WORLD,Automation Testing,Automation_Assets" />
+						<Parameter Name="Community_To_Select" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Auto_VG_Assets" />
+						<Parameter Name="Select_SubTab" DefVarType="8" DefValueType="6" DefValueValue="Decisions" VarType="8" ValueType="6" ValueValue="Decisions" />
+						<Parameter Name="Decision" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Policy Renewal Method DA (View: Base) [V1.0]" />
+						<Parameter Name="SelectOption_Community_OR_VG" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="VG" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
+				<Data Description="Simulates a user action over the area that contains the recognized text." Action="DblClick" TBlockIntType="1">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="Policy Renewal Method DA" />
+						<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-14">
+							<Values>
+								<Value Type="1" Value="-10" Text="spNone" />
+								<Value Type="1" Value="-11" Text="spNearestToCenter" />
+								<Value Type="1" Value="-12" Text="spLeftMost" />
+								<Value Type="1" Value="-13" Text="spRightMost" />
+								<Value Type="1" Value="-14" Text="spTopMost" />
+								<Value Type="1" Value="-15" Text="spBottomMost" />
+								<Value Type="1" Value="-16" Text="spLargest" />
+								<Value Type="1" Value="-17" Text="spSmallest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="x" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="20" />
+						<Parameter Name="y" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser.pageSapiensDecision2.canvas;" />
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="rightClickOnElementOnly" Unit="RightClickOnElement_Select">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="clickElement" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="//span[text()=&apos;Policy Renewal Method DA&apos;]" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
+				<Data VariableType="2" VariableName="ContextMenu_RF_var">
+					<Records FromBegin="True" ToEnd="True" StartRecord="1" StopIndex="1" />
+				</Data>
+				<Children>
+					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+						<Data Description="Runs a script routine." TestName="Decision_Screen_ContextMenu_Enabled_Disbled" Unit="ContextMenu_Verify_Enabled_Disabled">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="verify_Enabled_Disabled" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="2" VariableName="ContextMenu_RF_var" ColumnName="Approved_Conclusion_context" />
+								<Parameter Name="contextMenuItem" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="2" VariableName="ContextMenu_RF_var" ColumnName="contextMenuItem" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+				<Data VariableType="4" VariableName="msgverify">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="NewValue" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Aliases.browser.pageSapiensDecision2.WaitElement(&quot;//span[text()=&apos; &lt;Policy Pricing Tier DA&gt; &apos;]/ancestor::div[@class=&apos;wj-cell wj-alt dt_category_cell&apos;]&quot;, 1000).getAttribute(&apos;aria-readonly&apos;)" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+				<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+					<Root Type="1" Operator="0">
+						<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="msgverify" />
+						<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="true" />
+					</Root>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="rightClickOnElementOnly" Unit="RightClickOnElement_Select">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="clickElement" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="&quot;//span[text()=&apos;Policy Pricing Tier DA&apos;]/ancestor::div[contains(@class,&apos;condition-fact-type-name&apos;)]&quot;" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
+				<Data VariableType="2" VariableName="ContextMenu_RF_var">
+					<Records FromBegin="True" ToEnd="True" StartRecord="1" StopIndex="1" />
+				</Data>
+				<Children>
+					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+						<Data Description="Runs a script routine." TestName="Decision_Screen_ContextMenu_Enabled_Disbled" Unit="ContextMenu_Verify_Enabled_Disabled">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="verify_Enabled_Disabled" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="2" VariableName="ContextMenu_RF_var" ColumnName="Approved_condition_context" />
+								<Parameter Name="contextMenuItem" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="2" VariableName="ContextMenu_RF_var" ColumnName="contextMenuItem" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Perform_Click_On_Element" Unit="Perform_Click_On_Element">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Element" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="//span[text()=&apos;Open Fact Type Model Mapping&apos;]" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="4000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Breadcrumb_Verify_Navigation" Unit="BreadCrumb_IncludesText_Verify">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="breadcrumb_Toverify" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Policy Pricing Tier DA [V1.0]" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageSapiensDecision.WaitElement(&quot;//span[contains(@class,&apos;col&apos;)]//*[contains(@class,&apos;navigation-menu__item--selected&apos;)]&quot;,3000)" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="innerText" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Model Mappings" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="4" Key="{12F91677-B36E-4F6D-A4CE-7D2E635CB5A8}">
+		<Items>
+			<Variable Name="msgverify" Type="String" Local="False">
+				<DefValue />
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{4FEE180A-50C8-47EE-A8B4-BD98BA6F8964}" />
+</Root>
